@@ -17,14 +17,14 @@ Besides their primary topics articles may also be categorized according to their
 > [!tip] Featured Article & Fun Facts
 > > [!note] Featured Article
 > > 
-> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Limn|Limn]]**, as described in the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], is a product of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]], specifically Natural Diffusion: a result of Realities unstable nature, allowing Nature to seep in. Limn is a strange substance, obeying neither the laws of the Real or Unreal. Because of this, limn is not a true [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|entity]] as defined by the USM, as it is not constructed from a normal [[Encyclopedia Mysenvaria/Science/Models/Material|material]] structure.
+> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]]** is the tendency of [[Encyclopedia Mysenvaria/Science/Science#Phenomena|phenomena]] in Nature to enter Reality as new unique phenomena. Natural Personification is not a true metaphysical rule, but rather an emergent property caused by the formation of Reality. According to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], Reality is the result of an imperfect interaction between the Real and Unreal. Imperfections and inequality in the Real and Unreal may require the other to compensate during their interaction, drawing from phenomena within Nature.
 >
 > > [!info] Did you know...
-> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] was 177 years long?
-> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] is broken into 3 major epochs—the Early-War, Mid-War, and Late-War?
-> > - ... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|Harmony Line]] is a projection of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaties]] orbital path onto the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?
-> > - ... that [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heaven|Heaven]] exists above the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]], is devoid of air, and is where [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] reside?
-> > - ... that the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]] is believed to be the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]?
+> > - ... that [[Encyclopedia Mysenvaria/Geography/Geography|geographical features]] are divided into three groups: natural features, artificial features, and abstract features?
+> > - ... that the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]] started the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] when they created the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]]?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] can be killed by piercing their heart with a foreign object?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification#Relational Concentration|Relational Concentration]] occurs as the result of Unreal entering Reality in excess—it's unclear how this presents itself, but is theorized to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]]?
+> > - ... that a [[Encyclopedia Mysenvaria/Biology/Organs/Limnary Press|Limnary Press]] is an organ contained within some [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]] which allows them to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|artificial stars]]?
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
