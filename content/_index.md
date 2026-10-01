@@ -17,14 +17,14 @@ Besides their primary topics articles may also be categorized according to their
 > [!tip] Featured Article & Fun Facts
 > > [!note] Featured Article
 > > 
-> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]** are the strange products of unions, sexual or otherwise, between [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] and [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]]. The mechanics behind the creation and operations of Half-Gods are not well understood and are the focus of [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|hemitheogenesis]]. Because of Gods' sexless natures there is no particular arrangement that the union must consist of to create a Half-God, either member is capable of fertilization of the other member. Half-Gods come in two varieties depending on the carrier of the child, Demi-Gods if the organism carries, Womb-Gods if the god carries.
+> > **[[Encyclopedia Mysenvaria/History/God-War Era/Quickening|The Quickening]]** is one of the most influential events in [[Encyclopedia Mysenvaria/History/History|history]]. Having occurred over the span of 58 days—less than a single season—it saw the creation of every known and unknown God, and was the root cause of the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]] and [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]. The Quickening is documented in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]], composed of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] published by various [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] documenting their own domain subdivisions.
 >
 > > [!info] Did you know...
-> > - ff3
-> > - ff2
-> > - ... that [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|astronomy]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]], practiced by astronomers?
-> > - ... that [[Encyclopedia Mysenvaria/Arts/Fine Arts/Games/Nemein|Nemein]] is a strategy board game which can be played using [[Encyclopedia Mysenvaria/Science/Technologies/Money|coins]]?
-> > - ... that a [[Encyclopedia Mysenvaria/Biology/Organs/Limnary Press|Limnary Press]] is an organ contained within some [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]] which allows them to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|artificial stars]]?
+> > - ... that [[Encyclopedia Mysenvaria/Geography/Geography|geographical features]] are divided into three groups: natural features, artificial features, and abstract features?
+> > - ... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]] is an abstract geographic feature equidistant from all points of the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|Edge]] which represents the absolute center of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?
+> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] is broken into 3 major epochs—the Early-War, Mid-War, and Late-War?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]] is the tendency of phenomena in Nature to enter Reality as new unique phenomena?
+> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] occurred over a period of 58 days—less than a single season?
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
