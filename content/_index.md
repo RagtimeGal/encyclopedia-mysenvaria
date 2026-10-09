@@ -17,14 +17,15 @@ Besides their primary topics articles may also be categorized according to their
 > [!tip] Featured Article & Fun Facts
 > > [!note] Featured Article
 > > 
-> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]** are the strange products of unions, sexual or otherwise, between [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] and [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]]. The mechanics behind the creation and operations of Half-Gods are not well understood and are the focus of [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|hemitheogenesis]]. Because of Gods' sexless natures there is no particular arrangement that the union must consist of to create a Half-God, either member is capable of fertilization of the other member. Half-Gods come in two varieties depending on the carrier of the child, Demi-Gods if the organism carries, Womb-Gods if the god carries.
+> > **[[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|The Dying Period]]** was a 17 year period of time, beginning with the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]—the start of the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]]—in the year [[Encyclopedia Mysenvaria/Indexes/History/Decades/180s BT#177 BT|177 BT]] and ending after the first season of [[Encyclopedia Mysenvaria/Indexes/History/Decades/150s BT#145 BT|145 BT]], coinciding with the end of the [[Encyclopedia Mysenvaria/History/God-War Era/The Great Poleward Fog Migration|Great Poleward Fog Migration]]. An estimated 90% to 95% of all [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] to ever exist perished during the period, gaining it its name and making it the most deadly period in recorded history.
+> > ![[Media/Images/Infographics/deaths_during_god_war.png|deaths_during_god_war.png]]
 >
 > > [!info] Did you know...
-> > - ff2
-> > - ... that the [[Encyclopedia Mysenvaria/Geography/Stars/First Epoch Star|First Epoch Star]] was the first [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] ever created?
-> > - ... that [[Encyclopedia Mysenvaria/Geography/Geography|geographical features]] are divided into three groups: natural features, artificial features, and abstract features?
-> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn]] can materialize inside of [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]]? While typically benign, it has been known on rare occasions to cause medical complications and even death.
-> > - ... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|Harmony Line]] is a projection of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaties]] orbital path onto the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?
+> > - ... that a [[Encyclopedia Mysenvaria/Biology/Organs/Limnary Press|Limnary Press]] is an [[Encyclopedia Mysenvaria/Science/Phenomena/Organ|organ]] contained within some [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]] which allows them to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|artificial stars]]?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification#Relational Concentration|Relational Concentration]] occurs as the result of Unreal entering Reality in excess—it's unclear how this presents itself, but is theorized to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]]?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] can be killed by piercing their heart with a foreign object?
+> > - ... that, according to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|USM]], [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] are a result of the Real's inability to handle the Unreal's management? Despite this, no star is known to have come about as a result of completely natural causes.
+> > - ... that there were six [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|God Councils]] during the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]?
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
