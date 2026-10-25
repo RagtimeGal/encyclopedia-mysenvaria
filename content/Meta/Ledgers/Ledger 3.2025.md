@@ -34,19 +34,19 @@ Welcome to the seventh Lore Ledger. This week saw a lot of progress towards the 
 # Changelog
 ## Added
 - Pangaea; super-continent which existed before the breakup of its continental components.
-- [[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|Dying Period]]; Refers to the 17 year period of time at the start of the God-War where 75% of all Gods passed away.
-- [[Encyclopedia Mysenvaria/History/God-War Era/Religion During the God-War|Religion During the God-War]], [[Encyclopedia Mysenvaria/History/God-War Era/Territories During the God-War|Territories During the God-War]]; Names are self-explanatory.
+- Dying Period; Refers to the 17 year period of time at the start of the God-War where 75% of all Gods passed away.
+- Religion During the God-War, Territories During the God-War; Names are self-explanatory.
 - Topography; Scientific branch.
 - Geologic Phenomena; This page will consume a bunch of other existing pages later.
 ## Removed
 
 ## Updated
-- [[Encyclopedia Mysenvaria/Geography/Stars/Birth Star|Birth Star]], [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]], List of Stars Made in the 2nd Century BT, [[Encyclopedia Mysenvaria/Indexes/History/Decades/180s BT|180s BT]], [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's Star System]], [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Matter, Energy, Time, and Space]], [[Encyclopedia Mysenvaria/Science/Models/Tectonics|Tectonics]]; Updated instances referring to renamed pages.
-- [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]], [[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]; Renamed from Bernie's Star System and Bernie's Star.
-- [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]; Renamed from "First Death of a God".
+- Birth Star, Gods of What Is and Is Not, List of Stars Made in the 2nd Century BT, 180s BT, Death's Star System, Gods of Matter, Energy, Time, and Space, Tectonics; Updated instances referring to renamed pages.
+- Quickening Star System, First Lessers Star; Renamed from Bernie's Star System and Bernie's Star.
+- First Death; Renamed from "First Death of a God".
 - ; Updated instances referring to First Death of a God page.
-- [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|God Councils]], [[Encyclopedia Mysenvaria/History/God-War Era/Iteration Period|Iteration Period]]; Emptied pages for later rewrite.
-- [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]]; Wrote page.
-- [[Encyclopedia Mysenvaria/History/God-War Era/Geography During the God-War|Geography During the God-War]]; Renamed from "Topographical History of the Plane".
-- [[Encyclopedia Mysenvaria/Indexes/Science/Branches/List of Scientific Branches|List of Scientific Branches]]; Updated list to include pages which were previously excluded.
-- [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]]; Misspelling fixed.
+- God Councils, Iteration Period; Emptied pages for later rewrite.
+- Quickening; Wrote page.
+- Geography During the God-War; Renamed from "Topographical History of the Plane".
+- List of Scientific Branches; Updated list to include pages which were previously excluded.
+- Universal Strata Model; Misspelling fixed.

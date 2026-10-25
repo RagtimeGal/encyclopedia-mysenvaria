@@ -13,7 +13,7 @@ event:
     major_event: true
 ---
 %%
-"start_desc":  **[[Encyclopedia Mysenvaria/History/God-War Era/First Convening|The First Convening]]** is held by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Fulgurite|God of Fulgurite]]. 20 [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], all of whom witnessed the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]], are invited, however only 16 arrive. The convening sees the formation of many ideas and theories regarding the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]].
+"start_desc":  **[[Encyclopedia Mysenvaria/History/God-War Era/First Convening|The First Convening]]** is held by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Fulgurite|God of Fulgurite]]. 20 [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], all of whom witnessed the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]], are invited however only 16 arrive. The convening sees the formation of many ideas and theories regarding the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]].
 %%
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]
 > This article is incomplete! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

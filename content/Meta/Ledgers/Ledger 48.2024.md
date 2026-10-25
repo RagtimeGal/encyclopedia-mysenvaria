@@ -40,5 +40,5 @@ At the moment the only project remains climate. Despite some setbacks the projec
 ## Removed
 
 ## Updated
-- [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]]; Renamed from nature.
-- [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heaven|Heaven]], [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaty]], [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|God Councils]], [[Encyclopedia Mysenvaria/Science/Phenomena/Climate|Climate]], [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]], [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|Stars]], [[Encyclopedia Mysenvaria/Science/Science|Science]]; Changed links to nature page to link to Universal Strata.
+- Universal Strata Model; Renamed from nature.
+- Heaven, Harmonic Treaty, God Councils, Climate, Natural Personification, Stars, Science; Changed links to nature page to link to Universal Strata.

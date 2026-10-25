@@ -35,9 +35,9 @@ Climate has been complete. A new project has begun.
 # Changelog
 Most changes have been in images (of which there are now a lot of maps.), which are not logged in the changelog.
 ## Added
-- God-War Era Rewrite; The WIP rewrite page of the main [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] page.
+- God-War Era Rewrite; The WIP rewrite page of the main God-War Era page.
 - God-War Timeline Ext.; Extended timeline page. May be removed, am currently rethinking the way timeline pages like this will be organized.
 ## Removed
 
 ## Updated
-- [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]], [[Encyclopedia Mysenvaria/Geography/Abstract Features/Span & Reach|Span & Reach]], [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]], [[Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|Atmospheric Circulation]], [[Encyclopedia Mysenvaria/Science/Models/Tectonics|Tectonics]], [[Encyclopedia Mysenvaria/Science/Phenomena/Atmospheric Cells|Atmospheric Cells]], [[Encyclopedia Mysenvaria/Science/Phenomena/Oceanic Circulation|Oceanic Circulation]]; Updated links to images to go to the new directories.
+- Central Pole, Span & Reach, Plane, Atmospheric Circulation, Tectonics, Atmospheric Cells, Oceanic Circulation; Updated links to images to go to the new directories.

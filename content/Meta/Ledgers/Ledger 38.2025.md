@@ -23,12 +23,12 @@ ledger_data:
 The encyclopedia has undergone massive changes in the last few weeks, some of which I mentioned in the previous Lore Ledger. The encyclopedia website itself too has undergone a number of changes, including to the websites theme, favicon, and organization. I'm not going to bother with actually filing out the changelog for this Lore Ledger, since all articles across the entirety of the Encyclopedia have been modified in one way or another. 
 
 Amongst the changes to all files includes:
-- New [[Meta/Metadata|Metadata]], including `type` and `status` which are useful in page organization.
-- New and improved [[Meta/Callouts|Callouts]] to make it easier for readers to tell what kind of stage articles are at.
-- Rewritten [[Meta/Meta|Meta]] pages, including better documentation on [[Meta/Contributing|Contributing]].
+- New Metadata, including type and status which are useful in page organization.
+- New and improved Callouts to make it easier for readers to tell what kind of stage articles are at.
+- Rewritten Meta pages, including better documentation on Contributing.
 - And the new Naming Conventions for places and people.
 
-There's also been changes to the GitHub, including the addition of a [Code of Conduct](https://github.com/RagtimeGal/encyclopedia-mysenvaria?tab=coc-ov-file), [Contributing Document](https://github.com/RagtimeGal/encyclopedia-mysenvaria?tab=contributing-ov-file), an update to the [License](https://github.com/RagtimeGal/encyclopedia-mysenvaria?tab=License-1-ov-file), and a rework for all the issue templates.
+There's also been changes to the GitHub, including the addition of a Code of Conduct, Contributing Document, an update to the License, and a rework for all the issue templates.
 
 | **Type of Edit**                                                                                           | List of Pages |
 | ---------------------------------------------------------------------------------------------------------- | ------------- |

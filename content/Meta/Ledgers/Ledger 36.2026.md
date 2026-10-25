@@ -18,7 +18,7 @@ ledger_data:
 > 
 > **Previous Ledger:** [[Meta/Ledgers/Ledger 12.2026|Ledger 12.2026]]
 > 
-> **Next Ledger:** Upcoming
+> **Next Ledger:** [[Meta/Ledgers/Ledger 38.2026|Ledger 38.2026]]
 
 Yet another change to how ledgers are written! I've realized recently that perhaps attempting to make a changelog of all articles and how they were edited is not the most efficient way to do things. So, instead, I'm just going to list/link the git pushes associated with a specific ledger and let GitHub do all the heavy lifting!
 
@@ -30,9 +30,9 @@ Tons of pages have been moved from being `empty` to being `stubs`! I want to mak
 
 I also complete one of my personal projects on the Encyclopedia! Getting all of the metaphysics pages into `complete` status! This was a big move forward for me! There's some new infographics scattered around the encyclopedia now too alongside this!
 
-I've began rewriting the primary topic pages, those being: [[Encyclopedia Mysenvaria/Arts/Art|Art]], [[Encyclopedia Mysenvaria/Biology/Biology|Biology]], [[Encyclopedia Mysenvaria/Culture/Culture|Culture]], [[Encyclopedia Mysenvaria/Geography/Geography|Geography]], [[Encyclopedia Mysenvaria/History/History|History]], and [[Encyclopedia Mysenvaria/Science/Science|Science]]. I was never really a fan of how they read, and the objective is to make them more dynamic and able to grow in the future as the setting grows.
+I've began rewriting the primary topic pages, those being: Art, Biology, Culture, Geography, History, and Science. I was never really a fan of how they read, and the objective is to make them more dynamic and able to grow in the future as the setting grows.
 
-The license and [[Meta/Contributing|contributing]] warnings have been minorly updated to be more concrete. I'm not a lawyer. Don't sue me please...
+The license and contributing warnings have been minorly updated to be more concrete. I'm not a lawyer. Don't sue me please...
 # Changes
 - [Commit f11d9ab: "lots o' edits"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/f11d9abe7a337bf8e0b08f2b650f10030f24a1b1)
 - [Commit f340706: "Program Renames + LLM Transparency"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/f34070680a5f3a4c7ece9c15fd680afb87af68ce)

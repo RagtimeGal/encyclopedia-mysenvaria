@@ -1,5 +1,5 @@
 ---
-title: Event Template
+title: Post-War Era
 enableToc: true
 tags:
   - topic/history/post-war_era

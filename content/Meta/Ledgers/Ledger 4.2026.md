@@ -20,13 +20,13 @@ ledger_data:
 > 
 > **Next Ledger:** [[Meta/Ledgers/Ledger 10.2026|Ledger 5.2026]]
 
-This week the previous push-program which generated the [[Meta/Index of Articles by Status|Index of Articles by Status]] has been replaced with a far more complex and robust program which now generates all [[Encyclopedia Mysenvaria/Indexes/Indexes|Indexes]] across the Encyclopedia! For the sake of simplicity I'm only listing edited pages which did not have to do with the introduction of this new automated system.
+This week the previous push-program which generated the Index of Articles by Status has been replaced with a far more complex and robust program which now generates all Indexes across the Encyclopedia! For the sake of simplicity I'm only listing edited pages which did not have to do with the introduction of this new automated system.
 
-| **Type of Edit**                                                                                           | List of Pages                                                                             |
-| ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| **Link Updates Only** (Pages which were only updated because another page updated, changing the wikilink.) | [[Encyclopedia Mysenvaria/Science/Phenomena/Gods\|Gods]]                                  |
-| **Minor Edits** (Pages with minor textual edits. Think one sentence.)                                      | [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model\|Universal Strata Model]] |
-| **Major Edits** (Pages with major textual edits. Think new paragraphs or rewrites.)                        | [[Meta/Meta\|Meta]]                                                                       |
-| **Status Change** (Pages which had their status updated.)                                                  |                                                                                           |
-| **New Pages**                                                                                              |                                                                                           |
-| **Removed Pages**                                                                                          | God of Harmony                                                                            |
+| **Type of Edit**                                                                                           | List of Pages          |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------- |
+| **Link Updates Only** (Pages which were only updated because another page updated, changing the wikilink.) | Gods                   |
+| **Minor Edits** (Pages with minor textual edits. Think one sentence.)                                      | Universal Strata Model |
+| **Major Edits** (Pages with major textual edits. Think new paragraphs or rewrites.)                        | Meta                   |
+| **Status Change** (Pages which had their status updated.)                                                  |                        |
+| **New Pages**                                                                                              |                        |
+| **Removed Pages**                                                                                          | God of Harmony         |

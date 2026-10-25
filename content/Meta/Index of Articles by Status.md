@@ -26,7 +26,6 @@ index:
 > *This article is part of a series on the Encyclopedia's [[Meta/Writing Guidelines|Writing Guidelines]]* 
 
 The following is a list of all articles from across the Encyclopedia Mysenvaria, sorted by the article's status.
-
 # Articles by Status
 ## complete
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Atmospheric Cells|Atmospheric Cells]]
@@ -103,7 +102,7 @@ The following is a list of all articles from across the Encyclopedia Mysenvaria,
 - [[Encyclopedia Mysenvaria/Science/Models/Body Plan|Body Plan]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Border Operation|Border Operation]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Capturing the Natural Essence of Chair|Capturing the Natural Essence of Chair]]
-- [[Encyclopedia Mysenvaria/Geography/Abstract Features/Cardinal Directions|Cardinal Directions]]
+- [[Encyclopedia Mysenvaria/Geography/Abstract Features/Cardinal Points|Cardinal Points]]
 - [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Cartographer|Cartographer]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Charles Lightningson|Charles Lightningson]]
 - [[Encyclopedia Mysenvaria/Science/Branches/Chemistry|Chemistry]]

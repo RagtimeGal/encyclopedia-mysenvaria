@@ -52,5 +52,3 @@ featured_data:
 # Fifth Council
 
 # Sixth Council
-
-# Seventh Council

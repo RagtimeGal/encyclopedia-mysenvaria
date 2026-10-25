@@ -15,13 +15,13 @@ featured_data:
 ---
 %%
 "ff1": "... that [[Encyclopedia Mysenvaria/Geography/Geography|geographical features]] are divided into three groups: natural features, artificial features, and abstract features?"
-"ff2": "... that [[Encyclopedia Mysenvaria/Science/Branches/Geography|Geography]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] physical and abstract features, practiced by geographers?"
+"ff2": "... that [[Encyclopedia Mysenvaria/Geography/Geography|geography]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] physical and abstract features, practiced by geographers?"
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]
 > This article is incomplete! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
-*Art is one of the six primary article categories of the [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]].* 
+*Geography is one of the six primary article categories of the [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]].* 
 
 Geography is one of the six primary topics of the [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]]. Geography is itself a complex [[Encyclopedia Mysenvaria/Culture/Culture#Scientific Branches|scientific branch]] which focuses on the study of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] physical and abstract features. It includes many other scientific branches such as [[Encyclopedia Mysenvaria/Science/Branches/Paleontology|paleontology]], [[Encyclopedia Mysenvaria/Science/Branches/Meteorology|meteorology]], [[Encyclopedia Mysenvaria/Science/Branches/Biogeography|biogeography]], [[Encyclopedia Mysenvaria/Science/Branches/Climatology|climatology]], and more. It's also vital to crafts like [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Cartographer|cartography]].
 
