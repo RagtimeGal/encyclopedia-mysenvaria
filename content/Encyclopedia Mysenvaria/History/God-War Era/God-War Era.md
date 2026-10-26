@@ -11,7 +11,7 @@ event:
   - start_desc: "start_desc1"
     end_desc: "end_desc1"
     start_date: [-177]
-    end_date: [-1,360]
+    end_date: [0,1]
     major_event: true
   - start_desc: "start_desc2"
     start_date: [-177]
