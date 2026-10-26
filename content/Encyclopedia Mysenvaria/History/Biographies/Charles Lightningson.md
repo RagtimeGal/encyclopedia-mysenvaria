@@ -1,5 +1,5 @@
 ---
-title: Charles Lightningson
+title: "Charles Lightningson"
 enableToc: true
 tags:
   - topic/history/biography

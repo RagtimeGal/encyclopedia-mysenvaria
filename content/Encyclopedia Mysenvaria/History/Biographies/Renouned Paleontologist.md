@@ -1,5 +1,5 @@
 ---
-title: Renouned Paleontologist
+title: "Renouned Paleontologist"
 enableToc: true
 tags:
   - topic/history/biography

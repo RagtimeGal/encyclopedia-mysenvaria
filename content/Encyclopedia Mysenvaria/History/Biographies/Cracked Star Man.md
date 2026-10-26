@@ -1,5 +1,5 @@
 ---
-title: Cracked Star Man
+title: "Cracked Star Man"
 enableToc: true
 tags:
   - topic/history/biography

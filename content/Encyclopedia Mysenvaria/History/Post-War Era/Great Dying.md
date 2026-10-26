@@ -1,5 +1,5 @@
 ---
-title: Great Dying
+title: "Great Dying"
 enableToc: true
 tags:
   - topic/history/post-war_era

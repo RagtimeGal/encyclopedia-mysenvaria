@@ -1,5 +1,5 @@
 ---
-title: Academy Publishing Founder
+title: "Academy Publishing Founder"
 enableToc: true
 tags:
   - topic/history/biography

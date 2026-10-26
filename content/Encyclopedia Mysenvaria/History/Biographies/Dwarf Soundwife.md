@@ -1,5 +1,5 @@
 ---
-title: Dwarf Soundwife
+title: "Dwarf Soundwife"
 enableToc: true
 tags:
   - topic/history/biography

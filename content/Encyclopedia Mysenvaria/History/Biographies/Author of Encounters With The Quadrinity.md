@@ -1,5 +1,5 @@
 ---
-title: Author of Encounters With The Quadrinity
+title: "Author of Encounters With The Quadrinity"
 enableToc: true
 tags:
   - topic/history/biography

@@ -19,8 +19,7 @@ DRY_RUN = False
 def year_link(year: int) -> str:
     year_text = year_suffix(year)
 
-    decade_start = (year // 10) * 10
-    decade_name = decade_title(decade_start)
+    decade_name = decade_title(decade_key(year))
 
     return (
         f"[[Encyclopedia Mysenvaria/Indexes/History/Decades/"
@@ -46,8 +45,22 @@ def ensure_extracted_json(root: pathlib.Path) -> Dict[str, Any]:
 def year_suffix(year: int) -> str:
     return f"{abs(year)} BT" if year < 0 else f"{year} AT"
 
-def decade_title(start_year: int) -> str:
-    return f"{abs(start_year)}s BT" if start_year < 0 else f"{start_year}s AT"
+def decade_key(year: int) -> Tuple[str, int]:
+    """Returns the decade a year belongs to as (era, start), e.g.
+    177 BT -> ("BT", 170), 5 BT -> ("BT", 0), 0 AT -> ("AT", 0), 1313 AT -> ("AT", 1310).
+    BT decades count away from the Treaty, so the 170s BT are 170-179 BT."""
+    if year < 0:
+        return ("BT", (abs(year) // 10) * 10)
+    return ("AT", (year // 10) * 10)
+
+def decade_sort_value(key: Tuple[str, int]) -> int:
+    """Chronological sort value for a decade key (earliest first)."""
+    era, start = key
+    return -(start + 10) if era == "BT" else start
+
+def decade_title(key: Tuple[str, int]) -> str:
+    era, start = key
+    return f"{start}s {era}"
 
 def get_ordinal_century(year: int) -> Tuple[int, str]:
     """Returns (century_number, suffix) e.g., (-180) -> (2, 'BT')"""
@@ -122,7 +135,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                     desc = e.get(f"{prefix}_desc")
                     if isinstance(d_obj, dict) and desc and str(desc).strip():
                         y, d = parse_year_day(d_obj.get("informal", ""))
-                        events_by_decade[(y // 10) * 10][y].append({
+                        events_by_decade[decade_key(y)][y].append({
                             "day": d, "label": season_day_label(d_obj), "desc": desc.strip()
                         })
 
@@ -143,7 +156,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                             if isinstance(other_val, dict):
                                 oy, _ = parse_year_day(other_val.get("informal", "0"))
                                 suffix = f" ({verb_pfx} {year_link(oy)})"
-                            grouping[(y // 10) * 10][y].append({
+                            grouping[decade_key(y)][y].append({
                                 "day": d, "alpha": p_name, "text": f"- {p_link}{suffix}"
                             })
 
@@ -163,7 +176,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                                 if isinstance(other_val, dict):
                                     oy, _ = parse_year_day(other_val.get("informal", "0"))
                                     suffix = f" ({other_v_pfx} {year_link(oy)})"
-                                relationships_by_decade[(y // 10) * 10][y].append({
+                                relationships_by_decade[decade_key(y)][y].append({
                                     "day": d, "text": f"- {p_link} {verb} {s_name}{suffix}"
                                 })
 
@@ -180,7 +193,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                                 continue
 
                             y, d = parse_year_day(d_obj.get("informal", ""))
-                            d_start = (y // 10) * 10
+                            d_start = decade_key(y)
 
                             if item.get("major_event") and item.get("desc", "").strip():
                                 events_by_decade[d_start][y].append({
@@ -214,7 +227,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                             ", ".join(earliest_pub.get("publishers", []))
                         )
 
-                        stars_by_decade[(earliest_y // 10) * 10].append({
+                        stars_by_decade[decade_key(earliest_y)].append({
                             "year": earliest_y,
                             "day": earliest_d,
                             "alpha": s_name,
@@ -283,7 +296,7 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     template = """---
-title: {title}
+title: "{title}"
 enableToc: true
 tags:
   - topic/history/decade
@@ -314,7 +327,10 @@ future: auto-generated
 > This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 """
 
-    all_decades = range((START_YEAR // 10) * 10, ((END_YEAR // 10) * 10) + 1, 10)
+    all_decades = sorted(
+        {decade_key(y) for y in range(START_YEAR, END_YEAR + 1)},
+        key=decade_sort_value
+    )
     decade_count = len(all_decades)
     
     for i, dec_start in enumerate(all_decades):
@@ -332,7 +348,9 @@ future: auto-generated
         decade_links = "... " + ", ".join(nav) + " ..."
         
         # Century Navigation Logic
-        c_val, c_sfx = get_ordinal_century(dec_start)
+        # A decade belongs to the century of its start year (the 100s BT are in the
+        # 2nd Century BT, the 90s BT to the 0s BT are in the 1st Century BT).
+        c_val, c_sfx = dec_start[1] // 100 + 1, dec_start[0]
         cent_data = []
         
         # Gather neighboring centuries

@@ -1,5 +1,5 @@
 ---
-title: 10s AT
+title: "10s AT"
 enableToc: true
 tags:
   - topic/history/decade

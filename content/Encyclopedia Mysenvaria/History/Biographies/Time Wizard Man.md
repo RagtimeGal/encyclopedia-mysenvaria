@@ -1,5 +1,5 @@
 ---
-title: Time Wizard Man
+title: "Time Wizard Man"
 enableToc: true
 tags:
   - topic/history/biography

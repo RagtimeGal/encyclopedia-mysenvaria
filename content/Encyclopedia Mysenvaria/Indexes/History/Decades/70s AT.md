@@ -1,5 +1,5 @@
 ---
-title: 70s AT
+title: "70s AT"
 enableToc: true
 tags:
   - topic/history/decade

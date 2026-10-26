@@ -1,5 +1,5 @@
 ---
-title: Modern Era
+title: "Modern Era"
 enableToc: true
 tags:
   - topic/history/modern_era

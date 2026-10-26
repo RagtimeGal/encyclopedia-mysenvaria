@@ -1,5 +1,5 @@
 ---
-title: 30s BT
+title: "30s BT"
 enableToc: true
 tags:
   - topic/history/decade
@@ -19,10 +19,13 @@ future: auto-generated
 > > ... [[Encyclopedia Mysenvaria/Indexes/History/Centuries/2nd Century BT|2nd Century BT]], [[Encyclopedia Mysenvaria/Indexes/History/Centuries/1st Century BT|1st Century BT]], [[Encyclopedia Mysenvaria/Indexes/History/Centuries/1st Century AT|1st Century AT]] ...
 
 # Events
-## 25 BT
-- 1st of Spring — **[[Encyclopedia Mysenvaria/History/God-War Era/Water Wars|The Water Wars]]** begin with the storming of the Oxygen-Hydrogen territories by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Sodium|Sodium]], [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Calcium|Calcium]], [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iron|Iron]], and various allies in an attempt to stop the [[Encyclopedia Mysenvaria/History/God-War Era/Great Flood|Great Flood]].
-- 14th of Spring — **[[Encyclopedia Mysenvaria/History/God-War Era/Great Flood|Great Flood]]** begins (end. 6th of Autumn, [[Encyclopedia Mysenvaria/Indexes/History/Decades/20s BT#11 BT|11 BT]]).
+## 39 BT
+- 1st of Spring — **[[Encyclopedia Mysenvaria/History/God-War Era/God Councils#Third Council|Third God Council]]** held.
 
+# Significant People
+## Births
+### 39 BT
+- [[Encyclopedia Mysenvaria/History/Biographies/Josh Soundson|Josh Soundson]]
 
 
 

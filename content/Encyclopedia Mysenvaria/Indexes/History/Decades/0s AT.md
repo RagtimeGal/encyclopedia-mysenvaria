@@ -1,5 +1,5 @@
 ---
-title: 0s AT
+title: "0s AT"
 enableToc: true
 tags:
   - topic/history/decade
@@ -11,7 +11,7 @@ future: auto-generated
 > [!summary] 0s AT
 > > [!summary] Decades
 > > 
-> > ... [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s BT|10s BT]], **0s AT**, [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s AT|10s AT]] ...
+> > ... [[Encyclopedia Mysenvaria/Indexes/History/Decades/0s BT|0s BT]], **0s AT**, [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s AT|10s AT]] ...
 > 
 > 
 > > [!summary] Centuries

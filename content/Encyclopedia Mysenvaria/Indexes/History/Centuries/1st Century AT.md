@@ -13,7 +13,7 @@ has:
 > [!summary] 1st Century AT
 > > [!summary] Decades
 > > 
-> > ... [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s BT|10s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/0s AT|0s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s AT|10s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/20s AT|20s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/30s AT|30s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/40s AT|40s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/50s AT|50s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/60s AT|60s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/70s AT|70s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/80s AT|80s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/90s AT|90s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/100s AT|100s AT]] ...
+> > ... [[Encyclopedia Mysenvaria/Indexes/History/Decades/0s BT|0s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/0s AT|0s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s AT|10s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/20s AT|20s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/30s AT|30s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/40s AT|40s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/50s AT|50s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/60s AT|60s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/70s AT|70s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/80s AT|80s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/90s AT|90s AT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/100s AT|100s AT]] ...
 > 
 > 
 > > [!summary] Centuries

@@ -1,5 +1,5 @@
 ---
-title: Ancient Philosopher
+title: "Ancient Philosopher"
 enableToc: true
 tags:
   - topic/history/biography

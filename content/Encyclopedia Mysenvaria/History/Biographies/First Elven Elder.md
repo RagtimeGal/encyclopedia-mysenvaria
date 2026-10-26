@@ -1,5 +1,5 @@
 ---
-title: First Elven Elder
+title: "First Elven Elder"
 enableToc: true
 tags:
   - topic/history/biography

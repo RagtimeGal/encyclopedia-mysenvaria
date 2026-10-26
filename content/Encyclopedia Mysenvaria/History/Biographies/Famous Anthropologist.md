@@ -1,5 +1,5 @@
 ---
-title: Famous Anthropologist
+title: "Famous Anthropologist"
 enableToc: true
 tags:
   - topic/history/biography

@@ -1,5 +1,5 @@
 ---
-title: Josh Soundson
+title: "Josh Soundson"
 enableToc: true
 tags:
   - topic/history/biography

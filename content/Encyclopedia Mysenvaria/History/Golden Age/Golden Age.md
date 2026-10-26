@@ -1,5 +1,5 @@
 ---
-title: Golden Age
+title: "Golden Age"
 enableToc: true
 tags:
   - topic/history/golden_age

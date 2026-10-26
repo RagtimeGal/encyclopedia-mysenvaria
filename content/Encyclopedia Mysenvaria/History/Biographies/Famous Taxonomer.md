@@ -1,5 +1,5 @@
 ---
-title: Famous Taxonomer
+title: "Famous Taxonomer"
 enableToc: true
 tags:
   - topic/history/biography

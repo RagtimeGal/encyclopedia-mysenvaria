@@ -1,5 +1,5 @@
 ---
-title: Discoverer of Evolution
+title: "Discoverer of Evolution"
 enableToc: true
 tags:
   - topic/history/biography

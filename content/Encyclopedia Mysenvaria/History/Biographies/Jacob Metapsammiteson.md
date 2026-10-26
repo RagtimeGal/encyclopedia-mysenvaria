@@ -1,5 +1,5 @@
 ---
-title: Jacob Metapsammiteson
+title: "Jacob Metapsammiteson"
 enableToc: true
 tags:
   - topic/history/biography

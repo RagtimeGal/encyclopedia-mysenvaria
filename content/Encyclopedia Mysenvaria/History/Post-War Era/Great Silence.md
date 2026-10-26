@@ -1,5 +1,5 @@
 ---
-title: Great Silence
+title: "Great Silence"
 enableToc: true
 tags:
   - topic/history/post-war_era

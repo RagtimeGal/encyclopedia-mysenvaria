@@ -1,5 +1,5 @@
 ---
-title: 40s BT
+title: "40s BT"
 enableToc: true
 tags:
   - topic/history/decade
@@ -19,13 +19,9 @@ future: auto-generated
 > > ... [[Encyclopedia Mysenvaria/Indexes/History/Centuries/2nd Century BT|2nd Century BT]], [[Encyclopedia Mysenvaria/Indexes/History/Centuries/1st Century BT|1st Century BT]], [[Encyclopedia Mysenvaria/Indexes/History/Centuries/1st Century AT|1st Century AT]] ...
 
 # Events
-## 39 BT
-- 1st of Spring — **[[Encyclopedia Mysenvaria/History/God-War Era/God Councils#Third Council|Third God Council]]** held.
+## 41 BT
+- **[[Encyclopedia Mysenvaria/History/God-War Era/Lover's Period|Lover's Period]]** begins (end. [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s BT#12 BT|12 BT]]).
 
-# Significant People
-## Births
-### 39 BT
-- [[Encyclopedia Mysenvaria/History/Biographies/Josh Soundson|Josh Soundson]]
 
 
 

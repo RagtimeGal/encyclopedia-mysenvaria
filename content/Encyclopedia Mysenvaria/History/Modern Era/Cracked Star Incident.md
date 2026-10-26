@@ -1,5 +1,5 @@
 ---
-title: Cracked Star Incident
+title: "Cracked Star Incident"
 enableToc: true
 tags:
   - topic/history/modern_era

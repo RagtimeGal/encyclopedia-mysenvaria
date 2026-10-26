@@ -1,5 +1,5 @@
 ---
-title: 80s BT
+title: "80s BT"
 enableToc: true
 tags:
   - topic/history/decade
