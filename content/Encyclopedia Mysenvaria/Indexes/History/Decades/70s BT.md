@@ -20,6 +20,10 @@ future: auto-generated
 
 
 
+# Stars
+| Name | Date | Publisher(s) | Description |
+| --- | --- | --- | --- |
+| [[Encyclopedia Mysenvaria/Geography/Stars/Mitosis Star System/Organic Destruction\|Organic Destruction]] | 75 BT | [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Tetrahydropyridine\|Tetrahydropyridine]] | Published |
 
 
 # See Also

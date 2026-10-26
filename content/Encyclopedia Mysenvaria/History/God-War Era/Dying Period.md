@@ -15,6 +15,9 @@ event:
     start_date: [-177,26]
     end_date: [-145,90]
     major_event: true
+  - start_desc: "desc1"
+    start_date: [-160]
+    major_event: true
 featured_data:
   featured_desc: "featured_desc"
   featured_image: "featured_image"
@@ -25,14 +28,15 @@ featured_data:
 "end_desc": **[[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|The Dying Period]]** ends (beg. 26th of Spring, [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT#177 BT|177 BT]]) after the passing of an estimated 90% of all [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]]. Coinciding with the end of the [[Encyclopedia Mysenvaria/History/God-War Era/The Great Poleward Fog Migration|Great Poleward Fog Migration]].
 "featured_desc": **[[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|The Dying Period]]** was a 32 year period of time, beginning with the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]—the start of the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]]—in the year [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT#177 BT|177 BT]] and ending after the first season of [[Encyclopedia Mysenvaria/Indexes/History/Decades/140s BT#145 BT|145 BT]], coinciding with the end of the [[Encyclopedia Mysenvaria/History/God-War Era/The Great Poleward Fog Migration|Great Poleward Fog Migration]]. An estimated 90% to 95% of all [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] to ever exist perished during the period, gaining it its name and making it the most deadly period in recorded history.
 "featured_image": ![[Media/Images/Infographics/deaths_during_god_war.png|deaths_during_god_war.png]]
-"ff1": ... during the [[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|Dying Period]] an average of 1.9 million [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] died every single day?
+"ff1": ... during the [[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|Dying Period]] an average of 2 thousand [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] died every single day?
+"desc1": "**[[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|The Dying Period]]** has 17 years remaining. Three quarters of all Gods which will ever exist have passed away."
 %%
 
 The Dying Period was a 32 year period of time, beginning with the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]—the start of the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]]—in the year [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT#177 BT|177 BT]] and ending after the first season of [[Encyclopedia Mysenvaria/Indexes/History/Decades/140s BT#145 BT|145 BT]], coinciding with the end of the [[Encyclopedia Mysenvaria/History/God-War Era/The Great Poleward Fog Migration|Great Poleward Fog Migration]]. An estimated 90% to 95% of all [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] to ever exist perished during the period, gaining it its name and making it the most deadly period in recorded history. 
 
 [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Historian|Historians]] typically use the terminology of "violent" and "peaceful" Gods to explain how the Dying Period came to happen, though these terms are not reflective of the actual behaviors of the Gods.
 # Prelude
-The [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]], shorter than a single [[Encyclopedia Mysenvaria/Science/Phenomena/Seasons|season]], resulted in an exponential and influential increase in the number Gods. This event, documented in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]], resulted in the creation of an estimated fifteen billion Gods. Overlapping domains and cramped space would cause tensions to rise and culminate in the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]], initiating the Great Dying.
+The [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]], shorter than a single [[Encyclopedia Mysenvaria/Science/Phenomena/Seasons|season]], resulted in an exponential and influential increase in the number Gods. This event, documented in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]], resulted in the creation of an estimated 25 million Gods. Overlapping domains and cramped space would cause tensions to rise and culminate in the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]], initiating the Great Dying.
 
 Documented in [[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]] the First Death would trigger an epiphany among the Gods, realizing their own mortality many would attempt to grasp control of the situation. Some would choose to secure their own lives by any means, including killing those who threatened them. On the contrary some would look to cement their legacy, publishing the stars which would form [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's System]]. These are referred to by historians as "violent" and "peaceful" Gods respectively.
 # Mass Casualties & Aftermath

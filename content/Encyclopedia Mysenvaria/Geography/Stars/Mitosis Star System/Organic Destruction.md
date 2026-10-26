@@ -6,7 +6,20 @@ tags:
   - subject/star
 type: article
 status: empty
+star:
+  - name: "Organic Destruction"
+    publications:
+    - publishers: ["publisher1"]
+      date: [-75]
+      major_event: false
+    desc: "star_desc"
 ---
+%%
+"publisher1": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Tetrahydropyridine|Tetrahydropyridine]]"
+"star_desc": "Published "
+
+"The host star of [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's Star System]]. Originally published by an unknown God following the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]. Later republished by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|What Is and Is Not]] following the passing of the original publisher. Describes the First Death in vivid detail."
+%%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
 > This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

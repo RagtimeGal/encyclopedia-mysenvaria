@@ -7,7 +7,7 @@ from typing import Dict, List, Any, Tuple, Optional
 import re
 
 # --- Configuration Constants ---
-START_YEAR = -180
+START_YEAR = -178
 END_YEAR = 1499
 DECADES_DIR_REL = "Encyclopedia Mysenvaria/Indexes/History/Decades"
 CENTURIES_DIR_REL = "Encyclopedia Mysenvaria/Indexes/History/Centuries"

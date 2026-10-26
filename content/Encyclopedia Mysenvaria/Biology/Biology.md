@@ -16,7 +16,6 @@ featured_data:
 %%
 "ff1": "... that [[Encyclopedia Mysenvaria/Biology/Biology|Biology]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]], practiced by biologists?"
 %%
----
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]
 > This article is incomplete! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

@@ -19,9 +19,9 @@ featured_data:
   fun_facts: ["ff1","ff2","ff3"]
 ---
 %%
-ff1: ... that it's highly debated between [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenists]] whether the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] are one or two Gods?
-ff2: ... that the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] were the first Gods, and together created the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] and [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Creation Quadrinity]]?
-ff3: ... that the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]] is believed to be the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]?
+"ff1": "... that it's highly debated between [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenists]] whether the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] are one or two Gods?"
+"ff2": "... that the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] were the first Gods, and together created the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] and [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Creation Quadrinity]]?"
+"ff3": "... that the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]] is believed to be the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]?"
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]
