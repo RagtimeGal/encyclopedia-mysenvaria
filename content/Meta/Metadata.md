@@ -202,6 +202,7 @@ event: # This is an array, so it can handle multiple events per-page.
     start_date: [] # Dates are written in a unique format covered elsewhere in the meta pages of the Encyclopedia.
     end_date: [] 
     major_event: true # Determines whether or not the event should be listed on certain pages.
+    order: 0 # Determines the order that events are listed in if their dates are matching. Events which it is specified for take priority in the list. Events of matching orders are sorted alphabetically.
 ---
 %%
 "start_desc_example": "This is the description for the start of the event. The program will search all hidden comments across the page to see if it can find the referenced string."
@@ -232,11 +233,13 @@ star: # This is an array, so it can handle multiple stars per-page.
 	    date: []
 	    desc: "translation_description_example"
 	    major_event: true # Determines whether or not the event should be listed on certain pages.
+	    order: 0 # Determines the order that events are listed in if their dates are matching.
     publications: # An array of events detailing each publication of the star.
       - publishers: ["publisher_example"]
         date: []
         desc: "publish_description_example"
         major_event: true # Determines whether or not the event should be listed on certain pages.
+	    order: 0 # Determines the order that events are listed in if their dates are matching.
 ---
 %%
 "star_desc": "A short description of the star itself."
@@ -264,7 +267,9 @@ person: # This is an array, so it can handle multiple people per-page.
         start_date: []
         end_date: [] # Optional. Defines if there was a divorce.
         major_event: true # Determines whether or not the wedding and divorce should be listed on certain pages.
+	    order: 0 # Determines the order that events are listed in if their dates are matching.
     major_event: false # Determines whether or not their birth and death should be listed on certain pages.
+    order: 0 # Determines the order that events are listed in if their dates are matching.
 ---
 %%
 "location_example": "May be a wikilink to the location of the person's birth."

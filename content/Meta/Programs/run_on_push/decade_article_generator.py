@@ -136,7 +136,8 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                     if isinstance(d_obj, dict) and desc and str(desc).strip():
                         y, d = parse_year_day(d_obj.get("informal", ""))
                         events_by_decade[decade_key(y)][y].append({
-                            "day": d, "label": season_day_label(d_obj), "desc": desc.strip()
+                            "day": d, "label": season_day_label(d_obj), "desc": desc.strip(),
+                            "order": e.get("order")
                         })
 
         if "person" in meta and isinstance(meta["person"], list):
@@ -177,7 +178,8 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                                     oy, _ = parse_year_day(other_val.get("informal", "0"))
                                     suffix = f" ({other_v_pfx} {year_link(oy)})"
                                 relationships_by_decade[decade_key(y)][y].append({
-                                    "day": d, "text": f"- {p_link} {verb} {s_name}{suffix}"
+                                    "day": d, "text": f"- {p_link} {verb} {s_name}{suffix}",
+                                    "alpha": plain_text(f"{p_link} {verb} {s_name}")
                                 })
 
         if "star" in meta and isinstance(meta["star"], list):
@@ -199,7 +201,8 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                                 events_by_decade[d_start][y].append({
                                     "day": d,
                                     "label": season_day_label(d_obj),
-                                    "desc": item["desc"].strip()
+                                    "desc": item["desc"].strip(),
+                                    "order": item.get("order")
                                 })
                 # Add only the original publication to the star table
                 if "publications" in s and isinstance(s["publications"], list):
@@ -244,6 +247,28 @@ def build_timeline_data(raw_data: Dict[str, Any]):
 
 # ----------------- Renderers -----------------
 
+def plain_text(markdown: str) -> str:
+    """Markdown -> the words a reader sees (wikilinks become their display text)."""
+    text = re.sub(r"\[\[([^\]|]*)\\?\|([^\]]*)\]\]", r"\2", markdown)
+    text = re.sub(r"\[\[([^\]]*)\]\]", lambda m: m.group(1).split("/")[-1].split("#")[-1], text)
+    return re.sub(r"[*_=`]", "", text).strip().lower()
+
+
+def order_key(value) -> Tuple[bool, float]:
+    """`order` from the metadata (see Meta/Metadata): items with one come first, lowest first."""
+    try:
+        value = float(value) if value is not None else None
+    except (TypeError, ValueError):
+        value = None
+    return (value is None, value if value is not None else 0.0)
+
+
+def event_sort_key(item: Dict[str, Any]):
+    """Same-day events: ones with an `order` come first, lowest order first;
+    ties (and events without an order) are sorted alphabetically."""
+    return (*order_key(item.get("order")), plain_text(item["desc"]))
+
+
 def render_events(events_map: Dict[int, List[Dict[str, Any]]]) -> str:
     if not events_map: return ""
     output = ["# Events"]
@@ -251,9 +276,9 @@ def render_events(events_map: Dict[int, List[Dict[str, Any]]]) -> str:
         output.append(f"## {year_suffix(year)}")
         date_groups = defaultdict(list)
         for item in events_map[year]:
-            date_groups[(item['day'], item['label'])].append(item['desc'])
+            date_groups[(item['day'], item['label'])].append(item)
         for (day_val, label) in sorted(date_groups.keys(), key=lambda x: (x[0] is None, x[0] or 0)):
-            descs = date_groups[(day_val, label)]
+            descs = [it['desc'] for it in sorted(date_groups[(day_val, label)], key=event_sort_key)]
             if label:
                 if len(descs) > 1:
                     output.append(f"- {label}")
@@ -272,14 +297,15 @@ def render_people(births, deaths, relationships) -> str:
         output.append(f"## {title}")
         for year in sorted(data.keys()):
             output.append(f"### {year_suffix(year)}")
-            sort_key = lambda x: (x['day'] is None, x['day'] or 0, x.get('alpha', ''))
+            sort_key = lambda x: (x['day'] is None, x['day'] or 0, str(x.get('alpha', '')).lower())
             output.extend(item['text'] for item in sorted(data[year], key=sort_key))
     return "\n".join(output) + "\n"
 
 def render_stars(stars_list: List[Dict[str, Any]]) -> str:
     if not stars_list: return ""
     output = ["# Stars", "| Name | Date | Publisher(s) | Description |", "| --- | --- | --- | --- |"]
-    for s in sorted(stars_list, key=lambda x: (x['year'], x['day'] is None, x['day'] or 0)):
+    for s in sorted(stars_list, key=lambda x: (x['year'], x['day'] is None, x['day'] or 0,
+                                              str(x.get('alpha', '')).lower())):
         r = s['row']
         d_lbl = season_day_label(r['date_obj'])
         date_str = f"{d_lbl}, {year_suffix(r['date_year'])}" if d_lbl else year_suffix(r['date_year'])

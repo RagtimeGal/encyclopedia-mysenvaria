@@ -16,9 +16,9 @@ star:
     desc: "star_desc"
 ---
 %%
-publisher: [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]]
-pub_desc: As Gods' manipulations of time and space grow more severe the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]] pass the [[Encyclopedia Mysenvaria/Geography/Stars/Spatial Act|Spatial Act]].
-star_desc: Published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]] to put an end to Gods' manipulation of time and space as battle strategies.
+"publisher": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]]"
+"pub_desc": "**[[Encyclopedia Mysenvaria/Geography/Stars/Spatial Act|The Spatial Act]]** is passed and published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]], it severely limits Gods' abilities to manipulate time and space.."
+"star_desc": "Published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]] to put an end to Gods' manipulation of time and space as battle strategies."
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]

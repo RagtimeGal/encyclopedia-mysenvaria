@@ -14,6 +14,7 @@ star:
         date: [-178,328]
         desc: "pub_desc"
         major_event: true
+        order: 4
     desc: "star_desc"
 ---
 %%

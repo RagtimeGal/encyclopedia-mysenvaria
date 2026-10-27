@@ -1280,7 +1280,7 @@
             "src_rel": "Encyclopedia Mysenvaria/Culture/Languages/Proto-Human Language.md",
             "definitions": {},
             "metadata": {
-                "title": "Language Template",
+                "title": "Proto-Human Language",
                 "enableToc": true,
                 "tags": [
                     "topic/culture/language"
@@ -1288,7 +1288,7 @@
                 "type": "article",
                 "status": "stub",
                 "future": "none",
-                "link": "[[Encyclopedia Mysenvaria/Culture/Languages/Proto-Human Language|Language Template]]"
+                "link": "[[Encyclopedia Mysenvaria/Culture/Languages/Proto-Human Language|Proto-Human Language]]"
             }
         },
         {
@@ -2805,9 +2805,9 @@
         {
             "src_rel": "Encyclopedia Mysenvaria/Geography/Stars/Spatial Act.md",
             "definitions": {
-                "publisher": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]]",
-                "pub_desc": "As Gods' manipulations of time and space grow more severe the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]] pass the [[Encyclopedia Mysenvaria/Geography/Stars/Spatial Act|Spatial Act]].",
-                "star_desc": "Published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]] to put an end to Gods' manipulation of time and space as battle strategies."
+                "\"publisher\"": "\"[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]]\"",
+                "\"pub_desc\"": "\"**[[Encyclopedia Mysenvaria/Geography/Stars/Spatial Act|The Spatial Act]]** is passed and published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]], it severely limits Gods' abilities to manipulate time and space..\"",
+                "\"star_desc\"": "\"Published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]] to put an end to Gods' manipulation of time and space as battle strategies.\""
             },
             "metadata": {
                 "title": "Spatial Act",
@@ -2835,7 +2835,7 @@
                                     "formal_without_year": "33rd of Autumn",
                                     "informal": "-175-213"
                                 },
-                                "desc": "As Gods' manipulations of time and space grow more severe the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]] pass the [[Encyclopedia Mysenvaria/Geography/Stars/Spatial Act|Spatial Act]].",
+                                "desc": "**[[Encyclopedia Mysenvaria/Geography/Stars/Spatial Act|The Spatial Act]]** is passed and published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]], it severely limits Gods' abilities to manipulate time and space..",
                                 "major_event": true
                             }
                         ],
@@ -2886,7 +2886,7 @@
                 "\"star_desc\"": "\"The host star of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Afterlife System|Afterlife System]]. Published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods/God of Chromodynamic Energy|God of Chromodynamic Energy]] following the [[Encyclopedia Mysenvaria/History/God-War Era/First Convening|First Convening]]. It rehashes many of the ideas and concepts surrounding the [[Encyclopedia Mysenvaria/Culture/Beliefs/Afterlife|afterlife]] which they theorized during the convening.\""
             },
             "metadata": {
-                "title": "Star Template",
+                "title": "Afterlife Star",
                 "enableToc": true,
                 "tags": [
                     "topic/geography/astrography",
@@ -2919,7 +2919,7 @@
                     }
                 ],
                 "future": "none",
-                "link": "[[Encyclopedia Mysenvaria/Geography/Stars/Afterlife System/Afterlife Star|Star Template]]"
+                "link": "[[Encyclopedia Mysenvaria/Geography/Stars/Afterlife System/Afterlife Star|Afterlife Star]]"
             }
         },
         {
@@ -3277,7 +3277,8 @@
                                     "informal": "-178-328"
                                 },
                                 "desc": "**[[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/Energy Division Star|Energy Division Star]]** is published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]] to document their creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods|Energy Gods]] inspired by the [[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]. It becomes the second star in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]].",
-                                "major_event": true
+                                "major_event": true,
+                                "order": 4
                             }
                         ],
                         "desc": "Second star in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]], published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]] following the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter's]] [[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]. Documents the creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods|Energy Gods]]."
@@ -3320,7 +3321,8 @@
                                     "informal": "-178-328"
                                 },
                                 "desc": "**[[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]** is published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]] to document their creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]]. The star motivates other Gods to undergo their own domain subdivision, becoming the host of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]].",
-                                "major_event": true
+                                "major_event": true,
+                                "order": 1
                             }
                         ],
                         "desc": "The host star of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]]. Created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]] to document their creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]]."
@@ -7568,7 +7570,8 @@
                             "formal_without_year": "58th of Winter",
                             "informal": "-178-328"
                         },
-                        "major_event": true
+                        "major_event": true,
+                        "order": 2
                     }
                 ],
                 "link": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]]"
@@ -25829,7 +25832,8 @@
                             "formal_without_year": "26th of Spring",
                             "informal": "-177-26"
                         },
-                        "major_event": true
+                        "major_event": true,
+                        "order": 3
                     }
                 ],
                 "featured_data": {

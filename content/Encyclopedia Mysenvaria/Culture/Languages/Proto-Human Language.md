@@ -1,5 +1,5 @@
 ---
-title: "Language Template"
+title: "Proto-Human Language"
 enableToc: true
 tags:
   - topic/culture/language

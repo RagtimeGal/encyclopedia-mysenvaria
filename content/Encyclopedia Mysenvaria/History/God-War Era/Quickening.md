@@ -13,6 +13,7 @@ event:
     start_date: [-178,328]
     end_date: [-177,26]
     major_event: true
+    order: 3
 featured_data:
   featured_desc: "featured_desc"
   fun_facts: ["ff1","ff2","ff3"]
