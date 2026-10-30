@@ -6,8 +6,10 @@ enableToc: true
 tags:
   - topic/science/branch
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]

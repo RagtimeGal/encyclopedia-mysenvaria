@@ -12,8 +12,10 @@ tags:
   - topic/history/biography
   - subject/god/higher-god
 type: article
-status: stub
-future: none
+status:
+  scope: standard
+  progress: stub
+  future: []
 needs:
   - infobox
 subpage:
@@ -70,7 +72,7 @@ subpage:
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 The [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] of Matter, Energy, Time, and Space, also sometimes referred to as the creation quadrinity, were the first higher-Gods to be created, born from domain subdivision by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]. The creation quadrinity are among the most powerful Gods but often choose to stay out of conflict, sometimes leading to them being called negligent or uncaring. Like other Gods of similar nature the quadrinity often act together in sync and as one.
 # History

@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history/god-war_era
 type: article
-status: complete
-future: review
+status:
+  scope: standard
+  progress: complete
+  future: [review]
 has:
   - image
   - featured_data
@@ -50,5 +52,5 @@ Though Gods had died across the entirety of the [[Encyclopedia Mysenvaria/Geogra
 
 [^graphic]: ![[Media/Images/Infographics/deaths_during_god_war.png]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Review Needed|Future Review Needed]]
-> This article is considered complete for the moment, and it's unclear if it will need to be revisited in the future! If you think it's time for a review make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Review|Future Review Needed]]
+> This article is considered complete for the moment but it's unclear if it will need to be revisited in the future! If you think it's time for a review make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

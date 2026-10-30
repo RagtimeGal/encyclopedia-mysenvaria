@@ -5,9 +5,11 @@ aliases:
 enableToc: true
 tags:
   - topic/biology
-type: overview
-status: incomplete
-future: update
+type: article
+status:
+  scope: overview
+  progress: wip
+  future: [pending]
 has:
   - featured_data
 featured_data:
@@ -17,8 +19,8 @@ featured_data:
 "ff1": "... that [[Encyclopedia Mysenvaria/Biology/Biology|Biology]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]], practiced by biologists?"
 %%
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]
-> This article is incomplete! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
+> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 *Biology is one of the six primary article categories of the [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]].* 
 
@@ -32,5 +34,5 @@ Taxon are groups of populations of conceptually related organisms, classified ei
 # Species
 Species are more specific taxon that include populations of highly related organisms. Populations of organisms may evolve genetically to create new species, but [[Encyclopedia Mysenvaria/History/History|historically]] a majority of species were created by the [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] amidst the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]. Species each have uniquely interesting behaviors and interactions with one another and the world that create the different [[Encyclopedia Mysenvaria/Science/Phenomena/Biomes|biomes]] of the Plane.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
+> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

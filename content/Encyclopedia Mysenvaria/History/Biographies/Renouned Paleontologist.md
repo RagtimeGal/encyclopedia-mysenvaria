@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history/biography
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 needs:
   - infobox
 person:

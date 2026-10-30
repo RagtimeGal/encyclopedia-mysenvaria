@@ -4,14 +4,18 @@ enableToc: true
 tags:
   - topic/meta
 type: index
-status: complete
-future: auto-generated
+status:
+  scope: generated
+  progress: complete
+  future: []
 index:
   - header_name: "Articles by Status"
+    included_data:
+      - status.progress: {exists: true}
     excluded_data:
-      - future: auto-generated
+      - status.scope: generated
     sort:
-      - by: status
+      - by: status.progress
         method: standard_forward
         subheaders:
           generate: true
@@ -572,5 +576,5 @@ The following is a list of all articles from across the Encyclopedia Mysenvaria,
 - [[Encyclopedia Mysenvaria/Geography/Stars/Two Breasts|Two Breasts]]
 - [[Encyclopedia Mysenvaria/Biology/Organisms/Animals/Walking Snail|Walking Snail]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
-> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
+> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

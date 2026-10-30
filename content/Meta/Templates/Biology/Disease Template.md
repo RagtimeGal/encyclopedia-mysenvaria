@@ -5,8 +5,10 @@ tags:
   - topic/biology/disease
 draft: true
 type: template
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]

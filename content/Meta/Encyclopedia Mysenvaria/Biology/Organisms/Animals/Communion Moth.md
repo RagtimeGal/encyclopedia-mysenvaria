@@ -6,8 +6,10 @@ enableToc: true
 tags:
   - topic/meta/addenda
 type: addenda
-status: complete
-future: none
+status:
+  scope: standard
+  progress: complete
+  future: []
 ---
 
 > [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]

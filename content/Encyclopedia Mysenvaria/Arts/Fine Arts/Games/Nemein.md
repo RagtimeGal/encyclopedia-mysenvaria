@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/art/game
 type: article
-status: stub
-future: none
+status:
+  scope: standard
+  progress: stub
+  future: []
 has:
   - featured_data
 featured_data:
@@ -16,7 +18,7 @@ ff1: ... that [[Encyclopedia Mysenvaria/Arts/Fine Arts/Games/Nemein|Nemein]] is 
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 > [!warning] [[Meta/Meta|Meta]] || [[Meta/Callouts#Names|Names]]
 > Some names in this article are placeholders! Until the setting's history is developed further—allowing for languages and the likes to be constructed accurately—temporary names are used for places, people, and things.

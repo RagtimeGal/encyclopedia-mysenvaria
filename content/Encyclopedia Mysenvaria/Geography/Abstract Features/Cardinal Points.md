@@ -10,8 +10,10 @@ enableToc: true
 tags:
   - topic/geography/abstract
 type: article
-status: complete
-future: none
+status:
+  scope: standard
+  progress: complete
+  future: []
 ---
 
 The cardinal points are a set of abstract points located directly on the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|Edge]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]. Traditionally there are four points each located at 90° intervals of one another relative to the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Pole]]. The first point is always in the direction of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaty's]] orbital origin; this is north (N). The other points in order are: west (W), south (S), and east (E). Relative to the Pole each point's corresponding [[Encyclopedia Mysenvaria/Geography/Abstract Features/Span & Reach|span]] and [[Encyclopedia Mysenvaria/Geography/Abstract Features/Azimuth, Altitude, & Distance|azimuth]] is: 0°, 90°, 180°, and 270°. 

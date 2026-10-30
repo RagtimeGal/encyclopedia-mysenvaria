@@ -28,8 +28,15 @@ Usage:
     python metadata_aggregator.py --strict     # exit with code 1 if there are errors
     python metadata_aggregator.py --quiet      # leave notices out of the console output
 
-Subpages: a subpage without `type`, `status` or `future` takes its parent page's
-value. This isn't reported.
+Status: pages of the types in mysenvar_common.STATUS_TYPES carry a block
+
+    status:
+      scope: standard      # brief, standard, overview or generated
+      progress: wip        # empty, idea, wip, stub or complete
+      future: [pending]    # any of pending, rewrite, review (or [])
+
+Subpages: a subpage without `type`, or without `status` (or any of its three
+keys), takes its parent page's value. This isn't reported.
 """
 import argparse
 import difflib
@@ -56,8 +63,10 @@ except ImportError:  # the fallback parser below handles simple pages
 # =============================================================================
 #  Settings
 # =============================================================================
-DEFAULT_VALUES = {"type": "article", "status": "empty", "future": "none"}
-REQUIRED_KEYS = ["title", "enableToc", "tags", "type", "status", "future"]
+DEFAULT_VALUES = {"type": "article"}
+REQUIRED_KEYS = ["title", "enableToc", "tags", "type"]
+# `status` (scope / progress / future) is required on these types; see mysenvar_common.py.
+STATUS_TYPES = mc.STATUS_TYPES
 EXCLUDE_DIRS = {".git", ".github", ".obsidian", ".quartz-cache", "node_modules", "dist", "public", "__pycache__", "Private"}
 METADATA_DOC_REL = mc.METADATA_DOC_REL
 OUTPUT_DIR_REL = mc.METADATA_DIR_REL
@@ -71,9 +80,10 @@ SEVERITY_OVERRIDES = {
 
 # Used only if Meta/Metadata.md can't be read or a list can't be found in it.
 FALLBACK_ALLOWED = {
-    "type": ["article", "index", "archive", "overview", "ledger", "private", "addenda", "canvas", "template"],
-    "status": ["empty", "stub", "incomplete", "complete"],
-    "future": ["none", "update", "rewrite", "review", "auto-generated"],
+    "type": ["article", "index", "archive", "ledger", "private", "addenda", "canvas", "template"],
+    "scope": mc.SCOPES,
+    "progress": mc.PROGRESSES,
+    "future": mc.FUTURES,
     "has": ["infobox", "image", "video", "graphics", "featured_data", "archive", "addenda"],
     "sort_method": ["standard_forward", "standard_backward", "natural_forward", "natural_backward", "unique"],
     "subheader_method": ["value", "first_character", "floor_x"],
@@ -92,9 +102,12 @@ DEFINITION_FIELDS = {
 }
 
 # Which callout each status / future / type expects (the anchor in [[Meta/Callouts#...]]).
-STATUS_CALLOUTS = {"empty": "Empty", "stub": "Stub", "incomplete": "Incomplete"}
-FUTURE_CALLOUTS = {"update": "Update Needed", "rewrite": "Rewrite Needed", "review": "Review Needed", "auto-generated": "Auto-Generated"}
+PROGRESS_CALLOUTS = {"empty": "Empty", "idea": "Idea", "wip": "WIP", "stub": "Stub"}
+FUTURE_CALLOUTS = {"pending": "Pending Future", "rewrite": "Future Rewrite", "review": "Future Review"}
+SCOPE_CALLOUTS = {"generated": "Generated"}
 TYPE_CALLOUTS = {"template": "Template"}
+# Callouts from before the status rework (2026-10). migrate_status.py replaces them.
+OLD_CALLOUTS = {"Incomplete", "Update Needed", "Rewrite Needed", "Review Needed", "Auto-Generated"}
 # Pages that show every callout as an example, so the callout check skips them.
 CALLOUT_CHECK_SKIP_TAGS = {"topic/meta/writing_guidelines"}
 
@@ -110,7 +123,10 @@ CHECKS = {
     "invalid-date":        ("error",   "A date isn't written as [year] or [year, day] with day 1-360."),
     "ledger-mismatch":     ("error",   "A Lore Ledger's file name, title and ledger_data disagree."),
     "index-header":        ("error",   "An index block's header_name has no matching heading on the page."),
+    "old-status-format":   ("error",   "The page still uses the old one-line `status:` / `future:` (run Private Programs/migrate_status.py)."),
     "missing-key":         ("warning", "A required key is missing (a default was used if there is one)."),
+    "status-conflict":     ("warning", "The status values contradict each other (a brief page can't be a stub)."),
+    "generated-mismatch":  ("warning", "`scope: generated` doesn't match whether a program actually writes the page."),
     "missing-topic-tag":   ("warning", "The page has no topic/... tag."),
     "unknown-tag":         ("warning", "A tag isn't documented in Meta/Metadata.md."),
     "empty-date":          ("notice",  "A date is empty ([]); fine if it is not known yet."),
@@ -200,13 +216,11 @@ def load_allowed_values(content_root, report):
         m = re.search(rf"^\s*{line_key}:.*?Accepts:?(.*)$", text, re.MULTILINE)
         return set(re.findall(r"`([^`]+)`", m.group(1))) if m else None
 
-    for key, line_key in (("type", "type"), ("status", "status"), ("future", "future"), ("has", "has"),
-                          ("sort_method", r"method"), ):
+    for key, line_key in (("type", "type"), ("scope", "scope"), ("progress", "progress"), ("future", "future"),
+                          ("has", "has"), ("sort_method", r"method"), ):
         found = accepts(line_key)
         if found:
             allowed[key] = found
-    # The `future` line lists only the non-default values.
-    allowed["future"].add(DEFAULT_VALUES["future"])
     # Sort method and subheader method share the key name `method`.
     for m in re.finditer(r"^\s*method:.*?Accepts:?(.*)$", text, re.MULTILINE):
         values = set(re.findall(r"`([^`]+)`", m.group(1)))
@@ -388,7 +402,7 @@ class MetadataAggregator:
 
     # ---------- per-node checks ----------
     def check_enums(self, data, src):
-        for key in ("type", "status", "future"):
+        for key in ("type",):
             val = data.get(key)
             if isinstance(val, (list, dict)):
                 self.report.add("malformed", src, f"`{key}` should be a single value, not `{val}`.")
@@ -405,6 +419,69 @@ class MetadataAggregator:
             for item in val:
                 if str(item) not in self.allowed["has"]:
                     self.report.add("invalid-value", src, f"`{key}` has `{item}`, which isn't one of {', '.join('`'+o+'`' for o in sorted(self.allowed['has']))}.")
+
+    def is_generated_page(self, data, src):
+        """Is the page made by a program? (It has an `index:` block, or it's a decade or
+        century page: decade pages are written by the decade generator, and century pages
+        are made of embedded decade sections.)"""
+        path = src.split("::")[0]
+        return bool(data.get("index")) or path.startswith(mc.DECADES_DIR_REL + "/") or path.startswith(mc.CENTURIES_DIR_REL + "/")
+
+    def check_status(self, data, src, is_subpage, parent_status):
+        """Check the page's `status` block and replace it with a complete one
+        ({scope, progress, future}); subpages take missing values from their parent."""
+        raw = data.get("status")
+        old = isinstance(raw, str) or (not is_subpage and "future" in data) or (is_subpage and "future" in data and not isinstance(raw, dict))
+        if old:
+            self.report.add("old-status-format", src, "Uses the old one-line `status:`/`future:`. Run Private Programs/migrate_status.py to convert it.")
+            block = mc.status_of(data, parent_status)
+            data.pop("future", None)
+            data["status"] = block
+            return
+        if raw is None:
+            if is_subpage:
+                data["status"] = dict(parent_status) if parent_status else mc.status_of({})
+                return
+            if data.get("type") not in STATUS_TYPES:
+                return  # ledgers, private notes etc. don't need one
+            self.report.add("missing-key", src, f"`status` is missing; using scope `{mc.STATUS_DEFAULTS['scope']}`, progress `{mc.STATUS_DEFAULTS['progress']}`.")
+            data["status"] = mc.status_of({})
+            return
+        if not isinstance(raw, dict):
+            self.report.add("malformed", src, "`status` should be a block of `scope:`, `progress:` and `future:` (indented under `status:`, no dashes).")
+            data["status"] = mc.status_of({}, parent_status)
+            return
+        if not is_subpage:
+            for k in ("scope", "progress"):
+                if k not in raw and not (k == "progress" and raw.get("scope") == "generated"):
+                    self.report.add("missing-key", src, f"`status.{k}` is missing; using `{mc.STATUS_DEFAULTS[k]}`.")
+        if raw.get("scope") == "generated" and "progress" not in raw:
+            raw = dict(raw, progress="complete")
+        for k in ("scope", "progress"):
+            v = raw.get(k)
+            if v is not None and str(v) not in self.allowed[k]:
+                options = ", ".join(f"`{o}`" for o in sorted(self.allowed[k]))
+                self.report.add("invalid-value", src, f"`status.{k}: {v}` isn't allowed. Use one of {options}.")
+        fut = raw.get("future")
+        if fut is not None and not isinstance(fut, list):
+            self.report.add("malformed", src, f"`status.future` should be a list, like `future: [{fut}]`.")
+        for v in mc.as_future_list(fut):
+            if v not in self.allowed["future"]:
+                options = ", ".join(f"`{o}`" for o in sorted(self.allowed["future"]))
+                self.report.add("invalid-value", src, f"`status.future` has `{v}`, which isn't one of {options}.")
+        for k in raw:
+            if k not in ("scope", "progress", "future"):
+                self.report.add("invalid-value", src, f"`status.{k}` isn't a status key (use scope, progress and future).")
+        block = mc.status_of({"status": raw}, parent_status)
+        if block["scope"] == "brief" and block["progress"] == "stub":
+            self.report.add("status-conflict", src, "`scope: brief` with `progress: stub`: a presentable brief page is `complete`.")
+        if not is_subpage:
+            actual = self.is_generated_page(data, src)
+            if actual and block["scope"] != "generated":
+                self.report.add("generated-mismatch", src, f"A program writes this page, so `status.scope` should be `generated` (it's `{block['scope']}`).")
+            elif block["scope"] == "generated" and not actual:
+                self.report.add("generated-mismatch", src, "`status.scope` is `generated`, but no program writes this page (it has no `index:` block and isn't a decade or century page).")
+        data["status"] = block
 
     def check_tags(self, data, src, is_subpage):
         tags = data.get("tags")
@@ -595,14 +672,28 @@ class MetadataAggregator:
         text = CODE_FENCE_RE.sub("", COMMENT_RE.sub("", body))
         found = {m.group(1).strip() for line in text.splitlines() if line.lstrip().startswith(">")
                  for m in CALLOUT_LINK_RE.finditer(line)}
-        for key, mapping, label in (("status", STATUS_CALLOUTS, "status"), ("future", FUTURE_CALLOUTS, "future"), ("type", TYPE_CALLOUTS, "type")):
-            val = str(data.get(key, ""))
+        for old in sorted(found & OLD_CALLOUTS):
+            self.report.add("callout-mismatch", src, f"The \"{old}\" callout is from before the status rework (run migrate_status.py, or swap it for the new one in Meta/Callouts).")
+        st = data.get("status") if isinstance(data.get("status"), dict) else None
+        checks = [("type", str(data.get("type", "")), TYPE_CALLOUTS)]
+        if st:
+            if src != mc.HOME_PAGE_REL:   # the home page's top belongs to the featured block
+                checks.append(("status.progress", st.get("progress", ""), PROGRESS_CALLOUTS))
+            checks.append(("status.scope", st.get("scope", ""), SCOPE_CALLOUTS))
+        for label, val, mapping in checks:
             expected = mapping.get(val)
             present = found & set(mapping.values())
             if expected and expected not in found:
                 self.report.add("callout-mismatch", src, f"`{label}: {val}` but the page has no \"{expected}\" callout.")
             for other in sorted(present - ({expected} if expected else set())):
                 self.report.add("callout-mismatch", src, f"The page has a \"{other}\" callout but `{label}` is `{val}`.")
+        if st:
+            wanted = {FUTURE_CALLOUTS[f] for f in st.get("future", []) if f in FUTURE_CALLOUTS}
+            present = found & set(FUTURE_CALLOUTS.values())
+            for f in sorted(wanted - present):
+                self.report.add("callout-mismatch", src, f"`status.future` includes `{next(k for k, v in FUTURE_CALLOUTS.items() if v == f)}` but the page has no \"{f}\" callout.")
+            for f in sorted(present - wanted):
+                self.report.add("callout-mismatch", src, f"The page has a \"{f}\" callout but `status.future` doesn't include `{next(k for k, v in FUTURE_CALLOUTS.items() if v == f)}`.")
 
     def check_ledger(self, data, src):
         if data.get("type") != "ledger":
@@ -638,11 +729,9 @@ class MetadataAggregator:
                 self.report = saved
         is_template = (data.get("type") or (parent or {}).get("type")) == "template"
 
-        # Defaults. Subpages inherit type, status and future from their parent page.
+        # Defaults. Subpages inherit their type and status block from their parent page.
         if is_subpage:
-            for k in ("type", "status", "future"):
-                if k not in data:
-                    data[k] = parent.get(k, DEFAULT_VALUES[k])
+            data.setdefault("type", parent.get("type", DEFAULT_VALUES["type"]))
             if "title" not in data:
                 self.report.add("missing-key", src_id, "Subpage has no `title`.")
         else:
@@ -659,6 +748,7 @@ class MetadataAggregator:
             data["title"] = os.path.splitext(os.path.basename(rel_path))[0]
 
         self.check_enums(data, src_id)
+        self.check_status(data, src_id, is_subpage, (parent or {}).get("status") if is_subpage else None)
         self.check_tags(data, src_id, is_subpage)
         self.check_dates({k: v for k, v in data.items() if k != "subpage"}, src_id, is_template)
 

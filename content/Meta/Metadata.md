@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/meta/writing_guidelines
 type: article
-status: complete
-future: none
+status:
+  scope: standard
+  progress: complete
+  future: []
 ---
 
 > [!abstract] [[Meta/Meta|Meta]]
@@ -35,11 +37,11 @@ needs:
 "page_link": "[[Meta/Metadata|Metadata]]"
 %%
 ```
-# Handling Status
+# Status
 ```YAML
 status: # Status contains data used to gauge an articles lore content.
   scope: brief # The current scope of the article. Defaults to `brief`. Accepts: `brief`, `standard`, `overview`, or `generated`.
-  progress: none # The current progress of the article. Defaults to `none`. Accepts: `empty`, `idea`, `wip`, `stub`, or `complete`.
+  progress: empty # The current progress of the article. Defaults to `empty`. Accepts: `empty`, `idea`, `wip`, `stub`, or `complete`.
   future: [] # How the article may fare in the future. Can have multiple values, defaults to being empty. Accepts: `pending`, `rewrite`, or `review`.
 ```
 Status is required on articles of the types: `article`, `index`, `addenda`, `canvas`, and `template`. 

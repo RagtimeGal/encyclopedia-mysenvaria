@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/science/phenomenon
 type: article
-status: complete
-future: update
+status:
+  scope: standard
+  progress: complete
+  future: [pending]
 needs:
   - graphics
 ---
@@ -18,7 +20,7 @@ The Great Dying would force organisms to adapt to environmental conditions which
 # Classification
 Climates are divided and organized in a variety of models, each mapping climates based on several key meteorological and geographical factors. The most widely used model is that of the Koppen system which uses seasonal precipitation and temperature to model and classify climates. Older models, like the Cline system use distance from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|harmony line]] and the availability of water.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
+> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 > 
 > *This article could use a section on the history of its discovery and impact on cultures.*

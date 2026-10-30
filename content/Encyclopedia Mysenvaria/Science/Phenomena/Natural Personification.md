@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/science/phenomenon
 type: article
-status: complete
-future: update
+status:
+  scope: standard
+  progress: complete
+  future: [pending]
 has:
   - featured_data
 needs:
@@ -47,7 +49,7 @@ Flaws in the interaction between the Real and Unreal can allow Nature to seep in
 
 Natural Diffusion plays an important role in the works of [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Starforging|starforgers]]. For that reason it is closely monitored by [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenists]] and astronomers, who track the spontaneous generation of limn via various methods.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
+> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 > 
 > *This article could use a section on the history of its discovery. It could also probably use some elaboration on how the different forms are important to science or societies. Natural Diffusion can definitely use elaboration on how it's studied.*

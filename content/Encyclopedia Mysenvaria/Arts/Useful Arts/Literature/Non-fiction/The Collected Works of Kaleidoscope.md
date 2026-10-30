@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/art/literature/non-fiction
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 ---
 %%
 %%

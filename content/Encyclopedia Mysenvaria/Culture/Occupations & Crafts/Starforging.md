@@ -6,8 +6,10 @@ enableToc: true
 tags:
   - topic/culture/occupation
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 event:
   - start_desc: "start_desc"
     start_date: [360]

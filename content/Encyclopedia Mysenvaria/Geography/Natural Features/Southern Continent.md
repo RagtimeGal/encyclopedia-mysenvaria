@@ -6,8 +6,10 @@ enableToc: true
 tags:
   - topic/geography/natural
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]

@@ -4,12 +4,14 @@ enableToc: true
 tags:
   - topic/culture/language
 type: article
-status: stub
-future: none
+status:
+  scope: standard
+  progress: stub
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 Proto-Human is the reconstructed common ancestor of all Human languages. There is no written record of Proto-Human; all of its features are proposed based off of inherited features in all Human languages through the process of the comparative method and internal reconstruction, among other methods.
 

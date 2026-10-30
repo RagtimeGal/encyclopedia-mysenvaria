@@ -5,8 +5,10 @@ tags:
   - topic/science/technology
 draft: true
 type: template
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 event:
   - start_desc: "start_desc"
     start_date: []

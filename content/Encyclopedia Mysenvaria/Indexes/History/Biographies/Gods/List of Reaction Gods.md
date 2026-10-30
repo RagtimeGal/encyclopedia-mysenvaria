@@ -5,8 +5,10 @@ tags:
   - topic/history/biography
   - subject/god/reaction_god
 type: index
-status: complete
-future: auto-generated
+status:
+  scope: generated
+  progress: complete
+  future: []
 index:
   - header_name: "Reaction Gods"
     included_data: 
@@ -23,5 +25,5 @@ index:
 
 This page serves as an index of reaction [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]].
 # Reaction Gods
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
-> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
+> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

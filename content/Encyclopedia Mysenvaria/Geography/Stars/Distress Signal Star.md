@@ -5,8 +5,10 @@ tags:
   - topic/geography/astrography
   - subject/star
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 star:
   - name: "Distress Signal Star"
     publications:

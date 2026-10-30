@@ -5,8 +5,10 @@ tags:
   - topic/geography/abstract
 draft: true
 type: template
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 event:
   - start_desc: ""
     end_desc: ""

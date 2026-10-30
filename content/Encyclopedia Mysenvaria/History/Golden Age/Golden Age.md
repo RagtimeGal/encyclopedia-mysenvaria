@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history/golden_age
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 event:
   - start_desc: "start_desc"
     end_desc: "end_desc"

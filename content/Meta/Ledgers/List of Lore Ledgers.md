@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/meta
 type: index
-status: complete
-future: auto-generated
+status:
+  scope: generated
+  progress: complete
+  future: []
 index:
   - header_name: "Lore Ledgers"
     included_data:
@@ -49,5 +51,5 @@ The following article serves as an index of the Encyclopedia's Lore Ledgers. Lor
 - [[Meta/Ledgers/Ledger 47.2024|Lore Ledger 47.24]]
 - [[Meta/Ledgers/Ledger 46.2024|Lore Ledger 46.24]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
-> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
+> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

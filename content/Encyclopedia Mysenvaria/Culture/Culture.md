@@ -3,13 +3,15 @@ title: "Culture"
 enableToc: true
 tags:
   - topic/culture
-type: overview
-status: incomplete
-future: update
+type: article
+status:
+  scope: overview
+  progress: wip
+  future: [pending]
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]
-> This article is incomplete! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
+> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 *Culture is one of the six primary article categories of the [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]].* 
 
@@ -27,5 +29,5 @@ Occupations and crafts are types of work practiced by individuals to contribute 
 # Organizations
 Organizations are groups of people that work with organized structure and a common goal. Organizations range from religious, to political, to commercial. Some have significant influence over societies while others are minor and unknown. [[Encyclopedia Mysenvaria/Culture/Organizations/Academy Publishing|Academy Publishing]] is the commercial organization responsible for the publishing of the [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]].
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This page is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
+> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

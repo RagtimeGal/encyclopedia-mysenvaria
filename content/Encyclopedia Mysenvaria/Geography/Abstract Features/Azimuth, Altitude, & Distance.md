@@ -9,8 +9,10 @@ enableToc: true
 tags:
   - topic/geography/abstract
 type: article
-status: complete
-future: update
+status:
+  scope: standard
+  progress: complete
+  future: [pending]
 has:
   - featured_data
 needs:
@@ -30,7 +32,7 @@ The origin of AAD coordinates is typically the [[Encyclopedia Mysenvaria/Geograp
 - Distance is a measure of how far from the point of origin the position is located. It is expressed in some unit which may vary depending on the context. 
 A position in the coordinate system is represented in the format (Azimuth°, Altitude°, Distance).
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
+> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 > 
 > *Could really use a section on the history of its invention and the impact it's had on science and the Plane.*

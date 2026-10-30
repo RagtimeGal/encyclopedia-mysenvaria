@@ -5,8 +5,10 @@ tags:
   - topic/history/biography
   - subject/god/molecular_god
 type: index
-status: complete
-future: auto-generated
+status:
+  scope: generated
+  progress: complete
+  future: []
 index:
   - header_name: "Compound Gods"
     included_data: 
@@ -56,5 +58,5 @@ This page serves as an index of Compound [[Encyclopedia Mysenvaria/Science/Pheno
 ## Other
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Molecular Gods|Molecular Gods]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
-> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
+> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

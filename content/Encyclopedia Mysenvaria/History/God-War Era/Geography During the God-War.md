@@ -5,8 +5,10 @@ tags:
   - topic/history/god-war_era
   - topic/geography
 type: article
-status: complete
-future: rewrite
+status:
+  scope: standard
+  progress: complete
+  future: [rewrite]
 ---
 
 The God-War witnessed the conception of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] itself and formed it into the place that it is known today. Features like the Plane's [[Encyclopedia Mysenvaria/Geography/Geography|geography]], [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]], and the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heavens|heavens]] give historians a glimpse into the events of the war, and a chance to understand how the war molded these features too. Numerous strategies are used to extrapolate data regarding these features of the Plane, including [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]], strata layers, erosion and weathering, [[Encyclopedia Mysenvaria/Science/Models/Tectonics|tectonic plates]], permafrost, and more.
@@ -31,5 +33,5 @@ The Plane would not see drastic change for the next decade following the Great F
 
 The major ice sheets which stretched for many kilometers onto the Plane past the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]] would begin rapidly melting, drastically altering the topology of the outer Plane. The gravitational pull of the Harmonic Treaty in combination with the evaporation it induces in the oceans and major water bodies would also lead to the modern formation of weather systems and formation of the climates which are known today.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Rewrite Needed|Future Rewrite Needed]]
-> This article is considered complete for the moment, but some finished sections may need to be rewritten to help improve clarity! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Rewrite|Future Rewrite Needed]]
+> This article is considered complete for the moment, but some sections may need to be rewritten to help improve legibility! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

@@ -5,8 +5,10 @@ tags:
   - topic/culture/language
   - subject/linguistics
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 ---
 
 *For scientific relationships, see [[Encyclopedia Mysenvaria/Science/Models/Relationships (model)|Relationships (model)]].*

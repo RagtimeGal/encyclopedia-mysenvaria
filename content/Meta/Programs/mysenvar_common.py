@@ -321,3 +321,119 @@ def legacy_flat_view(data=None):
                         if date is not None:
                             out["star"][kind].append(dict(e, source=source, star_name=name, date=date))
     return out
+
+# =============================================================================
+#  Page status (scope / progress / future)
+# =============================================================================
+# The values themselves are documented in Meta/Metadata.md (the aggregator reads
+# its allowed lists from there); these are the fallbacks and the order of the ladder.
+SCOPES = ["brief", "standard", "overview", "generated"]
+PROGRESSES = ["empty", "idea", "wip", "stub", "complete"]   # least to most finished
+FUTURES = ["pending", "rewrite", "review"]
+STATUS_DEFAULTS = {"scope": "brief", "progress": "empty", "future": []}
+# Page types that carry a `status` block (see Meta/Metadata.md).
+STATUS_TYPES = {"article", "index", "addenda", "canvas", "template"}
+
+# The old one-line `status:` / `future:` values and what they became.
+OLD_STATUS_TO_PROGRESS = {"empty": "empty", "stub": "stub", "incomplete": "wip", "complete": "complete"}
+OLD_FUTURE_TO_FUTURE = {"none": [], "": [], "update": ["pending"], "rewrite": ["rewrite"], "review": ["review"],
+                        "auto-generated": []}
+
+
+def convert_old_status(status, future, page_type, default_scope="standard"):
+    """Old `status` / `future` / `type` values -> (new status block, new type).
+    `type: overview` becomes `type: article` with `scope: overview`, and
+    `future: auto-generated` becomes `scope: generated`."""
+    status = str(status or "empty").strip().lower()
+    future = str(future or "none").strip().lower()
+    page_type = str(page_type or "article").strip().lower()
+    scope = default_scope
+    if page_type == "overview":
+        page_type, scope = "article", "overview"
+    if future == "auto-generated":
+        scope = "generated"
+    block = {"scope": scope,
+             "progress": OLD_STATUS_TO_PROGRESS.get(status, status),
+             "future": list(OLD_FUTURE_TO_FUTURE.get(future, [future]))}
+    return block, page_type
+
+
+def as_future_list(value):
+    """`future` as a list, whether it was written as a list, one value, or left out."""
+    if value is None or value == "" or value == "none":
+        return []
+    if isinstance(value, (list, tuple)):
+        return [str(v).strip() for v in value if str(v).strip() and str(v).strip() != "none"]
+    return [str(value).strip()]
+
+
+def status_of(meta, parent_status=None):
+    """A page's (or subpage's) status block with defaults filled in:
+    {"scope": .., "progress": .., "future": [..]}. Subpages take any missing
+    keys from their parent's block. Old one-line values are converted."""
+    raw = meta.get("status")
+    if isinstance(raw, dict):
+        block = dict(raw)
+    elif raw is not None or "future" in meta:
+        block, _ = convert_old_status(raw, meta.get("future"), meta.get("type"))
+    else:
+        block = {}
+    base = dict(parent_status) if parent_status else dict(STATUS_DEFAULTS)
+    for k in ("scope", "progress", "future"):
+        if k not in block or block[k] is None:
+            block[k] = base.get(k, STATUS_DEFAULTS[k])
+    block["future"] = as_future_list(block["future"])
+    return block
+
+
+def read_status_text(text, indent=0):
+    """
+    Read a status block straight from front-matter text, without a YAML library
+    (for programs that read pages directly, like the print compiler).
+    `indent` is the indentation of the `status:` key (0 for a page, more inside a
+    subpage). Returns the block like status_of(), or None if there's no status at all.
+    Old one-line `status:` / `future:` values are converted.
+    """
+    pad = " " * indent
+    lines = text.expandtabs(4).splitlines()
+    found, block, old_status, old_future, page_type = False, {}, None, None, None
+    i = 0
+    while i < len(lines):
+        ln = lines[i]
+        m = re.match(rf"^{pad}(status|future|type):[ \t]*(.*?)\s*(?:#.*)?$", ln)
+        if m and (len(ln) - len(ln.lstrip(" "))) == indent:
+            key, val = m.group(1), m.group(2).strip().strip('"').strip("'")
+            if key == "type":
+                page_type = val
+            elif key == "future":
+                old_future, found = val, True
+            elif val:                       # old one-line `status: complete`
+                old_status, found = val, True
+            else:                           # the new block: read the indented lines under it
+                found = True
+                j = i + 1
+                while j < len(lines) and (not lines[j].strip() or len(lines[j]) - len(lines[j].lstrip(" ")) > indent):
+                    sub = re.match(r"^\s+(scope|progress|future):[ \t]*(.*?)\s*(?:#.*)?$", lines[j])
+                    if sub:
+                        k, v = sub.group(1), sub.group(2).strip()
+                        if k == "future":
+                            if v.startswith("["):
+                                block[k] = [x.strip().strip('"').strip("'") for x in v.strip("[]").split(",") if x.strip()]
+                            elif v:
+                                block[k] = [v.strip('"').strip("'")]
+                            else:            # a block list on the following lines
+                                items = []
+                                while j + 1 < len(lines) and re.match(r"^\s+-\s+", lines[j + 1]):
+                                    j += 1
+                                    items.append(re.sub(r"^\s+-\s+", "", lines[j]).strip().strip('"').strip("'"))
+                                block[k] = items
+                        else:
+                            block[k] = v.strip('"').strip("'")
+                    j += 1
+                i = j - 1
+        i += 1
+    if not found:
+        return None
+    if old_status is not None or (old_future is not None and not block):
+        return status_of({"status": old_status, "future": old_future, "type": page_type})
+    return status_of({"status": block})

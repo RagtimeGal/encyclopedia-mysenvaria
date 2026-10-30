@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/art/cuisine
 type: index
-status: complete
-future: auto-generated
+status:
+  scope: generated
+  progress: complete
+  future: []
 index:
   - header_name: "Foods & Cuisines"
     included_data: 
@@ -24,5 +26,5 @@ The following is an index of all articles describing [[Encyclopedia Mysenvaria/A
 ## D
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Cuisine/Dragon Waste Stew|Dragon Waste Stew]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
-> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
+> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

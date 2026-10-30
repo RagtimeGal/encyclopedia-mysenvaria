@@ -5,14 +5,16 @@ tags:
   - topic/biology/organism
   - subject/elves
 type: article
-status: stub
-future: none
+status:
+  scope: standard
+  progress: stub
+  future: []
 needs:
   - infobox
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 Elven fungi are a species of sessile symbiont consumers which parasitize various species of plant. They target plants early on in their lifecycle, typically as seeds but as late as early seedlings. Elven fungi grow throughout the entirety of the plant and target its structure and growth cycle, disrupting and taking control of it in ways which are not fully understood. The fungus causes its host to grow extra body parts which would otherwise not exist and to grow extremely modified body parts.
 

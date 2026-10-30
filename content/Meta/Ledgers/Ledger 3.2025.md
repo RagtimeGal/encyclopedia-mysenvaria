@@ -4,8 +4,6 @@ enableToc: true
 tags:
   - topic/meta/ledger
 type: ledger
-status: complete
-future: none
 ledger_data:
   week: 3
   year: 2025

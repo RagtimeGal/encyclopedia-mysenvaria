@@ -8,8 +8,10 @@ tags:
   - subject/god/lesser-god
   - subject/god/energy_god
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 needs:
   - infobox
 ---

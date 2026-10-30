@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history/god-war_era
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]

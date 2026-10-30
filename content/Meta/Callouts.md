@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/meta/writing_guidelines
 type: article
-status: complete
-future: none
+status:
+  scope: standard
+  progress: complete
+  future: []
 ---
 
 > [!abstract] [[Meta/Meta|Meta]]
@@ -56,32 +58,32 @@ Addenda are non-canon companion articles written to provide context, behind-the-
 # Article Progress
 ## Empty
 ```yaml
-status: 
-  - progress: empty
+status:
+  progress: empty
 ```
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
 > This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 ## Idea
 ```yaml
-status: 
-  - progress: idea
+status:
+  progress: idea
 ```
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Idea|Idea Article]]
 > This article is an idea! Provided information may not be canonical or accurate. You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 ## WIP
 ```yaml
-status: 
-  - progress: wip
+status:
+  progress: wip
 ```
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
 > This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 ## Stub
 ```yaml
-status: 
-  - progress: stub
+status:
+  progress: stub
 ```
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
@@ -89,28 +91,32 @@ status:
 # Future Reminders
 ## Pending Future
 ```yaml
-future: pending
+status:
+  future: [pending]
 ```
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
 > This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 ## Future Rewrite
 ```yaml
-future: rewrite
+status:
+  future: [rewrite]
 ```
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Rewrite Needed|Future Rewrite Needed]]
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Rewrite|Future Rewrite Needed]]
 > This article is considered complete for the moment, but some sections may need to be rewritten to help improve legibility! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 ## Future Review
 ```yaml
-future: review
+status:
+  future: [review]
 ```
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Review Needed|Future Review Needed]]
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Review|Future Review Needed]]
 > This article is considered complete for the moment but it's unclear if it will need to be revisited in the future! If you think it's time for a review make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 # Generated
 ```yaml
-scope: generated
+status:
+  scope: generated
 ```
 
 > [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]

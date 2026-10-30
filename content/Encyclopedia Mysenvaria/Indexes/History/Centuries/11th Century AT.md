@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history/century
 type: index
-status: complete
-future: auto-generated
+status:
+  scope: generated
+  progress: complete
+  future: []
 has:
   - infobox
 ---
@@ -62,5 +64,5 @@ has:
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/1090s AT#Significant People]]
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/1090s AT#Stars|Stars]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
-> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
+> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

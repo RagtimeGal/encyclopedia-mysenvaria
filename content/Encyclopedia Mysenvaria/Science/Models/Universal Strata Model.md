@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/science/model
 type: article
-status: complete
-future: update
+status:
+  scope: standard
+  progress: complete
+  future: [pending]
 has:
   - image
   - featured_data
@@ -39,7 +41,7 @@ Ontological arguments have also been raised regarding the separation of the Real
 
 [^graphic]: ![[Media/Images/Infographics/universal_strata_model.png]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
+> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 > 
 > *This article could use a section on the history of its discovery.*

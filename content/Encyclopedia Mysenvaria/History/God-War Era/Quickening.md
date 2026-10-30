@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history/god-war_era
 type: article
-status: complete
-future: review
+status:
+  scope: standard
+  progress: complete
+  future: [review]
 has:
   - featured_data
 event:
@@ -34,5 +36,5 @@ Prior to the Quickening, on the 12th of Winter [[Encyclopedia Mysenvaria/Indexes
 
 The gargantuan number of Gods would peak on the 26th of Spring [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT#177 BT|177 BT]], where the rising tensions between Gods would culminate in the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]. [[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]], originally publiushed by an unknown God, attempted to document the confrontation, which occurred between two unnamed lesser-Gods. In the following days, as Gods became increasingly aware of their mortality, Death's Star would receive an influx of stars, creating [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's Star System]].
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Review Needed|Future Review Needed]]
-> This article is considered complete for the moment, and it's unclear if it will need to be revisited in the future! If you think it's time for a review make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Review|Future Review Needed]]
+> This article is considered complete for the moment but it's unclear if it will need to be revisited in the future! If you think it's time for a review make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

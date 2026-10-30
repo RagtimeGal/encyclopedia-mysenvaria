@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/meta/writing_guidelines
 type: article
-status: complete
-future: none
+status:
+  scope: standard
+  progress: complete
+  future: []
 ---
 
 > [!abstract] [[Meta/Meta|Meta]]

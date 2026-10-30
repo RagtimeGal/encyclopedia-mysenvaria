@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history/god-war_era
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 event:
   - start_desc: "start_desc"
     start_date: [-145,1]

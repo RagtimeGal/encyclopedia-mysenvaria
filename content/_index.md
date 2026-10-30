@@ -3,9 +3,11 @@ title: "Encyclopedia Home"
 enableToc: true
 tags:
   - topic/meta
-type: overview
-status: complete
-future: none
+type: article
+status:
+  scope: overview
+  progress: complete
+  future: []
 ---
 
 The [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]] is a comprehensive collection of educational articles written by numerous scholars from across the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] and compiled and published by [[Encyclopedia Mysenvaria/Culture/Organizations/Academy Publishing|Academy Publishing]]. Academy Publishing has worked diligently for the last two hundred years to collaborate and compile the work of as many scholars from as many [[Encyclopedia Mysenvaria/Indexes/Science/Branches/List of Scientific Branches|studies]] as possible.

@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/history
 type: index
-status: complete
-future: none
+status:
+  scope: standard
+  progress: complete
+  future: []
 ---
 
 The following article serves as a complete and comprehensive bullet point timeline of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]], including what is known of events which took place during [[Encyclopedia Mysenvaria/History/God-War Era/Prehistory|prehistory]] all the way to the [[Encyclopedia Mysenvaria/History/Modern Era/Modern Era|Modern Era]] in the year [[Encyclopedia Mysenvaria/Indexes/History/Decades/1490s AT#1496 AT|1496 AT]]. For more comprehensive overviews of singular eras you may see the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]], [[Encyclopedia Mysenvaria/History/Post-War Era/Post-War Era|Post-War Era]], [[Encyclopedia Mysenvaria/History/Golden Age/Golden Age|Golden Age]], or [[Encyclopedia Mysenvaria/History/Modern Era/Modern Era|Modern Era]] articles.

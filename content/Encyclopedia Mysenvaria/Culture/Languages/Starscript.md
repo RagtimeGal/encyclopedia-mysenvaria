@@ -5,8 +5,10 @@ tags:
   - topic/culture/language
   - subject/god
 type: article
-status: complete
-future: update
+status:
+  scope: standard
+  progress: complete
+  future: [pending]
 ---
 
 Starscript is a complex written-only [[Encyclopedia Mysenvaria/Culture/Culture#Languages|language]] which is hypothesized to exist as a result of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification#Relational Concentration|relational concentration]]. Starscript exists only in the written form of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] and has no true spoken form; although [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|astronomers]] have created spoken representations of the language in the past. Starscript is the parent language of [[Encyclopedia Mysenvaria/Culture/Languages/God Tongue|God Tongue]], which was created by the first [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] and can be spoken—though not via traditional methods.
@@ -21,7 +23,7 @@ Starscript is incredibly complex to learn and can take even the most talented as
 
 For further knowledge on Starscript works such as *[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Capturing the Natural Essence of Chair|Capturing the Natural Essence of Chair]]*, *[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Mechanisms & Evolution of Starscript|The Mechanisms & Evolution of Starscript]]*, and *[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Transcribing, Writing, & Translating in Starscript|Transcribing, Writing, & Translating in Starscript]]* are considered amongst the best modern works on the topic of Starscript.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
+> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
 > 
 > *This article could use a section on the history of its discovery, its impact on civilization, and possibly in the future an elaboration on the language itself.*

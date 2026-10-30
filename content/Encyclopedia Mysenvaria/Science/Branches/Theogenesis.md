@@ -8,8 +8,10 @@ enableToc: true
 tags:
   - topic/science/branch
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 has:
   - featured_data
 featured_data:

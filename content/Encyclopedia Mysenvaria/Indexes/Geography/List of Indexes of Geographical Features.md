@@ -4,8 +4,10 @@ enableToc: true
 tags:
   - topic/geography
 type: index
-status: complete
-future: auto-generated
+status:
+  scope: generated
+  progress: complete
+  future: []
 index:
   - header_name: "Indexes of Geographical Features"
     included_data: 
@@ -29,5 +31,5 @@ The following is an index of indexes which describe [[Encyclopedia Mysenvaria/Ge
 - [[Encyclopedia Mysenvaria/Indexes/Geography/Natural Features/List of Natural Features|List of Natural Features]]
 - [[Encyclopedia Mysenvaria/Indexes/Geography/List of all Geographical Features|List of all Geographical Features]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
-> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
+> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

@@ -5,8 +5,10 @@ tags:
   - topic/history/biography
 draft: true
 type: template
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 person:
   - name: ""
     birth_date: []

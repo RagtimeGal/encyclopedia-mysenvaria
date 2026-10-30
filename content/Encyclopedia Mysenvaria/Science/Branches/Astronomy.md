@@ -6,8 +6,10 @@ enableToc: true
 tags:
   - topic/science/branch
 type: article
-status: stub
-future: none
+status:
+  scope: standard
+  progress: stub
+  future: []
 has:
   - featured_data
 featured_data:
@@ -18,7 +20,7 @@ featured_data:
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 Astronomy is a study often confused with [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Wizard|wizardry]]. While many wizards may also practice astronomy it is a separate area of study. Astronomy involves the observation and interpretation of stars to create a better understanding of the [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] and [[Encyclopedia Mysenvaria/Culture/Languages/God Tongue]]. 
 

@@ -6,8 +6,10 @@ tags:
   - topic/history/biography
   - subject/god/isotope_god
 type: article
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 needs:
   - infobox
 ---

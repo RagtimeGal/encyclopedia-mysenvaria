@@ -6,8 +6,10 @@ tags:
   - subject/star_system
 draft: true
 type: template
-status: empty
-future: none
+status:
+  scope: standard
+  progress: empty
+  future: []
 star:
   - name: ""
     publications:
