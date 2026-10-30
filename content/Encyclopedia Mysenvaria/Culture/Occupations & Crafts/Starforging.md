@@ -7,6 +7,7 @@ tags:
   - topic/culture/occupation
 type: article
 status: empty
+future: none
 event:
   - start_desc: "start_desc"
     start_date: [360]

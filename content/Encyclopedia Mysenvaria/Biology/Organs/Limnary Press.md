@@ -5,6 +5,7 @@ tags:
   - topic/science/phenomenon
 type: article
 status: stub
+future: none
 has:
   - featured_data
 needs:

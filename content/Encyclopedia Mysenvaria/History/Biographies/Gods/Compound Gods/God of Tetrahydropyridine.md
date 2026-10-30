@@ -9,6 +9,7 @@ tags:
   - subject/god/molecular_god
 type: article
 status: empty
+future: none
 has:
   - infobox
 ---

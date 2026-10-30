@@ -5,7 +5,8 @@ tags:
   - topic/geography/astrography
   - subject/star_system
 type: article
-status: stub
+status: empty
+future: none
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]

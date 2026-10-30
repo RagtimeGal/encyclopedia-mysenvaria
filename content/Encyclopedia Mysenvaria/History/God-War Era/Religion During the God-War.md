@@ -5,6 +5,7 @@ tags:
   - topic/history/god-war_era
 type: article
 status: incomplete
+future: none
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]

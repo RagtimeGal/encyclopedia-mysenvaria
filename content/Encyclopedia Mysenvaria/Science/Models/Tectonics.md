@@ -26,3 +26,6 @@ Plate boundaries are where plates meet and are where geological phenomena like e
 
 Hotspots are areas where the crust has become exceedingly thin or where the mantle is exceedingly hot, creating an upwelling of magma from the mantle which sometimes breaks through the surface of the crust. This process leads the formation of volcanoes outside of plate boundaries.
 [^figure1]: ![[Media/Images/Infographics/tectonic_diagram.png|tectonic_diagram.png]]
+
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
+> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

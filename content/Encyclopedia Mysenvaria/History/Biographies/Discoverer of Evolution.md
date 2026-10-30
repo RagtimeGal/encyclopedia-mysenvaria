@@ -5,10 +5,11 @@ tags:
   - topic/history/biography
 type: article
 status: empty
+future: none
 needs:
   - infobox
 person:
-  - name: "Inventor of Evolution"
+  - name: "Discoverer of Evolution"
     birth_date: []
     death_date: []
     major_event: false

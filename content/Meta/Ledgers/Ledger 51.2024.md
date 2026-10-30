@@ -5,6 +5,7 @@ tags:
   - topic/meta/ledger
 type: ledger
 status: complete
+future: none
 ledger_data:
   week: 51
   year: 2024

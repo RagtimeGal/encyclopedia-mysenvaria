@@ -9,11 +9,12 @@ tags:
   - subject/god/elemental_god
 type: article
 status: empty
+future: none
 needs:
   - infobox
 person:
       - name: "God of Iodine"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
 ---
 

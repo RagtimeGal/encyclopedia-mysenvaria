@@ -8,6 +8,7 @@ tags:
   - subject/god/higher-god
 type: article
 status: incomplete
+future: none
 has:
   - featured_data
 needs:

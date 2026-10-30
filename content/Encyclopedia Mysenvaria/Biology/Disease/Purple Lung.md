@@ -8,6 +8,7 @@ tags:
   - topic/biology/disease
 type: article
 status: stub
+future: none
 needs:
   - infobox
 ---

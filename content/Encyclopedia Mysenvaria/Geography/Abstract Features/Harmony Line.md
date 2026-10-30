@@ -5,6 +5,7 @@ tags:
   - topic/geography/abstract
 type: article
 status: incomplete
+future: none
 needs:
   - image
 featured_data:

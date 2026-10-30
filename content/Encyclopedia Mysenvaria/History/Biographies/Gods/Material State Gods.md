@@ -20,9 +20,6 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Solids"
         birth_date: [-178]
@@ -34,9 +31,6 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Gasses"
         birth_date: [-178]
@@ -48,9 +42,6 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Liquids"
         birth_date: [-178]
@@ -62,9 +53,6 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Plasma"
         birth_date: [-178]

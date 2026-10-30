@@ -5,6 +5,7 @@ tags:
   - topic/science/technology
 type: article
 status: empty
+future: none
 has:
   - featured_data
 featured_data:

@@ -7,6 +7,7 @@ tags:
   - topic/history/god-war_era
 type: article
 status: incomplete
+future: none
 event:
   - start_desc: "start_desc"
     start_date: [-176,91]

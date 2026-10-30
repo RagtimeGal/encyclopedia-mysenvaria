@@ -5,6 +5,7 @@ tags:
   - topic/geography/natural
 type: article
 status: incomplete
+future: none
 has:
   - image
 ---

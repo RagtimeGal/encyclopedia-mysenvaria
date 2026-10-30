@@ -5,6 +5,7 @@ tags:
   - topic/culture/organization
 type: article
 status: empty
+future: none
 has:
   - featured_data
 featured_data:

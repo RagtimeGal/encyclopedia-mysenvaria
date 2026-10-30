@@ -9,6 +9,7 @@ tags:
   - topic/science/branch
 type: article
 status: empty
+future: none
 has:
   - featured_data
 featured_data:
@@ -16,7 +17,7 @@ featured_data:
 ---
 %%
 "ff1": "... that [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenesis]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], practiced by theogenists?"
-"ff1": "... that [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis#Hemitheogenesis|hemitheogenesis]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]], practiced by hemitheogenists?"
+"ff2": "... that [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis#Hemitheogenesis|hemitheogenesis]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]], practiced by hemitheogenists?"
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]

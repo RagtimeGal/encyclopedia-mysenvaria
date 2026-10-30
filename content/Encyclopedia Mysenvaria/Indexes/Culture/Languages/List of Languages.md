@@ -29,8 +29,8 @@ The following is an index of all articles describing [[Encyclopedia Mysenvaria/C
 - [[Encyclopedia Mysenvaria/Culture/Languages/God Tongue|God Tongue]]
 ## H
 - [[Encyclopedia Mysenvaria/Culture/Languages/Humanized God Tongue|Humanized God Tongue]]
-## L
-- [[Encyclopedia Mysenvaria/Culture/Languages/Proto-Human Language|Language Template]]
+## P
+- [[Encyclopedia Mysenvaria/Culture/Languages/Proto-Human Language|Proto-Human Language]]
 ## S
 - [[Encyclopedia Mysenvaria/Culture/Languages/Starscript|Starscript]]
 

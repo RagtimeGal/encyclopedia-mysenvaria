@@ -5,6 +5,7 @@ tags:
   - topic/history/golden_age
 type: article
 status: empty
+future: none
 event:
   - start_desc: "start_desc"
     end_desc: "end_desc"

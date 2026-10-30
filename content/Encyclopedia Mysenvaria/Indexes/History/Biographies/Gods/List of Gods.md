@@ -78,6 +78,7 @@ The following is an index of all [[Encyclopedia Mysenvaria/Science/Phenomena/God
 - God of Fluorine
 - God of Francium
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Fulgurite|God of Fulgurite]]
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Future]]
 ## G
 - God of Gadolinium
 - God of Gallium
@@ -141,6 +142,7 @@ The following is an index of all [[Encyclopedia Mysenvaria/Science/Phenomena/God
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Oxygen|God of Oxygen]]
 ## P
 - God of Palladium
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Past]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|Gods of Past, Present, and Future]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Penguinone|God of Penguinone]]
 - God of Phosphorus
@@ -151,6 +153,7 @@ The following is an index of all [[Encyclopedia Mysenvaria/Science/Phenomena/God
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Porous Rock|God of Porous Rock]]
 - God of Potassium
 - God of Praseodymium
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Present]]
 - God of Proactinium
 - God of Promethium
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Pyrolite|God of Pyrolite]]
@@ -212,10 +215,10 @@ The following is an index of all [[Encyclopedia Mysenvaria/Science/Phenomena/God
 - God of Zirconium
 ## Other
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods|Energy Gods]]
-- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods|Phenomena Gods]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Isotope Gods|Isotope Gods]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Molecular Gods|Molecular Gods]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Mystery God|Mystery God]]
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods|Phenomena Gods]]
 
 > [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
 > This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

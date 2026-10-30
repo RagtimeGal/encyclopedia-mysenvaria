@@ -6,108 +6,35 @@ from collections import defaultdict
 from typing import Dict, List, Any, Tuple, Optional
 import re
 
-# --- Configuration Constants ---
-START_YEAR = -178
-END_YEAR = 1499
-DECADES_DIR_REL = "Encyclopedia Mysenvaria/Indexes/History/Decades"
-CENTURIES_DIR_REL = "Encyclopedia Mysenvaria/Indexes/History/Centuries"
-METADATA_JSON_PATH = "Meta/Programs/debug/metadata_aggregator/extracted_metadata.json"
+# Shared settings and helpers: Meta/Programs/mysenvar_common.py
+import sys, pathlib
+sys.dont_write_bytecode = True  # keeps __pycache__ folders out of the vault
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "Meta/Programs/mysenvar_common.py").is_file():
+        sys.path.insert(0, str(_p / "Meta/Programs")); break
+import mysenvar_common as mc
+
+# --- Configuration Constants (the calendar and paths live in mysenvar_common.py) ---
+START_YEAR = mc.FIRST_YEAR
+END_YEAR = mc.LAST_YEAR
+DECADES_DIR_REL = mc.DECADES_DIR_REL
+CENTURIES_DIR_REL = mc.CENTURIES_DIR_REL
 DRY_RUN = False
 
-# ----------------- Helper Functions -----------------
-
-def year_link(year: int) -> str:
-    year_text = year_suffix(year)
-
-    decade_name = decade_title(decade_key(year))
-
-    return (
-        f"[[Encyclopedia Mysenvaria/Indexes/History/Decades/"
-        f"{decade_name}#{year_text}|{year_text}]]"
-    )
-
-def find_content_root() -> pathlib.Path:
-    curr = pathlib.Path.cwd()
-    for _ in range(5):
-        if (curr / "content").is_dir():
-            return curr / "content"
-        curr = curr.parent
-    return pathlib.Path("./content")
-
-def ensure_extracted_json(root: pathlib.Path) -> Dict[str, Any]:
-    json_path = root / METADATA_JSON_PATH
-    if not json_path.exists():
-        print(f"[ERROR] Metadata file not found at {json_path}. Run aggregator first.")
-        return {}
-    with open(json_path, 'r', encoding='utf-8') as f:
-        return json.load(f)
-
-def year_suffix(year: int) -> str:
-    return f"{abs(year)} BT" if year < 0 else f"{year} AT"
-
-def decade_key(year: int) -> Tuple[str, int]:
-    """Returns the decade a year belongs to as (era, start), e.g.
-    177 BT -> ("BT", 170), 5 BT -> ("BT", 0), 0 AT -> ("AT", 0), 1313 AT -> ("AT", 1310).
-    BT decades count away from the Treaty, so the 170s BT are 170-179 BT."""
-    if year < 0:
-        return ("BT", (abs(year) // 10) * 10)
-    return ("AT", (year // 10) * 10)
-
-def decade_sort_value(key: Tuple[str, int]) -> int:
-    """Chronological sort value for a decade key (earliest first)."""
-    era, start = key
-    return -(start + 10) if era == "BT" else start
-
-def decade_title(key: Tuple[str, int]) -> str:
-    era, start = key
-    return f"{start}s {era}"
-
-def get_ordinal_century(year: int) -> Tuple[int, str]:
-    """Returns (century_number, suffix) e.g., (-180) -> (2, 'BT')"""
-    if year < 0:
-        val = (abs(year + 1) // 100) + 1
-        return val, "BT"
-    else:
-        val = (year // 100) + 1
-        return val, "AT"
-
-def century_title_from_ordinal(val: int, suffix: str) -> str:
-    if 11 <= (val % 100) <= 13:
-        ord_val = f"{val}th"
-    else:
-        ord_val = f"{val}" + {1: "st", 2: "nd", 3: "rd"}.get(val % 10, "th")
-    return f"{ord_val} Century {suffix}"
-
-def get_century_bounds(val: int, suffix: str) -> Tuple[int, int]:
-    """Returns (start_year, end_year) for a given ordinal century."""
-    if suffix == "BT":
-        # 1st BT: -100 to -1, 2nd BT: -200 to -101
-        start = -(val * 100)
-        end = -((val - 1) * 100 + 1)
-        return start, end
-    else:
-        # 1st AT: 0 to 99, 2nd AT: 100 to 199
-        start = (val - 1) * 100
-        end = (val * 100) - 1
-        return start, end
+# ----------------- Helper Functions (shared) -----------------
+year_link = mc.year_link
+year_suffix = mc.year_suffix
+decade_key = mc.decade_key
+decade_sort_value = mc.decade_sort_value
+decade_title = mc.decade_title
+century_title_from_ordinal = mc.century_title
+get_century_bounds = mc.century_bounds
 
 def season_day_label(norm_date: Any) -> Optional[str]:
     """Uses the new formal_without_year field from the aggregator."""
     if isinstance(norm_date, dict):
         return norm_date.get("formal_without_year")
     return None
-
-def parse_year_day(inf_str: str) -> Tuple[int, Optional[int]]:
-    if not inf_str: return 0, None
-    if inf_str.startswith("-"):
-        parts = inf_str[1:].split("-")
-        y = int(parts[0]) * -1
-        d = int(parts[1]) if len(parts) > 1 else None
-    else:
-        parts = inf_str.split("-")
-        y = int(parts[0])
-        d = int(parts[1]) if len(parts) > 1 else None
-    return y, d
 
 def escape_table_pipes(text: str) -> str:
     if not text: return ""
@@ -134,7 +61,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                     d_obj = e.get(f"{prefix}_date")
                     desc = e.get(f"{prefix}_desc")
                     if isinstance(d_obj, dict) and desc and str(desc).strip():
-                        y, d = parse_year_day(d_obj.get("informal", ""))
+                        y, d = mc.year_day(d_obj)
                         events_by_decade[decade_key(y)][y].append({
                             "day": d, "label": season_day_label(d_obj), "desc": desc.strip(),
                             "order": e.get("order")
@@ -150,12 +77,12 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                     for key, grouping, verb_pfx in [("birth_date", births_by_decade, "d."), ("death_date", deaths_by_decade, "b.")]:
                         d_obj = p.get(key)
                         if isinstance(d_obj, dict):
-                            y, d = parse_year_day(d_obj.get("informal", ""))
+                            y, d = mc.year_day(d_obj)
                             other_key = "death_date" if key == "birth_date" else "birth_date"
                             other_val = p.get(other_key)
                             suffix = ""
                             if isinstance(other_val, dict):
-                                oy, _ = parse_year_day(other_val.get("informal", "0"))
+                                oy, _ = mc.year_day(other_val)
                                 suffix = f" ({verb_pfx} {year_link(oy)})"
                             grouping[decade_key(y)][y].append({
                                 "day": d, "alpha": p_name, "text": f"- {p_link}{suffix}"
@@ -171,11 +98,11 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                         ]:
                             d_obj = sp.get(d_key)
                             if isinstance(d_obj, dict):
-                                y, d = parse_year_day(d_obj.get("informal", ""))
+                                y, d = mc.year_day(d_obj)
                                 other_val = sp.get(other_key)
                                 suffix = ""
                                 if isinstance(other_val, dict):
-                                    oy, _ = parse_year_day(other_val.get("informal", "0"))
+                                    oy, _ = mc.year_day(other_val)
                                     suffix = f" ({other_v_pfx} {year_link(oy)})"
                                 relationships_by_decade[decade_key(y)][y].append({
                                     "day": d, "text": f"- {p_link} {verb} {s_name}{suffix}",
@@ -194,7 +121,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                             if not isinstance(d_obj, dict):
                                 continue
 
-                            y, d = parse_year_day(d_obj.get("informal", ""))
+                            y, d = mc.year_day(d_obj)
                             d_start = decade_key(y)
 
                             if item.get("major_event") and item.get("desc", "").strip():
@@ -214,7 +141,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                         if not isinstance(d_obj, dict):
                             continue
 
-                        y, d = parse_year_day(d_obj.get("informal", ""))
+                        y, d = mc.year_day(d_obj)
                         publications.append((y, d, pub, d_obj))
 
                     if publications:
@@ -313,9 +240,8 @@ def render_stars(stars_list: List[Dict[str, Any]]) -> str:
     return "\n".join(output) + "\n"
 
 def main():
-    root = find_content_root()
-    raw_data = ensure_extracted_json(root)
-    if not raw_data: return
+    root = mc.VAULT
+    raw_data = mc.load_metadata()
 
     ev_m, bi_m, de_m, re_m, st_m = build_timeline_data(raw_data)
     out_dir = root / DECADES_DIR_REL
@@ -353,10 +279,7 @@ future: auto-generated
 > This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 """
 
-    all_decades = sorted(
-        {decade_key(y) for y in range(START_YEAR, END_YEAR + 1)},
-        key=decade_sort_value
-    )
+    all_decades = mc.all_decades()
     decade_count = len(all_decades)
     
     for i, dec_start in enumerate(all_decades):

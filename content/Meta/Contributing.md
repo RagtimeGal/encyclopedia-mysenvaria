@@ -5,6 +5,7 @@ tags:
   - topic/meta
 type: article
 status: complete
+future: none
 ---
 
 > [!abstract] [[Meta/Meta|Meta]]

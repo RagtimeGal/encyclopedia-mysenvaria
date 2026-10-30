@@ -5,6 +5,7 @@ tags:
   - topic/science/technology
 type: article
 status: empty
+future: none
 event:
   - start_desc: "start_desc"
     start_date: [1214]

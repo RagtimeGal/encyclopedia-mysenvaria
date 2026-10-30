@@ -16,9 +16,17 @@ import random
 import re
 from typing import Any, Dict, List, Tuple
 
+# Shared settings and helpers: Meta/Programs/mysenvar_common.py
+import sys, pathlib
+sys.dont_write_bytecode = True  # keeps __pycache__ folders out of the vault
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "Meta/Programs/mysenvar_common.py").is_file():
+        sys.path.insert(0, str(_p / "Meta/Programs")); break
+import mysenvar_common as mc
+
 # --- Configuration ---
-METADATA_PATH = "content/Meta/Programs/debug/metadata_aggregator/extracted_metadata.json"
-HOME_PAGE_PATH = "content/_index.md"
+METADATA_PATH = mc.METADATA_JSON
+HOME_PAGE_PATH = mc.HOME_PAGE
 MAX_FUN_FACTS = 5
 DRY_RUN = False
 

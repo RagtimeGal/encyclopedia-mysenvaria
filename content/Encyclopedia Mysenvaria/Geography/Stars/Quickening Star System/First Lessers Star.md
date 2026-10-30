@@ -6,6 +6,7 @@ tags:
   - subject/star/host
 type: article
 status: stub
+future: none
 star:
   - name: "First Lessers Star"
     publications:

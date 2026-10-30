@@ -6,6 +6,7 @@ tags:
   - subject/elves
 type: article
 status: stub
+future: none
 needs:
   - infobox
 ---

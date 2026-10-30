@@ -27,6 +27,7 @@ The following is an index of all articles across the Encyclopedia which describe
 - [[Encyclopedia Mysenvaria/Science/Technologies/Clock|Clock]]
 ## G
 - [[Encyclopedia Mysenvaria/Science/Technologies/Grafting|Grafting]]
+- [[Encyclopedia Mysenvaria/Science/Technologies/Guns|Guns]]
 ## I
 - [[Encyclopedia Mysenvaria/Science/Technologies/Instruments|Instruments]]
 ## L

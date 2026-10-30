@@ -2,8 +2,7 @@
 title: "Water in the Deadman's Sea"
 enableToc: true
 tags:
-  - topic/art/music
-draft: true
+  - topic/art/visual
 type: article
 status: empty
 future: none

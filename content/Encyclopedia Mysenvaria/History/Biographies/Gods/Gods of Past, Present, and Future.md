@@ -4,22 +4,63 @@ aliases:
   - "Past, Present, and Future"
   - "Time Trinity"
   - "God of Past"
+  - "Past"
   - "God of Present"
+  - "Present"
   - "God of Future"
+  - "Future"
 enableToc: true
 tags:
   - topic/history/biography
   - subject/god/higher-god
 type: article
-status: complete
-future: update
+status: incomplete
+future: none
 needs:
   - infobox
-person:
-  - name: "Gods of Past, Present, and Future"
-    birth_date: [-178]
-    major_event: false
+subpage:
+  - title: "God of Past"
+    aliases:
+      - "Past"
+    link: "god_of_past"
+    tags:
+      - topic/history/biography
+      - subject/god/higher-god
+    person:
+      - name: "God of Past"
+        birth_date: [-178,329]
+        major_event: false
+  - title: "God of Present"
+    aliases:
+      - "Present"
+    link: "god_of_present"
+    tags:
+      - topic/history/biography
+      - subject/god/higher-god
+    person:
+      - name: "God of Present"
+        birth_date: [-178,329]
+        major_event: false
+  - title: "God of Future"
+    aliases:
+      - "Future"
+    link: "god_of_future"
+    tags:
+      - topic/history/biography
+      - subject/god/higher-god
+    person:
+      - name: "God of Future"
+        birth_date: [-178,329]
+        major_event: false
 ---
+%%
+"god_of_past": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Past]]"
+"god_of_present": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Present]]"
+"god_of_future": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Future]]"
+%%
+
+> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Incomplete|Incomplete Article]]
+> This article is incomplete! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
 The [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] of Past, Present, and Future, sometimes referred to as the Time Trinity, are Lesser Gods created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Time]] as a way to subdivide their domain. The three operate very similarly and often appear together rather than apart.
 # History
@@ -29,7 +70,3 @@ Of the stars they are mentioned in, they often appear as signatories to contract
 
 The time trinity are documented in a few places outside of stars too. One of the most famous appearances of the time trinity comes from the [[Encyclopedia Mysenvaria/History/Golden Age/Golden Age|Golden Age]], when [[Encyclopedia Mysenvaria/History/Biographies/Time Wizard Man|Time Wizard Man]] manipulated time with a spell during an experiment. The experiment did not result as expected and the time trinity followed shortly after.
 # Appearance
-The time trinity, like other powerful Gods, appear as the viewer interprets them as looking. Some recorded sights of them call them clockwork construction, others as shrinking or growing plants. Because of their inactivity there are not many records of interpretations of these Gods.
-
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Update Needed|Future Update Needed]]
-> This article is considered complete for the moment, but is missing sections which can be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

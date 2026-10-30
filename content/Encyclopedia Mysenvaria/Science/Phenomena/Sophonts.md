@@ -5,7 +5,7 @@ tags:
   - topic/science/model
 type: article
 status: stub
-future: none
+future: rewrite
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
@@ -26,3 +26,6 @@ The [[Encyclopedia Mysenvaria/Geography/Stars/Human Minds System/Human Minds|Hum
 In the year 49 BT elves would arise too, created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Penguinone|God of Penguinone]]. Elves minds would repurpose the bodies of plants to create new sophontic minds.
 # Relationship with Animals and Plants
 Sapients have, throughout history, domesticated and simultaneously led to the extinction of numerous organisms.
+
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Rewrite Needed|Future Rewrite Needed]]
+> This article is considered complete for the moment, but some finished sections may need to be rewritten to help improve clarity! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

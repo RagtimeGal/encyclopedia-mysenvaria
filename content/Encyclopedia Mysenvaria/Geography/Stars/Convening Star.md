@@ -6,6 +6,7 @@ tags:
   - subject/star
 type: article
 status: stub
+future: none
 star:
   - name: "Convening Star"
     publications:

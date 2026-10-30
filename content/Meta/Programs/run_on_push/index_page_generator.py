@@ -6,20 +6,16 @@ import json
 from collections import defaultdict
 from typing import Any, Dict, List, Optional, Tuple
 
-# ===================== CONFIG =====================
-CONTENT_DIRNAME = "content"
-METADATA_JSON_REL = "Meta/Programs/debug/metadata_aggregator/extracted_metadata.json"
-DRY_RUN = False
-EXCLUDE_DIRS = {".git", ".github", ".obsidian", ".quartz", "public", "node_modules", ".vitepress"}
+# Shared settings and helpers: Meta/Programs/mysenvar_common.py
+import sys, pathlib
+sys.dont_write_bytecode = True  # keeps __pycache__ folders out of the vault
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "Meta/Programs/mysenvar_common.py").is_file():
+        sys.path.insert(0, str(_p / "Meta/Programs")); break
+import mysenvar_common as mc
 
-# ----------------- Root discovery -----------------
-def find_content_root() -> pathlib.Path:
-    curr = pathlib.Path.cwd()
-    for _ in range(5):
-        if (curr / CONTENT_DIRNAME).is_dir():
-            return curr / CONTENT_DIRNAME
-        curr = curr.parent
-    return pathlib.Path.cwd() / CONTENT_DIRNAME
+# ===================== CONFIG =====================
+DRY_RUN = False
 
 # ----------------- Metadata Navigation -----------------
 def resolve_path(obj: Any, path: str) -> List[Any]:
@@ -173,14 +169,8 @@ def render_block(pages: List[Dict[str, Any]], sort_spec: List[Dict], h_level: in
     return group_pages(current_pages, 0, h_level) + [""]
 
 def main():
-    root = find_content_root()
-    json_path = root / METADATA_JSON_REL
-    if not json_path.exists():
-        print(f"Error: Aggregated metadata not found at {json_path}")
-        return
-
-    with open(json_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    root = mc.VAULT
+    data = mc.load_metadata()
 
     all_items = data.get("pages", [])
     # Index pages are specifically those that have an 'index' key in their metadata

@@ -6,6 +6,7 @@ tags:
   - subject/star/host
 type: article
 status: stub
+future: none
 star:
   - name: "Death's Star"
     publications:

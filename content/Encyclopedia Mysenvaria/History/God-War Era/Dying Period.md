@@ -8,7 +8,7 @@ status: complete
 future: review
 has:
   - image
-  - featured
+  - featured_data
 event:
   - start_desc: "start_desc"
     end_desc: "end_desc"

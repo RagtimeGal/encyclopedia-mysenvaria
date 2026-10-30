@@ -24,12 +24,9 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: stub
-    future: none
     person:
       - name: "God of Matter"
-        birth_date: [-178]
+        birth_date: [-178,327]
         major_event: false
   - title: "God of Energy"
     aliases:
@@ -38,12 +35,9 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: stub
-    future: none
     person:
       - name: "God of Energy"
-        birth_date: [-178]
+        birth_date: [-178,327]
         major_event: false
   - title: "God of time"
     aliases:
@@ -52,12 +46,9 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: stub
-    future: none
     person:
       - name: "God of Time"
-        birth_date: [-178]
+        birth_date: [-178,327]
         major_event: false
   - title: "God of Space"
     aliases:
@@ -66,19 +57,16 @@ subpage:
     tags:
       - topic/history/biography
       - subject/god/higher-god
-    type: article
-    status: stub
-    future: none
     person:
       - name: "God of Space"
-        birth_date: [-178]
+        birth_date: [-178,327]
         major_event: false
 ---
 %%
-god_of_matter: [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]]
-god_of_energy: [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]]
-god_of_time: [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Time]]
-god_of_space: [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Space]]
+"god_of_matter": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]]"
+"god_of_energy": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]]"
+"god_of_time": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Time]]"
+"god_of_space": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Space]]"
 %%
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]

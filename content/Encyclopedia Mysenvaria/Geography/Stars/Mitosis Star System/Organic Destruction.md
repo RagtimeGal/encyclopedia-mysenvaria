@@ -5,7 +5,8 @@ tags:
   - topic/geography/astrography
   - subject/star
 type: article
-status: empty
+status: stub
+future: none
 star:
   - name: "Organic Destruction"
     publications:

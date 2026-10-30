@@ -9,6 +9,7 @@ tags:
   - subject/god/energy_god
 type: article
 status: empty
+future: none
 needs:
   - infobox
 ---

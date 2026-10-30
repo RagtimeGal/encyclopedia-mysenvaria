@@ -6,6 +6,7 @@ tags:
   - subject/war
 type: article
 status: empty
+future: none
 event:
   - start_desc: "start_desc"
     start_date: [-25,1]

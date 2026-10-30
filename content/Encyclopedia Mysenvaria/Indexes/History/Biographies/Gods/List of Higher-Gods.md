@@ -25,6 +25,8 @@ This page serves as an index of higher-[[Encyclopedia Mysenvaria/Science/Phenome
 # Higher-Gods
 ## E
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]]
+## F
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Future]]
 ## G
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Material State Gods#Gasses|God of Gasses]]
 ## K
@@ -36,8 +38,10 @@ This page serves as an index of higher-[[Encyclopedia Mysenvaria/Science/Phenome
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Matter, Energy, Time, and Space]]
 ## P
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Past]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|Gods of Past, Present, and Future]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Material State Gods#Plasma|God of Plasma]]
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|God of Present]]
 ## S
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Material State Gods#Solids|God of Solids]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Space]]

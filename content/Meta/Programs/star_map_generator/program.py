@@ -11,12 +11,16 @@ import math
 import argparse
 from typing import Tuple, Optional, Dict, Any, List
 
+# Shared settings and helpers: Meta/Programs/mysenvar_common.py
+import sys, pathlib
+sys.dont_write_bytecode = True  # keeps __pycache__ folders out of the vault
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "Meta/Programs/mysenvar_common.py").is_file():
+        sys.path.insert(0, str(_p / "Meta/Programs")); break
+import mysenvar_common as mc
+
 # ---------- Defaults ----------
-CONTENT_ROOT = pathlib.Path("content")
-JSON_CANDIDATES = [
-    CONTENT_ROOT / "Meta" / "Programs" / "debug" / "decade_article_generator" / "extracted_data.json",
-]
-OUT_DIR = CONTENT_ROOT / "Meta" / "Programs" / "star_map_generator" / "output"
+OUT_DIR = mc.PROGRAMS / "star_map_generator" / "output"
 OUT_PNG_3D = OUT_DIR / "star_map_3d.png"
 OUT_PNG_TOP = OUT_DIR / "star_map_topdown.png"
 OUT_SVG_3D = OUT_DIR / "star_map_3d.svg"
@@ -85,15 +89,11 @@ def sanitize_aad(alt: float, az: float, dist: float) -> Tuple[float, float, floa
 
 # ---------- Data loading ----------
 def load_extracted_json(path: Optional[pathlib.Path]) -> Dict[str, Any]:
-    if path:
-        if not path.is_file():
-            raise FileNotFoundError(path)
-        return json.loads(path.read_text(encoding="utf-8"))
-    for p in JSON_CANDIDATES:
-        if p.is_file():
-            print(f"[READ] {p}")
-            return json.loads(p.read_text(encoding="utf-8"))
-    raise FileNotFoundError("Cannot find extracted_data.json in expected locations.")
+    """The metadata aggregator's database, in the flat layout this program reads.
+    Coordinates are given in the Encyclopedia's (Azimuth, Altitude, Distance) order."""
+    data = mc.load_metadata(path)
+    print(f"[READ] {path or mc.METADATA_JSON}")
+    return mc.legacy_flat_view(data)
 
 def _as_float(x: Any, default: float) -> float:
     try:

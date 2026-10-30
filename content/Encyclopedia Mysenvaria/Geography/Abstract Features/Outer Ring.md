@@ -5,6 +5,7 @@ tags:
   - topic/geography/abstract
 type: article
 status: empty
+future: none
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]

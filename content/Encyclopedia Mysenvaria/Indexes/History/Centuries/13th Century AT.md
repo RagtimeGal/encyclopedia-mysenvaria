@@ -61,3 +61,6 @@ has:
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/1290s AT#Events]]
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/1290s AT#Significant People]]
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/1290s AT#Stars|Stars]]
+
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
+> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

@@ -128,12 +128,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Actinium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Aluminum"
     aliases:
@@ -143,12 +140,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Aluminum"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Americium"
     aliases:
@@ -158,12 +152,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Americium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Antimony"
     aliases:
@@ -173,12 +164,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Antimony"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Argon"
     aliases:
@@ -188,12 +176,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Argon"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Arsenic"
     aliases:
@@ -203,12 +188,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Arsenic"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Astanine"
     aliases:
@@ -218,12 +200,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Astanine"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Barium"
     aliases:
@@ -233,12 +212,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Barium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Berkelium"
     aliases:
@@ -248,12 +224,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Berkelium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Berylium"
     aliases:
@@ -263,12 +236,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Berylium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Beryllium"
     aliases:
@@ -278,12 +248,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Beryllium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Bismuth"
     aliases:
@@ -293,12 +260,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Bismuth"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Bohrium"
     aliases:
@@ -308,12 +272,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Bohrium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Boron"
     aliases:
@@ -323,12 +284,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Boron"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Bromine"
     aliases:
@@ -338,12 +296,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Bromine"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Cadmium"
     aliases:
@@ -353,12 +308,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Cadmium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Caesium"
     aliases:
@@ -368,12 +320,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Caesium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Californium"
     aliases:
@@ -383,12 +332,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Californium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Chlorine"
     aliases:
@@ -398,12 +344,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Chlorine"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Chromium"
     aliases:
@@ -413,12 +356,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Chromium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Cobalt"
     aliases:
@@ -428,12 +368,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Cobalt"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Copernicium"
     aliases:
@@ -443,12 +380,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Copernicium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Copper"
     aliases:
@@ -458,12 +392,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Copper"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Curium"
     aliases:
@@ -473,12 +404,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Curium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Darmstadtium"
     aliases:
@@ -488,12 +416,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Darmstadtium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Dubnium"
     aliases:
@@ -503,12 +428,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Dubnium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Dysprosium"
     aliases:
@@ -518,12 +440,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Dysprosium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Einsteinium"
     aliases:
@@ -533,12 +452,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Einsteinium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Erbium"
     aliases:
@@ -548,12 +464,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Erbium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Europium"
     aliases:
@@ -563,12 +476,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Europium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Fermium"
     aliases:
@@ -578,12 +488,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Fermium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Flerovium"
     aliases:
@@ -593,12 +500,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Flerovium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Fluorine"
     aliases:
@@ -608,12 +512,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Fluorine"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Francium"
     aliases:
@@ -623,12 +524,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Francium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Gadolinium"
     aliases:
@@ -638,12 +536,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Gadolinium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Gallium"
     aliases:
@@ -653,12 +548,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Gallium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Germanium"
     aliases:
@@ -668,12 +560,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Germanium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Gold"
     aliases:
@@ -683,12 +572,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Gold"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Hafnium"
     aliases:
@@ -698,12 +584,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Hafnium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Hassium"
     aliases:
@@ -713,12 +596,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Hassium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Helium"
     aliases:
@@ -728,12 +608,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Helium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Holmium"
     aliases:
@@ -743,12 +620,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Holmium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Indium"
     aliases:
@@ -758,12 +632,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Indium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Krypton"
     aliases:
@@ -773,12 +644,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Krypton"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Lanthanum"
     aliases:
@@ -788,12 +656,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Lanthanum"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Lawrencium"
     aliases:
@@ -803,12 +668,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Lawrencium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Lead"
     aliases:
@@ -818,12 +680,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Lead"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Lithium"
     aliases:
@@ -833,12 +692,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Lithium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Livermorium"
     aliases:
@@ -848,12 +704,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Livermorium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Lutetium"
     aliases:
@@ -863,12 +716,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Lutetium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Magnesium"
     aliases:
@@ -878,12 +728,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Magnesium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Manganese"
     aliases:
@@ -893,12 +740,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Manganese"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Meitnerium"
     aliases:
@@ -908,12 +752,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Meitnerium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Mendelevium"
     aliases:
@@ -923,12 +764,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Mendelevium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Mercury"
     aliases:
@@ -938,12 +776,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Mercury"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Molybdenum"
     aliases:
@@ -953,12 +788,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Molybdenum"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Moscovium"
     aliases:
@@ -968,12 +800,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Moscovium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Neodymium"
     aliases:
@@ -983,12 +812,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Neodymium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Neon"
     aliases:
@@ -998,12 +824,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Neon"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Neptunium"
     aliases:
@@ -1013,12 +836,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Neptunium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Nickel"
     aliases:
@@ -1028,12 +848,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Nickel"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Nohonium"
     aliases:
@@ -1043,12 +860,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Nohonium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Niobium"
     aliases:
@@ -1058,12 +872,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Niobium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Nitrogen"
     aliases:
@@ -1073,12 +884,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Nitrogen"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Nobelium"
     aliases:
@@ -1088,12 +896,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Nobelium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Oganesson"
     aliases:
@@ -1103,12 +908,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Oganesson"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Osmium"
     aliases:
@@ -1118,12 +920,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Osmium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Palladium"
     aliases:
@@ -1133,12 +932,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Palladium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Phosphorus"
     aliases:
@@ -1148,12 +944,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Phosphorus"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Platinum"
     aliases:
@@ -1163,12 +956,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Platinum"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Polonium"
     aliases:
@@ -1178,12 +968,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Polonium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Potassium"
     aliases:
@@ -1193,12 +980,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Potassium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Praseodymium"
     aliases:
@@ -1208,12 +992,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Praseodymium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Promethium"
     aliases:
@@ -1223,12 +1004,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Promethium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Proactinium"
     aliases:
@@ -1238,12 +1016,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Proactinium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Radium"
     aliases:
@@ -1253,12 +1028,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Radium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Radon"
     aliases:
@@ -1268,12 +1040,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Radon"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Rhenium"
     aliases:
@@ -1283,12 +1052,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Rhenium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Rhodium"
     aliases:
@@ -1298,12 +1064,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Rhodium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Roentgenium"
     aliases:
@@ -1313,12 +1076,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Roentgenium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Rubidium"
     aliases:
@@ -1328,12 +1088,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Rubidium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Ruthenium"
     aliases:
@@ -1343,12 +1100,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Ruthenium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Rutherfordium"
     aliases:
@@ -1358,12 +1112,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Rutherfordium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Samarium"
     aliases:
@@ -1373,12 +1124,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Samarium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Scandium"
     aliases:
@@ -1388,12 +1136,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Scandium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Seaborgium"
     aliases:
@@ -1403,12 +1148,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Seaborgium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Selenium"
     aliases:
@@ -1418,12 +1160,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Selenium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Silicon"
     aliases:
@@ -1433,12 +1172,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Silicon"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Silver"
     aliases:
@@ -1448,12 +1184,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Silver"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Strontium"
     aliases:
@@ -1463,12 +1196,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Strontium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Sulfur"
     aliases:
@@ -1478,12 +1208,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Sulfur"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Tantalum"
     aliases:
@@ -1493,12 +1220,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Tantalum"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Technetium"
     aliases:
@@ -1508,12 +1232,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Technetium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Tellurium"
     aliases:
@@ -1523,12 +1244,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Tellurium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Tennessine"
     aliases:
@@ -1538,12 +1256,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Tennessine"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Terbium"
     aliases:
@@ -1553,12 +1268,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Terbium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Thallium"
     aliases:
@@ -1568,12 +1280,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Thallium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Thorium"
     aliases:
@@ -1583,12 +1292,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Thorium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Thulium"
     aliases:
@@ -1598,12 +1304,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Thulium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Tin"
     aliases:
@@ -1613,12 +1316,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Tin"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Titanium"
     aliases:
@@ -1628,12 +1328,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Titanium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Tungsten"
     aliases:
@@ -1643,12 +1340,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Tungsten"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Uranium"
     aliases:
@@ -1658,12 +1352,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Uranium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Vanadium"
     aliases:
@@ -1673,12 +1364,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Vanadium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Xenon"
     aliases:
@@ -1688,12 +1376,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Xenon"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Ytterbium"
     aliases:
@@ -1703,12 +1388,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Ytterbium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Yttrium"
     aliases:
@@ -1718,12 +1400,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Yttrium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Zinc"
     aliases:
@@ -1733,12 +1412,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Zinc"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
   - title: "God of Zirconium"
     aliases:
@@ -1748,12 +1424,9 @@ subpage:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
-    type: article
-    status: empty
-    future: none
     person:
       - name: "God of Zirconium"
-        birth_date: [-178]
+        birth_date: [-178,328]
         major_event: false
 event:
   - start_desc: "start_desc"

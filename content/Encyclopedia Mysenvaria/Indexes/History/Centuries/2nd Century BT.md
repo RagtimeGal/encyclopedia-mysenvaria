@@ -13,7 +13,7 @@ has:
 > [!summary] 2nd Century BT
 > > [!summary] Decades
 > > 
-> > ... [[Encyclopedia Mysenvaria/Indexes/History/Decades/180s BT|180s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT|170s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/160s BT|160s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/150s BT|150s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/140s BT|140s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/130s BT|130s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/120s BT|120s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/110s BT|110s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/100s BT|100s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/90s BT|90s BT]] ...
+> > ... [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT|170s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/160s BT|160s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/150s BT|150s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/140s BT|140s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/130s BT|130s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/120s BT|120s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/110s BT|110s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/100s BT|100s BT]], [[Encyclopedia Mysenvaria/Indexes/History/Decades/90s BT|90s BT]] ...
 > 
 > 
 > > [!summary] Centuries
@@ -21,10 +21,6 @@ has:
 > > ... **2nd Century BT**, [[Encyclopedia Mysenvaria/Indexes/History/Centuries/1st Century BT|1st Century BT]] ...
 
 # Events
-## 180s BT
-![[Encyclopedia Mysenvaria/Indexes/History/Decades/180s BT#Events|180s BT]]
-![[Encyclopedia Mysenvaria/Indexes/History/Decades/180s BT#Significant People|180s BT]]
-![[Encyclopedia Mysenvaria/Indexes/History/Decades/180s BT#Stars|180s BT]]
 ## 170s BT
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT#Events]]
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT#Significant People]]
@@ -57,3 +53,6 @@ has:
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/100s BT#Events]]
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/100s BT#Significant People]]
 ![[Encyclopedia Mysenvaria/Indexes/History/Decades/100s BT#Stars]]
+
+> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Auto-Generated|Auto-Generated Article]]
+> This article or a portion of it is auto-generated! If you think there's an error in the generation of this article please file an error through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!

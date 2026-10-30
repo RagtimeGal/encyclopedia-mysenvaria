@@ -5,6 +5,7 @@ tags:
   - topic/history/biography
 type: article
 status: empty
+future: none
 needs:
   - infobox
 person:

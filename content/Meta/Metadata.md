@@ -5,6 +5,7 @@ tags:
   - topic/meta/writing_guidelines
 type: article
 status: complete
+future: none
 ---
 
 > [!abstract] [[Meta/Meta|Meta]]
@@ -105,7 +106,7 @@ tags:
 ###
   - topic/science # This article covers a topic relating to the sciences.
   - topic/science/branch # This article covers a particular scientific branch.
-  - topic/science/phenomena # This article covers a specific scientific phenomenon.
+  - topic/science/phenomenon # This article covers a specific scientific phenomenon.
   - topic/science/model # This article covers a specific scientific model.
   - topic/science/technology # This article covers a particular technology.
 ---
@@ -119,6 +120,7 @@ tags:
   - subject/god/higher-god # This article covers information regarding higher-Gods.
   - subject/god/lesser-god # This article covers information regarding lesser-Gods.
   - subject/god/molecular_god # This article covers information regarding Gods of the chemical compounds.
+  - sbuejct/god/isotope_god # This articles covers information regarding Gods of isotopes.
   - subject/god/elemental_god # This article covers information regarding Gods of the elements.
   - subject/god/energy_god # This article covers information regarding Gods of energies.
   - subject/god/reaction_god # This article covers information regarding Gods of chemical reactions.
@@ -147,20 +149,20 @@ tags:
   - subject/new_world # This article covers information which occurred in the New World.
   - subject/war # This article covers information regarding a war.
   - subject/linguistics # This article covers information regarding the study of linguistics
+  - subject/conspiracy_theory # This articles covers information regarding a conspiracy theory.
 ---
 ```
 # Subpage Example
 ```yaml
 ---
-subpage: # An array, so you can list multiple subpages per page. Each subpage is treated exactly the same as a regular page.
+subpage: # An array, so you can list multiple subpages per page. Each subpage is treated exactly the same as a regular page. If type, status, or future are not specified they default to the parent page's values.
   - title: "Example Subpage 1"
 	link: "example_link1"
 	type: article
 	status: empty
+	future: none
   - title: "Example Subpage 2"
 	link: "example_link2"
-	type: article
-	status: empty
 ---
 %%
 "example_link1": "[[Meta/Example|Example]]"

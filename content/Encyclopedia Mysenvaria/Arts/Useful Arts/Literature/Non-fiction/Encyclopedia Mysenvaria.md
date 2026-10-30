@@ -5,6 +5,7 @@ tags:
   - topic/art/literature/non-fiction
 type: article
 status: stub
+future: none
 event:
   - start_desc: "start_desc1"
     start_date: [1313]

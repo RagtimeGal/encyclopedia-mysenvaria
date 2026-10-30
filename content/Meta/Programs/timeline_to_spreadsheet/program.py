@@ -9,21 +9,22 @@ import pathlib
 import re
 from typing import Any, Dict, List, Optional, Tuple
 
+# Shared settings and helpers: Meta/Programs/mysenvar_common.py
+import sys, pathlib
+sys.dont_write_bytecode = True  # keeps __pycache__ folders out of the vault
+for _p in pathlib.Path(__file__).resolve().parents:
+    if (_p / "Meta/Programs/mysenvar_common.py").is_file():
+        sys.path.insert(0, str(_p / "Meta/Programs")); break
+import mysenvar_common as mc
+
 # ----------------- Config -----------------
-CONTENT_ROOT = pathlib.Path("content")
-
-# We’ll try these in order; the first one that exists is used.
-JSON_CANDIDATES = [
-    CONTENT_ROOT / "Meta" / "Programs" / "debug" / "decade_article_generator" / "extracted_data.json",
-]
-
-OUT_DIR = CONTENT_ROOT / "Meta" / "Programs"/ "timeline_to_spreadsheet" / "output"
+OUT_DIR = mc.PROGRAMS / "timeline_to_spreadsheet" / "output"
 OUT_EVENTS_CSV = OUT_DIR / "events.csv"
 OUT_PEOPLE_CSV = OUT_DIR / "people.csv"
 OUT_STARS_CSV = OUT_DIR / "stars.csv"
 OUT_REL_CSV = OUT_DIR / "relationships.csv"
 OUT_XLSX = OUT_DIR / "timeline.xlsx"  # written only if pandas is available
-DAY_IN_YEAR = 360
+DAY_IN_YEAR = mc.DAYS_PER_YEAR
 
 # ----------------- Utilities -----------------
 def source_title(source: Any) -> str:
@@ -50,22 +51,13 @@ def clean_list_field(field: Any) -> str:
         return ", ".join(strip_wikilinks(x) for x in field)
     return strip_wikilinks(field)
 
-def year_suffix(y: int) -> str:
-    return f"{abs(y)}{' BT' if y < 0 else ' AT'}"
-
-def ordinal(n: int) -> str:
-    if 10 <= (n % 100) <= 20:
-        suf = "th"
-    else:
-        suf = {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
-    return f"{n}{suf}"
+year_suffix = mc.year_suffix
+ordinal = mc.ordinal
 
 def date_display(year: Optional[int], day: Optional[int]) -> str:
     if year is None:
         return ""
-    if day:
-        return f"{ordinal(int(day))} of {year_suffix(int(year))}"
-    return year_suffix(int(year))
+    return mc.format_date([int(year), int(day)] if day else [int(year)])
 
 def safe_int(x: Any) -> Optional[int]:
     try: return int(x)
@@ -81,11 +73,9 @@ def parse_date(d: Any) -> Tuple[Optional[int], Optional[int]]:
 
 # ----------------- Load -----------------
 def load_extracted_json() -> Dict[str, Any]:
-    for p in JSON_CANDIDATES:
-        if p.is_file():
-            print(f"[READ] {p}")
-            return json.loads(p.read_text(encoding="utf-8"))
-    raise FileNotFoundError("Cannot find extracted_data.json")
+    """The metadata aggregator's database, in the flat layout this program reads."""
+    print(f"[READ] {mc.METADATA_JSON}")
+    return mc.legacy_flat_view(mc.load_metadata())
 
 # ----------------- Builders -----------------
 def build_events_rows(data: Dict[str, Any]) -> List[Dict[str, Any]]:

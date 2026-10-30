@@ -7,6 +7,7 @@ tags:
   - topic/meta/addenda
 type: addenda
 status: complete
+future: none
 ---
 
 > [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]

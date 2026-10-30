@@ -6,6 +6,7 @@ tags:
   - subject/star
 type: article
 status: empty
+future: none
 star:
   - name: "Distress Signal Star"
     publications:
