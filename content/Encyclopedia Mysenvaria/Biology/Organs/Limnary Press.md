@@ -5,7 +5,7 @@ tags:
   - topic/science/phenomenon
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: stub
   future: []
 has:

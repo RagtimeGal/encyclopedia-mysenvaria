@@ -21,7 +21,7 @@
 - `missing-field`: `event[0]` has no `start_date`, so it won't appear on any decade page.
 ### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Nature of Gods.md
 - `missing-field`: `event[0]` has no `start_date`, so it won't appear on any decade page.
-### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues.md
+### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues.md
 - `missing-field`: `event[0]` has no `start_date`, so it won't appear on any decade page.
 ### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Transcribing, Writing, & Translating in Starscript.md
 - `missing-field`: `event[0]` has no `start_date`, so it won't appear on any decade page.

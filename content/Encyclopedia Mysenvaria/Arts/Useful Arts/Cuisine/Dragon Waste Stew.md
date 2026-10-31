@@ -5,7 +5,7 @@ tags:
   - topic/art/cuisine
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: stub
   future: []
 ---

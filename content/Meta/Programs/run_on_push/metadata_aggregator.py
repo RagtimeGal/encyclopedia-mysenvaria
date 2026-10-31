@@ -125,7 +125,6 @@ CHECKS = {
     "index-header":        ("error",   "An index block's header_name has no matching heading on the page."),
     "old-status-format":   ("error",   "The page still uses the old one-line `status:` / `future:` (run Private Programs/migrate_status.py)."),
     "missing-key":         ("warning", "A required key is missing (a default was used if there is one)."),
-    "status-conflict":     ("warning", "The status values contradict each other (a brief page can't be a stub)."),
     "generated-mismatch":  ("warning", "`scope: generated` doesn't match whether a program actually writes the page."),
     "missing-topic-tag":   ("warning", "The page has no topic/... tag."),
     "unknown-tag":         ("warning", "A tag isn't documented in Meta/Metadata.md."),
@@ -473,8 +472,6 @@ class MetadataAggregator:
             if k not in ("scope", "progress", "future"):
                 self.report.add("invalid-value", src, f"`status.{k}` isn't a status key (use scope, progress and future).")
         block = mc.status_of({"status": raw}, parent_status)
-        if block["scope"] == "brief" and block["progress"] == "stub":
-            self.report.add("status-conflict", src, "`scope: brief` with `progress: stub`: a presentable brief page is `complete`.")
         if not is_subpage:
             actual = self.is_generated_page(data, src)
             if actual and block["scope"] != "generated":

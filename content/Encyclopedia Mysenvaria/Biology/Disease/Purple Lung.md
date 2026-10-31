@@ -8,7 +8,7 @@ tags:
   - topic/biology/disease
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: stub
   future: []
 needs:

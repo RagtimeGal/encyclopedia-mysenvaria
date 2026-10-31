@@ -7,7 +7,7 @@ type: article
 status:
   scope: overview
   progress: wip
-  future: [pending]
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
@@ -23,7 +23,3 @@ Art is commonly divided into two categories: useful arts and fine arts. The form
 # Fine Art
 
 # History
-
-
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

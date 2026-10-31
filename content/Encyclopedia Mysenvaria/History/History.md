@@ -7,7 +7,7 @@ type: article
 status:
   scope: overview
   progress: wip
-  future: [pending]
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
@@ -23,6 +23,3 @@ Biographies are documents on the lives of people from the past and present, chro
 Lineages are a sub-topic of the biographic sub-topic and are articles depicting the dynamics and lineages of historically significant families.
 # Historic Eras
 Each of the four historic eras has their own sub-topic, which includes a timeline of the major events which occurred during that era alongside all of the minor events which occurred. The [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] records all events which occurred before the year 0at. The [[Encyclopedia Mysenvaria/History/Post-War Era/Post-War Era|Post-War Era]] records all events which occurred between 0at and 609at. The [[Encyclopedia Mysenvaria/History/Golden Age/Golden Age|Golden Age]] records all events which occurred between 609at and 1214at. And the [[Encyclopedia Mysenvaria/History/Modern Era/Modern Era|Modern Era]] records all events which occurred between 1214at and the present day.
-
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

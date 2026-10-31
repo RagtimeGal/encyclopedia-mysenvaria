@@ -5,7 +5,7 @@ tags:
   - topic/art/visual
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: empty
   future: []
 ---

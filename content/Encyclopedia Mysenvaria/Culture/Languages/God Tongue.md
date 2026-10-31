@@ -6,7 +6,7 @@ tags:
   - subject/god
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: wip
   future: []
 ---

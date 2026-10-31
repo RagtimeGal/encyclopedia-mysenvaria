@@ -5,7 +5,7 @@ tags:
   - topic/art/literature/non-fiction
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: empty
   future: []
 event:

@@ -7,7 +7,7 @@ type: article
 status:
   scope: overview
   progress: wip
-  future: [pending]
+  future: []
 ---
 
 > [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
@@ -24,6 +24,3 @@ Scientific phenomena include short-term localized events and long-term physical 
 Scientific models are frameworks for organizing the natural world, providing tools and knowledge to aid in the prediction of phenomena. For example, [[Encyclopedia Mysenvaria/Science/Models/Godly Lineage Models|Godly Lineage Models]] is used by [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenists]] to classify, trace, and gauge God's based on various aspects of their lineage and domain.
 # Technologies
 Technology refers to the practical applications and devices which are created with scientific knowledge. Technological innovations serve to improve the lives of those who have access to it. Devices like [[Encyclopedia Mysenvaria/Science/Technologies/Orrery|orreries]] or [[Encyclopedia Mysenvaria/Science/Technologies/Star Map|star maps]] help scientists better organize or study the natural world. Others, like [[Encyclopedia Mysenvaria/Science/Technologies/Printing Press|printing presses]] or [[Encyclopedia Mysenvaria/Science/Technologies/Loom|looms]] serve to increase productivity and make some previously rare goods more accessible.
-
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

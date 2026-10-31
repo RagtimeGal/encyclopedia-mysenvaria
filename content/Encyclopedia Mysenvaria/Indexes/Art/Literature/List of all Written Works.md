@@ -51,7 +51,7 @@ The following is an index of all articles describing [[Encyclopedia Mysenvaria/A
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Fourth Edition Natural Lexicon|The Fourth Edition Natural Lexicon]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Mechanisms & Evolution of Starscript|The Mechanisms & Evolution of Starscript]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Nature of Gods|The Nature of Gods]]
-- [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues|The Phonlogical Directory of Gods Tongues]]
+- [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues|The Phonlogical Directory of Gods Tongues]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Transcribing, Writing, & Translating in Starscript|Transcribing, Writing, & Translating in Starscript]]
 
 > [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]

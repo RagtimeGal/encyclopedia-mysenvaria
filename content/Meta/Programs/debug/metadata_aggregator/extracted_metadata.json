@@ -42,9 +42,7 @@
                 "status": {
                     "scope": "overview",
                     "progress": "wip",
-                    "future": [
-                        "pending"
-                    ]
+                    "future": []
                 },
                 "link": "[[Encyclopedia Mysenvaria/Arts/Art|Art]]"
             }
@@ -88,7 +86,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -106,7 +104,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -126,7 +124,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -153,7 +151,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -370,7 +368,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -397,7 +395,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -424,7 +422,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -451,7 +449,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -476,7 +474,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -496,7 +494,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -523,7 +521,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -550,7 +548,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -565,30 +563,30 @@
             }
         },
         {
-            "src_rel": "Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues.md",
+            "src_rel": "Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues.md",
             "definitions": {
-                "start_desc": "[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues|The Phonological Directory of Gods Tongues]] is published."
+                "start_desc": "[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues|The Phonological Directory of God's Tongues]] is published."
             },
             "metadata": {
-                "title": "The Phonlogical Directory of Gods Tongues",
+                "title": "The Phonlogical Directory of God's Tongues",
                 "enableToc": true,
                 "tags": [
                     "topic/art/literature/non-fiction"
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
                 "event": [
                     {
-                        "start_desc": "[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues|The Phonological Directory of Gods Tongues]] is published.",
+                        "start_desc": "[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues|The Phonological Directory of God's Tongues]] is published.",
                         "start_date": [],
                         "major_event": false
                     }
                 ],
-                "link": "[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues|The Phonlogical Directory of Gods Tongues]]"
+                "link": "[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues|The Phonlogical Directory of God's Tongues]]"
             }
         },
         {
@@ -604,7 +602,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -636,9 +634,7 @@
                 "status": {
                     "scope": "overview",
                     "progress": "wip",
-                    "future": [
-                        "pending"
-                    ]
+                    "future": []
                 },
                 "has": [
                     "featured_data"
@@ -666,7 +662,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -687,7 +683,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -708,7 +704,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -729,7 +725,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -753,7 +749,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -775,7 +771,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -796,7 +792,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -817,7 +813,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -839,7 +835,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -860,7 +856,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -881,7 +877,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -902,7 +898,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -923,7 +919,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -944,7 +940,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -965,7 +961,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -986,7 +982,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -1007,7 +1003,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -1028,7 +1024,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -1049,7 +1045,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -1073,7 +1069,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -1094,7 +1090,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -1244,7 +1240,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -1272,7 +1268,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -1303,9 +1299,7 @@
                 "status": {
                     "scope": "overview",
                     "progress": "wip",
-                    "future": [
-                        "pending"
-                    ]
+                    "future": []
                 },
                 "link": "[[Encyclopedia Mysenvaria/Culture/Culture|Culture]]"
             }
@@ -1432,7 +1426,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "wip",
                     "future": []
                 },
@@ -1487,7 +1481,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "complete",
                     "future": [
                         "pending"
@@ -1508,7 +1502,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -1527,7 +1521,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -1816,9 +1810,7 @@
                 "status": {
                     "scope": "overview",
                     "progress": "wip",
-                    "future": [
-                        "pending"
-                    ]
+                    "future": []
                 },
                 "has": [
                     "featured_data"
@@ -4268,9 +4260,7 @@
                 "status": {
                     "scope": "overview",
                     "progress": "wip",
-                    "future": [
-                        "pending"
-                    ]
+                    "future": []
                 },
                 "link": "[[Encyclopedia Mysenvaria/History/History|History]]"
             }
@@ -33246,9 +33236,7 @@
                 "status": {
                     "scope": "overview",
                     "progress": "wip",
-                    "future": [
-                        "pending"
-                    ]
+                    "future": []
                 },
                 "link": "[[Encyclopedia Mysenvaria/Science/Science|Science]]"
             }
@@ -36582,7 +36570,7 @@
         {
             "severity": "warning",
             "check": "missing-field",
-            "source": "Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues.md",
+            "source": "Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues.md",
             "message": "`event[0]` has no `start_date`, so it won't appear on any decade page."
         },
         {

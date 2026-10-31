@@ -9,7 +9,7 @@ type: article
 status:
   scope: overview
   progress: wip
-  future: [pending]
+  future: []
 has:
   - featured_data
 featured_data:
@@ -33,6 +33,3 @@ Diseases are ailments, afflictions, or otherwise abnormal conditions which arise
 Taxon are groups of populations of conceptually related organisms, classified either through [[Encyclopedia Mysenvaria/Science/Models/Evolutionary Classification|evolutionary]] or [[Encyclopedia Mysenvaria/Science/Models/Criterial Classification|criterial]] classification systems. Classification of organisms usually takes into account their [[Encyclopedia Mysenvaria/Science/Branches/Biohistory|biohistory]] and conceptual relevance to one another. A taxon is usually referred to as a family when it contains species.
 # Species
 Species are more specific taxon that include populations of highly related organisms. Populations of organisms may evolve genetically to create new species, but [[Encyclopedia Mysenvaria/History/History|historically]] a majority of species were created by the [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] amidst the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]. Species each have uniquely interesting behaviors and interactions with one another and the world that create the different [[Encyclopedia Mysenvaria/Science/Phenomena/Biomes|biomes]] of the Plane.
-
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 

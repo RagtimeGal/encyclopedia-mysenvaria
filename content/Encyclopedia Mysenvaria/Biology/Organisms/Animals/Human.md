@@ -6,7 +6,7 @@ tags:
   - subject/humans
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: stub
   future: []
 needs:

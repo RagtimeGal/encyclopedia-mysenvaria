@@ -52,6 +52,3 @@ Splitting: A unit which is not of the minimum fraction of value and exists on a 
 Housing: If a unit is alone on a tile it may be housed by placing a coin of the highest denomination beneath it. Houses are not units and cannot move. The unit on top of a house may not move, but may still split. If a tile contains two friendly units and one is housed, their positions may be swapped.
 
 The game is won either by eliminating all opposing units or by claiming a set number of tiles through the placement of houses.
-# Variations
-
-# Cultural Significance

@@ -423,7 +423,7 @@ The following is a list of all articles from across the Encyclopedia Mysenvaria,
 - [[Encyclopedia Mysenvaria/History/God-War Era/The Great Poleward Fog Migration|The Great Poleward Fog Migration]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Mechanisms & Evolution of Starscript|The Mechanisms & Evolution of Starscript]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Nature of Gods|The Nature of Gods]]
-- [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of Gods Tongues|The Phonlogical Directory of Gods Tongues]]
+- [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues|The Phonlogical Directory of Gods Tongues]]
 - [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|Theogenesis]]
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Tides|Tides]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Time Wizard Man|Time Wizard Man]]

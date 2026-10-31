@@ -5,7 +5,7 @@ tags:
   - topic/biology/organism
 type: article
 status:
-  scope: standard
+  scope: brief
   progress: stub
   future: []
 has:
