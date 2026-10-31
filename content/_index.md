@@ -17,14 +17,14 @@ Besides their primary topics articles may also be categorized according to their
 > [!tip] Featured Article & Fun Facts
 > > [!note] Featured Article
 > > 
-> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]]** is the tendency of [[Encyclopedia Mysenvaria/Science/Science#Phenomena|phenomena]] in Nature to enter Reality as new unique phenomena. Natural Personification is not a true metaphysical rule, but rather an emergent property caused by the formation of Reality. According to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], Reality is the result of an imperfect interaction between the Real and Unreal. Imperfections and inequality in the Real and Unreal may require the other to compensate during their interaction, drawing from phenomena within Nature.
+> > **[[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|The Harmony Line]]** is a simplified two-dimensional projection of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaties]] orbital path onto the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]. The harmony line is a tool used by [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|astronomers]] and [[Encyclopedia Mysenvaria/Science/Branches/Meteorology|meteorologists]] for education and prediction regarding the impact of the Harmonic Treaty on the Plane.
 >
 > > [!info] Did you know...
-> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] is broken into 3 major epochs—the Early-War, Mid-War, and Late-War?
-> > - ... that [[Encyclopedia Mysenvaria/Geography/Geography|geographical features]] are divided into three groups: natural features, artificial features, and abstract features?
-> > - ... that [[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|atmospheric circulation]] is a scientific model which describes how air in the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] moves from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|central pole]] or [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|edge]] to the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|harmony line]] and vice-versa?
-> > - ff3
-> > - ... that the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]] is a scientific model of the universe which attempts to explain its organization composition?
+> > - ... that, according to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|USM]], [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] are a result of the Real's inability to handle the Unreal's management? Despite this, no star is known to have come about as a result of completely natural causes.
+> > - ... that there were six [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|God Councils]] during the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]?
+> > - ... that, according to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|USM]], [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn's]] materialization is a result of the unstable nature of Reality allowing Nature to seep in?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Technologies/Orrery|orreries]] are small mechanical devices used to physically model the orbits of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]]?
+> > - ... that only true [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] are written in [[Encyclopedia Mysenvaria/Culture/Languages/Starscript|Starscript]]? Artificial stars can only be written in [[Encyclopedia Mysenvaria/Culture/Languages/God Tongue|God Tongue]].
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
