@@ -15,6 +15,8 @@ needs:
 featured_data:
   featured_desc: "featured_desc"
   fun_facts: ["ff1","ff2"]
+callout_notes:
+  pending: "*This article could use elaboration on its history and impact on cultures.*"
 ---
 %%
 "featured_desc": "**[[Encyclopedia Mysenvaria/Science/Phenomena/Limn|Limn]]**, as described in the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], is a product of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]], specifically Natural Diffusion: a result of Realities unstable nature, allowing Nature to seep in. Limn is a strange substance, obeying neither the laws of the Real or Unreal. Because of this, limn is not a true [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|entity]] as defined by the USM, as it is not constructed from a normal [[Encyclopedia Mysenvaria/Science/Models/Material|material]] structure."
@@ -46,9 +48,9 @@ The accumulation of limn in soil is used by microorganisms, especially species o
 
 Sophonts do not possess limnary presses—instead, they press their own artificial stars by hand in an art known as [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Starforging|starforging]]. Artificial stars have their own suite of unique purposes unrelated to limn. Besides artificial stars, limn also has its own suite of purposes, including: lamps, binding agents, grenades, paint, non-slip surfaces, and tattoos.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
-> *This article could use elaboration on its history and impact on cultures.*
-
 [^graphic]: ![[Media/Images/Infographics/limn.png]]
+
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
+> *This article could use elaboration on its history and impact on cultures.*

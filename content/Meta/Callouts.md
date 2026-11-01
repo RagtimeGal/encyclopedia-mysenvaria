@@ -10,114 +10,181 @@ status:
   future: []
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series on the Encyclopedia's [[Meta/Writing Guidelines|Writing Guidelines]]*.
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-This article serves to provide a list of meta callouts that a reader may encounter on articles. Callouts include a short description of what they indicate, and this description is provided on each individual page which the callout appears on. 
+Callouts serve to communicate to readers metatextual information about the article they are reading without interfering with the article itself! They're simple but important metatextual communication tools that can simply be appended or prepended to articles without much worry. The injection of callouts is handled by a program which is run on every push to the GitHub repository.
 
-Callouts work as important tools for communicating (often metatextual) information about an article that readers are preparing to read. Often these callouts are educating a reader on the context of the article's progress. This allows readers and editors to decide what pages they want to invest their time into.
-
-Further information regarding a callout may be provided in the sections below if it is deemed necessary or is not elaborated on elsewhere amongst the [[Meta/Meta|meta]] pages.
-# Miscellaneous
-## Names
-> [!warning] [[Meta/Meta|Meta]] || [[Meta/Callouts#Names|Names]]
-> Some names in this article are placeholders! Until the setting's history is developed further—allowing for languages and the likes to be constructed accurately—temporary names are used for places, people, and things.
+This article lists each of the meta callouts that readers may encounter while browsing.
+# Callouts Based On:
+## An Article's Contents
+### Names
+> [!warning] [[Meta/Meta|Meta]] || Placeholders Ahead!
+> Some names mentioned in this article are placeholders. Placeholder names may resemble the names of real people, places, or things. They may also be direct descriptions of whatever they are naming. Some may even be random strings of letters or numbers.
 > 
-> These placeholder names may resemble real people, be simple descriptions, or even appear as random jumbles of letters or numbers.
+> Temporary placeholders are used because conlanging is hard. If you've discovered a name which has the perfect opportunity to be updated please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+Any articles which reference people, places, or things using temporary placeholder names should include this callout.
+
+```JSON
+"id": "names"
+```
+## An Article's Type
+### Addendum
+```yaml
+type: addendum
+```
+
+> [!hint] [[Meta/Meta|Meta]] || Addendum Here!
+> This article is an addendum, it provides metatextual context to a diegetic article. Visit the parent article here: {original_article}!
+
+```JSON
+"id": "addendum"
+```
+
+Whilst the above callout is placed at the beginning of addenda the following callout is placed at the end of articles which have addenda.
+
+> [!hint] [[Meta/Meta|Meta]] || Addendum Ahead!
+> This article has an addendum which provides metatextual context about this article. Visit the addendum here: {addendum_article}!
+
+```JSON
+"id": "has-addendum"
+```
+### Ledger
+```YAML
+type: ledger
+```
+
+> [!example] [[Meta/Meta|Meta]] || Lore Ledger #{ledger_number}!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
 > 
-> The intent is to keep track of these placeholders so that they may be replaced in the future. If you find a name which looks out of place, report it through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> ... {previous_ledger}, **{current_ledger}**, {next_ledger} ...
 
-The Encyclopedia Mysenvaria is best described as being in its infancy at the moment, and as such some portions of the lore are underdeveloped. Conlangs, especially names, are an important part of immersion into a setting. It's important that readers be made aware that certain names throughout the Encyclopedia are placeholders.
-
-These callouts should be included on any pages where a placeholder name is used or mentioned. That includes the biographies of peoples with placeholder names, or events, foods, and games with placeholder names. That also includes pages which otherwise make mention or link to pages which have placeholder names.
-## Template
+```JSON
+"id": "ledger"
+```
+### Template
 ```yaml
 type: template
 ```
 
-> [!warning] [[Meta/Meta|Meta]] || [[Meta/Callouts#Template|Template]]
-> This article is a Template. This callout, and others like it in the page, should be removed. Tags, page name, table of content, and other YAML data should be added, removed, or otherwise modified as necessary.
-## Addenda
-```yaml
-type: addenda
+> [!warning] [[Meta/Meta|Meta]] || Template!
+> This article is a Template. This callout and others like it in the article should be removed. 
+> 
+> Remember to modify the article's metadata as necessary! **Remove the template's draft key immediately.** Title, TOC, tags, type, and status should all be updated accordingly!
+
+```JSON
+"id": "template"
+```
+## An Article's Tags
+### Meta
+```YAML
+tags:
+  - topic/meta/*
 ```
 
-> [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]
-> This article is or has an addendum. Visit addenda pages by adding `Meta/` to the start of an article's URL path. E.G. `ragno.studio/Encyclopedia-Mysenvaria` becomes `ragno.studio/Meta/Encyclopedia-Mysenvaria`.
+> [!abstract] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-Addenda are non-canon companion articles written to provide context, behind-the-scene commentary, spoilers, and guidance on adaptation for creative use—like providing TTRPG stat blocks, explaining character portrayal, or giving ideas on story application. Addenda may also be used for meta discussion regarding topics, if the main article is not fitting.
-## Meta Articles
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series on the Encyclopedia's [[Meta/Writing Guidelines|Writing Guidelines]]*.
-
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles explaining what the Encyclopedia Mysenvaria is, how to use it, and how to contribute.*
-
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
-# Article Progress
-## Empty
+```JSON
+"id": "meta-general"
+```
+## An Article's Progress
+### Empty
 ```yaml
 status:
   progress: empty
 ```
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
-## Idea
+> [!note] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+```JSON
+"id": "empty"
+```
+### Idea
 ```yaml
 status:
   progress: idea
 ```
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Idea|Idea Article]]
-> This article is an idea! Provided information may not be canonical or accurate. You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
-## WIP
+> [!note] [[Meta/Meta|Meta]] || This Article's an Idea!
+> This article is in early infancy and the information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of cohesion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+```JSON
+"id": "idea"
+```
+### WIP
 ```yaml
 status:
   progress: wip
 ```
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
-> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
-## Stub
+> [!note] [[Meta/Meta|Meta]] || This Article's a Work in Progress!
+> This article is currently actively in the process of being written, information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of completion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+```JSON
+"id": "wip"
+```
+### Stub
 ```yaml
 status:
   progress: stub
 ```
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
-# Future Reminders
-## Pending Future
+> [!note] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+```JSON
+"id": "stub"
+```
+## An Article's Future
+### Pending Future
 ```yaml
 status:
   future: [pending]
 ```
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-## Future Rewrite
+> [!abstract] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+```JSON
+"id": "pending"
+```
+### Future Rewrite
 ```yaml
 status:
   future: [rewrite]
 ```
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Rewrite|Future Rewrite Needed]]
-> This article is considered complete for the moment, but some sections may need to be rewritten to help improve legibility! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-## Future Review
+> [!abstract] [[Meta/Meta|Meta]] || Rewrite Suspected in Future!
+> Some sections of this article may need to be rewritten in the future to improve legibility. If you believe that this article requires an urgent rewrite please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose). 
+
+```JSON
+"id": "rewrite"
+```
+### Future Review
 ```yaml
 status:
   future: [review]
 ```
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Review|Future Review Needed]]
-> This article is considered complete for the moment but it's unclear if it will need to be revisited in the future! If you think it's time for a review make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-# Generated
+> [!abstract] [[Meta/Meta|Meta]] || Possible Revisions Required!
+> It's unclear if this article will need to be revisited in the future. If you believe that this article requires an urgent review please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+```JSON
+"id": "review"
+```
+## An Article's Scope
+### Generated
 ```yaml
 status:
   scope: generated
 ```
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
-> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!abstract] [[Meta/Meta|Meta]] || Beep Boop!
+> All of, or a portion of, this article is generated by a program. If you believe there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+```JSON
+"id": "generated"
+```

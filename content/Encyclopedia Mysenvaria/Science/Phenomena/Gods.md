@@ -16,6 +16,8 @@ needs:
 featured_data:
   featured_desc: "featured_desc"
   fun_facts: ["ff1","ff2","ff3"]
+callout_notes:
+  pending: "*This article could use expansion on the history and cultural impact of Gods.*"
 ---
 %%
 "featured_desc": "**[[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]]**, as described by the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], are a product of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]], specifically Material Concentration: the result of the Unreal's inability to manage excess amounts of Real. Gods are subject to unique rules imposed on them by this altered and improvised form of Unreal. Despite this Gods are capable of interacting and existing in Reality like normal [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|entities]]."
@@ -74,7 +76,7 @@ Gods' hearts are susceptible to disruption by foreign bodies; to kill a God requ
 
 The exact mechanisms by which a God's death works are debated, but it's believed that by disrupting the heart the Unreal which holds them together is disrupted, causing a collapse. It's hypothesized that a God can be brought back from the dead by their original creator(s), and this seems to be supported by recorded interactions with Gods, though there is no recorded instance of this occurring.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use expansion on the history and cultural impact of Gods.*

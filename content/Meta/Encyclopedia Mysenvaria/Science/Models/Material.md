@@ -1,19 +1,23 @@
 ---
-title: "Material (Addenda)"
+title: "Material (Addendum)"
 aliases:
-  - "Material (Addenda)"
+  - "Material (Addendum)"
 enableToc: true
 tags:
-  - topic/meta/addenda
-type: addenda
+  - topic/meta/addendum
+type: addendum
 status:
   scope: standard
   progress: complete
   future: []
 ---
 
-> [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]
-> This article is or has an addendum. Visit addenda pages by adding `Meta/` to the start of an article's URL path. E.G. `ragno.studio/Encyclopedia-Mysenvaria` becomes `ragno.studio/Meta/Encyclopedia-Mysenvaria`.
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
+
+> [!hint|callout-addendum] [[Meta/Meta|Meta]] || Addendum Here!
+> This article is an addendum, it provides metatextual context to a diegetic article. Visit the parent article here: [[Encyclopedia Mysenvaria/Science/Models/Material|Material]]!
+
 # Writer's Note
 My current understanding of Mysenvar's cosmology is that it completely mirrors our own. (With the fantastical elements of the Real and Unreal added, of course.) The Real is just everything physical (down to quarks), and the Unreal are the laws/math that model how the physical interacts. Material is the equivalent to atoms, I believe that to be clear through the current page's short paragraph description on the topic.
 

@@ -9,15 +9,13 @@ ledger_data:
   year: 2026
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #14
-> 10/2026
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 4.2026|Ledger 4.2026]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 12.2026|Ledger 11.2026]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #14!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 4.2026|Lore Ledger 4.26]], **Lore Ledger 10.26**, [[Meta/Ledgers/Ledger 12.2026|Lore Ledger 12.26]] ...
 
 This week the URL for the Encyclopedia has changed! As part of a larger push from myself to work on other projects the URL has changed from `https://mysenvaria.ragno.wiki` to `https://mysenvaria.ragno.studio`! If it's properly set up the prior URL should redirect to the new URL for the next year-or-so until my payment expires.
 

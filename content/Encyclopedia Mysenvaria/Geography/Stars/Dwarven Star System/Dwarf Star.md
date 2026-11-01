@@ -11,8 +11,8 @@ status:
   future: []
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The Dwarf Star is the host [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Dwarven Star System|Dwarven Star System]]. The star was created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Carbon Dioxide|God of Carbon Dioxide]] in regards to the ethics and legality of the creation of dwarves by humans. Fearing that this creation may be a violation of the [[Encyclopedia Mysenvaria/Geography/Stars/Creations Act|Creations Act]], passed a year prior to the events.
 # History

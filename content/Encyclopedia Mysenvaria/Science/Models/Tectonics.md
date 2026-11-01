@@ -12,8 +12,8 @@ has:
   - image
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
-> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-wip] [[Meta/Meta|Meta]] || This Article's a Work in Progress!
+> This article is currently actively in the process of being written, information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of completion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Tectonics are a scientific model which explains the behavior and interactions of geographic systems across the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]], primarily those of tectonics and the mantle. The model explains the processes which lead to the occurrence of [[Encyclopedia Mysenvaria/Science/Phenomena/Earthquake|earthquakes]], the activity of [[Encyclopedia Mysenvaria/Science/Phenomena/Volcanoes|volcanoes]], and the formation of [[Encyclopedia Mysenvaria/Science/Phenomena/Mountains|mountains]], [[Encyclopedia Mysenvaria/Science/Phenomena/Island|islands]], and more. The model is widely accepted and is the result of many years of research by [[Encyclopedia Mysenvaria/Science/Branches/Geology|geologists]].
 
@@ -29,5 +29,5 @@ Plate boundaries are where plates meet and are where geological phenomena like e
 Hotspots are areas where the crust has become exceedingly thin or where the mantle is exceedingly hot, creating an upwelling of magma from the mantle which sometimes breaks through the surface of the crust. This process leads the formation of volcanoes outside of plate boundaries.
 [^figure1]: ![[Media/Images/Infographics/tectonic_diagram.png|tectonic_diagram.png]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).

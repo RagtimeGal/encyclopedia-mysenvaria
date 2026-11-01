@@ -11,8 +11,8 @@ status:
   future: []
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Hydrogen Cyanide's Plants is the host [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Plant Star System|Plant Star System]]. Following the events of the [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|First God Council]] the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Hydrogen Cyanide|God of Hydrogen Cyanide]] would create the star to document their creation of the first plant, and algae-like asexual [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organism]].
 # History

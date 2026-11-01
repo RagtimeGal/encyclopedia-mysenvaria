@@ -15,6 +15,8 @@ has:
   - featured_data
 featured_data:
   fun_facts: ["ff1"]
+callout_notes:
+  pending: "*The History header could be expanded upon as to how the Central Pole became important to sophont history. A section on the ecology surrounding the Central Pole could also be added.*"
 ---
 %%
 ff1: ... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]] is an abstract geographic feature equidistant from all points of the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|Edge]] which represents the absolute center of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?
@@ -32,7 +34,7 @@ On multiple occasions throughout the God-War, primarily during the [[Encyclopedi
 
 [^figure1]: ![[Media/Images/Infographics/world_diagram.png|world_diagram.png]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *The History header could be expanded upon as to how the Central Pole became important to sophont history. A section on the ecology surrounding the Central Pole could also be added.*

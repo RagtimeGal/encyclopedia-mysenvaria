@@ -9,15 +9,13 @@ ledger_data:
   year: 2024
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #5
-> 51/2024
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 50.2024|Ledger 50.2024]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 2.2025|Ledger 2.2025]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #5!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 50.2024|Lore Ledger 50.24]], **Lore Ledger 51.24**, [[Meta/Ledgers/Ledger 2.2025|Lore Ledger 2.25]] ...
 
 Welcome to the fifth ledger! Work on the history of the God-War has been going smoothed and progressed nicely. The timeline of the war has been squished down from nearly 600 years to only 178. There is a brand new section of indexes in the History topic, the centuries and decades which can be more properly explored using the Timeline page. Though they are empty at the moment the pages related to the God-War portion of history (BT (Before Treaty)) should be filled and completed alongside the God-War History project.
 # Project Updates

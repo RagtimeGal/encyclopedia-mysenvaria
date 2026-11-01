@@ -9,21 +9,19 @@ ledger_data:
   year: 2026
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #17
-> 38/2026
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 36.2026|Ledger 36.2026]]
-> 
-> **Next Ledger:** Upcoming
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #17!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 36.2026|Lore Ledger 36.26]], **Lore Ledger 38.26**, Upcoming ...
 
 Welcome back to another episode of, "What changed in the formatting of the Lore Ledgers this time!" If you guessed, "Surprisingly, nothing!", then you win! Actually, that's kind of a lie... Lore Ledgers will no longer link to pages that are not other Lore Ledgers! This change has been retroactively applied to all previous lore ledgers. Why did I do this? There is one simple and magical answer: I like how it looks in the obsidian graph. It concentrates all of the Ledgers into one cute little area and stops unnecessary links and broken links, which Ledgers are extremely receptive to.
 
 The GitHub repository has undergone a rename, from `quartz--encyclopedia-mysenvaria` to simply `encyclopedia-mysenvaria`. This was done to simplify the name, but also broke the website in between this Ledger and the previous—this website breaking happens often.
 
-Lots of work on pages this time around, mostly focused around geography! Alongside the work on these pages comes more map progress! The rewrite on the primary topic articles has also been complete!
+Lots of work on pages this time around, mostly focused around geography! Alongside the work on these pages comes more map progress!
 
 I write these ledgers quite a bit ahead of when they are actually published. After I publish this Ledger and the changes therein I'll likely be updating the Mysenvaria to [Quartz v5](https://quartz.jzhao.xyz/). I updated my digital garden, [Ragno Rants](https://ragnois.gay/), just a week or so before writing this Ledger (which again is written quite a while before publishing) as a sort of test to see how easy the update is (spoiler alert: It was a pain). 
 # Changes

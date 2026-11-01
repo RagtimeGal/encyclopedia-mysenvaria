@@ -11,8 +11,8 @@ status:
   future: []
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The Half-Life System is a star system created around in the year 7 BT. The host star, the [[Encyclopedia Mysenvaria/Geography/Stars/Half-life System/Half-life Star|Half-life Star]], was created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Plutonium|God of Plutonium]] prior to their fight with the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Time]]. Plutonium, upset with Time's inaction regarding the half-life of many elements, would attempt to confront Time. The host star would be created by Plutonium to explain their stance on the situation. The fight would be initiated by Time, tackling Plutonium into the ground the [[Encyclopedia Mysenvaria/Geography/Natural Features/Southern Crater Scape|Southern Crater Scape]] would be created. Splitting the [[Encyclopedia Mysenvaria/Geography/Natural Features/Northern Continent|North]] from the [[Encyclopedia Mysenvaria/Geography/Natural Features/Southern Continent|South]].
 

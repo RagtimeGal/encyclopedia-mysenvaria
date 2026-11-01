@@ -12,7 +12,7 @@ needs:
   - infobox
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Walking snails are a small group of large snails defined primarily by the modification of their shells and tails which are modified for a tripod style of 'walking'. Walking snails are exclusively native to the [[Encyclopedia Mysenvaria/Geography/Natural Features/Northern Continent|New World]].

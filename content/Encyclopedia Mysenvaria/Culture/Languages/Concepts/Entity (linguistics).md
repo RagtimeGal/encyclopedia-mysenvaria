@@ -11,7 +11,7 @@ status:
   future: []
 ---
 
-*For scientific entities, see [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|Entity (phenomenon)]].*
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+*For scientific entities, see [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|Entity (phenomenon)]].*

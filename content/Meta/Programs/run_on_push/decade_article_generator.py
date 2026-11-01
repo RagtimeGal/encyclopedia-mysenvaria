@@ -276,13 +276,11 @@ status:
 # See Also
 - [[Encyclopedia Mysenvaria/History/History|History]]
 - [[Encyclopedia Mysenvaria/Indexes/History/Timeline|Timeline]]
-
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Generated|Generated Article]]
-> This article or a portion of it is generated! If you think there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 """
 
     all_decades = mc.all_decades()
     decade_count = len(all_decades)
+    written = []
     
     for i, dec_start in enumerate(all_decades):
         curr_title = decade_title(dec_start)
@@ -343,6 +341,16 @@ status:
 
         if not DRY_RUN:
             (out_dir / f"{curr_title}.md").write_text(content, encoding="utf-8")
+            written.append(f"{DECADES_DIR_REL}/{curr_title}.md")
+
+    # The callouts (e.g. "Generated") come from the callout generator, so the pages
+    # look exactly as they will after its own run and nothing flips back and forth.
+    if written:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("callout_generator", pathlib.Path(__file__).with_name("callout_generator.py"))
+        callout_generator = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(callout_generator)
+        callout_generator.process(paths=written, quiet=True)
 
 if __name__ == "__main__":
     main()

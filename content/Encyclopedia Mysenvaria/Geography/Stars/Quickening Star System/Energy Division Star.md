@@ -24,8 +24,9 @@ star:
 "pub_desc": "**[[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/Energy Division Star|Energy Division Star]]** is published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]] to document their creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods|Energy Gods]] inspired by the [[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]. It becomes the second star in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]]."
 "star_desc": "Second star in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]], published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]] following the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter's]] [[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]. Documents the creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods|Energy Gods]]."
 %%
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 # History
 

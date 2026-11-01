@@ -32,5 +32,5 @@ The Quickening, a result of domain subdivision, would see a rapid and unsustaina
 
 The [[Encyclopedia Mysenvaria/History/God-War Era/First Convening|First Convening]] would be organized by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Fulgurite|God of Fulgurite]] in the following year. The First Convening, while responsible for many things, is most notable for it's responsibility in the development of [[Encyclopedia Mysenvaria/Culture/Culture#Beliefs|religion]] by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods/God of Chromodynamic Energy|God of Chromodynamic Energy]], which would go on to be a major factor in the war and the rest of history.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Rewrite|Future Rewrite Needed]]
-> This article is considered complete for the moment, but some sections may need to be rewritten to help improve legibility! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract|callout-rewrite] [[Meta/Meta|Meta]] || Rewrite Suspected in Future!
+> Some sections of this article may need to be rewritten in the future to improve legibility. If you believe that this article requires an urgent rewrite please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).

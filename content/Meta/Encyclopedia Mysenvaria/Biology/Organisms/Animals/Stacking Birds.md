@@ -1,19 +1,23 @@
 ---
-title: "Stacking Birds (Addenda)"
+title: "Stacking Birds (Addendum)"
 aliases:
-  - "Stacking Birds (Addenda)"
+  - "Stacking Birds (Addendum)"
 enableToc: true
 tags:
-  - topic/meta/addenda
-type: addenda
+  - topic/meta/addendum
+type: addendum
 status:
   scope: standard
   progress: complete
   future: []
 ---
 
-> [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]
-> This article is or has an addendum. Visit addenda pages by adding `Meta/` to the start of an article's URL path. E.G. `ragno.studio/Encyclopedia-Mysenvaria` becomes `ragno.studio/Meta/Encyclopedia-Mysenvaria`.
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
+
+> [!hint|callout-addendum] [[Meta/Meta|Meta]] || Addendum Here!
+> This article is an addendum, it provides metatextual context to a diegetic article. Visit the parent article here: [[Encyclopedia Mysenvaria/Biology/Organisms/Animals/Stacking Birds|Stacking Birds]]!
+
 # Writer's Note
 - There's a species of very distinctly plumed kiwi-like nestless flightless bird which lay one-to-two highly conical eggs at a time and scoop them up onto their backs where they carry them.
 - These birds possibly come from a predator-free ecosystem? Or otherwise one where they have very few natural predators? Perhaps their feathers are poisonous, and so they don't naturally have to worry about predators (I like this option)?

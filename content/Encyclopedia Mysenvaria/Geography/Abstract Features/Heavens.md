@@ -14,6 +14,8 @@ needs:
   - image
 featured_data:
   fun_facts: ["ff1"]
+callout_notes:
+  review: "*This page could use further elaboration on the history of the Heavens, especially its cultural impact.*"
 ---
 %%
 ff1: ... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heavens|Heavens]] exist above the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]] and is devoid of air and where [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] reside?
@@ -31,7 +33,7 @@ The dividing line between the heavens and atmosphere is believed to be very stri
 
 The heavens themselves seem to be infinite in vastness, extending past the edge indefinitely. The empty space of the heavens are broken apart by occasional stars, although they do not reach very faraway from the dome. The largest of the stars is the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaty]], whose lowest point in orbit is believed to nearly touch the surface of the atmosphere.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Review|Future Review Needed]]
-> This article is considered complete for the moment but it's unclear if it will need to be revisited in the future! If you think it's time for a review make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-review] [[Meta/Meta|Meta]] || Possible Revisions Required!
+> It's unclear if this article will need to be revisited in the future. If you believe that this article requires an urgent review please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This page could use further elaboration on the history of the Heavens, especially its cultural impact.*

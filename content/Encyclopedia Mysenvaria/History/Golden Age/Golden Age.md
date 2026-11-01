@@ -19,8 +19,9 @@ event:
 start_desc: **[[Encyclopedia Mysenvaria/History/Golden Age/Golden Age|Golden Age]]** begins (end. [[Encyclopedia Mysenvaria/Indexes/History/Decades/1210s AT#1214 AT|1214 AT]]).
 end_desc: **[[Encyclopedia Mysenvaria/History/Golden Age/Golden Age|Golden Age]]** ends (beg. [[Encyclopedia Mysenvaria/Indexes/History/Decades/600s AT#609 AT|609 AT]]).
 %%
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 # Overview
 

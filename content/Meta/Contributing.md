@@ -10,8 +10,8 @@ status:
   future: []
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles explaining what the Encyclopedia Mysenvaria is, how to use it, and how to contribute.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
 > [!warning] Disclaimer
 > When contributing please note that I, Ragno, retain sole ownership of the Encyclopedia Mysenvaria and reserve the right to monetize it. 

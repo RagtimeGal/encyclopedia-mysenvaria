@@ -12,8 +12,8 @@ needs:
   - graphics
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
-> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-wip] [[Meta/Meta|Meta]] || This Article's a Work in Progress!
+> This article is currently actively in the process of being written, information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of completion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Evolutionary classification is a system of [[Encyclopedia Mysenvaria/Science/Branches/Taxonomy|taxonomic]] classification of [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]] which poses that organisms may be divided into groups based on history of creation, similarity of concept, and execution by the Gods. This type of classification gives rise to a tree-like structure showing the evolution of concepts Gods had while creating organisms during the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]. The idea of evolutionary classification is opposed to the idea of [[Encyclopedia Mysenvaria/Science/Models/Criterial Classification|tri-criterial classification]] which believes that organisms should not be organized by relativity of creation but instead simply by biological factors.
 # History

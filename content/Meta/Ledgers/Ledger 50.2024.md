@@ -9,15 +9,13 @@ ledger_data:
   year: 2024
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #4
-> 50/2024
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 48.2024|Ledger 48.2024]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 51.2024|Ledger 51.2024]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #4!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 48.2024|Lore Ledger 48.24]], **Lore Ledger 50.24**, [[Meta/Ledgers/Ledger 51.2024|Lore Ledger 51.24]] ...
 
 Welcome to the fourth ledger, though we happened to skip one last week! In the last two weeks the climate of Mysenvar has been complete, although most of the pages relating to the climate remain blank. I am not quite happy with the climate, though I am considering it complete, I'm placing my focus on the God-War era at the moment and when I am happy with the history of the God-War I will return to the climate before moving on to the Post-War era.
 # Project Updates

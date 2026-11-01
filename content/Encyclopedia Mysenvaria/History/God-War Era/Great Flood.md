@@ -19,8 +19,9 @@ event:
 "start_desc": **[[Encyclopedia Mysenvaria/History/God-War Era/Great Flood|Great Flood]]** begins (end. 6th of Autumn, [[Encyclopedia Mysenvaria/Indexes/History/Decades/10s BT#11 BT|11 BT]]).
 "end_desc": **[[Encyclopedia Mysenvaria/History/God-War Era/Great Flood|Great Flood]]** ends (beg. 14th of Spring, [[Encyclopedia Mysenvaria/Indexes/History/Decades/20s BT#25 BT|25 BT]]).
 %%
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 # Overview
 

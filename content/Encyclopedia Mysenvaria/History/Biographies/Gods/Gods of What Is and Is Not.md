@@ -27,8 +27,8 @@ featured_data:
 "ff3": "... that the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]] is believed to be the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]?"
 %%
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
-> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-wip] [[Meta/Meta|Meta]] || This Article's a Work in Progress!
+> This article is currently actively in the process of being written, information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of completion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] of What Is and Is Not, also sometimes referred to as the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]], are the two oldest and most powerful Gods. What Is and Is Not preside over the primordial domain of everything and nothing. They are the first Gods, responsible for the creation of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] and the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Creation Quadrinity]].
 

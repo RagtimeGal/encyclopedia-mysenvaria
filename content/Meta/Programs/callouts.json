@@ -1,0 +1,255 @@
+{
+  "_about": "Callouts placed by Meta/Programs/run_on_push/callout_generator.py. See that file's description for how every field works.",
+  "settings": {
+    "header": "[[Meta/Meta|Meta]] || {title}",
+    "marker_prefix": "callout-",
+    "exclude_paths": [
+      "_index.md"
+    ],
+    "skip_folders": [
+      "Private"
+    ],
+    "defaults": {
+      "previous_ledger": "N/A",
+      "next_ledger": "Upcoming",
+      "original_article": "the parent article",
+      "addendum_article": "the addendum"
+    }
+  },
+  "callouts": [
+    {
+      "id": "meta-general",
+      "type": "abstract",
+      "position": "top",
+      "order": 10,
+      "group": "meta",
+      "title": "Fourth Wall Ahead!",
+      "text": [
+        "The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it."
+      ],
+      "when": {
+        "tags": "topic/meta*"
+      },
+      "replaces": [
+        "^> \\[!abstract\\] \\[\\[Meta/Meta\\|Meta\\]\\]\\s*$"
+      ],
+      "replaces_mode": "if_applies"
+    },
+    {
+      "id": "addendum",
+      "type": "hint",
+      "position": "top",
+      "order": 20,
+      "title": "Addendum Here!",
+      "text": [
+        "This article is an addendum, it provides metatextual context to a diegetic article. Visit the parent article here: {original_article}!"
+      ],
+      "when": {
+        "type": "addendum"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#Addenda"
+      ]
+    },
+    {
+      "id": "template",
+      "type": "warning",
+      "position": "top",
+      "order": 30,
+      "title": "Template!",
+      "text": [
+        "This article is a Template. This callout and others like it in the article should be removed. ",
+        "",
+        "Remember to modify the article's metadata as necessary! **Remove the template's draft key immediately.** Title, TOC, tags, type, and status should all be updated accordingly!"
+      ],
+      "when": {
+        "type": "template"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#Template"
+      ]
+    },
+    {
+      "id": "ledger",
+      "type": "example",
+      "position": "top",
+      "order": 40,
+      "title": "Lore Ledger #{ledger_number}!",
+      "text": [
+        "This article serves as a brief changelog and project update announcement for the *Mysenvaria*.",
+        "",
+        "... {previous_ledger}, **{current_ledger}**, {next_ledger} ..."
+      ],
+      "when": {
+        "type": "ledger"
+      },
+      "replaces": [
+        "^> \\[!summary\\] Lore Ledger #"
+      ],
+      "replaces_mode": "if_applies",
+      "replaces_lines": 5
+    },
+    {
+      "id": "names",
+      "type": "warning",
+      "position": "top",
+      "order": 50,
+      "title": "Placeholders Ahead!",
+      "text": [
+        "Some names mentioned in this article are placeholders. Placeholder names may resemble the names of real people, places, or things. They may also be direct descriptions of whatever they are naming. Some may even be random strings of letters or numbers.",
+        "",
+        "Temporary placeholders are used because conlanging is hard. If you've discovered a name which has the perfect opportunity to be updated please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "callouts": "names"
+      }
+    },
+    {
+      "id": "empty",
+      "type": "note",
+      "position": "top",
+      "order": 60,
+      "title": "Here be Dragons!",
+      "text": [
+        "This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.progress": "empty"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Empty|Idea|WIP|Stub|Incomplete)[|\\]]"
+      ]
+    },
+    {
+      "id": "idea",
+      "type": "note",
+      "position": "top",
+      "order": 60,
+      "title": "This Article's an Idea!",
+      "text": [
+        "This article is in early infancy and the information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of cohesion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.progress": "idea"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Empty|Idea|WIP|Stub|Incomplete)[|\\]]"
+      ]
+    },
+    {
+      "id": "wip",
+      "type": "note",
+      "position": "top",
+      "order": 60,
+      "title": "This Article's a Work in Progress!",
+      "text": [
+        "This article is currently actively in the process of being written, information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of completion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.progress": "wip"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Empty|Idea|WIP|Stub|Incomplete)[|\\]]"
+      ]
+    },
+    {
+      "id": "stub",
+      "type": "note",
+      "position": "top",
+      "order": 60,
+      "title": "This Article's a Stub!",
+      "text": [
+        "This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.progress": "stub"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Empty|Idea|WIP|Stub|Incomplete)[|\\]]"
+      ]
+    },
+    {
+      "id": "pending",
+      "type": "abstract",
+      "position": "bottom",
+      "order": 10,
+      "title": "Pending Future Development!",
+      "text": [
+        "When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.future": "pending"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Pending Future|Update Needed)[|\\]]"
+      ]
+    },
+    {
+      "id": "rewrite",
+      "type": "abstract",
+      "position": "bottom",
+      "order": 11,
+      "title": "Rewrite Suspected in Future!",
+      "text": [
+        "Some sections of this article may need to be rewritten in the future to improve legibility. If you believe that this article requires an urgent rewrite please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.future": "rewrite"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Future Rewrite|Rewrite Needed)[|\\]]"
+      ]
+    },
+    {
+      "id": "review",
+      "type": "abstract",
+      "position": "bottom",
+      "order": 12,
+      "title": "Possible Revisions Required!",
+      "text": [
+        "It's unclear if this article will need to be revisited in the future. If you believe that this article requires an urgent review please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.future": "review"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Future Review|Review Needed)[|\\]]"
+      ]
+    },
+    {
+      "id": "has-addendum",
+      "type": "hint",
+      "position": "bottom",
+      "order": 20,
+      "title": "Addendum Ahead!",
+      "text": [
+        "This article has an addendum which provides metatextual context about this article. Visit the addendum here: {addendum_article}!"
+      ],
+      "when": {
+        "file.has_addendum": true,
+        "type": {
+          "not": "addendum"
+        }
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#Addenda"
+      ]
+    },
+    {
+      "id": "generated",
+      "type": "abstract",
+      "position": "bottom",
+      "order": 30,
+      "title": "Beep Boop!",
+      "text": [
+        "All of, or a portion of, this article is generated by a program. If you believe there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)."
+      ],
+      "when": {
+        "status.scope": "generated"
+      },
+      "replaces": [
+        "\\[\\[Meta/Callouts#(Generated|Auto-Generated)[|\\]]"
+      ]
+    }
+  ]
+}

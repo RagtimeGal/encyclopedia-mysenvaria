@@ -18,6 +18,8 @@ needs:
   - image
 featured_data:
   fun_facts: ["ff1"]
+callout_notes:
+  pending: "*Could really use a section on the history of its invention and the impact it's had on science and the Plane.*"
 ---
 %%
 ff1: ... that [[Encyclopedia Mysenvaria/Geography/Abstract Features/Span & Reach|span & reach]] is the most commonly used coordinate system for [[Encyclopedia Mysenvaria/Science/Technologies/Measurement|measuring]] and describing position of things on the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?
@@ -30,7 +32,7 @@ The origin of SR coordinates is typically the [[Encyclopedia Mysenvaria/Geograph
 - Reach is a measure of the position's distance from the point or origin. It is expressed in some unit which may vary depending on the context.
 A position in the coordinate system is represented in the format (Span°, Reach).
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *Could really use a section on the history of its invention and the impact it's had on science and the Plane.*

@@ -10,6 +10,8 @@ status:
   future: [pending]
 needs:
   - graphics
+callout_notes:
+  pending: "*This article could use a section on the history of its discovery and impact on cultures.*"
 ---
 
 Climate is the long-term [[Encyclopedia Mysenvaria/Science/Phenomena/Weather|weather]] patterns for a region of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]], determined through various [[Encyclopedia Mysenvaria/Science/Branches/Meteorology|meteorological]] variables like precipitation, temperatures, wind speeds, and humidity.
@@ -20,7 +22,7 @@ The Great Dying would force organisms to adapt to environmental conditions which
 # Classification
 Climates are divided and organized in a variety of models, each mapping climates based on several key meteorological and geographical factors. The most widely used model is that of the Koppen system which uses seasonal precipitation and temperature to model and classify climates. Older models, like the Cline system use distance from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|harmony line]] and the availability of water.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use a section on the history of its discovery and impact on cultures.*

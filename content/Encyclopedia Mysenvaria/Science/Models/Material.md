@@ -12,8 +12,8 @@ has:
   - addenda
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|Entities]] are physically composed of, or are themselves, materials like elements and molecules. Materials are structured in specific patterns, determined by their [[Encyclopedia Mysenvaria/Science/Models/Relationships (model)|relationships]], which define their entity's attributes and properties. The most basal entities and materials are elements. With the sole exception of [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn]], everything that exists physically in Reality is made up of elements.
 
@@ -21,5 +21,5 @@ Elements are often divided into two groups: common elements, and uncommon elemen
 
 Molecules are constructed out of two or more elements which are bonded together chemically.
 
-> [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]
-> This article is or has an addendum. Visit addenda pages by adding `Meta/` to the start of an article's URL path. E.G. `ragno.studio/Encyclopedia-Mysenvaria` becomes `ragno.studio/Meta/Encyclopedia-Mysenvaria`.
+> [!hint|callout-has-addendum] [[Meta/Meta|Meta]] || Addendum Ahead!
+> This article has an addendum which provides metatextual context about this article. Visit the addendum here: [[Meta/Encyclopedia Mysenvaria/Science/Models/Material|Material (Addendum)]]!

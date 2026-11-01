@@ -2,11 +2,11 @@
     "meta": {
         "total_markdown_files": 639,
         "pages_extracted": 759,
-        "warnings": 45,
+        "warnings": 44,
         "issues": {
             "error": 0,
             "warning": 19,
-            "notice": 26
+            "notice": 25
         },
         "working_directory": "C:\\Users\\Terra\\Documents\\Github Folders\\quartz--encyclopedia-mysenvaria"
     },
@@ -26626,7 +26626,7 @@
             "src_rel": "Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium.md",
             "definitions": {},
             "metadata": {
-                "title": "God of Iridum",
+                "title": "God of Iridium",
                 "aliases": [
                     "Iridium"
                 ],
@@ -26660,7 +26660,7 @@
                         "major_event": false
                     }
                 ],
-                "link": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium|God of Iridum]]"
+                "link": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium|God of Iridium]]"
             }
         },
         {
@@ -36746,12 +36746,6 @@
             "check": "unknown-tag",
             "source": "Encyclopedia Mysenvaria/History/Biographies/Gods/Isotope Gods.md",
             "message": "Tag `subject/god/isotope_god` isn't documented. Add it to Meta/Metadata.md if it's new."
-        },
-        {
-            "severity": "notice",
-            "check": "person-name-page",
-            "source": "Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium.md",
-            "message": "Page \"God of Iridum\" has a single person block named \"God of Iridium\"."
         },
         {
             "severity": "warning",

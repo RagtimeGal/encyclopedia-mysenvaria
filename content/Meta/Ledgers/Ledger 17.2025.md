@@ -9,15 +9,13 @@ ledger_data:
   year: 2025
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #8
-> 17/2025
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 3.2025|Ledger 3.2025]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 34.2025|Ledger 34.2025]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #8!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 3.2025|Lore Ledger 3.25]], **Lore Ledger 17.25**, [[Meta/Ledgers/Ledger 34.2025|Lore Ledger 34.25]] ...
 
 Long time no see? I've decided to update Lore Ledgers to improve my morale. They now serve simply as weekly changelogs, instead of 'progress trackers'.
 ## Added

@@ -19,8 +19,8 @@ featured_desc: **[[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony L
 ff1: ... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|Harmony Line]] is a projection of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaties]] orbital path onto the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?
 %%
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
-> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-wip] [[Meta/Meta|Meta]] || This Article's a Work in Progress!
+> This article is currently actively in the process of being written, information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of completion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The harmony line is a representation of the orbital pattern of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaty]] above the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]. The harmony line model is a useful tool for predicting the effects of the Harmonic Treaty at any given time. Despite often being depicted as directly between the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|pole]] and [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|edge]] the Treaty has a slightly eccentric orbit which rotates over time, making the common depiction inaccurate.
 

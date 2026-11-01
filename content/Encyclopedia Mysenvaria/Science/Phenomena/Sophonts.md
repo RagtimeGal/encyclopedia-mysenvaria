@@ -10,8 +10,8 @@ status:
   future: [rewrite]
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Sophonts are seemingly living [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organism]]-like objects capable of self-reflection which are aware of their own existence. Known sophonts are humans, [[Encyclopedia Mysenvaria/Biology/Organisms/Plants/Elven Fungus|elves]], dwarves, [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], and [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]. The first sophonts outside of Gods were humans. The exact mechanics of sophonce are unknown and widely debated across many [[Encyclopedia Mysenvaria/Indexes/Science/Branches/List of Scientific Branches|branches]] of [[Encyclopedia Mysenvaria/Science/Science|science]].
 # Definition
@@ -29,5 +29,5 @@ In the year 49 BT elves would arise too, created by the [[Encyclopedia Mysenvari
 # Relationship with Animals and Plants
 Sapients have, throughout history, domesticated and simultaneously led to the extinction of numerous organisms.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Rewrite|Future Rewrite Needed]]
-> This article is considered complete for the moment, but some sections may need to be rewritten to help improve legibility! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract|callout-rewrite] [[Meta/Meta|Meta]] || Rewrite Suspected in Future!
+> Some sections of this article may need to be rewritten in the future to improve legibility. If you believe that this article requires an urgent rewrite please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).

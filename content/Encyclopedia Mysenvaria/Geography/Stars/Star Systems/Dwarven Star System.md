@@ -11,8 +11,8 @@ status:
   future: []
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The Dwarven Star System is a mid-sized [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] system created following the creation of the dwarves by humanity to discuss the legality of their creation in regards to the [[Encyclopedia Mysenvaria/Geography/Stars/Creations Act|Creations Act]] which had been passed a year prior. The system would gain a number of stars shortly after its creation, beginning with the [[Encyclopedia Mysenvaria/Geography/Stars/Dwarven Star System/Dwarf Star|Dwarf Star]] by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Carbon Dioxide|God of Carbon Dioxide]], but by the end of the ordeal consisting of 82 stars.
 # History

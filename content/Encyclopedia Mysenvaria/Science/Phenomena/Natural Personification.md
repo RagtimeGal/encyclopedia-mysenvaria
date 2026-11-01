@@ -15,6 +15,8 @@ needs:
 featured_data:
   featured_desc: "featured_desc"
   fun_facts: ["ff1","ff2","ff3","ff4","ff5"]
+callout_notes:
+  pending: "*This article could use a section on the history of its discovery. It could also probably use some elaboration on how the different forms are important to science or societies. Natural Diffusion can definitely use elaboration on how it's studied.*"
 ---
 %%
 "featured_desc": "**[[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]]** is the tendency of [[Encyclopedia Mysenvaria/Science/Science#Phenomena|phenomena]] in Nature to enter Reality as new unique phenomena. Natural Personification is not a true metaphysical rule, but rather an emergent property caused by the formation of Reality. According to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], Reality is the result of an imperfect interaction between the Real and Unreal. Imperfections and inequality in the Real and Unreal may require the other to compensate during their interaction, drawing from phenomena within Nature."
@@ -49,7 +51,7 @@ Flaws in the interaction between the Real and Unreal can allow Nature to seep in
 
 Natural Diffusion plays an important role in the works of [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Starforging|starforgers]]. For that reason it is closely monitored by [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenists]] and astronomers, who track the spontaneous generation of limn via various methods.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use a section on the history of its discovery. It could also probably use some elaboration on how the different forms are important to science or societies. Natural Diffusion can definitely use elaboration on how it's studied.*

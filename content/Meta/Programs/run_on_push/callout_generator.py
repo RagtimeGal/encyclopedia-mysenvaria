@@ -2,38 +2,69 @@
 """
 Callout Generator
 
-Keeps every page's status callouts in line with its `status` block, using the
-wording in Meta/Callouts.md:
+Places the meta callouts on every page, as described in Meta/Programs/callouts.json.
+Runs on every push (the decade generator also runs it on the decade pages it writes).
 
-  top of the page     the progress callout (Empty, Idea, WIP or Stub; none when
-                      complete), then the Template callout on templates
-  bottom of the page  a callout for each `future` value (Pending Future, Future
-                      Rewrite, Future Review), then the Generated callout when
-                      `scope: generated`, all before any %% comments that close
-                      the page
+-------------------------------------------------------------------------------
+callouts.json
+-------------------------------------------------------------------------------
+"settings":
+  header          What follows the callout type on the first line. {title} is the
+                  callout's title. e.g. "[[Meta/Meta|Meta]] || {title}"
+  marker_prefix   Every placed callout carries a hidden id in its type, like
+                  `> [!note|callout-stub]`. Readers don't see it; it's how this program
+                  recognises its own callouts, however their wording changes.
+  exclude_paths   Pages never touched (e.g. the home page, whose first callout is the
+                  daily featured block).
+  skip_folders    Folders never touched.
+  defaults        Text used when a placeholder has no value on a page.
 
-How it treats what's already there:
-  - A callout already on the page is updated where it is, not moved.
-  - Each callout's first line of text is the program's: change the wording in
-    Meta/Callouts.md and every page follows. Anything you write on the lines
-    after it (your own notes) is kept.
-  - A callout that no longer matches the page's status is removed, unless you've
-    added notes to it. Then it's kept and reported, so nothing you wrote is lost.
-  - Old callouts from before the status rework are converted.
+"callouts": a list, each with
+  id              Unique name (letters, numbers, dashes).
+  type            The Obsidian callout type: note, abstract, warning, hint, example ...
+  position        "top" (after the %% definitions, if any) or "bottom" (before any
+                  %% comments that close the page).
+  order           Callouts are stacked by this number (then by their order in the file).
+  group           Optional. Of the callouts sharing a group, only the first that
+                  applies to a page is placed.
+  title           The callout's title. Placeholders allowed.
+  text            The callout's lines. "" is a blank line. Placeholders allowed.
+  when            When it applies: every key must match. A key is a piece of the page's
+                  metadata ("type", "tags", "status.progress", ...) or a file fact
+                  ("file.path", "file.has_addendum"). Values:
+                    "x"                 equals x (or, for a list like tags, contains x)
+                    "topic/meta/*"      starts with "topic/meta/"
+                    ["x", "y"]          any of these
+                    true / false        for yes/no facts
+                    {"not": ...}        anything except this
+                    {"exists": true}    the key is present (false: absent)
+  replaces        Optional. Patterns (regular expressions) matching the first line of
+                  older hand-made callouts this one takes over from. Such a callout is
+                  removed when this one is placed. If it has more lines than
+                  replaces_lines (default 1), i.e. your own notes, it's kept and reported.
+  replaces_mode   "always" (default): an old callout matching the pattern is also removed
+                  when this callout doesn't apply. "if_applies": only when it does.
 
-Left alone: pages without a `status` block, pages tagged
-topic/meta/writing_guidelines (Callouts and Metadata show every callout as an
-example), subpages (they have no text of their own), and the top of the home page
-(the daily featured block lives there).
+Placeholders: {title}, {path}, {ledger_number}, {current_ledger}, {previous_ledger},
+{next_ledger}, {original_article} (an addendum's article), {addendum_article} (an
+article's addendum), and any metadata value like {status.progress}.
 
-Runs on every push, before the metadata aggregator, so the aggregator's callout
-check sees the finished pages.
+-------------------------------------------------------------------------------
+In a page's front matter
+-------------------------------------------------------------------------------
+  callouts: [names]            switch on callouts whose `when` is {"callouts": "..."}
+  callout_notes:               your own notes, added to the end of a callout
+    pending: "Could really use a section on its history."
+
+The program owns the callouts it places: it rewrites and repositions them on every
+run, so edit callouts.json (or callout_notes), not the callouts on a page.
 
 Usage:
-  python callout_generator.py              # update the pages
+  python callout_generator.py              # update every page
   python callout_generator.py --dry-run    # only list what would change
 """
 import argparse
+import json
 import re
 import sys
 import pathlib
@@ -50,83 +81,227 @@ try:
 except ImportError:
     yaml = None
 
-CALLOUTS_PAGE = mc.VAULT / "Meta/Callouts.md"
-SKIP_DIRS = {".git", ".obsidian", "node_modules", ".quartz-cache", "public", "__pycache__", "Private"}
-SKIP_TAGS = {"topic/meta/writing_guidelines"}
-NO_TOP_CALLOUTS = {mc.HOME_PAGE_REL}
-
-# Anchor in [[Meta/Callouts#...]] -> (kind, value). Older anchors are recognised too.
-ANCHORS = {
-    "Empty": ("progress", "empty"), "Idea": ("progress", "idea"), "WIP": ("progress", "wip"),
-    "Stub": ("progress", "stub"), "Incomplete": ("progress", "wip"),
-    "Pending Future": ("future", "pending"), "Future Rewrite": ("future", "rewrite"), "Future Review": ("future", "review"),
-    "Update Needed": ("future", "pending"), "Rewrite Needed": ("future", "rewrite"), "Review Needed": ("future", "review"),
-    "Generated": ("generated", "generated"), "Auto-Generated": ("generated", "generated"),
-    "Template": ("template", "template"),
-}
-NEW_ANCHOR = {("progress", "empty"): "Empty", ("progress", "idea"): "Idea", ("progress", "wip"): "WIP",
-              ("progress", "stub"): "Stub", ("future", "pending"): "Pending Future",
-              ("future", "rewrite"): "Future Rewrite", ("future", "review"): "Future Review",
-              ("generated", "generated"): "Generated", ("template", "template"): "Template"}
-TOP_KINDS = ("progress", "template")
-
+CONFIG_PATH = mc.PROGRAMS / "callouts.json"
+ALWAYS_SKIP = {".git", ".obsidian", "node_modules", ".quartz-cache", "public", "__pycache__"}
 FRONT_RE = re.compile(r"\A(﻿?---[ \t]*\n.*?\n---[ \t]*(?:\n|\Z))", re.DOTALL)
-HEADER_RE = re.compile(r"^> \[!\w+\][^\n]*\[\[Meta/Callouts#([^\]\|]+)\|")
+CALLOUT_START = re.compile(r"^> \[!([\w-]+)(?:\|([^\]]*))?\]")
+PLACEHOLDER_RE = re.compile(r"\{([\w.]+)\}")
 
 
-def load_callouts():
-    """{anchor: [lines]} for the callouts in Meta/Callouts.md."""
-    lines = CALLOUTS_PAGE.read_text(encoding="utf-8").replace("\r\n", "\n").split("\n")
-    found = {}
-    for i, ln in enumerate(lines):
-        m = HEADER_RE.match(ln)
-        if m and m.group(1) in NEW_ANCHOR.values() and m.group(1) not in found:
-            block = [ln]
-            for nxt in lines[i + 1:]:
-                if not nxt.startswith(">"):
-                    break
-                block.append(nxt)
-            found[m.group(1)] = block
-    missing = sorted(set(NEW_ANCHOR.values()) - set(found))
-    if missing:
-        sys.exit(f"[ERROR] Meta/Callouts.md has no callout for: {', '.join(missing)}")
-    return found
+# =============================================================================
+#  Config
+# =============================================================================
+def load_config():
+    """The settings and callouts from callouts.json, or None (with a warning) if unusable."""
+    try:
+        cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    except (OSError, ValueError) as e:
+        print(f"[WARNING] Couldn't read {CONFIG_PATH.name}: {e}. No pages were changed.")
+        return None
+    settings = cfg.get("settings", {})
+    callouts, problems, seen = [], [], set()
+    for n, c in enumerate(cfg.get("callouts", [])):
+        cid = str(c.get("id", ""))
+        if not re.fullmatch(r"[\w-]+", cid):
+            problems.append(f"callout #{n + 1} needs an `id` of letters, numbers and dashes")
+            continue
+        if cid in seen:
+            problems.append(f"the id `{cid}` is used twice")
+        seen.add(cid)
+        if c.get("position") not in ("top", "bottom"):
+            problems.append(f"`{cid}`: position must be \"top\" or \"bottom\"")
+        if not re.fullmatch(r"[\w-]+", str(c.get("type", ""))):
+            problems.append(f"`{cid}`: needs a callout `type` such as note or abstract")
+        if not isinstance(c.get("text", []), list):
+            problems.append(f"`{cid}`: `text` should be a list of lines")
+        try:
+            c["_replaces"] = [re.compile(p) for p in c.get("replaces", [])]
+        except re.error as e:
+            problems.append(f"`{cid}`: a `replaces` pattern is invalid ({e})")
+            c["_replaces"] = []
+        c["_index"] = n
+        callouts.append(c)
+    if problems:
+        print("[WARNING] callouts.json has problems, so no pages were changed:")
+        for p in problems:
+            print("   -", p)
+        return None
+    return settings, callouts
 
 
-def front_matter(front_text):
-    """(type, status block or None, tags) from the front matter."""
-    body = front_text.strip().strip("-").strip("﻿")
-    data = None
+# =============================================================================
+#  The vault: pages, ledgers, addenda
+# =============================================================================
+def read_front(text):
+    m = FRONT_RE.match(text)
+    if not m:
+        return None, None, text
+    fm = {}
     if yaml is not None:
         try:
-            data = yaml.safe_load(front_text.split("\n", 1)[1].rsplit("---", 1)[0]) or {}
+            fm = yaml.safe_load(m.group(1).split("\n", 1)[1].rsplit("---", 1)[0]) or {}
         except yaml.YAMLError:
-            return None, None, []
-    if isinstance(data, dict):
-        tags = data.get("tags") if isinstance(data.get("tags"), list) else []
-        status = mc.status_of(data) if ("status" in data or "future" in data) else None
-        return str(data.get("type", "article")).lower(), status, [str(t) for t in tags]
-    m = re.search(r"^type:[ \t]*(\S+)", body, re.M)
-    tags = re.findall(r"^[ \t]+-[ \t]*[\"']?((?:topic|subject)/[^\s\"']+)", body, re.M)
-    return (m.group(1).lower() if m else "article"), mc.read_status_text(body), tags
+            fm = None
+    return m.group(1), fm, text[m.end():]
 
 
+class Vault:
+    def __init__(self, settings):
+        self.skip = ALWAYS_SKIP | set(settings.get("skip_folders", []))
+        self.files = []
+        self.meta = {}           # rel path -> front matter
+        for path in sorted(mc.VAULT.rglob("*.md")):
+            rel = path.relative_to(mc.VAULT)
+            if any(part in self.skip for part in rel.parts):
+                continue
+            self.files.append(path)
+            try:
+                _, fm, _ = read_front(path.read_text(encoding="utf-8").replace("\r\n", "\n"))
+            except (OSError, UnicodeDecodeError):
+                fm = None
+            self.meta[rel.as_posix()] = fm if isinstance(fm, dict) else {}
+        self.all_paths = set(self.meta)
+        # Lore Ledgers, oldest first
+        ledgers = []
+        for rel, fm in self.meta.items():
+            ld = fm.get("ledger_data") if isinstance(fm.get("ledger_data"), dict) else None
+            if fm.get("type") == "ledger" and ld and isinstance(ld.get("year"), int) and isinstance(ld.get("week"), int):
+                ledgers.append(((ld["year"], ld["week"]), rel))
+        ledgers.sort()
+        self.ledger_order = [rel for _, rel in ledgers]
+
+    def title(self, rel):
+        fm = self.meta.get(rel) or {}
+        return str(fm.get("title") or pathlib.PurePosixPath(rel).stem)
+
+    def link(self, rel):
+        return f"[[{rel[:-3]}|{self.title(rel)}]]"
+
+    def facts(self, rel):
+        """file.* facts and the placeholder values for one page."""
+        values = {"title": self.title(rel), "path": rel[:-3]}
+        addendum = "Meta/" + rel
+        has_addendum = not rel.startswith("Meta/") and addendum in self.all_paths
+        if has_addendum:
+            values["addendum_article"] = self.link(addendum)
+        if rel.startswith("Meta/") and rel[5:] in self.all_paths:
+            values["original_article"] = self.link(rel[5:])
+        if rel in self.ledger_order:
+            i = self.ledger_order.index(rel)
+            values["ledger_number"] = str(i + 1)
+            values["current_ledger"] = self.title(rel)
+            if i > 0:
+                values["previous_ledger"] = self.link(self.ledger_order[i - 1])
+            if i + 1 < len(self.ledger_order):
+                values["next_ledger"] = self.link(self.ledger_order[i + 1])
+        facts = {"path": rel, "has_addendum": has_addendum}
+        return facts, values
+
+
+# =============================================================================
+#  Conditions
+# =============================================================================
+def lookup(data, path):
+    """A value from nested metadata by a dotted path: (found, value)."""
+    node = data
+    for part in path.split("."):
+        if isinstance(node, dict) and part in node:
+            node = node[part]
+        else:
+            return False, None
+    return True, node
+
+
+def value_matches(actual, expected):
+    if isinstance(expected, dict):
+        if "not" in expected:
+            return not value_matches(actual, expected["not"])
+        return False
+    if isinstance(expected, list):
+        return any(value_matches(actual, e) for e in expected)
+    if isinstance(actual, list):
+        return any(value_matches(a, expected) for a in actual)
+    if isinstance(expected, bool) or isinstance(actual, bool):
+        return actual is expected
+    if isinstance(expected, str) and expected.endswith("*"):
+        return str(actual).startswith(expected[:-1])
+    return str(actual) == str(expected)
+
+
+def applies(callout, data):
+    for key, expected in (callout.get("when") or {}).items():
+        found, actual = lookup(data, key)
+        if isinstance(expected, dict) and "exists" in expected:
+            if bool(expected["exists"]) != (found and actual not in (None, "", [])):
+                return False
+            continue
+        if isinstance(expected, dict) and "not" in expected:
+            if found and value_matches(actual, expected["not"]):
+                return False
+            continue
+        if not found or not value_matches(actual, expected):
+            return False
+    return True
+
+
+def page_data(fm, facts):
+    data = dict(fm)
+    if "status" in fm or fm.get("type", "article") in mc.STATUS_TYPES:
+        data["status"] = mc.status_of(fm)
+    data["file"] = facts
+    return data
+
+
+# =============================================================================
+#  Rendering
+# =============================================================================
+def fill(text, values, data, defaults, missing):
+    def sub(m):
+        key = m.group(1)
+        if key in values:
+            return values[key]
+        found, v = lookup(data, key)
+        if found and v not in (None, "", []):
+            return ", ".join(map(str, v)) if isinstance(v, list) else str(v)
+        if key in defaults:
+            return str(defaults[key])
+        missing.add(key)
+        return m.group(0)
+    return PLACEHOLDER_RE.sub(sub, text)
+
+
+def render(callout, settings, values, data, notes, missing):
+    defaults = settings.get("defaults", {})
+    title = fill(callout.get("title", ""), values, data, defaults, missing)
+    header = fill(settings.get("header", "{title}"), {**values, "title": title}, data, defaults, missing)
+    marker = settings.get("marker_prefix", "callout-") + callout["id"]
+    lines = [f"> [!{callout['type']}|{marker}] {header}".rstrip()]
+    for t in callout.get("text", []):
+        t = fill(str(t), values, data, defaults, missing)
+        lines.append(f"> {t}" if t else ">")
+    if notes:
+        lines.append(">")
+        lines += [f"> {n}" if n else ">" for n in notes]
+    return lines
+
+
+# =============================================================================
+#  Page bodies
+# =============================================================================
 def find_blocks(lines):
-    """Status callouts in the body: [(start, end, kind, value)] (end is exclusive)."""
+    """Callouts in the body, outside code and %% comments: [(start, end)]."""
     out, i, fence, comment = [], 0, False, False
     while i < len(lines):
         ln = lines[i]
         if ln.strip().startswith("```"):
             fence = not fence
-        if ln.count("%%") % 2 == 1:
+        if not fence and ln.count("%%") % 2 == 1:
             comment = not comment
-        m = HEADER_RE.match(ln) if not (fence or comment) else None
-        if m and m.group(1).strip() in ANCHORS:
+        if not (fence or comment) and CALLOUT_START.match(ln):
             j = i + 1
-            while j < len(lines) and lines[j].startswith(">") and not lines[j].startswith("> [!"):
+            while j < len(lines) and lines[j].startswith(">") and not CALLOUT_START.match(lines[j]):
                 j += 1
-            kind, value = ANCHORS[m.group(1).strip()]
-            out.append((i, j, kind, value))
+            out.append((i, j))
             i = j
             continue
         i += 1
@@ -134,216 +309,238 @@ def find_blocks(lines):
 
 
 def top_position(lines):
-    """Where a callout goes at the top: after the %% definitions block, if there is one."""
+    """After the opening %% definitions, if any."""
     i = 0
     while i < len(lines) and not lines[i].strip():
         i += 1
     if i < len(lines) and lines[i].strip().startswith("%%"):
         j = i
-        if lines[i].strip().count("%%") == 1:          # a %% ... %% block over several lines
+        if lines[i].strip().count("%%") == 1:
             j = i + 1
             while j < len(lines) and "%%" not in lines[j]:
                 j += 1
-        i = j + 1
-        while i < len(lines) and not lines[i].strip():
-            i += 1
-    return i
+        return j + 1
+    return 0
 
 
-def read_tail(lines):
-    """The run of bottom callouts, %% comments and blank lines that ends the page:
-    (start index, [("callout"|"comment", lines)] in page order)."""
+def closing_comments_start(lines):
+    """Where the %% comments that close the page begin (len(lines) if there are none)."""
     first = next((k for k, ln in enumerate(lines) if ln.strip()), len(lines))
-    i, items = len(lines), []
+    i = start = len(lines)
     while True:
         while i > 0 and not lines[i - 1].strip():
             i -= 1
-        if i == 0:
+        if i == 0 or "%%" not in lines[i - 1]:
             break
-        ln = lines[i - 1]
-        if ln.startswith(">"):
-            j = i - 1
-            while j > 0 and lines[j - 1].startswith(">") and not lines[j].startswith("> [!"):
+        j = i - 1
+        if lines[i - 1].count("%%") % 2 == 1:
+            j -= 1
+            while j >= 0 and "%%" not in lines[j]:
                 j -= 1
-            m = HEADER_RE.match(lines[j])
-            if not m or ANCHORS.get(m.group(1).strip(), ("",))[0] in TOP_KINDS or m.group(1).strip() not in ANCHORS:
+            if j < 0:
                 break
-            items.insert(0, ("callout", lines[j:i]))
-            i = j
-        elif "%%" in ln:
-            j = i - 1
-            if ln.count("%%") % 2 == 1:          # the closing %% of a block over several lines
-                j -= 1
-                while j >= 0 and "%%" not in lines[j]:
-                    j -= 1
-                if j < 0:
-                    break
-            if j <= first:
-                break                            # the page's opening %% definitions, not a closing comment
-            items.insert(0, ("comment", lines[j:i]))
-            i = j
-        else:
-            break
-    return i, items
+        if j <= first:
+            break       # the page's opening definitions, not a closing comment
+        start = i = j
+    return start
 
 
-def tail_start(lines):
-    return read_tail(lines)[0]
+def body_lines(block):
+    """A callout's lines after its header, without trailing blank ones."""
+    rest = block[1:]
+    while rest and not rest[-1].strip(" >"):
+        rest = rest[:-1]
+    return rest
 
 
-def tail_in_order(items):
-    """True when no callout comes after a closing comment."""
-    kinds = [k for k, _ in items]
-    return "comment" not in kinds or "callout" not in kinds[kinds.index("comment"):]
-
-
-def arrange_tail(lines, missing, callouts, changes):
-    """Put the bottom callouts (plus any missing ones) before the closing %% comments."""
-    start, items = read_tail(lines)
-    kept = [b for kind, b in items if kind == "callout"]
-    comments = [b for kind, b in items if kind == "comment"]
-    added = [callouts[NEW_ANCHOR[kv]] for kv in missing]
-    for kv in missing:
-        changes.append(f"added {NEW_ANCHOR[kv]}")
-    if not added and tail_in_order(items):
-        return lines
-    if not tail_in_order(items):
-        changes.append("moved callouts above the closing comments")
-    head = lines[:start]
-    while head and not head[-1].strip():
-        head.pop()
-    out = head
-    for block in kept + added + comments:
-        out += [""] + block
-    out.append("")                                # end the file with a newline
-    return out
-
-
-def update_page(body, ptype, status, rel, callouts, notes):
+def old_notes(body, wanted, callouts, settings):
+    """Notes written under older callouts that a placed callout takes over:
+    {callout id: [lines]} (the lines after the old callout's standard text)."""
     lines = body.split("\n")
-    want = []
-    if status["progress"] != "complete":
-        want.append(("progress", status["progress"]))
-    if ptype == "template":
-        want.append(("template", "template"))
-    want += [("future", f) for f in mc.FUTURES if f in status["future"]]
-    if status["scope"] == "generated":
-        want.append(("generated", "generated"))
-    if rel in NO_TOP_CALLOUTS:
-        want = [w for w in want if w[0] not in TOP_KINDS]
-
-    blocks = find_blocks(lines)
-    replace = {}           # (start, end) -> new lines ([] = remove)
-    have = set()
-    changes = []
-    for start, end, kind, value in blocks:
-        old = lines[start:end]
-        extra = old[2:]
-        # a progress callout can switch to the page's current progress; others must match exactly
-        target = None
-        if kind == "progress":
-            target = next((w for w in want if w[0] == "progress"), None)
-        elif (kind, value) in want:
-            target = (kind, value)
-        if target in have:
-            target = None          # a second copy of a callout already handled
-        if target is None:
-            if any(x.strip(" >") for x in extra):
-                notes.append(f"{rel}: kept the out-of-date \"{NEW_ANCHOR[(kind, value)]}\" callout because it has your notes under it")
-                continue
-            replace[(start, end)] = []
-            changes.append(f"removed {NEW_ANCHOR[(kind, value)]}")
+    prefix = settings.get("marker_prefix", "callout-")
+    wanted_ids = {c["id"] for c in wanted}
+    found = {}
+    for start, end in find_blocks(lines):
+        header = lines[start]
+        m = CALLOUT_START.match(header)
+        if m and (m.group(2) or "").startswith(prefix):
             continue
-        have.add(target)
-        new = callouts[NEW_ANCHOR[target]] + extra
-        if new != old:
-            replace[(start, end)] = new
-            changes.append(f"updated {NEW_ANCHOR[target]}")
+        applying = [c for c in callouts if c["id"] in wanted_ids and any(p.search(header) for p in c["_replaces"])]
+        if not applying:
+            continue
+        limit = max(c.get("replaces_lines", 1) for c in applying)
+        extra = body_lines(lines[start:end])[limit:]
+        while extra and not extra[0].strip(" >"):
+            extra = extra[1:]
+        if extra:
+            found[applying[0]["id"]] = [re.sub(r"^> ?", "", x) for x in extra]
+    return found
 
-    missing_top = [w for w in want if w not in have and w[0] in TOP_KINDS]
-    missing_bottom = [w for w in want if w not in have and w[0] not in TOP_KINDS]
-    if not replace and not missing_top and not missing_bottom and tail_in_order(read_tail(lines)[1]):
-        return None, changes
 
-    # rebuild the body with the replacements, remembering where kept callouts ended up
-    out, k = [], 0
-    top_end = bottom_end = None
-    for start, end, kind, value in blocks:
-        out += lines[k:start]
-        new = replace.get((start, end), lines[start:end])
-        if new:
-            out += new
-            if kind in TOP_KINDS:
-                top_end = len(out)
-            else:
-                bottom_end = len(out)
+def add_notes_to_front(front, moved):
+    """The front matter with a `callout_notes:` block added (None if it can't be done safely)."""
+    if yaml is None:
+        return None
+    lines = front.rstrip("\n").split("\n")
+    block = ["callout_notes:"]
+    for cid, notes in moved.items():
+        if len(notes) == 1:
+            block.append(f"  {cid}: {json.dumps(notes[0], ensure_ascii=False)}")
         else:
-            while out and not out[-1].strip() and end < len(lines) and not lines[end].strip():
-                out.pop()          # don't leave a double gap where a callout was
-        k = end
-    out += lines[k:]
-
-    def insert(at, items):
-        nonlocal out
-        chunk = []
-        for kind_value in items:
-            chunk += [""] + callouts[NEW_ANCHOR[kind_value]]
-            changes.append(f"added {NEW_ANCHOR[kind_value]}")
-        if at < len(out) and out[at].strip():
-            chunk.append("")
-        if at == 0 or (at > 0 and not out[at - 1].strip()):
-            chunk = chunk[1:]
-        out = out[:at] + chunk + out[at:]
-        return len(chunk)
-
-    # The end of the page: bottom callouts first, then any %% comments that close the page.
-    # (Bottom first, so the remembered positions near the top don't move.)
-    if missing_bottom and bottom_end is not None and bottom_end < tail_start(out):
-        insert(bottom_end, missing_bottom)      # the page keeps its bottom callouts mid-page
-        missing_bottom = []
-    out = arrange_tail(out, missing_bottom, callouts, changes)
-    if missing_top:
-        insert(top_end if top_end is not None else top_position(out), missing_top)
-    if out == lines:
-        return None, changes
-    return "\n".join(out), changes
+            block.append(f"  {cid}:")
+            block += [f"    - {json.dumps(n, ensure_ascii=False)}" for n in notes]
+    new = "\n".join(lines[:-1] + block + lines[-1:]) + "\n"
+    try:
+        fm = yaml.safe_load(new.split("\n", 1)[1].rsplit("---", 1)[0]) or {}
+    except yaml.YAMLError:
+        return None
+    got = fm.get("callout_notes") if isinstance(fm, dict) else None
+    want = {k: (v[0] if len(v) == 1 else v) for k, v in moved.items()}
+    return new if got == want else None
 
 
-def main():
-    ap = argparse.ArgumentParser(description="Keep status callouts in line with each page's status.")
-    ap.add_argument("--dry-run", action="store_true", help="only list what would change")
-    args = ap.parse_args()
-    callouts = load_callouts()
-    notes, changed, skipped = [], 0, []
-    for path in sorted(mc.VAULT.rglob("*.md")):
+def update_body(body, wanted, callouts, settings, rel, report, moved=()):
+    """The page body with its callouts in line with `wanted` (the callouts that apply)."""
+    lines = body.split("\n")
+    leading_blank = bool(lines) and lines[0] == ""      # keep the usual gap after the front matter
+    prefix = settings.get("marker_prefix", "callout-")
+    wanted_ids = {c["id"] for c in wanted}
+    remove, keep_ids = [], set()
+    for start, end in find_blocks(lines):
+        header = lines[start]
+        m = CALLOUT_START.match(header)
+        marker = (m.group(2) or "") if m else ""
+        if marker.startswith(prefix):                    # one of ours: always rebuilt
+            remove.append((start, end))
+            continue
+        matching = [c for c in callouts if any(p.search(header) for p in c["_replaces"])]
+        if not matching:
+            continue                                     # a hand-made callout: leave it
+        applying = [c for c in matching if c["id"] in wanted_ids]
+        if not applying and all(c.get("replaces_mode", "always") == "if_applies" for c in matching):
+            continue
+        limit = max(c.get("replaces_lines", 1) for c in (applying or matching))
+        if len(body_lines(lines[start:end])) > limit and not any(c["id"] in moved for c in applying):
+            report.append(f"{rel}: an older callout (\"{header[:70]}\") has your own notes under it, so it was kept. "
+                          "Move the notes to `callout_notes` in the front matter, then delete the old callout.")
+            keep_ids.update(c["id"] for c in applying)
+            continue
+        remove.append((start, end))
+
+    # take out the removed callouts, and a blank line next to each so no gap is left
+    drop = set()
+    for start, end in remove:
+        drop.update(range(start, end))
+        if end < len(lines) and not lines[end].strip():
+            drop.add(end)
+    lines = [ln for k, ln in enumerate(lines) if k not in drop]
+
+    place = [c for c in wanted if c["id"] not in keep_ids]
+    key = lambda c: (c.get("order", 0), c["_index"])
+    top = [c["_rendered"] for c in sorted((c for c in place if c["position"] == "top"), key=key)]
+    bottom = [c["_rendered"] for c in sorted((c for c in place if c["position"] == "bottom"), key=key)]
+
+    if bottom:
+        cut = closing_comments_start(lines)
+        head, tail = lines[:cut], lines[cut:]
+        while head and not head[-1].strip():
+            head.pop()
+        block = []
+        for b in bottom:
+            block += [""] + b
+        lines = head + block + [""] + tail
+    if top:
+        at = top_position(lines)
+        lead, rest = lines[:at], lines[at:]
+        while lead and not lead[-1].strip():
+            lead.pop()
+        while rest and not rest[0].strip():
+            rest.pop(0)
+        block = []
+        for b in top:
+            block += b + [""]
+        lines = lead + ([""] if lead or leading_blank else []) + block + rest
+    return "\n".join(lines)
+
+
+# =============================================================================
+#  Run
+# =============================================================================
+def process(paths=None, dry_run=False, quiet=False):
+    """Update the given pages (vault-relative paths), or every page. Returns how many changed."""
+    loaded = load_config()
+    if loaded is None:
+        return 0
+    settings, callouts = loaded
+    vault = Vault(settings)
+    exclude = set(settings.get("exclude_paths", []))
+    targets = [mc.VAULT / p for p in paths] if paths else vault.files
+    changed, report, missing_all = 0, [], {}
+    for path in targets:
         rel = path.relative_to(mc.VAULT).as_posix()
-        if any(part in SKIP_DIRS for part in path.relative_to(mc.VAULT).parts):
+        if rel in exclude or any(part in vault.skip for part in pathlib.PurePosixPath(rel).parts):
             continue
         raw = path.read_bytes().decode("utf-8")
         crlf = "\r\n" in raw
         text = raw.replace("\r\n", "\n")
-        m = FRONT_RE.match(text)
-        if not m:
+        front, fm, body = read_front(text)
+        if front is None:
             continue
-        ptype, status, tags = front_matter(m.group(1))
-        if ptype not in mc.STATUS_TYPES or SKIP_TAGS & set(tags):
+        if fm is None:
+            report.append(f"{rel}: the front matter can't be read, so the page was skipped")
             continue
-        if status is None:
-            skipped.append(rel)
-            continue
-        new_body, changes = update_page(text[m.end():], ptype, status, rel, callouts, notes)
-        if new_body is None:
+        vault.meta[rel] = fm
+        facts, values = vault.facts(rel)
+        data = page_data(fm, facts)
+        notes = fm.get("callout_notes") if isinstance(fm.get("callout_notes"), dict) else {}
+        # first time only: notes written under an older callout move to `callout_notes`
+        moved = {}
+        pre = [c for c in callouts if applies(c, data)]
+        found = old_notes(body, pre, callouts, settings)
+        if found:
+            if "callout_notes" in fm:
+                report.append(f"{rel}: has notes under an older callout and already has `callout_notes`, "
+                              "so the old callout was kept. Move its notes over by hand, then delete it.")
+            else:
+                new_front = add_notes_to_front(front, found)
+                if new_front:
+                    front, moved = new_front, found
+                    notes = {k: v for k, v in found.items()}
+                    report.append(f"{rel}: moved your notes from an older callout into `callout_notes` ({', '.join(found)})")
+        wanted, groups, missing = [], set(), set()
+        for c in callouts:
+            if (c.get("group") and c["group"] in groups) or not applies(c, data):
+                continue
+            if c.get("group"):
+                groups.add(c["group"])
+            n = notes.get(c["id"])
+            n = [str(x) for x in n] if isinstance(n, list) else ([str(n)] if n else [])
+            wanted.append(dict(c, _rendered=render(c, settings, values, data, n, missing)))
+        for k in missing:
+            missing_all.setdefault(k, []).append(rel)
+        new_body = update_body(body, wanted, callouts, settings, rel, report, moved)
+        if new_body == body and not moved:
             continue
         changed += 1
-        print(f"[{'WOULD UPDATE' if args.dry_run else 'UPDATED'}] {rel}: {', '.join(changes)}")
-        if not args.dry_run:
-            out = m.group(1) + new_body
+        if not quiet:
+            print(f"[{'WOULD UPDATE' if dry_run else 'UPDATED'}] {rel}")
+        if not dry_run:
+            out = front + new_body
             path.write_bytes((out.replace("\n", "\r\n") if crlf else out).encode("utf-8"))
-    for n in notes:
-        print(f"[NOTE] {n}")
-    for s in skipped:
-        print(f"[SKIPPED] {s}: no `status` block")
-    print(f"Done. {changed} page(s) {'would change' if args.dry_run else 'updated'}.")
+    for line in report:
+        print(f"[NOTE] {line}")
+    for k, rels in sorted(missing_all.items()):
+        print(f"[NOTE] No value for {{{k}}} on {len(rels)} page(s), e.g. {rels[0]}. Add one to settings.defaults in callouts.json.")
+    if not quiet:
+        print(f"Done. {changed} page(s) {'would change' if dry_run else 'updated'}.")
+    return changed
+
+
+def main():
+    ap = argparse.ArgumentParser(description="Place the meta callouts described in callouts.json.")
+    ap.add_argument("--dry-run", action="store_true", help="only list what would change")
+    args = ap.parse_args()
+    process(dry_run=args.dry_run)
 
 
 if __name__ == "__main__":

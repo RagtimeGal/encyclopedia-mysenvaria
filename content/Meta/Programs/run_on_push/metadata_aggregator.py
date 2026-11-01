@@ -101,14 +101,8 @@ DEFINITION_FIELDS = {
     "translators", "parent", "name",
 }
 
-# Which callout each status / future / type expects (the anchor in [[Meta/Callouts#...]]).
-PROGRESS_CALLOUTS = {"empty": "Empty", "idea": "Idea", "wip": "WIP", "stub": "Stub"}
-FUTURE_CALLOUTS = {"pending": "Pending Future", "rewrite": "Future Rewrite", "review": "Future Review"}
-SCOPE_CALLOUTS = {"generated": "Generated"}
-TYPE_CALLOUTS = {"template": "Template"}
-# Callouts from before the status rework (2026-10). migrate_status.py replaces them.
-OLD_CALLOUTS = {"Incomplete", "Update Needed", "Rewrite Needed", "Review Needed", "Auto-Generated"}
-# Pages that show every callout as an example, so the callout check skips them.
+# Status callouts are placed by run_on_push/callout_generator.py (see Meta/Programs/callouts.json).
+# Pages that show example definitions and callouts; the unused-definition check skips them.
 CALLOUT_CHECK_SKIP_TAGS = {"topic/meta/writing_guidelines"}
 
 # Every check, and its normal level.
@@ -133,7 +127,6 @@ CHECKS = {
     "broken-link":         ("warning", "A wikilink in the metadata points to a page or file that doesn't exist."),
     "duplicate-title":     ("warning", "Two pages share a title (Quartz and giscus comments both key on it)."),
     "duplicate-alias":     ("warning", "An alias is used by two pages, or matches another page's title."),
-    "callout-mismatch":    ("warning", "The meta callouts on the page don't match its status, future or type."),
     "person-name":         ("warning", "A subpage's single person block is named differently from the subpage."),
     "missing-field":       ("warning", "An event, star or person block is missing a field it needs."),
     "has-mismatch":        ("warning", "`has` lists something the page doesn't actually have."),
@@ -182,7 +175,6 @@ FRONTMATTER_RE = re.compile(r"\A﻿?---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z
 COMMENT_RE = re.compile(r"%%(.*?)%%", re.DOTALL)
 WIKILINK_RE = re.compile(r"!?\[\[([^\]\|#]*)(#[^\]\|]*)?(?:\\?\|[^\]]*)?\]\]")
 HEADING_RE = re.compile(r"^(#{1,6})\s+(.+?)\s*#*\s*$", re.MULTILINE)
-CALLOUT_LINK_RE = re.compile(r"\[\[Meta/Callouts#([^\]\|]+)")
 CODE_FENCE_RE = re.compile(r"^```.*?^```", re.MULTILINE | re.DOTALL)
 KEYLIKE_RE = re.compile(r"[A-Za-z][A-Za-z0-9_\-]*")
 LEDGER_FILE_RE = re.compile(r"Ledger (\d+)\.(\d{4})\.md$")
@@ -662,36 +654,6 @@ class MetadataAggregator:
                     if not ok:
                         self.report.add("invalid-value", src, f"`index[{i}].sort[{j}].subheaders.method` is `{m}`.")
 
-    def check_callouts(self, data, src, body):
-        tags = data.get("tags") or []
-        if isinstance(tags, list) and CALLOUT_CHECK_SKIP_TAGS & {str(t) for t in tags}:
-            return
-        text = CODE_FENCE_RE.sub("", COMMENT_RE.sub("", body))
-        found = {m.group(1).strip() for line in text.splitlines() if line.lstrip().startswith(">")
-                 for m in CALLOUT_LINK_RE.finditer(line)}
-        for old in sorted(found & OLD_CALLOUTS):
-            self.report.add("callout-mismatch", src, f"The \"{old}\" callout is from before the status rework (run migrate_status.py, or swap it for the new one in Meta/Callouts).")
-        st = data.get("status") if isinstance(data.get("status"), dict) else None
-        checks = [("type", str(data.get("type", "")), TYPE_CALLOUTS)]
-        if st:
-            if src != mc.HOME_PAGE_REL:   # the home page's top belongs to the featured block
-                checks.append(("status.progress", st.get("progress", ""), PROGRESS_CALLOUTS))
-            checks.append(("status.scope", st.get("scope", ""), SCOPE_CALLOUTS))
-        for label, val, mapping in checks:
-            expected = mapping.get(val)
-            present = found & set(mapping.values())
-            if expected and expected not in found:
-                self.report.add("callout-mismatch", src, f"`{label}: {val}` but the page has no \"{expected}\" callout.")
-            for other in sorted(present - ({expected} if expected else set())):
-                self.report.add("callout-mismatch", src, f"The page has a \"{other}\" callout but `{label}` is `{val}`.")
-        if st:
-            wanted = {FUTURE_CALLOUTS[f] for f in st.get("future", []) if f in FUTURE_CALLOUTS}
-            present = found & set(FUTURE_CALLOUTS.values())
-            for f in sorted(wanted - present):
-                self.report.add("callout-mismatch", src, f"`status.future` includes `{next(k for k, v in FUTURE_CALLOUTS.items() if v == f)}` but the page has no \"{f}\" callout.")
-            for f in sorted(present - wanted):
-                self.report.add("callout-mismatch", src, f"The page has a \"{f}\" callout but `status.future` doesn't include `{next(k for k, v in FUTURE_CALLOUTS.items() if v == f)}`.")
-
     def check_ledger(self, data, src):
         if data.get("type") != "ledger":
             return
@@ -856,7 +818,6 @@ class MetadataAggregator:
             self.report.add("draft-template", clean_rel_path, "Add `draft: true` so the template isn't published.")
         if fm_dict.get("type") != "template":
             self.check_index_blocks(fm_dict, clean_rel_path, body_text)
-            self.check_callouts(fm_dict, clean_rel_path, body_text)
         self.check_ledger(fm_dict, clean_rel_path)
 
         if subpages_raw is not None and not isinstance(subpages_raw, list):

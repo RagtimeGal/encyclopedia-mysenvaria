@@ -17,15 +17,13 @@ featured_data:
 ff1: ... that [[Encyclopedia Mysenvaria/Arts/Fine Arts/Games/Nemein|Nemein]] is a strategy board game which can be played using [[Encyclopedia Mysenvaria/Science/Technologies/Money|coins]]?
 %%
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
-> [!warning] [[Meta/Meta|Meta]] || [[Meta/Callouts#Names|Names]]
-> Some names in this article are placeholders! Until the setting's history is developed further—allowing for languages and the likes to be constructed accurately—temporary names are used for places, people, and things.
+> [!warning] [[Meta/Meta|Meta]] || Placeholders Ahead!
+> Some names mentioned in this article are placeholders. Placeholder names may resemble the names of real people, places, or things. They may also be direct descriptions of whatever they are naming. Some may even be random strings of letters or numbers.
 > 
-> These placeholder names may resemble real people, be simple descriptions, or even appear as random jumbles of letters or numbers.
-> 
-> The intent is to keep track of these placeholders so that they may be replaced in the future. If you find a name which looks out of place, report it through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> Temporary placeholders are used because conlanging is hard. If you've discovered a name which has the perfect opportunity to be updated please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Nemein is a strategy board game which uses national currencies as the pieces of the game. It is a game which has permeated nearly all the [[Encyclopedia Mysenvaria/Geography/Natural Features/Southern Continent|southern]] [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] cultures.
 # History

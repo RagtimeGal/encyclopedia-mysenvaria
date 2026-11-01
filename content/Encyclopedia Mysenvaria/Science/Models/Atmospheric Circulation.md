@@ -15,6 +15,8 @@ has:
   - featured_data
 featured_data:
   fun_facts: ["ff1"]
+callout_notes:
+  pending: "*This article could use a section on the history of its discovery.*"
 ---
 %%
 ff1: ... that [[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|atmospheric circulation]] is a scientific model which describes how air in the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] moves from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|central pole]] or [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|edge]] to the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|harmony line]] and vice-versa?
@@ -38,13 +40,14 @@ At all points of the year the Treaty exerts a gravitational pull, causing prevai
 
 On the contrary, at some points of the year when it is in its transitionary period between its high and low, the Treaty hits a Goldilocks zone where winds may be pulled counter-starward. This is a temporary effect, as it continues its transition winds return to their normal pattern, but during the months where the Treaty is in this zone winds may bring strong colder temperatures to normally warm areas.
 
-> [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]
-> This article is or has an addendum. Visit addenda pages by adding `Meta/` to the start of an article's URL path. E.G. `ragno.studio/Encyclopedia-Mysenvaria` becomes `ragno.studio/Meta/Encyclopedia-Mysenvaria`.
-
 [^figure1]: ![[Media/Images/Infographics/world_diagram.png]]
 [^figure2]: ![[Media/Images/Infographics/atmospheric_cells.png]]
 [^figure3]: ![[Media/Videos/10-year-from-creation-simulation.mp4]]
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use a section on the history of its discovery.*
+
+> [!hint|callout-has-addendum] [[Meta/Meta|Meta]] || Addendum Ahead!
+> This article has an addendum which provides metatextual context about this article. Visit the addendum here: [[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|Atmospheric Circulation (Addendum)]]!

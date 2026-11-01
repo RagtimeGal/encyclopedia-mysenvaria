@@ -10,6 +10,8 @@ status:
   future: [pending]
 needs:
   - graphics
+callout_notes:
+  pending: "*This article could use a section on the history of its discovery.*"
 ---
 
 *For linguistic relationships, see [[Encyclopedia Mysenvaria/Culture/Languages/Concepts/Relationships (linguistics)|Relationships (linguistics)]].*
@@ -29,7 +31,7 @@ Relationships are complex and hard to understand, but they are made up of a few 
 - **Isolation Gates**: If neither *x* nor *y*, then *z*;
 - **Mirror Gates**: If *x* and *y* are equal, then *z*.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use a section on the history of its discovery.*

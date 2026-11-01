@@ -9,15 +9,13 @@ ledger_data:
   year: 2024
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #2
-> 47/2024
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 46.2024|Ledger 46.2024]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 48.2024|Ledger 48.2024]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #2!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 46.2024|Lore Ledger 46.24]], **Lore Ledger 47.24**, [[Meta/Ledgers/Ledger 48.2024|Lore Ledger 48.24]] ...
 
 Another week another Lore Ledger for the Encyclopedia! This week didn't see many edits to the text across the Encyclopedia, though there was plenty of progress regarding the foundational aspects of the setting. A notable change across the Encyclopedia is the renaming of mythril, now known as [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn]]. Mythril was always a temporary name, and I believe limn fits the material much better.
 # Project Updates

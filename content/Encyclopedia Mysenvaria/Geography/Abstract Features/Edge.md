@@ -14,6 +14,8 @@ needs:
   - image
 featured_data:
   fun_facts: ["ff1"]
+callout_notes:
+  pending: "*The History header could be expanded upon as to how the Edge became important to sophont history. A section on the ecology surrounding the Edge could also be added.*"
 ---
 %%
 ff1: ... that the Edge is an abstract geographic feature equidistant in all directions from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]] which represents the furthest part of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] [[Encyclopedia Mysenvaria/Geography/Natural Features/Habitable Zone|habitable zone]]?
@@ -31,7 +33,7 @@ Throughout the rest of the Early-War Epoch the Edge would become a somewhat favo
 
 [^figure1]: ![[Media/Images/Infographics/world_diagram.png|world_diagram.png]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *The History header could be expanded upon as to how the Edge became important to sophont history. A section on the ecology surrounding the Edge could also be added.*

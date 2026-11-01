@@ -10,6 +10,8 @@ status:
   future: [pending]
 has:
   - image
+callout_notes:
+  pending: "*This article can use a section on how it was discovered.*"
 ---
 
 Atmospheric cells are complex and chaotic natural phenomena that occur as a result of many other factors across the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]. Atmospheric cells are critical to the theory of [[Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|atmospheric circulation]] and are responsible for the proper movement of air through the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]]. Cells develop because of interactions between the heating and [[Encyclopedia Mysenvaria/Science/Phenomena/Gravity|gravitational pull]] of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaty]] and the friction caused by the Plane's rotation.
@@ -31,7 +33,7 @@ Starting at the harmony line and moving outwards towards the edge:
 
 [^figure1]: ![[Media/Images/Infographics/atmospheric_cells.png]]
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article can use a section on how it was discovered.*

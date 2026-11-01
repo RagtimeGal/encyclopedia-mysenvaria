@@ -8,6 +8,8 @@ status:
   scope: standard
   progress: complete
   future: [pending]
+callout_notes:
+  pending: "*This article could use a section on the history of its discovery and perhaps an elaboration on the predictions.*"
 ---
 
 ️The Visibility-Aggression Filter is a proposed scientific model used by [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenists]] and [[Encyclopedia Mysenvaria/Culture/Occupations & Crafts/Historian|historians]] to [[Encyclopedia Mysenvaria/Science/Branches/Taxonomy|taxonomically]] classify Gods and model the relationships between their behavior and chances of survival during the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]. The model proposes two filters which impacted the chances of a God's survival dependent on a specific aspect of their behavior during the war. A 'visibility filter', which was dependent on their publication of a [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] to the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heaven|heavens]], and thus their visibility to other Gods. And an 'aggression filter', which was dependent on their disposition to violence when interacting with other Gods. By mapping these two variables theogenists can identify why certain Gods may have been slain during the war.
@@ -29,7 +31,7 @@ Together the Visibility-Aggression Filter can be used to make a multitude of pre
 
 The God-Wars end and the beginning of the [[Encyclopedia Mysenvaria/History/Post-War Era/Post-War Era|Post-War Era]] is defined by the [[Encyclopedia Mysenvaria/History/Post-War Era/Great Silence|Great Silence]], which has continued even into the [[Encyclopedia Mysenvaria/History/Modern Era/Modern Era|Modern Era]]. [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|Astronomers]] hypothesize that the absence of star publication at the scales measured during the war is a result not just of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaty]]—which has greatly limited Gods' abilities to interact with the world—but out of a lasting fear that star publication may attract unwanted attention. Most stars which have been published in the Post-War [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] are attributed to that of loud-aggressive lesser-Gods.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use a section on the history of its discovery and perhaps an elaboration on the predictions.*

@@ -9,15 +9,13 @@ ledger_data:
   year: 2025
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #6
-> 2/2025
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 51.2024|Ledger 51.2024]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 3.2025|Ledger 3.2025]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #6!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 51.2024|Lore Ledger 51.24]], **Lore Ledger 2.25**, [[Meta/Ledgers/Ledger 3.2025|Lore Ledger 3.25]] ...
 
 Welcome to the sixth Lore Ledger. This time around we do have a lot to cover, though not much has happened on the pages front. I have pushed the deadline date for the current God-War project back because I am a master procrastinator, but also because the scope was larger than I had initially hoped for, including a rewrite of the entire God-War Era]page.
 # Project Updates

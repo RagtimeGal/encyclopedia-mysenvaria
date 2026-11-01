@@ -24,8 +24,9 @@ star:
 "pub_desc": **[[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]** is published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]] to document their creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]]. The star motivates other Gods to undergo their own domain subdivision, becoming the host of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]].
 "star_desc": The host star of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening System]]. Created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]] to document their creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]].
 %%
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The First Lessers Star is the host star of the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]]. The star was created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]] to document their creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]].
 # History

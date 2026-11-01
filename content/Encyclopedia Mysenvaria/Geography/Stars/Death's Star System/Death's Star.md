@@ -28,8 +28,8 @@ star:
 "pub_desc2": "**[[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]]** is republished by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] after its original publisher dies."
 %%
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Death's Star is the host [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] of [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's Star System]]. Created by an unknown God the star documents their fight with and the ensuing death of another unknown God. The star would be republished by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|What Is and Is Not]] following the death of its original publisher. The star marks the beginning of the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]].
 # History

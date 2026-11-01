@@ -1,19 +1,23 @@
 ---
-title: "Communion Moth (Addenda)"
+title: "Communion Moth (Addendum)"
 aliases:
-  - "Communion Moth (Addenda)"
+  - "Communion Moth (Addendum)"
 enableToc: true
 tags:
-  - topic/meta/addenda
-type: addenda
+  - topic/meta/addendum
+type: addendum
 status:
   scope: standard
   progress: complete
   future: []
 ---
 
-> [!hint] [[Meta/Meta|Meta]] || [[Meta/Callouts#Addenda|Addenda]]
-> This article is or has an addendum. Visit addenda pages by adding `Meta/` to the start of an article's URL path. E.G. `ragno.studio/Encyclopedia-Mysenvaria` becomes `ragno.studio/Meta/Encyclopedia-Mysenvaria`.
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
+
+> [!hint|callout-addendum] [[Meta/Meta|Meta]] || Addendum Here!
+> This article is an addendum, it provides metatextual context to a diegetic article. Visit the parent article here: [[Encyclopedia Mysenvaria/Biology/Organisms/Animals/Communion Moth|Communion Moth]]!
+
 # Writer's Note
 - You have this species of moth, which in the case of Mysenvar are probably fucking massive moths, that have a life cycle incredibly similar to that of a Mexican jumping bean moth. People have domesticated these moths (and the plant they parasitize).
 - The larvae of these moths, which burrow into the seeds of the plant, are capable of long-distance communication. They communicate bad things, like drowning and burning, and when others receive the signal they hop instinctively in the hopes to get away from it (even if they aren't directly affected by it).

@@ -9,15 +9,13 @@ ledger_data:
   year: 2025
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #7
-> 3/2025
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 2.2025|Ledger 2.2025]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 17.2025|Ledger 17.2025]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #7!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 2.2025|Lore Ledger 2.25]], **Lore Ledger 3.25**, [[Meta/Ledgers/Ledger 17.2025|Lore Ledger 17.25]] ...
 
 Welcome to the seventh Lore Ledger. This week saw a lot of progress towards the God-War history goal. Though I don't believe it will be complete 'on-time'. I am debating the removal of project deadlines in favor of less tangible but more achievable goals? As it stands the deadlines are more of a hinderance.
 # Project Updates

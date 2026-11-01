@@ -11,8 +11,8 @@ status:
   future: []
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The Effigy Star, created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods/Gods of Kinetic & Potential Energy|God of Kinetic Energy]], documents the first fight between two higher-[[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] in the war. The fight, between the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Matter and Energy]] would create the [[Encyclopedia Mysenvaria/Geography/Natural Features/Eastern Archipelago|Eastern Archipelago]] and would kill a large number of unknown lesser-Gods.
 # History

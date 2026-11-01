@@ -1,6 +1,6 @@
 # Metadata Aggregator Report
 
-**0 errors, 19 warnings, 26 notices.**
+**0 errors, 19 warnings, 25 notices.**
 
 ## Warnings (19)
 ### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Capturing the Natural Essence of Chair.md
@@ -42,7 +42,7 @@
 ### Encyclopedia Mysenvaria/History/Post-War Era/Great Silence.md
 - `missing-field`: `event[0]` is an empty placeholder (no `start_date` or `start_desc`), so it won't appear anywhere.
 
-## Notices (26)
+## Notices (25)
 ### Encyclopedia Mysenvaria/History/Biographies/Academy Publishing Founder.md
 - `empty-date`: `person[0].birth_date` is empty.
 - `empty-date`: `person[0].death_date` is empty.
@@ -67,8 +67,6 @@
 ### Encyclopedia Mysenvaria/History/Biographies/First Elven Elder.md
 - `empty-date`: `person[0].birth_date` is empty.
 - `empty-date`: `person[0].death_date` is empty.
-### Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium.md
-- `person-name-page`: Page "God of Iridum" has a single person block named "God of Iridium".
 ### Encyclopedia Mysenvaria/History/Biographies/Jacob Metapsammiteson.md
 - `empty-date`: `person[0].birth_date` is empty.
 - `empty-date`: `person[0].death_date` is empty.
@@ -89,5 +87,4 @@ Change a check's level in SEVERITY_OVERRIDES at the top of metadata_aggregator.p
 - `duplicate-alias` (warning): An alias is used by two pages, or matches another page's title.
 - `empty-date` (notice): A date is empty ([]); fine if it is not known yet.
 - `missing-field` (warning): An event, star or person block is missing a field it needs.
-- `person-name-page` (notice): A page's single person block is named differently from the page.
 - `unknown-tag` (warning): A tag isn't documented in Meta/Metadata.md.

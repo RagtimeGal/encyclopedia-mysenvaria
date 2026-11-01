@@ -17,8 +17,9 @@ event:
 %%
 "start_desc": **[[Encyclopedia Mysenvaria/History/God-War Era/Water Wars|The Water Wars]]** begin with the storming of the Oxygen-Hydrogen territories by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Sodium|Sodium]], [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Calcium|Calcium]], [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iron|Iron]], and various allies in an attempt to stop the [[Encyclopedia Mysenvaria/History/God-War Era/Great Flood|Great Flood]].
 %%
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 # Overview
 

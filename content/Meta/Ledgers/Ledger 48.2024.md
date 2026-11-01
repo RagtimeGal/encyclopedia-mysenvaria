@@ -9,15 +9,13 @@ ledger_data:
   year: 2024
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #3
-> 48/2024
-> 
-> **Previous Ledger:** [[Meta/Ledgers/Ledger 47.2024|Ledger 47.2024]]
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 50.2024|Ledger 50.2024]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #3!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... [[Meta/Ledgers/Ledger 47.2024|Lore Ledger 47.24]], **Lore Ledger 48.24**, [[Meta/Ledgers/Ledger 50.2024|Lore Ledger 50.24]] ...
 
 Welcome to the third Lore Ledger. Not many changes have been made to the Encyclopedia, though there has been progress on the climate. Unfortunately, due to limited free time, the climate project has not met its deadline. Though it should be done some time in the following week.
 # Project Updates

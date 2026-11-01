@@ -33,5 +33,5 @@ The Plane would not see drastic change for the next decade following the Great F
 
 The major ice sheets which stretched for many kilometers onto the Plane past the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]] would begin rapidly melting, drastically altering the topology of the outer Plane. The gravitational pull of the Harmonic Treaty in combination with the evaporation it induces in the oceans and major water bodies would also lead to the modern formation of weather systems and formation of the climates which are known today.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Future Rewrite|Future Rewrite Needed]]
-> This article is considered complete for the moment, but some sections may need to be rewritten to help improve legibility! If you think it needs edits now, make a suggestion through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
+> [!abstract|callout-rewrite] [[Meta/Meta|Meta]] || Rewrite Suspected in Future!
+> Some sections of this article may need to be rewritten in the future to improve legibility. If you believe that this article requires an urgent rewrite please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).

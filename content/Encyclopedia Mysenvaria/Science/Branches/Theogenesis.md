@@ -22,8 +22,8 @@ featured_data:
 "ff2": "... that [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis#Hemitheogenesis|hemitheogenesis]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]], practiced by hemitheogenists?"
 %%
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Theogenesis is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific branch]] concerned with the existence, creation, and abilities of the [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]]. Practitioners of theogenesis are known as theogenists. It is closely related to the study of [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|astronomy]].
 # Sub-disciplines

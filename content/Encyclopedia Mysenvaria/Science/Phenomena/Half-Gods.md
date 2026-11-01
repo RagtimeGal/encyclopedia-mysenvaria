@@ -20,6 +20,8 @@ needs:
 featured_data:
   featured_desc: "featured_desc"
   fun_facts: ["ff1","ff2"]
+callout_notes:
+  pending: "*This article could use expansion on the history and cultural impact of Half-Gods.*"
 ---
 %%
 "featured_desc": "**[[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]** are the strange products of unions, sexual or otherwise, between [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] and [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]]. The mechanics behind the creation and operations of Half-Gods are not well understood and are the focus of [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|hemitheogenesis]]. Because of Gods' sexless natures there is no particular arrangement that the union must consist of to create a Half-God, either member is capable of fertilization of the other member. Half-Gods come in two varieties depending on the carrier of the child, Demi-Gods if the organism carries, Womb-Gods if the god carries."
@@ -59,7 +61,7 @@ Unlike Demi-Gods, Womb-Gods do not just possess an innate understanding of God T
 
 Womb-Gods, like true Gods, are capable of publishing stars to the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heaven|heavens]]. Womb-Gods appear incapable of publishing legal or index stars, but they are capable of readily publishing documentary stars.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use expansion on the history and cultural impact of Half-Gods.*

@@ -11,8 +11,8 @@ status:
   future: []
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Stub|Stub Article]]
-> This article is a stub! It currently provides a short overview of its topic, but it could be more comprehensive and is not considered complete! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
+> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 The Lover's Stars are a pair of binary [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]], Tectonic Tears and Raging Water, which orbit one another. Created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Tectonics|God of Tectonics]] and [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Water|God of Water]] during their battle with one another. Water having contacted the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]] regarding the ongoing animal-[[Encyclopedia Mysenvaria/Science/Phenomena/Gods|God]] relations being held by Tectonics would be ignored. Fearing what would come of these unions would take matters into their own hands, slaying Tectonics.
 

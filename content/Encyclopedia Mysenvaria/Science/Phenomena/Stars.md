@@ -19,6 +19,8 @@ needs:
 featured_data:
   featured_desc: "featured_desc"
   fun_facts: ["ff1","ff2","ff3"]
+callout_notes:
+  pending: "*This article could use expansion on the history of stars and their cultural impact, especially in regards to elves and dwarves.*"
 ---
 %%
 "featured_desc": "**[[Encyclopedia Mysenvaria/Science/Phenomena/Stars|Stars]]**, as described in the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], are theoretical products of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]]—specifically Relational Concentration. In practice, however, all known stars are the creations of [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] or [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]]. Stars are physical objects that express information in the languages of [[Encyclopedia Mysenvaria/Culture/Languages/Starscript|Starscript]] and [[Encyclopedia Mysenvaria/Culture/Languages/God Tongue|God Tongue]]. Stars may be observed every [[Encyclopedia Mysenvaria/Science/Phenomena/Day & Night|night]] across the entirety of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] by looking up to the [[Encyclopedia Mysenvaria/Geography/Natural Features/Sky|sky]]. Though the number of visible stars is impacted by various factors of the surrounding environment."
@@ -76,7 +78,7 @@ The most notable star of all history is the [[Encyclopedia Mysenvaria/Geography/
 
 Sophont use of stars throughout the God-War is defined by knowledge passed down from Gods to sophonts—most often humans. Most of the knowledge for starforging was lost following the end of the war and the disappearance of the Gods. Throughout most of the Post-War Era the only stars forged by humans were those whose linguistic patterns were passed down or otherwise copied from preexisting stars. Current findings suggest that it was only into the [[Encyclopedia Mysenvaria/Indexes/History/Decades/360s AT|360s]] that humans rediscovered the use of God Tongue to forge unique stars, and the method by which this was rediscovered is unknown.
 
-> [!abstract] [[Meta/Meta|Meta]] || [[Meta/Callouts#Pending Future|Future Update Needed]]
-> This article is considered complete for the moment, however it has missing sections which will need to be elaborated on as the setting develops! If you think it needs expansion now, suggest an edit through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! 
-> 
+> [!abstract|callout-pending] [[Meta/Meta|Meta]] || Pending Future Development!
+> When the setting has developed further some sections of this article could be elaborated on. If you believe that the article requires urgent expansion please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
 > *This article could use expansion on the history of stars and their cultural impact, especially in regards to elves and dwarves.*

@@ -22,15 +22,14 @@ person:
 ---
 %%
 %%
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#Empty|Empty Article]]
-> This article is empty! It currently provides no information on its topic, but you can help by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
 
-> [!warning] [[Meta/Meta|Meta]] || [[Meta/Callouts#Names|Names]]
-> Some names in this article are placeholders! Until the setting's history is developed further—allowing for languages and the likes to be constructed accurately—temporary names are used for places, people, and things.
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+
+> [!warning] [[Meta/Meta|Meta]] || Placeholders Ahead!
+> Some names mentioned in this article are placeholders. Placeholder names may resemble the names of real people, places, or things. They may also be direct descriptions of whatever they are naming. Some may even be random strings of letters or numbers.
 > 
-> These placeholder names may resemble real people, be simple descriptions, or even appear as random jumbles of letters or numbers.
-> 
-> The intent is to keep track of these placeholders so that they may be replaced in the future. If you find a name which looks out of place, report it through a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> Temporary placeholders are used because conlanging is hard. If you've discovered a name which has the perfect opportunity to be updated please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 # Early Life & Education
 

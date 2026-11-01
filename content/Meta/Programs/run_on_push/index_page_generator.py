@@ -124,7 +124,7 @@ def get_sort_key(page: Dict[str, Any], by: str, method: str):
     return (0, val)
 
 def render_block(pages: List[Dict[str, Any]], sort_spec: List[Dict], h_level: int) -> List[str]:
-    if not pages: return []
+    if not pages: return [""]   # keep the blank line before whatever follows (e.g. a callout)
     
     current_pages = list(pages)
     for spec in reversed(sort_spec):

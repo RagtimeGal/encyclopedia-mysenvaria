@@ -9,15 +9,13 @@ ledger_data:
   year: 2024
 ---
 
-> [!abstract] [[Meta/Meta|Meta]]
-> *This article is part of a series of meta articles which provide a brief changelog and look at the Encyclopedia's progress.*
+> [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
+> The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
-> [!summary] Lore Ledger #1
-> 46/2024
-> 
-> **Previous Ledger:** N/A
-> 
-> **Next Ledger:** [[Meta/Ledgers/Ledger 47.2024|Ledger 47.2024]]
+> [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #1!
+> This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
+>
+> ... N/A, **Lore Ledger 46.24**, [[Meta/Ledgers/Ledger 47.2024|Lore Ledger 47.24]] ...
 
 This is the very first Lore Ledger for the Encyclopedia Mysenvaria. Lore Ledgers are meta pages, intended to be weekly overviews of the Encyclopedia's progress and update readers on the current focus. Ledgers are meant to create clear and concise goals which I work towards over one or more weeks, with the intention of improving the quality of the Encyclopedia over time by encouraging myself to work on it weekly!
 # Project Updates

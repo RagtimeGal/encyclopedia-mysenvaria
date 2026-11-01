@@ -12,8 +12,8 @@ has:
   - video
 ---
 
-> [!note] [[Meta/Meta|Meta]] || [[Meta/Callouts#WIP|Work-in-progress Article]]
-> This article is a work in progress! It's currently in the process of being written but contains significant missing information! You can help expand it by commenting or suggesting an edit through [GitHub issues](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)!
+> [!note|callout-wip] [[Meta/Meta|Meta]] || This Article's a Work in Progress!
+> This article is currently actively in the process of being written, information it provides may not be canonical, accurate, or otherwise coherent. Think it's in urgent need of completion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 Day is a period of time and localized event which occurs across the Plane. Days, as a [[Encyclopedia Mysenvaria/Science/Technologies/Measurement|measurement]] of time, are defined as the total time it takes for the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaty]] to make a complete orbit around the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|pole]]; a period of 24 hours. A period of 90 days is called a [[Encyclopedia Mysenvaria/Science/Phenomena/Seasons|season]], and four seasons create one year. As the Treaty moves in its orbit it illuminates portions of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]], similarly to how a [[Encyclopedia Mysenvaria/Science/Technologies/Lamp|lamp]] might. The spherical area around the Treaty which it illuminates is known as its 'area of influence'[^figure1].
 
