@@ -1,7 +1,7 @@
 name: Article Suggestion
 description: "Make a suggestion to improve an article."
 title: "[Suggestion]: "
-labels: [sugestion]
+labels: [suggestion]
 body:
   - type: input
     attributes:
@@ -13,13 +13,7 @@ body:
   - type: textarea
     attributes:
       label: Suggestion
-      description: What in the article could use improving, and how would you improve it?
+      description: What in the article could use improving, why?
       placeholder: "The article mentions that Your Mother is large, but has no mention of her actual size. It should clearly state her girth."
     validations:
       required: true
-  - type: checkboxes
-    attributes:
-      label: Submission Agreement
-      options:
-      - label: "By checking this box you confirm that you have read and agree to the Encyclopedia Mysenvaria's [Contribution Policy](https://github.com/RagtimeGal/encyclopedia-mysenvaria?tab=contributing-ov-file#readme), and grant the Project a perpetual, irrevocable, royalty-free license to use, edit, and integrate your submission into the project."
-        required: true

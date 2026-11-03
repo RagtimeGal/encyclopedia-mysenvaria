@@ -12,6 +12,7 @@ export const sharedPageComponents: SharedLayout = {
       "Meta": "https://mysenvaria.ragno.studio/Meta/Meta",
       "Contributors": "https://mysenvaria.ragno.studio/Meta/Contributors",
       "Code of Conduct": "https://github.com/RagtimeGal/encyclopedia-mysenvaria/blob/v4/CODE_OF_CONDUCT.md",
+      "Community Use Policy": "https://mysenvaria.ragno.studio/Meta/Community-Use-Policy",
       "GitHub": "https://github.com/RagtimeGal/encyclopedia-mysenvaria",
       "Blog": "https://ragnois.gay",
       "Discord": "https://discord.gg/2yUDZ5j",

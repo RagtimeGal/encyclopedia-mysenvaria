@@ -102,7 +102,7 @@ The following is an index of all [[Encyclopedia Mysenvaria/Science/Phenomena/God
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Igneous Rock|God of Igneous Rock]]
 - God of Indium
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iodine|God of Iodine]]
-- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium|God of Iridum]]
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium|God of Iridium]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iron|God of Iron]]
 ## K
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods/Gods of Kinetic & Potential Energy|Gods of Kinetic & Potential Energy]]

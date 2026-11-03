@@ -85,7 +85,7 @@ This page serves as an index of [[Encyclopedia Mysenvaria/History/Biographies/Go
 ## I
 - God of Indium
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iodine|God of Iodine]]
-- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium|God of Iridum]]
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iridium|God of Iridium]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods/God of Iron|God of Iron]]
 ## K
 - God of Krypton

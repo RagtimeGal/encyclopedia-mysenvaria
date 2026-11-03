@@ -13,7 +13,7 @@ body:
   - type: textarea
     attributes:
       label: Problematic Article(s)
-      description: A list of articles which go against the precendent and how they break that precendent.
+      description: A list of articles which go against the precedent and how they do so.
       placeholder: "Article `c` and `d` say that 2 + 2 equals 5."
     validations:
       required: true
@@ -24,9 +24,3 @@ body:
       placeholder: "Change articles `c` and `d` to say that 2 + 2 equals 4."
     validations:
       required: false
-  - type: checkboxes
-    attributes:
-      label: Submission Agreement
-      options:
-      - label: "By checking this box you confirm that you have read and agree to the Encyclopedia Mysenvaria's [Contribution Policy](https://github.com/RagtimeGal/encyclopedia-mysenvaria?tab=contributing-ov-file#readme), and grant the Project a perpetual, irrevocable, royalty-free license to use, edit, and integrate your submission into the project."
-        required: true

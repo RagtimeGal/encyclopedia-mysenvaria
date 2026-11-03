@@ -11,7 +11,7 @@ status:
 has:
   - image
   - video
-  - addenda
+  - addendum
   - featured_data
 featured_data:
   fun_facts: ["ff1"]

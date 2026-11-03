@@ -20,7 +20,7 @@ export default ((opts?: Options) => {
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a> © {year}
         </p>
         <p>
-          Encyclopedia Mysenvaria © 2023-{year} Ragno. All rights reserved.
+          Mysenvar and the Encyclopedia Mysenvaria are © 2022-{year} Ragno. All rights reserved.
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (

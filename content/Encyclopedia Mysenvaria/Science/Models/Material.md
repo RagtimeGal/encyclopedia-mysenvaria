@@ -9,7 +9,7 @@ status:
   progress: stub
   future: []
 has:
-  - addenda
+  - addendum
 ---
 
 > [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!

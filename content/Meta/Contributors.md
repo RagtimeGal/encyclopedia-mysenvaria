@@ -15,6 +15,6 @@ status:
 
 This page serves as an alphabetical index of contributors and links to their personal websites or social pages. 
 # R
-- [Ragno](https://github.com/RagtimeGal): Creator of the project!
+- [Ragno](https://github.com/RagtimeGal): Hello! I'm the creator of the project!
 # S
-- Ser Forester: Helped concept [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]].
+- Ser Forester: Pitched the original idea of [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]].

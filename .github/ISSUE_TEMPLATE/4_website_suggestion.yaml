@@ -1,0 +1,19 @@
+name: Website Report or Suggestion
+description: "Make a report or suggestion to improve the Encyclopedia's back-end or ui."
+title: "[Code]: "
+labels: [code]
+body:
+  - type: textarea
+    attributes:
+      label: Suggestion / Report
+      description: What are you reporting is wrong or suggesting be changed? How will this improve the Encyclopedia?
+      placeholder: "The spacing of the GlobGlab on each page is odd. Improvements can be made to the spacing which will make it easier for readers to follow."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: The Change
+      description: What code needs to be edited to make this possible, and how should it be edited. Please be as detailed as possible in your description.
+      placeholder: "The GlobGlab Quartz plugin needs to be edited at line `x` to actually be `y`, this will make the spacing larger."
+    validations:
+      required: false

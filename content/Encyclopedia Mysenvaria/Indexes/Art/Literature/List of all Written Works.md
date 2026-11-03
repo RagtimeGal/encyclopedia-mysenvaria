@@ -33,6 +33,7 @@ index:
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Arts/Art#Literature|literary works]], organized into fiction and non-fiction categories and listed in alphabetical order.
 # Fiction
+
 # Non-fiction
 ## C
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Capturing the Natural Essence of Chair|Capturing the Natural Essence of Chair]]
@@ -51,7 +52,7 @@ The following is an index of all articles describing [[Encyclopedia Mysenvaria/A
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Fourth Edition Natural Lexicon|The Fourth Edition Natural Lexicon]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Mechanisms & Evolution of Starscript|The Mechanisms & Evolution of Starscript]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Nature of Gods|The Nature of Gods]]
-- [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues|The Phonlogical Directory of Gods Tongues]]
+- [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Phonological Directory of God's Tongues|The Phonlogical Directory of God's Tongues]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Transcribing, Writing, & Translating in Starscript|Transcribing, Writing, & Translating in Starscript]]
 
 > [!abstract|callout-generated] [[Meta/Meta|Meta]] || Beep Boop!

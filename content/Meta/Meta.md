@@ -17,59 +17,58 @@ Canon refers to a setting's official authoritative events, stories, and characte
 
 The *Mysenvaria* is diegetic, that is to say all of its contents exist within the setting itself (albeit, not in English). Every article can be interpreted as having been written by a character within the setting and published and printed in the canonical latest edition of the [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]]. Because the encyclopedia is diegetic biases and inaccuracies are present. It's up to the reader to interpret the text and determine for themselves what they believe to be fact or fiction. 
 
-Meta pages, on the contrary, are not diegetic. Meta articles provide crucial canonical information about articles which do exist within the setting. Meta articles are self-referential (and thus metatextual) in the sense that they exist on the website and reference other articles on the website, but do not exist within the setting of Mysenvar itself.
+Meta pages, on the contrary, are not diegetic. Meta articles provide crucial canonical information about the setting, but are themselves not canonical. Meta articles are self-referential (and thus metatextual) in the sense that they exist on the website and reference other articles on the website, but do not exist within the setting of Mysenvar itself.
 # The Setting
-Mysenvar is a hard science-fantasy setting. At its core it consists of two elements: **realism** and **fantasy**. It's a realistic setting in the sense that it operates on a specific set of rules, it does not deviate from those rules and everything which occurs is a logical consequence of them. It's a fantasy in the sense that those rules deviate from real life's norms. 
+Mysenvar is a hard science-fantasy setting. At its core it consists of two elements: **realism** and **fantasy**. It's a realistic setting in the sense that it operates on a specific set of rules, it does not deviate from those rules and everything which occurs is a logical consequence of them. It's a fantasy in the sense that those rules deviate from reality in considerable ways.
 
-The [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|universe]] is composed in such a way that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|natural personification]]
+[[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]] is a scientific phenomenon in Mysenvar, caused by the composition of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|universe]], which leads to the creation of [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]], and [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn]]. The [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]] is an era of time 1.5k years from the present in which the world was formed in chaos. [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|Life]] as it is known was created during and has persisted after the events of the war, granted new urgency by the Gods who created it. Now, fifteen centuries later, mortals are colonizing the [[Encyclopedia Mysenvaria/Geography/Natural Features/Northern Continent|New World]], [[Encyclopedia Mysenvaria/History/Modern Era/Iridium Experiments|experimenting on Gods]], and documenting it all in the *[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]]*.
 # Using the Encyclopedia
-\[Use this section to discuss how the Encyclopedia can be used]
+*Further information: [[Meta/Community Use Policy|Community Use Policy]]*
+
+There is no one way to use the *Mysenvaria*, it's up to you to define what 'using' it means to you. Perhaps you simply enjoy browsing the pages and reading to immerse yourself in a fantasy world? Maybe you're looking for specific ideas or concepts you can borrow for your own setting? You could be looking for a new story to write! Or trying to find the perfect place to start a TTRPG campaign? 
+
+No matter what it is you're using the Encyclopedia for, that's a good way to use it! HOWEVER... there are some rules to using it! But don't fret! They're easy to remember! If you're interested more in the specifics, see the [[Meta/Community Use Policy|Community Use Policy]], otherwise here's the short and sweet of it:
+- Under no circumstances are you allowed to claim anything you do with Mysenvar is official.
+- You may not sell anything set in or based on Mysenvar without permission (content which is free to consume but otherwise monetized via ads or donations is allowed).
+- Direct republishing of any content from the *Mysenvaria* or any other official Mysenvar works is strictly prohibited.
+- You may be asked at any time to change or remove anything which violates the Community Use Policy.
+- Training AI on any content from the *Mysenvaria* is strictly prohibited.
 ## Addenda
-Addenda are non-canon companion articles written to provide context, behind-the-scene commentary, spoilers, and guidance on adaptation for creative use—like providing TTRPG stat blocks, explaining character portrayal, or giving ideas on story application. Addenda may also be used for meta discussion regarding topics, if the main article is not fitting.
+Addenda are helpful little companion articles that can help you use the *Mysenvaria* the way you want to! Addenda provide: behind-the-scenes commentary like context into creative decisions, canonical truths that may be obfuscated by the *Mysenvaria's* writer POVs, and guidance on adaptation of certain aspects of the setting for creative use! Addenda are also equipped with a comment system like traditional articles, feel free to tell others how you're using the article!
+# Contributing
+Dotted around the *Mysenvaria* are plenty of [[Meta/Callouts|callouts]], these callouts provide metatextual context about the stage of the article you're currently reading. Many of these callouts also include calls to action! Believe you've discovered a typo, contradiction, or broken link? Remember to file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose)! You can help improve the quality of the *Mysenvaria* for yourself and all the others who use it with only a few clicks!
+
+Comments are also a great way to contribute to the *Mysenvaria*! They take only a moment to write but can add so much to the experience of other readers, and are an amazing motivator to me to keep writing! When writing comments remember to follow the [[Meta/Code of Conduct|Code of Conduct]]!
+
+Alternatively, you can also contribute to the project monetarily via my [Ko-fi](https://ko-fi.com/ragnogal)!
 # The Project
-\[Use this section to talk about what the goal of the Encyclopedia actually is]
+Mysenvar as a setting has existed since at least 2019, and as a name since at least 2014. It started off as my childhood [paracosm](https://en.wikipedia.org/wiki/Paracosm), a high-fantasy world with very little coherently thought out logic. I wrote multiple comics taking place in the setting, at the time titled *Age of Magic*. Over time it evolved—usually little-by-little, but sometimes in great leaps—at one point it was even a spec evo seed world (At the moment, that's the earliest I've been able to trace back the name Mysenvar, at the time Mysenvarn).
 
-Mysenvar as a name has existed since at least 2019, and as a setting since at least 2014.
-# LLM Transparency
+I'm not entirely sure where the name Mysenvar came from, I've never been able to source it. I thought it had originated from the comics I wrote as a kid, but over half of those are missing so I cannot confirm this unfortunately. The setting, in its current iteration, was born on my birthday: December 7th, 2022! Since that day the core idea of the setting has changed very little:
 
+> [!quote] Ragno, December 8th, 2022 1:12am (EST) (Lightly edited punctuation and capitalization.)
+> Had a cool idea, not sure if it's been done before, probably.
+> 
+> In the setting Gods aren't really physical beings all of the time. Instead, they're sort of just like forces of nature which manifest themselves when forces become overwhelming.
+> 
+> Most mythologies depict the Gods living above humanity, in the skies amongst the stars. And so, tacky idea, but the Gods use stars as a way of communication. They're literal messages being sent out by one God to another. And so, sometimes, stars just appear in the sky, but once they're there they're there forever. And so, astronomers in the setting are literally just priests, interpreting the words of the Gods.
+> 
+> Thinking the main plot is going to be that no messages are sent for a while, and then kaboom—star! And they read it, and it's a haunting distress signal, and then shit hits the fan.
+
+I first uploaded Mysenvar to GitHub on August 3rd, 2023 as a way to remotely work on the project. A little over a year later, on September 18th, 2024 I would discover [Quartz](https://quartz.jzhao.xyz/), and for the first time the *Encyclopedia Mysenvaria* would be published online. Unfortunately the original GitHub repository, from before the project was moved to Quartz, has since then been deleted, and along with it all of the history it contained.
+
+I originally published and continue to publish the *Mysenvaria* publicly out of a love for the craft. I plan to continue developing Mysenvar far into the future! It's a setting that will never truly be complete: there's always something more I can work on! Even when the current scope of the setting's history is developed, there's nothing to stop me from expanding the scope! I publish it so others can find it and enjoy reading it and interacting with it hopefully as much as I enjoy creating it.
+# Warnings
+## Fiction
+The *Encyclopedia Mysenvaria*, and the grander Mysenvar setting, are works of fiction. Any resemblance to real people, places, or events is purely coincidental. If you believe anything has been depicted in bad faith please contact me either by email (at contact@ragnois.gay) or by [Discord](https://discord.gg/2yUDZ5j).
+## LLM Transparency
+Artificial Intelligence (AI) large language models (LLMs) have been used across the *Mysenvaria*.
+
+As of early 2026 the *Mysenvaria* no longer uses LLMs to _directly_ generate any text content. What does that mean? Well, previously LLMs were used to help write certain pages, either by refining what was already written or generating new text that was touched up by myself. Moving forward, LLMs will not be used under any circumstances to generate or edit already written textual content.
+
+The code-facing backend of the *Mysenvaria* on the contrary will continue to use code and programs knowingly generated by LLMs, and those programs—while not LLMs themselves—do generate text content based on data in the *Mysenvaria*. Any code file knowingly generated by an LLM will be marked as such with a comment at the start of the file.
 # Licensing
+Mysenvar and the *Encyclopedia Mysenvaria* are © 2022-2026 Ragno. All rights reserved.
 
+You may find more about the *Encyclopedia Mysenvaria's* [license](https://github.com/RagtimeGal/encyclopedia-mysenvaria/blob/v4/LICENSE.md) on the [GitHub](https://github.com/RagtimeGal/encyclopedia-mysenvaria). For further inquiry into the licensing of the project or its [[Meta/Community Use Policy|Community Use Policy]] you may contact me either by email (at contact@ragnois.gay) or by [Discord](https://discord.gg/2yUDZ5j).
 
-
-Mysenvar is a hard science-fantasy setting which can be explored through the Encyclopedia Mysenvaria website. The website is written through the guise of an encyclopedia which exists in the setting itself (Barring, as previously stated, meta pages like this one). The Mysenvaria offers readers a free resource to use as they wish: whether running a TTRPG, looking for inspiration, or wanting a detailed world to explore. Mysenvar is intended to be a rich and expansive setting for anyone's purposes.
-
-As part of my initiative to get readers interested in running TTRPG's in Mysenvar I would like to write a series of meta pages in the future on how to use the Encyclopedia to run campaigns in the setting. This won't come for some time, but it would be fun.
-
-> [!warning] Disclaimer
-> The Encyclopedia Mysenvaria and all of its contents are a work of fiction. The world, its people, and events therein, are a product of imagination intended to immerse readers in a world unlike the one we live in. Any resemblance to real people or events is purely coincidental.
-> 
-> The Encyclopedia Mysenvaria covers complex topics and themes. Descriptions found across the site are part of a fantasy setting designed for creative use in stories, games, and other projects. If you believe anything on the site is written or depicted in bad faith please contact me (Ragno) by email (contact@ragnois.gay),  [Discord](https://discord.gg/2yUDZ5j), or [GitHub](https://github.com/RagtimeGal/encyclopedia-mysenvaria). 
-# Contribution
-*Main article: [[Meta/Contributing|Contributing]]*
-> [!warning] Disclaimer
-> When contributing please note that I, Ragno, retain sole ownership of the Encyclopedia Mysenvaria and reserve the right to monetize it. 
-> 
-> ***By submitting or contributing content you grant the Encyclopedia Mysenvaria a perpetual, worldwide, non-exclusive, royalty-free, and irrevocable license to use, publish, edit, adapt, and commercialize your contribution as part of the project.*** You retain ownership of your contribution, but acknowledge that once integrated it becomes a permanent part of the project and may be redistributed under the project's open license terms (**CC BY-NC-SA 4.0**).
-> 
-> For more information see the [Contribution Guidelines](https://github.com/RagtimeGal/encyclopedia-mysenvaria/blob/v4/CONTRIBUTING.md) on [GitHub](https://github.com/RagtimeGal/encyclopedia-mysenvaria)
-
-The Encyclopedia Mysenvaria is a personal project by myself—I have a very clear creative vision for the project, with specific set goals in mind. I have set up the Encyclopedia in such a way that anyone can contribute very easily, which is both a product of my creative vision and the limitations I have with the tools I work with. I am not seeking contributions, but for anyone who feels inclined the tools are in place.
-
-Each page on the website, including this one, is fitted with a comment section powered by [giscus](https://giscus.app/), which uses [GitHub discussions](https://docs.github.com/en/discussions), this is the easiest way to contribute your own thoughts. Alternatively, you can join my [Worldbuilding Discord](https://discord.gg/2yUDZ5j) and brainstorm there—The discord is also friendly to anyone who may have their own projects or settings.
-# LLM Transparency
-
-
-
-
-
-For the sake of transparency I would like to disclose that I (Ragno) have previously used AI large language models to refine text content for the Encyclopedia Mysenvaria. Moving forward, as of early 2026, the project's 'content'-facing end will no longer use any content knowingly produced by an LLM.
-
-The 'code'-facing end of the Encyclopedia Mysenvaria cannot be completely safeguarded against LLMs. The backend of the project is Quartz, which can be contributed to by practically anyone at any time. On top of that, I do not have the knowhow to personally code programs which would otherwise be beneficial to the Encyclopedia (For instance the programs which automatically generate the index pages). For the sake of transparency any file which has code which I know has been generated by an LLM will be marked as such with a comment at the start of the file. Provided is the comment:
-
-```
-### A PORTION OF, OR ALL OF, THE CODE CONTAINED WITHIN THIS FILE WAS GENERATED BY AN LLM.
-```
-
-I will continue to do my best moving forward to maintain the artistic integrity of the project.
-# Licensing
-For inquiry into the Encyclopedia Mysenvaria's license please see the [license](https://github.com/RagtimeGal/encyclopedia-mysenvaria/blob/v4/LICENSE.md) on the [GitHub](https://github.com/RagtimeGal/encyclopedia-mysenvaria). For further questions or information please contact me by email (at contact@ragnois.gay) or by [Discord](https://discord.gg/2yUDZ5j).

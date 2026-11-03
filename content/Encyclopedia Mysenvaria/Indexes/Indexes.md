@@ -86,6 +86,7 @@ The following article serves to index all of the indexes throughout the *[[Encyc
 - [[Encyclopedia Mysenvaria/Indexes/Art/Literature/List of all Written Works Published During the Post-War Era|List of all Written Works Published During the Post-War Era]]
 
 # Biology
+
 # Culture
 - [[Encyclopedia Mysenvaria/Indexes/Culture/Belief/List of Beliefs|List of Beliefs]]
 - [[Encyclopedia Mysenvaria/Indexes/Culture/Belief/List of Conspiracy Theories|List of Conspiracy Theories]]

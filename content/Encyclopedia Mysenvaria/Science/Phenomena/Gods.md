@@ -68,7 +68,7 @@ Gods have complex and emotional minds, like living things, and see survival as a
 
 If dematerialization was voluntary and the conditions are right, a God may willfully reenter Reality at their own command. Through Material Concentration they may also be rematerialized without their consent. The exact mechanisms and modeling behind dematerialization and Material Concentration are not well understood and are an active subject of research by theogenists.
 ## Half-Gods
-*Main article: [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]*
+*Further information: [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]*
 
 Highly material Gods are capable of holding sensual relationships with organisms, although their ability to do so is highly regulated by the [[Encyclopedia Mysenvaria/Geography/Stars/Relations Act|Relations Act]]. These relationships are capable of fertilization of either party—the God or organism—although how this comes about is not well understood. The resulting pregnancy gives rise to either a Demi-God or Womb-God depending on whether the mother was the organism or the God respectively. Neither Demi- nor Womb-Gods are well understood phenomena.
 ## Death

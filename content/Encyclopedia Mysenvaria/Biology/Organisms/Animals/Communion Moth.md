@@ -9,7 +9,7 @@ status:
   progress: stub
   future: []
 has:
-  - addenda
+  - addendum
 needs:
   - infobox
 ---

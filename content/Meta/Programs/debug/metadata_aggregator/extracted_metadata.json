@@ -1,11 +1,11 @@
 {
     "meta": {
-        "total_markdown_files": 639,
-        "pages_extracted": 759,
-        "warnings": 44,
+        "total_markdown_files": 640,
+        "pages_extracted": 760,
+        "warnings": 43,
         "issues": {
             "error": 0,
-            "warning": 19,
+            "warning": 18,
             "notice": 25
         },
         "working_directory": "C:\\Users\\Terra\\Documents\\Github Folders\\quartz--encyclopedia-mysenvaria"
@@ -730,7 +730,7 @@
                     "future": []
                 },
                 "has": [
-                    "addenda"
+                    "addendum"
                 ],
                 "needs": [
                     "infobox"
@@ -1050,7 +1050,7 @@
                     "future": []
                 },
                 "has": [
-                    "addenda"
+                    "addendum"
                 ],
                 "needs": [
                     "infobox"
@@ -1487,6 +1487,9 @@
                         "pending"
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery, its impact on civilization, and possibly in the future an elaboration on the language itself.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Culture/Languages/Starscript|Starscript]]"
             }
         },
@@ -1860,6 +1863,9 @@
                         "... that [[Encyclopedia Mysenvaria/Geography/Abstract Features/Azimuth, Altitude, & Distance|azimuth, altitude, and distance]] is the most commonly used coordinate system for [[Encyclopedia Mysenvaria/Science/Technologies/Measurement|measuring]] and describing the position of [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heaven|heavenly]] objects?"
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*Could really use a section on the history of its invention and the impact it's had on science and the Plane.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Geography/Abstract Features/Azimuth, Altitude, & Distance|Azimuth, Altitude, & Distance]]"
             }
         },
@@ -1919,6 +1925,9 @@
                         "... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]] is an abstract geographic feature equidistant from all points of the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|Edge]] which represents the absolute center of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?"
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*The History header could be expanded upon as to how the Central Pole became important to sophont history. A section on the ecology surrounding the Central Pole could also be added.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]]"
             }
         },
@@ -1951,6 +1960,9 @@
                     "fun_facts": [
                         "... that the Edge is an abstract geographic feature equidistant in all directions from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]] which represents the furthest part of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] [[Encyclopedia Mysenvaria/Geography/Natural Features/Habitable Zone|habitable zone]]?"
                     ]
+                },
+                "callout_notes": {
+                    "pending": "*The History header could be expanded upon as to how the Edge became important to sophont history. A section on the ecology surrounding the Edge could also be added.*"
                 },
                 "link": "[[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|Edge]]"
             }
@@ -2067,6 +2079,9 @@
                         "... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heavens|Heavens]] exist above the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]] and is devoid of air and where [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] reside?"
                     ]
                 },
+                "callout_notes": {
+                    "review": "*This page could use further elaboration on the history of the Heavens, especially its cultural impact.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Geography/Abstract Features/Heavens|Heavens]]"
             }
         },
@@ -2140,6 +2155,9 @@
                     "fun_facts": [
                         "... that [[Encyclopedia Mysenvaria/Geography/Abstract Features/Span & Reach|span & reach]] is the most commonly used coordinate system for [[Encyclopedia Mysenvaria/Science/Technologies/Measurement|measuring]] and describing position of things on the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?"
                     ]
+                },
+                "callout_notes": {
+                    "pending": "*Could really use a section on the history of its invention and the impact it's had on science and the Plane.*"
                 },
                 "link": "[[Encyclopedia Mysenvaria/Geography/Abstract Features/Span & Reach|Span & Reach]]"
             }
@@ -33710,13 +33728,16 @@
                 "has": [
                     "image",
                     "video",
-                    "addenda",
+                    "addendum",
                     "featured_data"
                 ],
                 "featured_data": {
                     "fun_facts": [
                         "... that [[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|atmospheric circulation]] is a scientific model which describes how air in the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] moves from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|central pole]] or [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|edge]] to the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|harmony line]] and vice-versa?"
                     ]
+                },
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery.*"
                 },
                 "link": "[[Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|Atmospheric Circulation]]"
             }
@@ -33977,7 +33998,7 @@
                     "future": []
                 },
                 "has": [
-                    "addenda"
+                    "addendum"
                 ],
                 "link": "[[Encyclopedia Mysenvaria/Science/Models/Material|Material]]"
             }
@@ -34002,6 +34023,9 @@
                 "needs": [
                     "graphics"
                 ],
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Models/Relationships (model)|Relationships (model)]]"
             }
         },
@@ -34074,6 +34098,9 @@
                         "... that the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]] is a scientific model of the universe which attempts to explain its organization composition?"
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]]"
             }
         },
@@ -34093,6 +34120,9 @@
                     "future": [
                         "pending"
                     ]
+                },
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery and perhaps an elaboration on the predictions.*"
                 },
                 "link": "[[Encyclopedia Mysenvaria/Science/Models/Visibility-Aggression Filter|Visibility-Aggression Filter]]"
             }
@@ -34117,6 +34147,9 @@
                 "has": [
                     "image"
                 ],
+                "callout_notes": {
+                    "pending": "*This article can use a section on how it was discovered.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Atmospheric Cells|Atmospheric Cells]]"
             }
         },
@@ -34158,6 +34191,9 @@
                 "needs": [
                     "graphics"
                 ],
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery and impact on cultures.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Climate|Climate]]"
             }
         },
@@ -34202,6 +34238,9 @@
                 "has": [
                     "video"
                 ],
+                "callout_notes": {
+                    "pending": "*This article could use elaboration in its history section.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Day|Day]]"
             }
         },
@@ -34216,7 +34255,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34261,6 +34300,9 @@
                 "needs": [
                     "graphics"
                 ],
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Entity (Phenomenon)|Entity (phenomenon)]]"
             }
         },
@@ -34275,7 +34317,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34293,7 +34335,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34337,6 +34379,9 @@
                         "... that, according to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|USM]], [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] are a result of the Unreal's inability to manage excess amounts of Real?"
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*This article could use expansion on the history and cultural impact of Gods.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]]"
             }
         },
@@ -34351,7 +34396,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -34398,6 +34443,9 @@
                         "... that [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods#Womb-Gods|Womb-Gods]] are conceived when an [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organism]] fertilizes a [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|God]]?"
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*This article could use expansion on the history and cultural impact of Half-Gods.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]"
             }
         },
@@ -34412,7 +34460,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34430,7 +34478,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34471,6 +34519,9 @@
                         "... that, according to the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|USM]], [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn's]] materialization is a result of the unstable nature of Reality allowing Nature to seep in?"
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*This article could use elaboration on its history and impact on cultures.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Limn|Limn]]"
             }
         },
@@ -34485,7 +34536,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34531,6 +34582,9 @@
                         "... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification#Relational Concentration|Relational Concentration]] occurs as the result of Unreal entering Reality in excess—it's unclear how this presents itself, but is theorized to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]]?",
                         "... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification#Natural Diffusion|Natural Diffusion]] occurs as a result of Nature naturally seeping into the interaction between the Real and Unreal, generating [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn]]?"
                     ]
+                },
+                "callout_notes": {
+                    "pending": "*This article could use a section on the history of its discovery. It could also probably use some elaboration on how the different forms are important to science or societies. Natural Diffusion can definitely use elaboration on how it's studied.*"
                 },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]]"
             }
@@ -34585,7 +34639,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34678,7 +34732,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34696,7 +34750,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34732,7 +34786,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34750,7 +34804,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "stub",
                     "future": []
                 },
@@ -34820,6 +34874,9 @@
                         "... that only true [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] are written in [[Encyclopedia Mysenvaria/Culture/Languages/Starscript|Starscript]]? Artificial stars can only be written in [[Encyclopedia Mysenvaria/Culture/Languages/God Tongue|God Tongue]]."
                     ]
                 },
+                "callout_notes": {
+                    "pending": "*This article could use expansion on the history of stars and their cultural impact, especially in regards to elves and dwarves.*"
+                },
                 "link": "[[Encyclopedia Mysenvaria/Science/Phenomena/Stars|Stars]]"
             }
         },
@@ -34834,7 +34891,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34852,7 +34909,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -34888,7 +34945,7 @@
                 ],
                 "type": "article",
                 "status": {
-                    "scope": "standard",
+                    "scope": "brief",
                     "progress": "empty",
                     "future": []
                 },
@@ -35334,10 +35391,10 @@
             }
         },
         {
-            "src_rel": "Meta/Contributing.md",
+            "src_rel": "Meta/Code of Conduct.md",
             "definitions": {},
             "metadata": {
-                "title": "Contributing",
+                "title": "Code of Conduct",
                 "enableToc": true,
                 "tags": [
                     "topic/meta"
@@ -35348,7 +35405,25 @@
                     "progress": "complete",
                     "future": []
                 },
-                "link": "[[Meta/Contributing|Contributing]]"
+                "link": "[[Meta/Code of Conduct|Code of Conduct]]"
+            }
+        },
+        {
+            "src_rel": "Meta/Community Use Policy.md",
+            "definitions": {},
+            "metadata": {
+                "title": "Community Use Policy",
+                "enableToc": true,
+                "tags": [
+                    "topic/meta"
+                ],
+                "type": "article",
+                "status": {
+                    "scope": "standard",
+                    "progress": "complete",
+                    "future": []
+                },
+                "link": "[[Meta/Community Use Policy|Community Use Policy]]"
             }
         },
         {
@@ -35422,6 +35497,24 @@
             }
         },
         {
+            "src_rel": "Meta/License.md",
+            "definitions": {},
+            "metadata": {
+                "title": "License",
+                "enableToc": true,
+                "tags": [
+                    "topic/meta"
+                ],
+                "type": "article",
+                "status": {
+                    "scope": "standard",
+                    "progress": "complete",
+                    "future": []
+                },
+                "link": "[[Meta/License|License]]"
+            }
+        },
+        {
             "src_rel": "Meta/Meta.md",
             "definitions": {},
             "metadata": {
@@ -35479,105 +35572,87 @@
             }
         },
         {
-            "src_rel": "Meta/Writing Guidelines.md",
-            "definitions": {},
-            "metadata": {
-                "title": "Writing Guidelines",
-                "enableToc": true,
-                "tags": [
-                    "topic/meta/writing_guidelines"
-                ],
-                "type": "article",
-                "status": {
-                    "scope": "standard",
-                    "progress": "complete",
-                    "future": []
-                },
-                "link": "[[Meta/Writing Guidelines|Writing Guidelines]]"
-            }
-        },
-        {
             "src_rel": "Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Communion Moth.md",
             "definitions": {},
             "metadata": {
-                "title": "Communion Moth (Addenda)",
+                "title": "Communion Moth (Addendum)",
                 "aliases": [
-                    "Communion Moth (Addenda)"
+                    "Communion Moth (Addendum)"
                 ],
                 "enableToc": true,
                 "tags": [
-                    "topic/meta/addenda"
+                    "topic/meta/addendum"
                 ],
-                "type": "addenda",
+                "type": "addendum",
                 "status": {
                     "scope": "standard",
                     "progress": "complete",
                     "future": []
                 },
-                "link": "[[Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Communion Moth|Communion Moth (Addenda)]]"
+                "link": "[[Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Communion Moth|Communion Moth (Addendum)]]"
             }
         },
         {
             "src_rel": "Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Stacking Birds.md",
             "definitions": {},
             "metadata": {
-                "title": "Stacking Birds (Addenda)",
+                "title": "Stacking Birds (Addendum)",
                 "aliases": [
-                    "Stacking Birds (Addenda)"
+                    "Stacking Birds (Addendum)"
                 ],
                 "enableToc": true,
                 "tags": [
-                    "topic/meta/addenda"
+                    "topic/meta/addendum"
                 ],
-                "type": "addenda",
+                "type": "addendum",
                 "status": {
                     "scope": "standard",
                     "progress": "complete",
                     "future": []
                 },
-                "link": "[[Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Stacking Birds|Stacking Birds (Addenda)]]"
+                "link": "[[Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Stacking Birds|Stacking Birds (Addendum)]]"
             }
         },
         {
             "src_rel": "Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation.md",
             "definitions": {},
             "metadata": {
-                "title": "Atmospheric Circulation (Addenda)",
+                "title": "Atmospheric Circulation (Addendum)",
                 "aliases": [
-                    "Atmospheric Circulation (Addenda)"
+                    "Atmospheric Circulation (Addendum)"
                 ],
                 "enableToc": true,
                 "tags": [
-                    "topic/meta/addenda"
+                    "topic/meta/addendum"
                 ],
-                "type": "addenda",
+                "type": "addendum",
                 "status": {
                     "scope": "standard",
                     "progress": "complete",
                     "future": []
                 },
-                "link": "[[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|Atmospheric Circulation (Addenda)]]"
+                "link": "[[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|Atmospheric Circulation (Addendum)]]"
             }
         },
         {
             "src_rel": "Meta/Encyclopedia Mysenvaria/Science/Models/Material.md",
             "definitions": {},
             "metadata": {
-                "title": "Material (Addenda)",
+                "title": "Material (Addendum)",
                 "aliases": [
-                    "Material (Addenda)"
+                    "Material (Addendum)"
                 ],
                 "enableToc": true,
                 "tags": [
-                    "topic/meta/addenda"
+                    "topic/meta/addendum"
                 ],
-                "type": "addenda",
+                "type": "addendum",
                 "status": {
                     "scope": "standard",
                     "progress": "complete",
                     "future": []
                 },
-                "link": "[[Meta/Encyclopedia Mysenvaria/Science/Models/Material|Material (Addenda)]]"
+                "link": "[[Meta/Encyclopedia Mysenvaria/Science/Models/Material|Material (Addendum)]]"
             }
         },
         {
@@ -36740,12 +36815,6 @@
             "check": "empty-date",
             "source": "Encyclopedia Mysenvaria/History/Biographies/Time Wizard Man.md",
             "message": "`person[0].death_date` is empty."
-        },
-        {
-            "severity": "warning",
-            "check": "unknown-tag",
-            "source": "Encyclopedia Mysenvaria/History/Biographies/Gods/Isotope Gods.md",
-            "message": "Tag `subject/god/isotope_god` isn't documented. Add it to Meta/Metadata.md if it's new."
         },
         {
             "severity": "warning",

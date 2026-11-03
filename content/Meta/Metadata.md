@@ -14,7 +14,7 @@ status:
 > The following article is metatextual. It provides information on what the *Encyclopedia Mysenvaria* is, how it should be used, how you can use it, and how you can help improve it.
 
 > [!danger] Warning
-> **There may be some data on this page which is not visible when viewing this page from the Encyclopedia Mysenvaria website!**
+> Some data in this article may not be visible when viewing from the *Encyclopedia Mysenvaria* website!
 
 Every article begins with a block of [YAML](https://yaml.org/) front matter. This block is inaccessible to the average reader and is not intended to be viewed or accessed by them. Instead, this block provides necessary data to [Quartz](https://quartz.jzhao.xyz/) to build and deploy the Encyclopedia's articles. YAML blocks may also provide optional information that scripts made for the Encyclopedia can use.
 
@@ -29,7 +29,7 @@ draft: false # Optional. Defaults to false. If `true` the page does not render o
 link: "page_link" # Optional. If not included it defaults to the generic wikilink for the article. Programs use this to refer to the page in generated articles.
 enableToc: true # Whether or not to render a Table of Contents on the article.
 type: article # The type of article. Defaults to `article`. Accepts: `article`, `index`, `ledger`, `private`, `addendum`, `canvas`, or `template`.
-has: # `has` and `need` are an array of items which allow writers or editors to know what articles need what media. Both are optional. Accepts: `infobox`, `image`, `video`, `graphics`, `featured_data`, `archive`, and `addenda`.
+has: # `has` and `need` are an array of items which allow writers or editors to know what articles need what media. Both are optional. Accepts: `infobox`, `image`, `video`, `graphics`, `featured_data`, `archive`, and `addendum`.
   - example
 needs:
   - example
@@ -76,7 +76,7 @@ tags:
   - topic/meta # This article covers a general meta topic.
   - topic/meta/writing_guidelines # This article covers something relating to the Encyclopedia's writing guidelines.
   - topic/meta/ledger # This article is a Lore Ledger; a changelog for the Encyclopedia.
-  - topic/meta/addenda # This article is an addenda; articles providing meta information on non-meta pages.
+  - topic/meta/addendum # This article is an addendum; articles providing meta information on non-meta pages.
 ###
 # These are the art tags:
 ###
@@ -144,7 +144,7 @@ tags:
   - subject/god/higher-god # This article covers information regarding higher-Gods.
   - subject/god/lesser-god # This article covers information regarding lesser-Gods.
   - subject/god/molecular_god # This article covers information regarding Gods of the chemical compounds.
-  - sbuejct/god/isotope_god # This articles covers information regarding Gods of isotopes.
+  - subject/god/isotope_god # This articles covers information regarding Gods of isotopes.
   - subject/god/elemental_god # This article covers information regarding Gods of the elements.
   - subject/god/energy_god # This article covers information regarding Gods of energies.
   - subject/god/reaction_god # This article covers information regarding Gods of chemical reactions.
