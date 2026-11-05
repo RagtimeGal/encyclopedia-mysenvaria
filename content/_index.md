@@ -17,14 +17,14 @@ Besides their primary topics articles may also be categorized according to their
 > [!tip] Featured Article & Fun Facts
 > > [!note] Featured Article
 > > 
-> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]** are the strange products of unions, sexual or otherwise, between [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] and [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]]. The mechanics behind the creation and operations of Half-Gods are not well understood and are the focus of [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|hemitheogenesis]]. Because of Gods' sexless natures there is no particular arrangement that the union must consist of to create a Half-God, either member is capable of fertilization of the other member. Half-Gods come in two varieties depending on the carrier of the child, Demi-Gods if the organism carries, Womb-Gods if the god carries.
+> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Limn|Limn]]**, as described in the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], is a product of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]], specifically Natural Diffusion: a result of Realities unstable nature, allowing Nature to seep in. Limn is a strange substance, obeying neither the laws of the Real or Unreal. Because of this, limn is not a true [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|entity]] as defined by the USM, as it is not constructed from a normal [[Encyclopedia Mysenvaria/Science/Models/Material|material]] structure.
 >
 > > [!info] Did you know...
-> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] caused the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]], marking the beginning of the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]]?
-> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] is broken into 3 major epochs—the Early-War, Mid-War, and Late-War?
-> > - ... that [[Encyclopedia Mysenvaria/Geography/Abstract Features/Span & Reach|span & reach]] is the most commonly used coordinate system for [[Encyclopedia Mysenvaria/Science/Technologies/Measurement|measuring]] and describing position of things on the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]?
 > > - ... that a [[Encyclopedia Mysenvaria/Biology/Organs/Limnary Press|Limnary Press]] is an [[Encyclopedia Mysenvaria/Science/Phenomena/Organ|organ]] contained within some [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]] which allows them to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|artificial stars]]?
-> > - ... that [[Encyclopedia Mysenvaria/Science/Technologies/Orrery|orreries]] are small mechanical devices used to physically model the orbits of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]]?
+> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] occurred over a period of 58 days—less than a single season?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] possess a wide range of abilities derived from their relationship with the interaction between the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Real and Unreal]]?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods#Womb-Gods|Womb-Gods]] are conceived when an [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organism]] fertilizes a [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|God]]?
+> > - ff2
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
