@@ -20,11 +20,11 @@ Besides their primary topics articles may also be categorized according to their
 > > **[[Encyclopedia Mysenvaria/Science/Phenomena/Limn|Limn]]**, as described in the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], is a product of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]], specifically Natural Diffusion: a result of Realities unstable nature, allowing Nature to seep in. Limn is a strange substance, obeying neither the laws of the Real or Unreal. Because of this, limn is not a true [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|entity]] as defined by the USM, as it is not constructed from a normal [[Encyclopedia Mysenvaria/Science/Models/Material|material]] structure.
 >
 > > [!info] Did you know...
-> > - ... that a [[Encyclopedia Mysenvaria/Biology/Organs/Limnary Press|Limnary Press]] is an [[Encyclopedia Mysenvaria/Science/Phenomena/Organ|organ]] contained within some [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]] which allows them to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|artificial stars]]?
-> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] occurred over a period of 58 days—less than a single season?
-> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] possess a wide range of abilities derived from their relationship with the interaction between the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Real and Unreal]]?
-> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods#Womb-Gods|Womb-Gods]] are conceived when an [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organism]] fertilizes a [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|God]]?
 > > - ff2
+> > - ... that the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]] is a scientific model of the universe which attempts to explain its organization composition?
+> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] occurred over a period of 58 days—less than a single season?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]] is the tendency of phenomena in Nature to enter Reality as new unique phenomena?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] can be killed by piercing their heart with a foreign object?
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
