@@ -17,14 +17,14 @@ Besides their primary topics articles may also be categorized according to their
 > [!tip] Featured Article & Fun Facts
 > > [!note] Featured Article
 > > 
-> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Limn|Limn]]**, as described in the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]], is a product of [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]], specifically Natural Diffusion: a result of Realities unstable nature, allowing Nature to seep in. Limn is a strange substance, obeying neither the laws of the Real or Unreal. Because of this, limn is not a true [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (phenomenon)|entity]] as defined by the USM, as it is not constructed from a normal [[Encyclopedia Mysenvaria/Science/Models/Material|material]] structure.
+> > **[[Encyclopedia Mysenvaria/History/God-War Era/Quickening|The Quickening]]** is one of the most influential events in [[Encyclopedia Mysenvaria/History/History|history]]. Having occurred over the span of 58 days—less than a single season—it saw the creation of every known and unknown God, and was the root cause of the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]] and [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]. The Quickening is documented in the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]], composed of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] published by various [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] documenting their own domain subdivisions.
 >
 > > [!info] Did you know...
-> > - ff2
-> > - ... that the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]] is a scientific model of the universe which attempts to explain its organization composition?
+> > - ... that there were six [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|God Councils]] during the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]?
+> > - ... that the [[Encyclopedia Mysenvaria/Geography/Stars/First Epoch Star|First Epoch Star]] was the first [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] ever created?
 > > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] occurred over a period of 58 days—less than a single season?
-> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]] is the tendency of phenomena in Nature to enter Reality as new unique phenomena?
-> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] can be killed by piercing their heart with a foreign object?
+> > - ... that [[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|atmospheric circulation]] is a scientific model which describes how air in the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] moves from the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|central pole]] or [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|edge]] to the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|harmony line]] and vice-versa?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification#Relational Concentration|Relational Concentration]] occurs as the result of Unreal entering Reality in excess—it's unclear how this presents itself, but is theorized to create [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]]?
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
