@@ -9,24 +9,7 @@ status:
   scope: standard
   progress: stub
   future: []
-star:
-  - name: "Death's Star"
-    publications:
-    - publishers: ["publisher1"]
-      date: [-177,26]
-      major_event: false
-    - publishers: ["publisher2"]
-      date: [-177,282]
-      desc: "pub_desc2"
-      major_event: true
-    desc: "star_desc"
 ---
-%%
-"publisher1": "Unknown God"
-"publisher2": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|What Is and Is Not]]"
-"star_desc": "The host star of [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's Star System]]. Originally published by an unknown God following the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]. Later republished by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|What Is and Is Not]] following the passing of the original publisher. Describes the First Death in vivid detail."
-"pub_desc2": "**[[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]]** is republished by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] after its original publisher dies."
-%%
 
 > [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
 > This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).

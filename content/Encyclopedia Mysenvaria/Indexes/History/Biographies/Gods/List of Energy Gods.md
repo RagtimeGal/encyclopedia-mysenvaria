@@ -10,19 +10,16 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Energy Gods"
-    included_data: 
-      - tags: [topic/history/biography]
-      - tags: [subject/god/energy_god]
-      - type: article
-    excluded_data:
-      - event[0]
-    sort:
+  - heading: "Energy Gods"
+    type: list
+    include:
+      tags: {all: [topic/history/biography, subject/god/energy_god]}
+      type: article
+    exclude:
+      event[0]: {exists: true}
+    order:
       - by: aliases[0]
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 This page serves as an index of energy [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] sorted alphabetically.

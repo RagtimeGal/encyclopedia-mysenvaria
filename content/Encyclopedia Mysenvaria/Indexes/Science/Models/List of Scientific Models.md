@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Scientific Models"
-    included_data: 
-      - tags: [topic/science/model]
-      - type: article
-    sort:
+  - heading: "Scientific Models"
+    type: list
+    include:
+      tags: topic/science/model
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles across the Encyclopedia which describe [[Encyclopedia Mysenvaria/Science/Science#Models|scientific models]], sorted alphabetically.

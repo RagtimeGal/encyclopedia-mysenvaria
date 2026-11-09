@@ -10,18 +10,15 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Indexes of Gods"
-    included_data: 
-      - tags: [subject/god*]
-      - type: index
-    excluded_data:
-      - title: "List of Indexes of Stars"
-    sort:
+  - heading: "Indexes of Gods"
+    type: list
+    include:
+      tags: "subject/god*"
+      type: index
+    exclude:
+      title: List of Indexes of Stars
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
 ---
 
 The following is an index of indexes which list [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], sorted alphabetically.

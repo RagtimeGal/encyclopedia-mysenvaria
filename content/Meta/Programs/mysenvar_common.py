@@ -158,22 +158,42 @@ def year_day(value):
 
 def normalise_date(value):
     """
-    The aggregator's date object:
-        {"original": [-178, 329], "formal": "59th of Winter, 178BT",
-         "formal_without_year": "59th of Winter", "informal": "-178-329"}
-    Returns None if the date can't be read. Already-normalised dates pass through.
+    The aggregator's date object. Everything a program or an index might want to read from a date is a field
+    of its own, so an index can point straight at it (`star[].publications[0].date.year`):
+        {"original": [-178, 329],          the date as written on the page
+         "year": -178, "day": 329,          day is null for a year-only date
+         "season": "Winter", "season_day": 59,
+         "era": "BT",
+         "decade": "170s BT", "century": "2nd Century BT",
+         "sort": -177671,                   one number that runs in time order (year * 1000 + day)
+         "formal": "59th of Winter, 178 BT",
+         "formal_without_year": "59th of Winter",
+         "informal": "-178-329"}
+    Returns None if the date can't be read. An already-normalised date is rebuilt from its `original`.
     """
-    if isinstance(value, dict) and all(k in value for k in ("original", "formal", "formal_without_year", "informal")):
-        return value
+    if isinstance(value, dict) and "original" in value:
+        value = value["original"]
     y, d, problem = split_date(value)
     if problem:
         return None
-    suffix = "AT" if y >= 0 else "BT"
+    era = "AT" if y >= 0 else "BT"
+    out = {"original": value, "year": y, "day": d, "season": None, "season_day": None, "era": era,
+           "decade": decade_title(y), "century": century_title(*century_of(y)), "sort": y * 1000 + (d or 0)}
     if d is not None:
         sd = season_day(d)
-        return {"original": value, "formal": f"{sd}, {abs(y)}{suffix}",
-                "formal_without_year": sd, "informal": f"{y}-{d}"}
-    return {"original": value, "formal": f"{abs(y)}{suffix}", "formal_without_year": "", "informal": f"{y}"}
+        idx = (d - 1) // SEASON_LENGTH
+        out.update(season=SEASONS[idx], season_day=d - idx * SEASON_LENGTH,
+                   formal=f"{sd}, {abs(y)} {era}", formal_without_year=sd, informal=f"{y}-{d}")
+    else:
+        out.update(formal=f"{abs(y)} {era}", formal_without_year="", informal=f"{y}")
+    return out
+
+
+def century_of(year):
+    """The century a year is in, as (number, era): -178 -> (2, "BT"), -100 -> (1, "BT"), 1496 -> (15, "AT")."""
+    if year < 0:
+        return (-year + 99) // 100, "BT"
+    return year // 100 + 1, "AT"
 
 
 def date_sort_value(value):

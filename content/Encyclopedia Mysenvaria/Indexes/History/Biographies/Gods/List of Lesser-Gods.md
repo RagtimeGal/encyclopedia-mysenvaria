@@ -10,17 +10,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Lesser-Gods"
-    included_data: 
-      - tags: [topic/history/biography]
-      - tags: [subject/god/lesser-god]
-      - type: article
-    sort:
+  - heading: "Lesser-Gods"
+    type: list
+    include:
+      tags: {all: [topic/history/biography, subject/god/lesser-god]}
+      type: article
+    order:
       - by: aliases[0]
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 This page serves as an index of lesser-[[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], defined as Gods whose elements of nature would continue to exist upon death.
@@ -33,7 +30,7 @@ This page serves as an index of lesser-[[Encyclopedia Mysenvaria/Science/Phenome
 - God of Argon
 - God of Arsenic
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Aspartic Acid|God of Aspartic Acid]]
-- God of Astanine
+- God of Astatine
 ## B
 - God of Barium
 - God of Berkelium

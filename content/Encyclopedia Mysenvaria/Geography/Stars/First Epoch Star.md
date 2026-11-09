@@ -14,9 +14,11 @@ star:
     publications:
     - publishers: ["publisher"]
       date: [-178,282]
-      major_event: false
+      major_event: true
+      desc: "pub_desc1"
     desc: "star_desc"
-    coordinates: [0,0,3844]
+    coordinates: [0,90,3844]
+    star_type: "legal"
 featured_data:
   fun_facts: ["ff1"]
 ---
@@ -24,6 +26,7 @@ featured_data:
 publisher: [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]
 star_desc: The oldest star, created by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] to document their creation of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] and the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Creation Quadrinity]].
 ff1: ... that the [[Encyclopedia Mysenvaria/Geography/Stars/First Epoch Star|First Epoch Star]] was the first [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|star]] ever created?
+pub_desc1: **[[Encyclopedia Mysenvaria/Geography/Stars/First Epoch Star|The First Epoch Star]]** is published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] creating the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] in its prehistoric state and creating the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Creation Quadrinity]].
 %%
 
 > [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!

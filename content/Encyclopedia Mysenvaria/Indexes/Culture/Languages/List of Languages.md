@@ -9,18 +9,16 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Languages"
-    included_data: 
-      - tags: [topic/culture/language]
-      - type: article
-    excluded_data:
-      - tags: [subject/linguistics]
-    sort:
+  - heading: "Languages"
+    type: list
+    include:
+      tags: topic/culture/language
+      type: article
+    exclude:
+      tags: subject/linguistics
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Culture/Culture#Languages|languages]], sorted alphabetically.

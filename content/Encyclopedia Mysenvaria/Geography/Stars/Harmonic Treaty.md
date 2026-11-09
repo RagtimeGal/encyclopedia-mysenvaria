@@ -9,7 +9,33 @@ status:
   scope: standard
   progress: stub
   future: []
+star:
+  - name: "Harmonic Treaty"
+    star_type: "legal"
+    coordinates: [0, 90, 3995.13]
+    size: 259
+    orbital:
+      center_mode: "coordinates"
+      radius: 4641.66
+      eccentricity: 0.017
+      tilt: 7.25
+      periapsis_deg: 180
+      period: 1
+      phase_start: 0.5
+      precession_period: 720
+      high_side_deg: 180
+    publications:
+      - publishers: ["publisher1"]
+        date: [0, 1]
+        major_event: true
+        desc: "pub_desc1"
+    desc: "star_desc"
 ---
+%%
+"publisher1": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]"
+"star_desc": "Published following the [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|Sixth God Council]] by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] after a unanimous vote to end the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]. Completely changes the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] by introducing [[Encyclopedia Mysenvaria/Science/Phenomena/Day & Night|day & night]], [[Encyclopedia Mysenvaria/Science/Phenomena/Weather|weather]], and [[Encyclopedia Mysenvaria/Science/Phenomena/Climate|climate]]."
+"pub_desc1": "**[[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|The Harmonic Treaty]]** is published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]] following the [[Encyclopedia Mysenvaria/History/God-War Era/God Councils|Sixth God Council]], ending the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War]]."
+%%
 
 > [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
 > This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).

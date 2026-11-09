@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Occupations"
-    included_data: 
-      - tags: [topic/culture/occupation]
-      - type: article
-    sort:
+  - heading: "Occupations"
+    type: list
+    include:
+      tags: topic/culture/occupation
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Culture/Culture#Occupations & Crafts|occupations]], sorted alphabetically.

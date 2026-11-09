@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Artificial Features"
-    included_data: 
-      - tags: [topic/geography/artificial]
-      - type: article
-    sort:
+  - heading: "Artificial Features"
+    type: list
+    include:
+      tags: topic/geography/artificial
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Geography/Geography#Artificial Features|artificial features]], sorted alphabetically.

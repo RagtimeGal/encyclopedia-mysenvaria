@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Organizations"
-    included_data: 
-      - tags: [topic/culture/organization]
-      - type: article
-    sort:
+  - heading: "Organizations"
+    type: list
+    include:
+      tags: topic/culture/organization
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Culture/Culture#Organizations|organizations]], sorted alphabetically.

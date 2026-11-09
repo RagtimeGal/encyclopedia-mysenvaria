@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Holidays"
-    included_data: 
-      - tags: [topic/culture/holiday]
-      - type: article
-    sort:
+  - heading: "Holidays"
+    type: list
+    include:
+      tags: topic/culture/holiday
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Culture/Culture#Events & Holidays|events and holidays]], sorted alphabetically.

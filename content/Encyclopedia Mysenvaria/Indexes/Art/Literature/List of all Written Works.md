@@ -9,26 +9,22 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Fiction"
-    included_data: 
-      - tags: [topic/art/literature/fiction]
-      - type: article
-    sort:
+  - heading: "Fiction"
+    type: list
+    include:
+      tags: topic/art/literature/fiction
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders: 
-          generate: true
-          method: first_character
-  - header_name: "Non-fiction"
-    included_data: 
-      - tags: [topic/art/literature/non-fiction]
-      - type: article
-    sort:
+        group: first_letter
+  - heading: "Non-fiction"
+    type: list
+    include:
+      tags: topic/art/literature/non-fiction
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Arts/Art#Literature|literary works]], organized into fiction and non-fiction categories and listed in alphabetical order.

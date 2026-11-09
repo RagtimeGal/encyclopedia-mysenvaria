@@ -1,0 +1,469 @@
+---
+title: "List of all Stars Published During the God-War Era"
+enableToc: true
+tags:
+  - topic/geography/astrography
+  - subject/star
+  - subject/star_system
+type: index
+status:
+  scope: generated
+  progress: complete
+  future: []
+index:
+  - heading: "Stars Published During the God-War Era"
+    type: list
+    include:
+      tags: {all: [topic/geography/astrography, "subject/star*"]}
+      star[].publications[].date: {to: [-1]}
+      type: article
+    order:
+      - by: star[].publications[].date
+        group:
+          by: star[].publications[].date.decade
+      - by: title
+---
+
+The following is an index of all articles describing [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] which were published during the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]], organized by decade of publication.
+# Stars Published During the God-War Era
+## 170s BT
+- [[Encyclopedia Mysenvaria/Geography/Stars/First Epoch Star|First Epoch Star]]
+- Energy Division Star
+- First Lessers Star
+- Dynamic Time Star
+- First Isotopes Star
+- First Molecules Star
+- First Silicon Molecules Star
+- Helium Isotopes Star
+- Iodine Isotopes Star
+- Iron Isotopes Star
+- Neon Isotopes Star
+- New Energy Division Star
+- Nitrogen Isotopes Star
+- Silicon Isotopes Star
+- Structure Star
+- Electric System Star
+- First Hydrogen Molecules Star
+- First Iron Molecules Star
+- First Neon Molecules Star
+- Hydrogen Isotopes Star
+- New Magnetism Star
+- New Motion Star
+- Oxygen Isotopes Star
+- Silver Isotopes Star
+- Thulium Isotopes Star
+- Tin Isotopes Star
+- Aluminum Isotopes Star
+- Chemical Energy Star
+- Chlorine Isotopes Star
+- Copper Isotopes Star
+- First Helium Molecules Star
+- First Nitrogen Molecules Star
+- Nuclear Physics Star
+- Temperature Star
+- Argon Isotopes Star
+- Bismuth Isotopes Star
+- Chemical Reactions Star
+- Cobalt Isotopes Star
+- First Allotropes Star
+- First Chlorine Molecules Star
+- First Oxygen Molecules Star
+- First Tin Molecules Star
+- Lithium Isotopes Star
+- Motion & Movement Star
+- Neodymium Isotopes Star
+- Nickel Isotopes Star
+- Sodium Isotopes Star
+- Bromine Isotopes Star
+- First Argon Molecules Star
+- First Bismuth Molecules Star
+- First Copper Molecules Star
+- First Lithium Molecules Star
+- First Neodymium Molecules Star
+- First Silver Molecules Star
+- First Thulium Molecules Star
+- Fluorine Isotopes Star
+- Indium Isotopes Star
+- Magnesium Isotopes Star
+- Material States Star
+- Mechanical Waves Star
+- Orbital Systems Star
+- Oscillation Star
+- Potassium Isotopes Star
+- Second Chemical Reactions Star
+- Transformation Gods Star
+- Vanadium Isotopes Star
+- Acidic Chemicals Star
+- Astatine Isotopes Star
+- Boron Isotopes Star
+- Calcium Isotopes Star
+- Californium Isotopes Star
+- First Calcium Molecules Star
+- First Cobalt Molecules Star
+- First Fluorine Molecules Star
+- First Sodium Molecules Star
+- Molybdenum Isotopes Star
+- Nihonium Isotopes Star
+- Osmium Isotopes Star
+- Praseodymium Isotopes Star
+- Rhodium Isotopes Star
+- Split Mechanics Star
+- Sulfur Isotopes Star
+- Tantalum Isotopes Star
+- Xenon Isotopes Star
+- Arsenic Isotopes Star
+- Copernicium Isotopes Star
+- Divided Fluid Mechanics Star
+- Divided Solidifying Mechanics Star
+- Erbium Isotopes Star
+- First Aluminum Molecules Star
+- First Astatine Molecules Star
+- First Californium Molecules Star
+- First Elemental States Star
+- First Indium Molecules Star
+- First Magnesium Molecules Star
+- First Molybdenum Molecules Star
+- First Nickel Molecules Star
+- First Nihonium Molecules Star
+- First Oganesson Molecules Star
+- First Osmium Molecules Star
+- First Potassium Molecules Star
+- First Rhodium Molecules Star
+- First Sulfur Molecules Star
+- First Tantalum Molecules Star
+- First Tungsten Molecules Star
+- New Waves Star
+- Oganesson Isotopes Star
+- Oxygen Allotropes Star
+- Platinum Isotopes Star
+- Polonium Isotopes Star
+- Seaborgium Isotopes Star
+- Tungsten Isotopes Star
+- Unified Systems Star
+- Bohrium Isotopes Star
+- Chromium Isotopes Star
+- Combined Mechanics Star
+- Fermium Isotopes Star
+- First Boron Molecules Star
+- First Copernicium Molecules Star
+- First Erbium Molecules Star
+- First Fermium Molecules Star
+- First Manganese Molecules Star
+- First Polonium Molecules Star
+- First Praseodymium Molecules Star
+- First Xenon Molecules Star
+- Iridium Isotopes Star
+- Manganese Isotopes Star
+- New Atmosphere Star
+- Palladium Isotopes Star
+- Phosphorus Allotropes Star
+- Rocks Star
+- Sound Star
+- Supercooling Star
+- Technetium Isotopes Star
+- Titanium Isotopes Star
+- ???-32 Isotopes Star
+- ???-33 Isotopes Star
+- Adjective Rocks Star
+- Curium Isotopes Star
+- Europium Isotopes Star
+- First Arsenic Molecules Star
+- First Palladium Molecules Star
+- First Platinum Molecules Star
+- First Vanadium Molecules Star
+- Gallium Isotopes Star
+- Mercury Isotopes Star
+- Moscovium Isotopes Star
+- Niobium Isotopes Star
+- Phosphorus Isotopes Star
+- Rock Trinity Star
+- Rubidium Isotopes Star
+- Split Plane Star
+- Sublimation Star
+- Thallium Isotopes Star
+- Zirconium Isotopes Star
+- Antimony Isotopes Star
+- Berkelium Isotopes Star
+- Cadmium Isotopes Star
+- Dubnium Isotopes Star
+- First Bromine Molecules Star
+- First Iodine Molecules Star
+- First Moscovium Molecules Star
+- Germanium Isotopes Star
+- Holmium Isotopes Star
+- Lutetium Isotopes Star
+- Magma Star
+- Nobelium Isotopes Star
+- Plate Tectonics Star
+- Plutonium Isotopes Star
+- Promethium Isotopes Star
+- Radon Isotopes Star
+- Ruthenium Isotopes Star
+- Scandium Isotopes Star
+- Tennessine Isotopes Star
+- Terbium Isotopes Star
+- Thorium Isotopes Star
+- ???-16 Isotopes Star
+- Beryllium Isotopes Star
+- Dysprosium Isotopes Star
+- Einsteinium Isotopes Star
+- First Chromium Molecules Star
+- First Dubnium Molecules Star
+- First Europium Molecules Star
+- First Gallium Molecules Star
+- First Lutetium Molecules Star
+- First Niobium Molecules Star
+- First Radon Molecules Star
+- First Rubidium Molecules Star
+- First Scandium Molecules Star
+- First Seaborgium Molecules Star
+- First Technetium Molecules Star
+- First Tennessine Molecules Star
+- First Thallium Molecules Star
+- First Zirconium Molecules Star
+- Granularity Star
+- Hassium Isotopes Star
+- Meitnerium Isotopes Star
+- Metal Allotropes Star
+- Nucleation Star
+- Rhenium Isotopes Star
+- Roentgenium Isotopes Star
+- Split Plate Tectonics Star
+- Uranium Isotopes Star
+- ???-14 Isotopes Star
+- Acoustics Star
+- First ???-32 Molecules Star
+- First ???-33 Molecules Star
+- First Berkelium Molecules Star
+- First Generation Rocks Star
+- First Granules Star
+- First Iridium Molecules Star
+- First Neptunium Molecules Star
+- First Ruthenium Molecules Star
+- Flerovium Isotopes Star
+- Lawrencium Isotopes Star
+- Mendelevium Isotopes Star
+- Neptunium Isotopes Star
+- Second Elemental States Star
+- Volcanism Star
+- Weather Star
+- Zinc Isotopes Star
+- ???-12 Isotopes Star
+- ???-19 Isotopes Star
+- Cerium Isotopes Star
+- Darmstadtium Isotopes Star
+- Divided Weather Star
+- First Antimony Molecules Star
+- First Beryllium Molecules Star
+- First Curium Molecules Star
+- First Dysprosium Molecules Star
+- First Einsteinium Molecules Star
+- First Flerovium Molecules Star
+- First Lawrencium Molecules Star
+- First Meitnerium Molecules Star
+- First Mercury Molecules Star
+- First Rhenium Molecules Star
+- First Tellurium Molecules Star
+- First Thorium Molecules Star
+- First Uranium Molecules Star
+- First Ytterbium Molecules Star
+- Gadolinium Isotopes Star
+- Hafnium Isotopes Star
+- Livermorium Isotopes Star
+- Rutherfordium Isotopes Star
+- Second Generation Rocks Star
+- Tellurium Isotopes Star
+- Third Elemental States Star
+- Ytterbium Isotopes Star
+- ???-15 Isotopes Star
+- ???-37 Isotopes Star
+- Barium Isotopes Star
+- Divided Lightning Star
+- Divided Rain Star
+- First Cadmium Molecules Star
+- First Gadolinium Molecules Star
+- First Germanium Molecules Star
+- First Mendelevium Molecules Star
+- First Nobelium Molecules Star
+- First Promethium Molecules Star
+- First Roentgenium Molecules Star
+- First Terbium Molecules Star
+- Gold Isotopes Star
+- Selenium Isotopes Star
+- Strontium Isotopes Star
+- Third Generation Rocks Star
+- ???-2 Isotopes Star
+- ???-5 Isotopes Star
+- ???-6 Isotopes Star
+- ???-7 Isotopes Star
+- ???-8 Isotopes Star
+- Fifth Elemental States Star
+- First Generation Vapors Star
+- First Hafnium Molecules Star
+- First Livermorium Molecules Star
+- First Phosphorus Molecules Star
+- First Plutonium Molecules Star
+- First Rutherfordium Molecules Star
+- Fourth Elemental States Star
+- Fourth Generation Rocks Star
+- Francium Isotopes Star
+- Lead Isotopes Star
+- Radium Isotopes Star
+- ???-17 Isotopes Star
+- ???-18 Isotopes Star
+- ???-21 Isotopes Star
+- ???-25 Isotopes Star
+- ???-3 Isotopes Star
+- ???-9 Isotopes Star
+- First Cerium Molecules Star
+- First Holmium Molecules Star
+- Krypton Isotopes Star
+- Lanthanum Isotopes Star
+- Samarium Isotopes Star
+- Second Granules Star
+- Thunder Star
+- Volcanic Lightning Star
+- ???-1 Isotopes Star
+- ???-22 Isotopes Star
+- ???-29 Isotopes Star
+- ???-34 Isotopes Star
+- ???-4 Isotopes Star
+- Fifth Generation Rocks Star
+- First ???-5 Molecules Star
+- First ???-6 Molecules Star
+- First Selenium Molecules Star
+- First Strontium Molecules Star
+- Protactinium Isotopes Star
+- ???-11 Isotopes Star
+- ???-26 Isotopes Star
+- Americium Isotopes Star
+- Caesium Isotopes Star
+- First ???-14 Molecules Star
+- First ???-17 Molecules Star
+- First ???-2 Molecules Star
+- First ???-21 Molecules Star
+- First ???-22 Molecules Star
+- First ???-25 Molecules Star
+- First ???-7 Molecules Star
+- First ???-8 Molecules Star
+- First Francium Molecules Star
+- First Samarium Molecules Star
+- First Titanium Molecules Star
+- Sixth Elemental States Star
+- ???-13 Isotopes Star
+- ???-23 Isotopes Star
+- ???-30 Isotopes Star
+- First ???-1 Molecules Star
+- First ???-18 Molecules Star
+- First ???-29 Molecules Star
+- First ???-4 Molecules Star
+- First Hassium Molecules Star
+- First Lanthanum Molecules Star
+- ???-20 Isotopes Star
+- ???-27 Isotopes Star
+- First ???-12 Molecules Star
+- First ???-19 Molecules Star
+- First Bohrium Molecules Star
+- First Darmstadtium Molecules Star
+- Seventh Elemental States Star
+- Sixth Generation Rocks Star
+- Sulfur Allotropes Star
+- ???-35 Isotopes Star
+- Arsenic Allotropes Star
+- First ???-15 Molecules Star
+- First ???-23 Molecules Star
+- First ???-26 Molecules Star
+- First Barium Molecules Star
+- First Protactinium Molecules Star
+- Second Carbon Molecules Star
+- Seventh Generation Rocks Star
+- Yttrium Isotopes Star
+- ???-28 Isotopes Star
+- First ???-27 Molecules Star
+- First ???-3 Molecules Star
+- First Krypton Molecules Star
+- ???-31 Isotopes Star
+- Eighth Elemental States Star
+- First ???-11 Molecules Star
+- First ???-30 Molecules Star
+- First ???-34 Molecules Star
+- First Americium Molecules Star
+- First Gold Molecules Star
+- Nitrogen Allotropes Star
+- Second Silicon Molecules Star
+- ???-38 Isotopes Star
+- First ???-16 Molecules Star
+- First ???-31 Molecules Star
+- First Caesium Molecules Star
+- Ninth Elemental States Star
+- ???-10 Isotopes Star
+- First ???-13 Molecules Star
+- First ???-9 Molecules Star
+- First Radium Molecules Star
+- Eighth Generation Rocks Star
+- First ???-28 Molecules Star
+- First ???-37 Molecules Star
+- First Zinc Molecules Star
+- Second Generation Vapors Star
+- ???-36 Isotopes Star
+- First ???-20 Molecules Star
+- Second Oxygen Molecules Star
+- First ???-35 Molecules Star
+- Second Chlorine Molecules Star
+- Tenth Elemental States Star
+- Third Granules Star
+- Third Silicon Molecules Star
+- ???-24 Isotopes Star
+- First ???-10 Molecules Star
+- Ninth Generation Rocks Star
+- Second Nitrogen Molecules Star
+- Second ???-5 Molecules Star
+- Second Fluorine Molecules Star
+- Second Arsenic Molecules Star
+- Second Hydrogen Molecules Star
+- Second Sulfur Molecules Star
+- Second Plutonium Molecules Star
+- First ???-38 Molecules Star
+- Second Chromium Molecules Star
+- Second Europium Molecules Star
+- Second Zinc Molecules Star
+- First Lead Molecules Star
+- Second ???-16 Molecules Star
+- Second Iridium Molecules Star
+- Eleventh Elemental States Star
+- Second ???-37 Molecules Star
+- Second Cobalt Molecules Star
+- Second Phosphorus Molecules Star
+- Third Sulfur Molecules Star
+- Second Calcium Molecules Star
+- Tenth Generation Rocks Star
+- First ???-24 Molecules Star
+- Third Generation Vapors Star
+- Second Manganese Molecules Star
+- First ???-36 Molecules Star
+- Second ???-30 Molecules Star
+- Twelfth Elemental States Star
+- Fourth Granules Star
+- Third Carbon Molecules Star
+- Second ???-29 Molecules Star
+- First Yttrium Molecules Star
+- Fourth Generation Vapors Star
+- Thirteenth Elemental States Star
+- Second ???-18 Molecules Star
+- Eleventh Generation Rocks Star
+- Third Oxygen Molecules Star
+- Fourteenth Elemental States Star
+- Twelfth Generation Rocks Star
+- Fourth Carbon Molecules Star
+- [[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]]
+- Fifth Generation Vapors Star
+- [[Encyclopedia Mysenvaria/Geography/Stars/Convening Star|Convening Star]]
+- [[Encyclopedia Mysenvaria/Geography/Stars/Afterlife System/Afterlife Star|Afterlife Star]]
+- [[Encyclopedia Mysenvaria/Geography/Stars/Spatial Act|Spatial Act]]
+## 70s BT
+- [[Encyclopedia Mysenvaria/Geography/Stars/Mitosis Star System/Organic Destruction|Organic Destruction]]
+## 50s BT
+- [[Encyclopedia Mysenvaria/Geography/Stars/Afterlife System/Greater God Star|Greater God Star]]
+
+> [!abstract|callout-generated] [[Meta/Meta|Meta]] || Beep Boop!
+> All of, or a portion of, this article is generated by a program. If you believe there's an error in the generation of this article please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).

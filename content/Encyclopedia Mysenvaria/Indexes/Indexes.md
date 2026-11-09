@@ -9,70 +9,51 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Arts"
-    included_data: 
-      - tags: [topic/art*]
-      - type: index
-    sort:
+  - heading: "Arts"
+    type: list
+    include:
+      tags: "topic/art*"
+      type: index
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
-  - header_name: "Biology"
-    included_data: 
-      - tags: [topic/biology*]
-      - type: index
-    sort:
+  - heading: "Biology"
+    type: list
+    include:
+      tags: "topic/biology*"
+      type: index
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
-  - header_name: "Culture"
-    included_data: 
-      - tags: [topic/culture*]
-      - type: index
-    sort:
+  - heading: "Culture"
+    type: list
+    include:
+      tags: "topic/culture*"
+      type: index
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
-  - header_name: "Geography"
-    included_data: 
-      - tags: [topic/geography*]
-      - type: index
-    sort:
+  - heading: "Geography"
+    type: list
+    include:
+      tags: "topic/geography*"
+      type: index
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
-  - header_name: "History"
-    included_data:
-      - tags: [topic/history*]
-      - type: index
-    excluded_data:
-      - tags: [topic/history/decade]
-      - tags: [topic/history/century]
-      - title: "Timeline"
-    sort:
+  - heading: "History"
+    type: list
+    include:
+      tags: "topic/history*"
+      type: index
+    exclude:
+      tags: [topic/history/decade, topic/history/century]
+      title: Timeline
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
-  - header_name: "Science"
-    included_data:
-      - tags: [topic/science*]
-      - type: index
-    sort:
+  - heading: "Science"
+    type: list
+    include:
+      tags: "topic/science*"
+      type: index
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
 ---
 
 The following article serves to index all of the indexes throughout the *[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encyclopedia Mysenvaria|Encyclopedia Mysenvaria]]*. Indexes are sorted in headers categorically based on the Encyclopedia's six primary topics ([[Encyclopedia Mysenvaria/Arts/Art|art]], [[Encyclopedia Mysenvaria/Biology/Biology|biology]], [[Encyclopedia Mysenvaria/Culture/Culture|culture]], [[Encyclopedia Mysenvaria/Geography/Geography|geography]], [[Encyclopedia Mysenvaria/History/History|history]], and [[Encyclopedia Mysenvaria/Science/Science|science]]).
@@ -102,6 +83,7 @@ The following article serves to index all of the indexes throughout the *[[Encyc
 - [[Encyclopedia Mysenvaria/Indexes/Geography/Stars/List of Indexes of Stars|List of Indexes of Stars]]
 - [[Encyclopedia Mysenvaria/Indexes/Geography/Natural Features/List of Natural Features|List of Natural Features]]
 - [[Encyclopedia Mysenvaria/Indexes/Geography/List of all Geographical Features|List of all Geographical Features]]
+- [[Encyclopedia Mysenvaria/Indexes/Geography/Stars/List of all Stars Published During the God-War Era|List of all Stars Published During the God-War Era]]
 
 # History
 - [[Encyclopedia Mysenvaria/Indexes/History/Biographies/Gods/List of Compound Gods|List of Compound Gods]]

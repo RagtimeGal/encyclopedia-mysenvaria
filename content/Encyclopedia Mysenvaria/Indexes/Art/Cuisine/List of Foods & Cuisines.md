@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Foods & Cuisines"
-    included_data: 
-      - tags: [topic/art/cuisine]
-      - type: article
-    sort:
+  - heading: "Foods & Cuisines"
+    type: list
+    include:
+      tags: topic/art/cuisine
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Arts/Art#Cuisine|cuisine & food]], sorted alphabetically.

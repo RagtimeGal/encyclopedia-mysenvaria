@@ -2,6 +2,7 @@
 title: "Gods of Kinetic & Potential Energy"
 aliases:
  - "Kinetic & Potential Energy"
+ - "Energy Duo"
 enableToc: true
 tags:
   - topic/history/biography

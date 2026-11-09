@@ -9,20 +9,18 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Lore Ledgers"
-    included_data:
-      - type: ledger
-    sort:
+  - heading: "Lore Ledgers"
+    type: list
+    include:
+      type: ledger
+    order:
       - by: ledger_data.year
-        method: natural_backward
-        subheaders:
-          generate: true
-          method: value
+        natural: true
+        reverse: true
+        group: value
       - by: title
-        method: natural_backward
-        subheaders:
-          generate: false
-          method: first_character
+        natural: true
+        reverse: true
 ---
 
 > [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
@@ -31,7 +29,7 @@ index:
 The following article serves as an index of the Encyclopedia's Lore Ledgers. Lore Ledgers are [[Meta/Meta|meta]] overviews of recent progress and updates across the Encyclopedia, intended to help readers explore and understand how the Encyclopedia is updated.
 # Lore Ledgers
 ## 2026
-- [[Meta/Ledgers/Ledger 38.2026|Lore Ledger 38.26]]
+- [[Meta/Ledgers/Ledger 45.2026|Lore Ledger 38.26]]
 - [[Meta/Ledgers/Ledger 36.2026|Lore Ledger 36.26]]
 - [[Meta/Ledgers/Ledger 12.2026|Lore Ledger 12.26]]
 - [[Meta/Ledgers/Ledger 10.2026|Lore Ledger 10.26]]

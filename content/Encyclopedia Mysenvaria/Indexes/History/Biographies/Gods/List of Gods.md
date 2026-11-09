@@ -10,17 +10,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Gods"
-    included_data: 
-      - tags: [topic/history/biography]
-      - tags: [subject/god*]
-      - type: article
-    sort:
+  - heading: "Gods"
+    type: list
+    include:
+      tags: {all: [topic/history/biography, "subject/god*"]}
+      type: article
+    order:
       - by: aliases[0]
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], sorted alphabetically.
@@ -33,7 +30,7 @@ The following is an index of all [[Encyclopedia Mysenvaria/Science/Phenomena/God
 - God of Argon
 - God of Arsenic
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Aspartic Acid|God of Aspartic Acid]]
-- God of Astanine
+- God of Astatine
 ## B
 - God of Barium
 - God of Berkelium

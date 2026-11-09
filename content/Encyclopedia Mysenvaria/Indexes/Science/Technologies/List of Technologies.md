@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Technologies"
-    included_data: 
-      - tags: [topic/science/technology]
-      - type: article
-    sort:
+  - heading: "Technologies"
+    type: list
+    include:
+      tags: topic/science/technology
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles across the Encyclopedia which describe [[Encyclopedia Mysenvaria/Science/Science#Technologies|technologies]], sorted alphabetically.

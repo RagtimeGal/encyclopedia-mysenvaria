@@ -10,17 +10,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Compound Gods"
-    included_data: 
-      - tags: [topic/history/biography]
-      - tags: [subject/god/molecular_god]
-      - type: article
-    sort:
+  - heading: "Compound Gods"
+    type: list
+    include:
+      tags: {all: [topic/history/biography, subject/god/molecular_god]}
+      type: article
+    order:
       - by: aliases[0]
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 This page serves as an index of Compound [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], defined as the first generation of Gods created by the [[Encyclopedia Mysenvaria/Indexes/History/Biographies/Gods/List of Elemental Gods|Elemental Gods]].

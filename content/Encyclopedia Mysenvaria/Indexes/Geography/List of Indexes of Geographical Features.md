@@ -9,19 +9,16 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Indexes of Geographical Features"
-    included_data: 
-      - tags: [topic/geography*]
-      - type: index
-    excluded_data:
-      - tags: [topic/geography/astrography]
-      - title: "List of Indexes of Geographical Features"
-    sort:
+  - heading: "Indexes of Geographical Features"
+    type: list
+    include:
+      tags: "topic/geography*"
+      type: index
+    exclude:
+      tags: topic/geography/astrography
+      title: List of Indexes of Geographical Features
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
-          method: first_character
 ---
 
 The following is an index of indexes which describe [[Encyclopedia Mysenvaria/Geography/Geography|geographical features]], sorted alphabetically.

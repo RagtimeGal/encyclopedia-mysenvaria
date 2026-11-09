@@ -17,6 +17,9 @@ star:
         desc: "pub_desc1"
         major_event: true
     desc: "star_desc"
+    star_type: "documentary"
+    coordinates: [287.48,12.19,8544.8]
+    size: 0.0037
 ---
 %%
 "publisher1": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods/God of Chromodynamic Energy|God of Chromodynamic Energy]]" 

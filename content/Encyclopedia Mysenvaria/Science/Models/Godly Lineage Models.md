@@ -24,7 +24,7 @@ status:
 
 Godly Lineage Models, or GLMs, are models of the [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|God's]] lineage created and used by [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenists]] and [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|astronomers]] to classify Gods and help understand various aspects of their relationships and domains. GLMs are similar to traditional [[Encyclopedia Mysenvaria/Science/Models/Lineage|lineage]] models, like those commonly used in [[Encyclopedia Mysenvaria/Science/Branches/Anthropology|anthropology]] and [[Encyclopedia Mysenvaria/Biology/Biology|biology]].
 
-GLMs are modelled based on translations of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]], in particular those from the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]]. GLMs are divided into two categories depending on the translations used: compilation models, and complete models.
+GLMs are modelled based on translations of [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]], in particular those from the [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening System|Quickening System]]. GLMs are divided into two categories depending on the translations used: compilation models, and complete models.
 
 Compilation models are created using the translations of multiple authors, coalesced into one unified model. Complete models are created using the complete translations of a single author. Only a handful of astronomers throughout history have translated the entirety of the Quickening System, and for this reason complete models are rare.
 

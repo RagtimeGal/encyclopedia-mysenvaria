@@ -17,6 +17,7 @@ star:
       major_event: true
       desc: "desc"
     desc: "star_desc"
+    star_type: "documentary"
 ---
 %%
 "publisher": "Unknown"

@@ -63,6 +63,25 @@ Status is required on articles of the types: `article`, `index`, `addendum`, `ca
 - `review` applies to articles which do not currently have gaps in their lore, but may form gaps in their lore as the setting's lore grows.
 # Dates
 Anytime a `date` is asked for it is written as `[year,day]`, where day can be omitted for less precision. Day is any number between 1 and 360 (As a single year in Mysenvar consists of 360 days) and year can be any number, including negatives. For example, `[-360,56]` means the 56th day of the year 360 BT (Before Treaty), whereas `[360,56]` means the 56th day of the year 360 AT (After Treaty).
+
+When the metadata aggregator reads a date it writes it into `extracted_metadata.json` as a set of fields, so programs and indexes can read any part of it directly (for example `star[].publications[0].date.decade`):
+```json
+"date": {
+  "original": [-178, 329],            // The date exactly as written on the page.
+  "year": -178,
+  "day": 329,                         // null for a year-only date.
+  "season": "Winter",                 // null for a year-only date.
+  "season_day": 59,                   // The day within its season (1-90); null for a year-only date.
+  "era": "BT",                        // BT or AT.
+  "decade": "170s BT",                // Matches the decade articles.
+  "century": "2nd Century BT",        // Matches the century articles.
+  "sort": -177671,                    // One number that runs in time order (year × 1000 + day). Used for sorting.
+  "formal": "59th of Winter, 178 BT",
+  "formal_without_year": "59th of Winter",
+  "informal": "-178-329"
+}
+```
+
 # Tags
 Tags are broken into two groups: **topics** and **subjects**. Topics are broad and overarching, but also straightforward in what articles they should apply to. Every article should have *at least one* topic tag. Subjects are more narrow in the topics which they cover. Not every article is required to have a subject tag.
 ## Topics
@@ -244,16 +263,20 @@ star: # This is an array, so it can handle multiple stars per-page.
     star_type: "legal" # `legal`, `documentary`, or `index`. Optional. No default.
     parent: "parent_star" # Optional. Defines if the star is a child and who its parent is.
     coordinates: [] # The coordinate location of the star. Optional. No default.
+    size: 0.1 # The size of the star in kms. Optional. No default.
     orbital: # For data relating to the stars orbit.
 	    center_mode: "explicit" # Either `coordinates` or `explicit`. Used to define the central coordinate of the star's orbit. 
 	    center: [] # Used if `center_mode` is set to explicit.
+	    center_on: focus # Where the centre sits in the orbit's ellipse. `focus` is a real orbit: closer on one side, farther on the other, fastest at the periapsis. `middle` keeps the orbit even on both sides, with two closest and two farthest points, at an even pace. Optional. Defaults to `focus`.
 	    radius: 1 # The distance the star orbits from its center in meters.
 	    eccentricity: 0 # The eccentricity of the star's orbit. Optional. Defaults to 0.
 	    tilt: 1 # The tilt of the star's orbital plane. Optional. Defaults to 0.
 	    periapsis_deg: 1 # Which direction the periapsis is at. Optional. Defaults to 0.
-	    periapsis_distance: 1 # The distance of the periapsis. Optional. Defaults to 0.
+	    periapsis_distance: 1 # The closest the star comes to its center. Overrides `radius`. Optional. Defaults to 0 (unused).
+	    apoapsis_distance: 1 # The farthest the star gets from its center. Overrides `radius`; set together with `periapsis_distance` it also sets the eccentricity. Optional. Defaults to 0 (unused).
 	    period: 90 # The number of days it takes to make a complete orbit.
 	    phase_start: 23 # What part of the period the star starts at on day 0. Optional. Defaults to 0.
+	    precession_period: 0 # 
 	translations: # An array of events detailing each translation of the star.
 	  - translators: ["translator_example"]
 	    date: []
@@ -266,6 +289,9 @@ star: # This is an array, so it can handle multiple stars per-page.
         desc: "publish_description_example"
         major_event: true # Determines whether or not the event should be listed on certain pages.
 	    order: 0 # Determines the order that events are listed in if their dates are matching.
+	    coordinates: [] # Where this (re)publication moves the star to, from its date on. Replaces the star's `coordinates`. Optional. No default (the star stays put).
+	    orbital: # Changes to the star's orbit from this (re)publication's date on. Only the keys listed change; the rest carry over from the orbit before. A changed orbit restarts on this date (its `phase_start` and precession count from here). Write `orbital: false` to stop the star orbiting. Optional. No default.
+	      radius: 3000 # Any key from the star's `orbital` block can go here.
 ---
 %%
 "star_desc": "A short description of the star itself."
@@ -307,21 +333,55 @@ person: # This is an array, so it can handle multiple people per-page.
 %%
 ```
 # Index Example
+Pages with an `index` key are filled in by the index page generator. Every path in an index reads a page's metadata exactly as it appears in `extracted_metadata.json` (Meta/Programs/debug/metadata_aggregator), so if a path is unclear, look the field up there.
+- `a.b` is key `b` inside `a`; `a[0]` is the first item of list `a`; `a[]` is every item of list `a`.
+- When a path gives several values (because of `[]`, or because the field itself is a list, like `tags`), a condition holds if any of them matches, and sorting and grouping use the first one.
+- Inside `{...}` or `[...]`, a path containing `[` or `]` must be in quotes (`{by: "star[].name"}`), otherwise YAML reads the brackets as a list. Writing options on their own lines avoids this.
+- Paths that no page has a value at are reported when the generator runs, as they are almost always typos.
+### List Index
 ```yaml
 ---
-index: # This is an array, so it can handle multiple indexes per-page.
-  - header_name: "Example" # The name of the header wherein the index will be placed. Text in this header section will be replaced.
-    included_data: # An array of YAML data. Article's with matching YAML will be included in the index. Special logic is applied to any data containing the word `date`. Supports `gt`, `lt`, `gte`, and `lte` arguments.
-      - event[].start_date: {gte: 609, lte: 1214} # In this example, articles which have an event listed which takes place on 609AT, 1214AT, or between these dates, will be included in the index.
-      - tags: [topic/example] # In this example, articles with the `topic/example` tag will be included in the index.
-    excluded_data: # An array of YAML data. Article's with matching YAML will be excluded from the index. Special logic is applied to any data containing the word `date`. Supports `gt`, `lt`, `gte`, and `lte` arguments.
-      - type: example # In this example, articles with the `example` type will be excluded.
-    sort: # An array of data which determines how the index will be sorted. The first entry in the array is used for sort all data: any matching data or outliers will then be sorted via the next entry. This repeats until no entries are left.
-      - by: title # Pointer to the piece of metadata which the article should be indexed by.
-        method: standard_forward # The method by which the program should sort the data. Accepts `standard_forward`, `standard_backward`, `natural_forward`, `natural_backward`, and `unique`.
-        subheaders:
-          generate: true # Whether or not to generate a subheader during this sort.
-          method: first_character # The method by which to generate the subheader. Accepts `value` (Creates a subheader for each unique value), `first_character` (Creates a subheader for each unique first character), and `floor_x` (Works only for numbers, creates a subheader at each interval of x).
-          format: "{value}'s Example" # Optional. Tells the program how to format the subheader. 
+index: # An array, so a page can hold several indexes. Each one fills in the section under its heading.
+  - heading: "Example" # The heading whose section is written. Everything under it, up to the next heading of the same or a higher level (or a callout), is replaced.
+    type: list # What to write. Defaults to a list: one entry per page, written as the page's link. Accepts `list` and `table`.
+    item: link # Optional, lists only. The path whose value each entry is written as. Defaults to `link`.
+    include: # Pages are included when every condition here holds.
+      tags: topic/example # A single value: equal to it. Text ending in * matches anything starting with the rest (topic/art* matches topic/art/literature).
+      type: [article, archive] # A list: any of these.
+      event[].start_date: {from: [609], to: [1214]} # A range: from/to include the bound, after/before leave it out. Dates are compared as dates, with the bounds written as dates ([year] or [year, day]); a year on its own covers the whole year. Numbers are compared as numbers.
+    exclude: # Pages are left out when any condition here holds. Same conditions as `include`.
+      status.progress: {exists: false} # {exists: true} has a value at all; {exists: false} has none.
+      tags: {all: [topic/example, subject/example]} # {all: [...]}: every one of these (for list fields like tags).
+    order: # Sorted by the first entry; entries still tied are sorted by the next, and so on.
+      - by: event[0].start_date # The path to sort by. Dates sort by date, numbers by number, text alphabetically. Pages with no value go last.
+        reverse: false # Optional. true sorts largest / latest / Z first.
+        natural: false # Optional. true sorts numbers inside text by value ("Item 2" before "Item 10").
+        group: # Optional. Writes a subheading for each group, one heading level below the index's heading (or below the group above it).
+          by: event[0].start_date.decade # Optional. The path to group by. Defaults to this entry's `by`.
+          first_letter: false # Optional. true groups by the first letter instead of the whole value.
+          every: 10 # Optional, numbers only. Groups numbers in steps of this size (0-9, 10-19...).
+          strip: 0 # Optional. Drops this many characters from the front of the value (then any spaces left at the front) before the letter or value is taken. "God of Iron" with 7 is "Iron".
+          heading: "{value}" # Optional. The text of each subheading, where {value} is the group.
+      - by: title
+        group: first_letter # The group options can be shortened to a single word. Accepts `value` (a subheading for each value of by) and `first_letter` (a subheading for each first letter of by).
 ---
 ```
+### Table Index
+```yaml
+---
+index:
+  - heading: "Example"
+    type: table
+    include:
+      star[].publications[].date: {from: [-178, 330], to: [-178, 332]}
+    order:
+      - by: star[].publications[0].date
+        group: value # Dates are written out in subheadings and cells ("60th of Winter, 178 BT").
+      - by: star[].publications[0].order
+    columns: # Tables only. One line per column, in order: the column's title, then the path whose value fills it.
+      Star: star[].name
+      Published: star[].publications[0].date
+      Publisher(s): star[].publications[0].publishers # A list is written with commas between its items.
+---
+```
+A table has one row per page, unless a column reads a list with `[]`, like `star[].name` above. Then every item of that list is a row of its own (one row per star), and every path that starts with that list (`star[]...`, in `columns`, `include`, `exclude` and `order` alike) reads from that row's own item. So `star[].publications[].date` in `include` above picks out individual stars, not whole pages.

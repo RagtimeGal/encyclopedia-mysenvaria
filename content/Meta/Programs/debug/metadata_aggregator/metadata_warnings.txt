@@ -1,8 +1,12 @@
 # Metadata Aggregator Report
 
-**0 errors, 18 warnings, 25 notices.**
+**1 errors, 20 warnings, 25 notices.**
 
-## Warnings (18)
+## Errors (1)
+### Meta/Ledgers/Ledger 45.2026.md
+- `ledger-mismatch`: These disagree: file name says week 45, 2026; title says week 38, 2026; ledger_data says week 45, 2026.
+
+## Warnings (20)
 ### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Capturing the Natural Essence of Chair.md
 - `missing-field`: `event[0]` has no `start_date`, so it won't appear on any decade page.
 ### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encounters With The Quadrinity.md
@@ -29,6 +33,10 @@
 - `missing-field`: `event[0]` is an empty placeholder (no `start_date` or `start_desc`), so it won't appear anywhere.
 ### Encyclopedia Mysenvaria/Geography/Artificial Features/Tectonic City-State.md
 - `missing-field`: `event[0]` is an empty placeholder (no `start_date` or `start_desc`), so it won't appear anywhere.
+### Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System.md
+- `duplicate-alias`: Alias "death's star" is the title of Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star.md.
+### Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening System.md
+- `generated-mismatch`: A program writes this page, so `status.scope` should be `generated` (it's `standard`).
 ### Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Tectonics.md
 - `duplicate-alias`: Alias "tectonics" is the title of Encyclopedia Mysenvaria/Science/Models/Tectonics.md.
 ### Encyclopedia Mysenvaria/History/Modern Era/Cracked Star Incident.md
@@ -84,4 +92,6 @@
 Change a check's level in SEVERITY_OVERRIDES at the top of metadata_aggregator.py.
 - `duplicate-alias` (warning): An alias is used by two pages, or matches another page's title.
 - `empty-date` (notice): A date is empty ([]); fine if it is not known yet.
+- `generated-mismatch` (warning): `scope: generated` doesn't match whether a program actually writes the page.
+- `ledger-mismatch` (error): A Lore Ledger's file name, title and ledger_data disagree.
 - `missing-field` (warning): An event, star or person block is missing a field it needs.

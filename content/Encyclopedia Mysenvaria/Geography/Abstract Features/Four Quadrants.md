@@ -8,11 +8,11 @@ tags:
 type: article
 status:
   scope: standard
-  progress: stub
+  progress: empty
   future: []
 ---
 
-> [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!
-> This article provides a short overview of its topic but it needs to be more comprehensive before being considered complete. Think it's in urgent need of development? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+> [!note|callout-empty] [[Meta/Meta|Meta]] || Here be Dragons!
+> This article provides no information on its given topic, it's an empty page. Think it's in urgent need of expansion? File a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
 
 [^figure1]: ![[Media/Images/Infographics/world_diagram.png]]

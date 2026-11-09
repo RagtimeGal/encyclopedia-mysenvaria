@@ -10,17 +10,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Conspiracies"
-    included_data: 
-      - tags: [topic/culture/belief]
-      - tags: [topic/culture/conspiracy_theory]
-      - type: article
-    sort:
+  - heading: "Conspiracies"
+    type: list
+    include:
+      tags: {all: [topic/culture/belief, topic/culture/conspiracy_theory]}
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of articles describing conspiracy theories, sorted alphabetically.

@@ -10,19 +10,16 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Elemental Gods"
-    included_data: 
-      - tags: [topic/history/biography]
-      - tags: [subject/god/elemental_god]
-      - type: article
-    excluded_data:
-      - event[0]
-    sort:
+  - heading: "Elemental Gods"
+    type: list
+    include:
+      tags: {all: [topic/history/biography, subject/god/elemental_god]}
+      type: article
+    exclude:
+      event[0]: {exists: true}
+    order:
       - by: aliases[0]
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 This page serves as an index of [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|elemental Gods]]. Elemental [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] are defined by [[Encyclopedia Mysenvaria/Science/Models/Godly Lineage Models|Godly Lineage Models]] as third-generation Gods created solely by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Matter]].
@@ -35,7 +32,7 @@ This page serves as an index of [[Encyclopedia Mysenvaria/History/Biographies/Go
 - God of Antimony
 - God of Argon
 - God of Arsenic
-- God of Astanine
+- God of Astatine
 ## B
 - God of Barium
 - God of Berkelium

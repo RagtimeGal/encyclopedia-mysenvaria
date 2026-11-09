@@ -17,6 +17,7 @@ star:
         desc: "pub_desc1"
         major_event: true
     desc: "star_desc"
+    star_type: "documentary"
 ---
 %%
 "publisher1": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Ethionamide|God of Ethionamide]]"

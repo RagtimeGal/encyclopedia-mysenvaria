@@ -9,21 +9,17 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Articles by Status"
-    included_data:
-      - status.progress: {exists: true}
-    excluded_data:
-      - status.scope: generated
-    sort:
+  - heading: "Articles by Status"
+    type: list
+    include:
+      status.progress: {exists: true}
+    exclude:
+      status.scope: generated
+    order:
       - by: status.progress
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: value
+        group: value
       - by: title
-        method: natural_forward
-        subheaders:
-          generate: false
+        natural: true
 ---
 
 > [!abstract|callout-meta-general] [[Meta/Meta|Meta]] || Fourth Wall Ahead!
@@ -32,43 +28,472 @@ index:
 The following is a list of all articles from across the *Encyclopedia Mysenvaria*, sorted by the article's status.
 # Articles by Status
 ## complete
+- ???-1 Isotopes Star
+- ???-2 Isotopes Star
+- ???-3 Isotopes Star
+- ???-4 Isotopes Star
+- ???-5 Isotopes Star
+- ???-6 Isotopes Star
+- ???-7 Isotopes Star
+- ???-8 Isotopes Star
+- ???-9 Isotopes Star
+- ???-10 Isotopes Star
+- ???-11 Isotopes Star
+- ???-12 Isotopes Star
+- ???-13 Isotopes Star
+- ???-14 Isotopes Star
+- ???-15 Isotopes Star
+- ???-16 Isotopes Star
+- ???-17 Isotopes Star
+- ???-18 Isotopes Star
+- ???-19 Isotopes Star
+- ???-20 Isotopes Star
+- ???-21 Isotopes Star
+- ???-22 Isotopes Star
+- ???-23 Isotopes Star
+- ???-24 Isotopes Star
+- ???-25 Isotopes Star
+- ???-26 Isotopes Star
+- ???-27 Isotopes Star
+- ???-28 Isotopes Star
+- ???-29 Isotopes Star
+- ???-30 Isotopes Star
+- ???-31 Isotopes Star
+- ???-32 Isotopes Star
+- ???-33 Isotopes Star
+- ???-34 Isotopes Star
+- ???-35 Isotopes Star
+- ???-36 Isotopes Star
+- ???-37 Isotopes Star
+- ???-38 Isotopes Star
+- Acidic Chemicals Star
+- Acoustics Star
+- Adjective Rocks Star
+- Aluminum Isotopes Star
+- Americium Isotopes Star
+- Antimony Isotopes Star
+- Argon Isotopes Star
+- Arsenic Allotropes Star
+- Arsenic Isotopes Star
+- Astatine Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Atmospheric Cells|Atmospheric Cells]]
 - [[Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|Atmospheric Circulation]]
 - [[Meta/Encyclopedia Mysenvaria/Science/Models/Atmospheric Circulation|Atmospheric Circulation (Addendum)]]
 - [[Encyclopedia Mysenvaria/Geography/Abstract Features/Azimuth, Altitude, & Distance|Azimuth, Altitude, & Distance]]
+- Barium Isotopes Star
+- Berkelium Isotopes Star
+- Beryllium Isotopes Star
+- Bismuth Isotopes Star
+- Bohrium Isotopes Star
+- Boron Isotopes Star
+- Bromine Isotopes Star
+- Cadmium Isotopes Star
+- Caesium Isotopes Star
+- Calcium Isotopes Star
+- Californium Isotopes Star
 - [[Meta/Callouts|Callouts]]
 - [[Encyclopedia Mysenvaria/Geography/Abstract Features/Cardinal Points|Cardinal Points]]
 - [[Encyclopedia Mysenvaria/Geography/Abstract Features/Central Pole|Central Pole]]
+- Cerium Isotopes Star
+- Chemical Energy Star
+- Chemical Reactions Star
+- Chlorine Isotopes Star
+- Chromium Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Climate|Climate]]
+- Cobalt Isotopes Star
 - [[Meta/Code of Conduct|Code of Conduct]]
+- Combined Mechanics Star
 - [[Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Communion Moth|Communion Moth (Addendum)]]
 - [[Meta/Community Use Policy|Community Use Policy]]
 - [[Meta/Contributors|Contributors]]
+- Copernicium Isotopes Star
+- Copper Isotopes Star
+- Curium Isotopes Star
+- Darmstadtium Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Day|Day]]
+- Divided Fluid Mechanics Star
+- Divided Lightning Star
+- Divided Rain Star
+- Divided Solidifying Mechanics Star
+- Divided Weather Star
+- Dubnium Isotopes Star
 - [[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|Dying Period]]
+- Dynamic Time Star
+- Dysprosium Isotopes Star
 - [[Encyclopedia Mysenvaria/Geography/Abstract Features/Edge|Edge]]
+- Eighth Elemental States Star
+- Eighth Generation Rocks Star
+- Einsteinium Isotopes Star
+- Electric System Star
+- Eleventh Elemental States Star
+- Eleventh Generation Rocks Star
 - [[_index|Encyclopedia Home]]
+- Energy Division Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Entity (Phenomenon)|Entity (phenomenon)]]
+- Erbium Isotopes Star
+- Europium Isotopes Star
+- Fermium Isotopes Star
+- Fifth Elemental States Star
+- Fifth Generation Rocks Star
+- Fifth Generation Vapors Star
+- First ???-1 Molecules Star
+- First ???-2 Molecules Star
+- First ???-3 Molecules Star
+- First ???-4 Molecules Star
+- First ???-5 Molecules Star
+- First ???-6 Molecules Star
+- First ???-7 Molecules Star
+- First ???-8 Molecules Star
+- First ???-9 Molecules Star
+- First ???-10 Molecules Star
+- First ???-11 Molecules Star
+- First ???-12 Molecules Star
+- First ???-13 Molecules Star
+- First ???-14 Molecules Star
+- First ???-15 Molecules Star
+- First ???-16 Molecules Star
+- First ???-17 Molecules Star
+- First ???-18 Molecules Star
+- First ???-19 Molecules Star
+- First ???-20 Molecules Star
+- First ???-21 Molecules Star
+- First ???-22 Molecules Star
+- First ???-23 Molecules Star
+- First ???-24 Molecules Star
+- First ???-25 Molecules Star
+- First ???-26 Molecules Star
+- First ???-27 Molecules Star
+- First ???-28 Molecules Star
+- First ???-29 Molecules Star
+- First ???-30 Molecules Star
+- First ???-31 Molecules Star
+- First ???-32 Molecules Star
+- First ???-33 Molecules Star
+- First ???-34 Molecules Star
+- First ???-35 Molecules Star
+- First ???-36 Molecules Star
+- First ???-37 Molecules Star
+- First ???-38 Molecules Star
+- First Allotropes Star
+- First Aluminum Molecules Star
+- First Americium Molecules Star
+- First Antimony Molecules Star
+- First Argon Molecules Star
+- First Arsenic Molecules Star
+- First Astatine Molecules Star
+- First Barium Molecules Star
+- First Berkelium Molecules Star
+- First Beryllium Molecules Star
+- First Bismuth Molecules Star
+- First Bohrium Molecules Star
+- First Boron Molecules Star
+- First Bromine Molecules Star
+- First Cadmium Molecules Star
+- First Caesium Molecules Star
+- First Calcium Molecules Star
+- First Californium Molecules Star
+- First Cerium Molecules Star
+- First Chlorine Molecules Star
+- First Chromium Molecules Star
+- First Cobalt Molecules Star
+- First Copernicium Molecules Star
+- First Copper Molecules Star
+- First Curium Molecules Star
+- First Darmstadtium Molecules Star
+- First Dubnium Molecules Star
+- First Dysprosium Molecules Star
+- First Einsteinium Molecules Star
+- First Elemental States Star
+- First Erbium Molecules Star
+- First Europium Molecules Star
+- First Fermium Molecules Star
+- First Flerovium Molecules Star
+- First Fluorine Molecules Star
+- First Francium Molecules Star
+- First Gadolinium Molecules Star
+- First Gallium Molecules Star
+- First Generation Rocks Star
+- First Generation Vapors Star
+- First Germanium Molecules Star
+- First Gold Molecules Star
+- First Granules Star
+- First Hafnium Molecules Star
+- First Hassium Molecules Star
+- First Helium Molecules Star
+- First Holmium Molecules Star
+- First Hydrogen Molecules Star
+- First Indium Molecules Star
+- First Iodine Molecules Star
+- First Iridium Molecules Star
+- First Iron Molecules Star
+- First Isotopes Star
+- First Krypton Molecules Star
+- First Lanthanum Molecules Star
+- First Lawrencium Molecules Star
+- First Lead Molecules Star
+- First Lessers Star
+- First Lithium Molecules Star
+- First Livermorium Molecules Star
+- First Lutetium Molecules Star
+- First Magnesium Molecules Star
+- First Manganese Molecules Star
+- First Meitnerium Molecules Star
+- First Mendelevium Molecules Star
+- First Mercury Molecules Star
+- First Molecules Star
+- First Molybdenum Molecules Star
+- First Moscovium Molecules Star
+- First Neodymium Molecules Star
+- First Neon Molecules Star
+- First Neptunium Molecules Star
+- First Nickel Molecules Star
+- First Nihonium Molecules Star
+- First Niobium Molecules Star
+- First Nitrogen Molecules Star
+- First Nobelium Molecules Star
+- First Oganesson Molecules Star
+- First Osmium Molecules Star
+- First Oxygen Molecules Star
+- First Palladium Molecules Star
+- First Phosphorus Molecules Star
+- First Platinum Molecules Star
+- First Plutonium Molecules Star
+- First Polonium Molecules Star
+- First Potassium Molecules Star
+- First Praseodymium Molecules Star
+- First Promethium Molecules Star
+- First Protactinium Molecules Star
+- First Radium Molecules Star
+- First Radon Molecules Star
+- First Rhenium Molecules Star
+- First Rhodium Molecules Star
+- First Roentgenium Molecules Star
+- First Rubidium Molecules Star
+- First Ruthenium Molecules Star
+- First Rutherfordium Molecules Star
+- First Samarium Molecules Star
+- First Scandium Molecules Star
+- First Seaborgium Molecules Star
+- First Selenium Molecules Star
+- First Silicon Molecules Star
+- First Silver Molecules Star
+- First Sodium Molecules Star
+- First Strontium Molecules Star
+- First Sulfur Molecules Star
+- First Tantalum Molecules Star
+- First Technetium Molecules Star
+- First Tellurium Molecules Star
+- First Tennessine Molecules Star
+- First Terbium Molecules Star
+- First Thallium Molecules Star
+- First Thorium Molecules Star
+- First Thulium Molecules Star
+- First Tin Molecules Star
+- First Titanium Molecules Star
+- First Tungsten Molecules Star
+- First Uranium Molecules Star
+- First Vanadium Molecules Star
+- First Xenon Molecules Star
+- First Ytterbium Molecules Star
+- First Yttrium Molecules Star
+- First Zinc Molecules Star
+- First Zirconium Molecules Star
+- Flerovium Isotopes Star
+- Fluorine Isotopes Star
+- Fourteenth Elemental States Star
+- Fourth Carbon Molecules Star
+- Fourth Elemental States Star
+- Fourth Generation Rocks Star
+- Fourth Generation Vapors Star
+- Fourth Granules Star
+- Francium Isotopes Star
+- Gadolinium Isotopes Star
+- Gallium Isotopes Star
 - [[Encyclopedia Mysenvaria/History/God-War Era/Geography During the God-War|Geography During the God-War]]
+- Germanium Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]]
+- Gold Isotopes Star
+- Granularity Star
+- Hafnium Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]
+- Hassium Isotopes Star
 - [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heavens|Heavens]]
+- Helium Isotopes Star
+- Holmium Isotopes Star
+- Hydrogen Isotopes Star
+- Indium Isotopes Star
+- Iodine Isotopes Star
+- Iridium Isotopes Star
+- Iron Isotopes Star
+- Krypton Isotopes Star
+- Lanthanum Isotopes Star
+- Lawrencium Isotopes Star
+- Lead Isotopes Star
 - [[Meta/License|License]]
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|Limn]]
+- Lithium Isotopes Star
+- Livermorium Isotopes Star
+- Lutetium Isotopes Star
+- Magma Star
+- Magnesium Isotopes Star
+- Manganese Isotopes Star
 - [[Meta/Encyclopedia Mysenvaria/Science/Models/Material|Material (Addendum)]]
+- Material States Star
+- Mechanical Waves Star
+- Meitnerium Isotopes Star
+- Mendelevium Isotopes Star
+- Mercury Isotopes Star
 - [[Meta/Meta|Meta]]
 - [[Meta/Metadata|Metadata]]
+- Metal Allotropes Star
+- Molybdenum Isotopes Star
+- Moscovium Isotopes Star
+- Motion & Movement Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification|Natural Personification]]
+- Neodymium Isotopes Star
+- Neon Isotopes Star
+- Neptunium Isotopes Star
+- New Atmosphere Star
+- New Energy Division Star
+- New Magnetism Star
+- New Motion Star
+- New Waves Star
+- Nickel Isotopes Star
+- Nihonium Isotopes Star
+- Ninth Elemental States Star
+- Ninth Generation Rocks Star
+- Niobium Isotopes Star
+- Nitrogen Allotropes Star
+- Nitrogen Isotopes Star
+- Nobelium Isotopes Star
+- Nuclear Physics Star
+- Nucleation Star
+- Oganesson Isotopes Star
+- Orbital Systems Star
+- Oscillation Star
+- Osmium Isotopes Star
+- Oxygen Allotropes Star
+- Oxygen Isotopes Star
+- Palladium Isotopes Star
+- Phosphorus Allotropes Star
+- Phosphorus Isotopes Star
+- Plate Tectonics Star
+- Platinum Isotopes Star
+- Plutonium Isotopes Star
+- Polonium Isotopes Star
+- Potassium Isotopes Star
+- Praseodymium Isotopes Star
+- Promethium Isotopes Star
+- Protactinium Isotopes Star
 - [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]]
+- [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening System|Quickening System]]
+- Radium Isotopes Star
+- Radon Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Models/Relationships (model)|Relationships (model)]]
+- Rhenium Isotopes Star
+- Rhodium Isotopes Star
+- Rock Trinity Star
+- Rocks Star
+- Roentgenium Isotopes Star
+- Rubidium Isotopes Star
+- Ruthenium Isotopes Star
+- Rutherfordium Isotopes Star
+- Samarium Isotopes Star
+- Scandium Isotopes Star
+- Seaborgium Isotopes Star
+- Second ???-5 Molecules Star
+- Second ???-16 Molecules Star
+- Second ???-18 Molecules Star
+- Second ???-29 Molecules Star
+- Second ???-30 Molecules Star
+- Second ???-37 Molecules Star
+- Second Arsenic Molecules Star
+- Second Calcium Molecules Star
+- Second Carbon Molecules Star
+- Second Chemical Reactions Star
+- Second Chlorine Molecules Star
+- Second Chromium Molecules Star
+- Second Cobalt Molecules Star
+- Second Elemental States Star
+- Second Europium Molecules Star
+- Second Fluorine Molecules Star
+- Second Generation Rocks Star
+- Second Generation Vapors Star
+- Second Granules Star
+- Second Hydrogen Molecules Star
+- Second Iridium Molecules Star
+- Second Manganese Molecules Star
+- Second Nitrogen Molecules Star
+- Second Oxygen Molecules Star
+- Second Phosphorus Molecules Star
+- Second Plutonium Molecules Star
+- Second Silicon Molecules Star
+- Second Sulfur Molecules Star
+- Second Zinc Molecules Star
+- Selenium Isotopes Star
+- Seventh Elemental States Star
+- Seventh Generation Rocks Star
+- Silicon Isotopes Star
+- Silver Isotopes Star
+- Sixth Elemental States Star
+- Sixth Generation Rocks Star
+- Sodium Isotopes Star
+- Sound Star
 - [[Encyclopedia Mysenvaria/Geography/Abstract Features/Span & Reach|Span & Reach]]
+- Split Mechanics Star
+- Split Plane Star
+- Split Plate Tectonics Star
 - [[Meta/Encyclopedia Mysenvaria/Biology/Organisms/Animals/Stacking Birds|Stacking Birds (Addendum)]]
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|Stars]]
 - [[Encyclopedia Mysenvaria/Culture/Languages/Starscript|Starscript]]
+- Strontium Isotopes Star
+- Structure Star
+- Sublimation Star
+- Sulfur Allotropes Star
+- Sulfur Isotopes Star
+- Supercooling Star
+- Tantalum Isotopes Star
+- Technetium Isotopes Star
+- Tellurium Isotopes Star
+- Temperature Star
+- Tennessine Isotopes Star
+- Tenth Elemental States Star
+- Tenth Generation Rocks Star
+- Terbium Isotopes Star
+- Thallium Isotopes Star
 - [[Encyclopedia Mysenvaria/History/God-War Era/First Death|The First Death]]
+- Third Carbon Molecules Star
+- Third Elemental States Star
+- Third Generation Rocks Star
+- Third Generation Vapors Star
+- Third Granules Star
+- Third Oxygen Molecules Star
+- Third Silicon Molecules Star
+- Third Sulfur Molecules Star
+- Thirteenth Elemental States Star
+- Thorium Isotopes Star
+- Thulium Isotopes Star
+- Thunder Star
 - [[Encyclopedia Mysenvaria/Indexes/History/Timeline|Timeline]]
+- Tin Isotopes Star
+- Titanium Isotopes Star
+- Transformation Gods Star
+- Tungsten Isotopes Star
+- Twelfth Elemental States Star
+- Twelfth Generation Rocks Star
+- Unified Systems Star
 - [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]]
+- Uranium Isotopes Star
+- Vanadium Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Models/Visibility-Aggression Filter|Visibility-Aggression Filter]]
+- Volcanic Lightning Star
+- Volcanism Star
+- Weather Star
+- Xenon Isotopes Star
+- Ytterbium Isotopes Star
+- Yttrium Isotopes Star
+- Zinc Isotopes Star
+- Zirconium Isotopes Star
 ## empty
 - [[Meta/Templates/Geography/Abstract Features Template|Abstract Features Template]]
 - [[Encyclopedia Mysenvaria/Culture/Organizations/Academy Publishing|Academy Publishing]]
@@ -122,7 +547,6 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Encounters With The Quadrinity|Encounters With The Quadrinity]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Ending Star System|Ending Star System]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Energy Act|Energy Act]]
-- [[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/Energy Division Star|Energy Divison Star]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods|Energy Gods]]
 - [[Encyclopedia Mysenvaria/Culture/Languages/Concepts/Entity (linguistics)|Entity (linguistics)]]
 - [[Meta/Templates/Culture/Ethnicity Template|Ethnicity Template]]
@@ -140,6 +564,7 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Encyclopedia Mysenvaria/Science/Models/Food Chain|Food Chain]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Forever Alone|Forever Alone]]
 - [[Encyclopedia Mysenvaria/Science/Models/Formation Theory|Formation Theory]]
+- [[Encyclopedia Mysenvaria/Geography/Abstract Features/Four Quadrants|Four Quadrants]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Frontier Beyond|Frontier Beyond]]
 - [[Meta/Templates/Arts/Games Template|Games Template]]
 - [[Encyclopedia Mysenvaria/Science/Branches/Genetics|Genetics]]
@@ -153,7 +578,7 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - God of Argon
 - God of Arsenic
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Aspartic Acid|God of Aspartic Acid]]
-- God of Astanine
+- God of Astatine
 - God of Barium
 - God of Berkelium
 - God of Berylium
@@ -469,10 +894,8 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Encyclopedia Mysenvaria/Geography/Stars/First Crater System/First Crater Star|First Crater Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/First Crater System|First Crater System]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/First Epoch Star|First Epoch Star]]
-- [[Encyclopedia Mysenvaria/Geography/Stars/Quickening Star System/First Lessers Star|First Lessers Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Flood System/Flood Star|Flood Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Flood System|Flood System]]
-- [[Encyclopedia Mysenvaria/Geography/Abstract Features/Four Quadrants|Four Quadrants]]
 - [[Encyclopedia Mysenvaria/Biology/Organisms/Animals/Giant Carreon Ants|Giant Carreon Ants]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]]
 - [[Encyclopedia Mysenvaria/History/Biographies/Gods/Material State Gods#Gasses|God of Gasses]]
@@ -519,7 +942,6 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Encyclopedia Mysenvaria/Culture/Languages/Proto-Human Language|Proto-Human Language]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Prototype Star|Prototype Star]]
 - [[Encyclopedia Mysenvaria/Biology/Disease/Purple Lung|Purple Lung]]
-- [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Quickening Star System|Quickening Star System]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Relations Act|Relations Act]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Relatives Star System/Relatives Star|Relatives Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Relatives Star System|Relatives Star System]]

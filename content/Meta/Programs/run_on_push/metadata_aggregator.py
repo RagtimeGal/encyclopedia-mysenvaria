@@ -85,8 +85,8 @@ FALLBACK_ALLOWED = {
     "progress": mc.PROGRESSES,
     "future": mc.FUTURES,
     "has": ["infobox", "image", "video", "graphics", "featured_data", "archive", "addenda"],
-    "sort_method": ["standard_forward", "standard_backward", "natural_forward", "natural_backward", "unique"],
-    "subheader_method": ["value", "first_character", "floor_x"],
+    "index_type": ["list", "table"],
+    "index_group": ["value", "first_letter"],
 }
 STAR_TYPES = {"legal", "documentary", "index"}
 ORBIT_CENTER_MODES = {"coordinates", "explicit"}
@@ -208,17 +208,15 @@ def load_allowed_values(content_root, report):
         return set(re.findall(r"`([^`]+)`", m.group(1))) if m else None
 
     for key, line_key in (("type", "type"), ("scope", "scope"), ("progress", "progress"), ("future", "future"),
-                          ("has", "has"), ("sort_method", r"method"), ):
+                          ("has", "has"), ("index_group", "group")):
         found = accepts(line_key)
         if found:
             allowed[key] = found
-    # Sort method and subheader method share the key name `method`.
-    for m in re.finditer(r"^\s*method:.*?Accepts:?(.*)$", text, re.MULTILINE):
+    # A page's `type` and an index's `type` share the key name: the index one is the line that accepts `table`.
+    for m in re.finditer(r"^\s*type:.*?Accepts:?(.*)$", text, re.MULTILINE):
         values = set(re.findall(r"`([^`]+)`", m.group(1)))
-        if "first_character" in values or "value" in values:
-            allowed["subheader_method"] = values
-        elif values:
-            allowed["sort_method"] = values
+        if "table" in values:
+            allowed["index_type"] = values
 
     for m in re.finditer(r"^[ \t]*-[ \t]*((?:topic|subject)/[^\s#]+)", text, re.MULTILINE):
         tags.add(m.group(1).strip())
@@ -545,6 +543,8 @@ class MetadataAggregator:
             if isinstance(orb, dict):
                 if orb.get("center_mode") and orb["center_mode"] not in ORBIT_CENTER_MODES:
                     self.report.add("invalid-value", src, f"`star[{i}].orbital.center_mode` is `{orb['center_mode']}`; use coordinates or explicit.")
+                if orb.get("center_on") not in (None, "focus", "middle"):
+                    self.report.add("invalid-value", src, f"`star[{i}].orbital.center_on` is `{orb['center_on']}`; use focus or middle.")
                 if orb.get("center_mode") == "explicit" and not orb.get("center"):
                     self.report.add("missing-field", src, f"`star[{i}].orbital` uses center_mode explicit but has no `center`.")
                 period = orb.get("period")
@@ -556,6 +556,16 @@ class MetadataAggregator:
                         pass  # empty dates are reported by check_dates
                     if isinstance(entry, dict) and who in entry and not isinstance(entry[who], list):
                         self.report.add("malformed", src, f"`star[{i}].{kind}[{j}].{who}` should be a list.")
+                    # a republication can move the star: its own coordinates, and/or orbit changes (or false)
+                    if kind == "publications" and isinstance(entry, dict):
+                        c = entry.get("coordinates")
+                        if c is not None and not (isinstance(c, list) and len(c) == 3 and all(isinstance(x, (int, float)) for x in c)):
+                            self.report.add("invalid-value", src, f"`star[{i}].publications[{j}].coordinates` should be [azimuth, altitude, distance].")
+                        o = entry.get("orbital")
+                        if o is not None and o is not False and not isinstance(o, dict):
+                            self.report.add("invalid-value", src, f"`star[{i}].publications[{j}].orbital` should be a block of orbit keys to change, or false.")
+                        elif isinstance(o, dict) and o.get("center_on") not in (None, "focus", "middle"):
+                            self.report.add("invalid-value", src, f"`star[{i}].publications[{j}].orbital.center_on` is `{o['center_on']}`; use focus or middle.")
         people = self._as_list(data, "person", src)
         for i, p in enumerate(people):
             if not isinstance(p, dict):
@@ -625,34 +635,48 @@ class MetadataAggregator:
         walk(data, "")
 
     def check_index_blocks(self, data, src, body):
+        """The `index:` entries the index page generator reads (see the Index section of Meta/Metadata.md)."""
         blocks = self._as_list(data, "index", src)
         if not blocks:
             return
         headings = {h.group(2).strip() for h in HEADING_RE.finditer(body)}
         for i, b in enumerate(blocks):
+            at = f"`index[{i}]`"
             if not isinstance(b, dict):
-                self.report.add("malformed", src, f"`index[{i}]` should be a set of keys.")
+                self.report.add("malformed", src, f"{at} should be a set of keys.")
                 continue
-            hn = b.get("header_name")
+            if "heading" not in b and {"header_name", "included_data", "excluded_data", "sort"} & set(b):
+                self.report.add("invalid-value", src, f"{at} uses the old index format (header_name, included_data, sort...). "
+                                "See the Index section of Meta/Metadata.md for the current one.")
+                continue
+            hn = b.get("heading")
             if not hn:
-                self.report.add("missing-field", src, f"`index[{i}]` has no `header_name`.")
+                self.report.add("missing-field", src, f"{at} has no `heading`.")
             elif str(hn).strip() not in headings:
-                self.report.add("index-header", src, f"`index[{i}].header_name` is \"{hn}\", but the page has no heading with that text, so the list can't be written.")
-            if not b.get("included_data") and not b.get("excluded_data"):
-                self.report.add("missing-field", src, f"`index[{i}]` has neither `included_data` nor `excluded_data`.")
-            for j, s in enumerate(b.get("sort") or []):
-                if not isinstance(s, dict):
+                self.report.add("index-header", src, f"{at}.heading is \"{hn}\", but the page has no heading with that text, so the index can't be written.")
+            if not b.get("include") and not b.get("exclude"):
+                self.report.add("missing-field", src, f"{at} has neither `include` nor `exclude`.")
+            kind = str(b.get("type", "list")).strip().lower()
+            if kind not in self.allowed["index_type"]:
+                self.report.add("invalid-value", src, f"{at}.type is \"{b.get('type')}\"; it should be one of {', '.join(sorted(self.allowed['index_type']))}.")
+            if kind == "table":
+                cols = b.get("columns")
+                if not isinstance(cols, dict) or not cols:
+                    self.report.add("missing-field", src, f"{at} is a table but has no `columns` (Column title: path).")
+                elif any(not isinstance(v, str) or not v.strip() for v in cols.values()):
+                    self.report.add("malformed", src, f"{at}.columns should map each column title to a path.")
+            order = b.get("order") or []
+            if not isinstance(order, list):
+                self.report.add("malformed", src, f"{at}.order should be a list.")
+                order = []
+            for j, step in enumerate(order):
+                if not isinstance(step, dict) or not step.get("by"):
+                    self.report.add("missing-field", src, f"{at}.order[{j}] has no `by`.")
                     continue
-                if not s.get("by"):
-                    self.report.add("missing-field", src, f"`index[{i}].sort[{j}]` has no `by`.")
-                if s.get("method") and s["method"] not in self.allowed["sort_method"]:
-                    self.report.add("invalid-value", src, f"`index[{i}].sort[{j}].method` is `{s['method']}`.")
-                sh = s.get("subheaders")
-                if isinstance(sh, dict) and sh.get("method"):
-                    m = str(sh["method"])
-                    ok = m in self.allowed["subheader_method"] or (re.fullmatch(r"floor_\d+", m) and "floor_x" in self.allowed["subheader_method"])
-                    if not ok:
-                        self.report.add("invalid-value", src, f"`index[{i}].sort[{j}].subheaders.method` is `{m}`.")
+                g = step.get("group")
+                if isinstance(g, str) and g not in self.allowed["index_group"]:
+                    self.report.add("invalid-value", src, f"{at}.order[{j}].group is `{g}`; it should be one of "
+                                    f"{', '.join(sorted(self.allowed['index_group']))}, or a set of options.")
 
     def check_ledger(self, data, src):
         if data.get("type") != "ledger":
@@ -831,7 +855,9 @@ class MetadataAggregator:
                 label = f"{clean_rel_path}::subpage[{i}] \"{sub_fm.get('title', '?')}\""
                 processed = self.process_metadata_node(sub_fm, definitions, label, is_subpage=True,
                                                        parent=fm_dict, rel_path=clean_rel_path)
-                self.pages.append({"src_rel": sub_src, "definitions": definitions,
+                # The definitions are the parent page's (in its own entry); repeating them on every subpage
+                # made a page with hundreds of subpages add hundreds of copies to the JSON.
+                self.pages.append({"src_rel": sub_src, "definitions": {},
                                    "metadata": processed, "parent": clean_rel_path})
 
     # ---------- whole-vault checks ----------

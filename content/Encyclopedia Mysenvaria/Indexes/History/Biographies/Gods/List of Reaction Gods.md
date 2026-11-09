@@ -10,17 +10,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Reaction Gods"
-    included_data: 
-      - tags: [topic/history/biography]
-      - tags: [subject/god/reaction_god]
-      - type: article
-    sort:
+  - heading: "Reaction Gods"
+    type: list
+    include:
+      tags: {all: [topic/history/biography, subject/god/reaction_god]}
+      type: article
+    order:
       - by: aliases[0]
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 This page serves as an index of reaction [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]].

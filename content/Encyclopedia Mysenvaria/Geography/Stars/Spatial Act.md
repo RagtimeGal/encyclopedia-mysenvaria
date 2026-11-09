@@ -17,6 +17,7 @@ star:
         desc: "pub_desc"
         major_event: true
     desc: "star_desc"
+    star_type: "legal"
 ---
 %%
 "publisher": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|Gods of Time and Space]]"

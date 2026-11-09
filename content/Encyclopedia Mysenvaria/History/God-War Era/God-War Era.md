@@ -5,7 +5,7 @@ tags:
   - topic/history/god-war_era
 type: article
 status:
-  scope: standard
+  scope: overview
   progress: empty
   future: []
 has:

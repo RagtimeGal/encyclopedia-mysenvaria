@@ -42,6 +42,18 @@ def escape_table_pipes(text: str) -> str:
 
 # ----------------- Data Processing -----------------
 
+WIKILINK_ONLY_RE = re.compile(r"^\s*\[\[([^\]|]+?)(?:\\?\|[^\]]*)?\]\]\s*$")
+
+
+def name_link(meta: Dict[str, Any], name: str) -> str:
+    """How a person or star on this page is written in a decade article, following the page's `link`:
+    a wikilink keeps its target (showing the person's or star's own name, as a page can hold several);
+    any other link (a subpage's plain title, say) is written exactly as it is."""
+    link = str(meta.get("link") or "")
+    m = WIKILINK_ONLY_RE.match(link)
+    return f"[[{m.group(1).strip()}|{name}]]" if m else link.strip()
+
+
 def build_timeline_data(raw_data: Dict[str, Any]):
     events_by_decade = defaultdict(lambda: defaultdict(list))
     births_by_decade = defaultdict(lambda: defaultdict(list))
@@ -51,9 +63,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
 
     for page in raw_data.get("pages", []):
         meta = page.get("metadata", {})
-        page_link = meta.get("link", "").strip("[]")
         page_title = meta.get("title", "Unknown")
-        link_path = page_link.split('|')[0].strip() if "|" in page_link else page_link
 
         if "event" in meta and isinstance(meta["event"], list):
             for e in meta["event"]:
@@ -70,7 +80,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
         if "person" in meta and isinstance(meta["person"], list):
             for p in meta["person"]:
                 p_name = p.get("name", page_title)
-                p_link = f"[[{link_path}|{p_name}]]"
+                p_link = name_link(meta, p_name)
                 is_major = p.get("major_event", False)
 
                 if is_major:
@@ -113,7 +123,7 @@ def build_timeline_data(raw_data: Dict[str, Any]):
             for s in meta["star"]:
                 s_name = s.get("name", page_title)
                 clean_star_desc = escape_table_pipes(s.get("desc", "").strip())
-                s_link = f"[[{link_path}\\|{s_name}]]"
+                s_link = escape_table_pipes(name_link(meta, s_name))
                 for sub_key, actor_key in [("publications", "publishers"), ("translations", "translators")]:
                     if sub_key in s and isinstance(s[sub_key], list):
                         for item in s[sub_key]:
@@ -131,7 +141,8 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                                     "desc": item["desc"].strip(),
                                     "order": item.get("order")
                                 })
-                # Add only the original publication to the star table
+                # Add only the original publication to the star table, and only when it's marked as a major
+                # event (most stars, like the Quickening System's hundreds, are published without one)
                 if "publications" in s and isinstance(s["publications"], list):
 
                     publications = []
@@ -152,6 +163,9 @@ def build_timeline_data(raw_data: Dict[str, Any]):
                                 x[1] if x[1] is not None else 999
                             )
                         )
+
+                        if not earliest_pub.get("major_event"):
+                            continue
 
                         actors_str = escape_table_pipes(
                             ", ".join(earliest_pub.get("publishers", []))
@@ -249,6 +263,8 @@ def main():
 
     template = """---
 title: "{title}"
+aliases:
+{aliases}
 enableToc: true
 tags:
   - topic/history/decade
@@ -272,10 +288,6 @@ status:
 {events_block}
 {people_block}
 {stars_block}
-
-# See Also
-- [[Encyclopedia Mysenvaria/History/History|History]]
-- [[Encyclopedia Mysenvaria/Indexes/History/Timeline|Timeline]]
 """
 
     all_decades = mc.all_decades()
@@ -284,6 +296,12 @@ status:
     
     for i, dec_start in enumerate(all_decades):
         curr_title = decade_title(dec_start)
+
+        # Every year of the decade as an alias, earliest first ("179 BT" ... "170 BT", "1490 AT" ... "1499 AT").
+        # The 0s BT are 9 BT to 1 BT, since 0 is the first year AT.
+        era, start = dec_start
+        years = [-y for y in range(start + 9, start - 1, -1) if y > 0] if era == "BT" else list(range(start, start + 10))
+        aliases = "\n".join(f'  - "{mc.year_suffix(y)}"' for y in years)
         
         # Decade Navigation
         nav = []
@@ -332,6 +350,7 @@ status:
 
         content = template.format(
             title=curr_title,
+            aliases=aliases,
             decade_links=decade_links,
             century_links=century_links,
             events_block=render_events(ev_m.get(dec_start, {})),

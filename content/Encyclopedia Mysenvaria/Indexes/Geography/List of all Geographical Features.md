@@ -9,18 +9,16 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Features"
-    included_data: 
-      - tags: [topic/geography*]
-      - type: article
-    excluded_data:
-      - tags: [topic/geography/astrography]
-    sort:
+  - heading: "Features"
+    type: list
+    include:
+      tags: "topic/geography*"
+      type: article
+    exclude:
+      tags: topic/geography/astrography
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Geography/Geography|geographical features]], sorted alphabetically.

@@ -16,6 +16,7 @@ star:
       date: [-75]
       major_event: false
     desc: "star_desc"
+    star_type: "documentary"
 ---
 %%
 "publisher1": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Tetrahydropyridine|Tetrahydropyridine]]"

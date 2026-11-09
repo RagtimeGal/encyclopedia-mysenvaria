@@ -7,7 +7,7 @@ aliases:
   - "God of Antimony"
   - "God of Argon"
   - "God of Arsenic"
-  - "God of Astanine"
+  - "God of Astatine"
   - "God of Barium"
   - "God of Berkelium"
   - "God of Berylium"
@@ -194,16 +194,16 @@ subpage:
       - name: "God of Arsenic"
         birth_date: [-178,328]
         major_event: false
-  - title: "God of Astanine"
+  - title: "God of Astatine"
     aliases:
-      - "Astanine"
-    link: "god_of_astanine"
+      - "Astatine"
+    link: "god_of_astatine"
     tags:
       - topic/history/biography
       - subject/god/lesser-god
       - subject/god/elemental_god
     person:
-      - name: "God of Astanine"
+      - name: "God of Astatine"
         birth_date: [-178,328]
         major_event: false
   - title: "God of Barium"
@@ -1456,7 +1456,7 @@ Elemental Gods, much like the material elements are divided into two groups: the
 "god_of_antimony": "God of Antimony"
 "god_of_argon": "God of Argon"
 "god_of_arsenic": "God of Arsenic"
-"god_of_astanine": "God of Astanine"
+"god_of_astatine": "God of Astatine"
 "god_of_barium": "God of Barium"
 "god_of_berkelium": "God of Berkelium"
 "god_of_berylium": "God of Berylium"

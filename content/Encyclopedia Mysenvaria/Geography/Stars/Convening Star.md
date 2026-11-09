@@ -25,6 +25,9 @@ star:
         desc: "pub_desc3"
         major_event: true
     desc: "star_desc"
+    star_type: "documentary"
+    coordinates: [257.23,13.47,8661.9]
+    size: 0.031
 ---
 %%
 "publisher1": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Phenomena Gods/Gods of Earth/God of Fulgurite|God of Fulgurite]]"

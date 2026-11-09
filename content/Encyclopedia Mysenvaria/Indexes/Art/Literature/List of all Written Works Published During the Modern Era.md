@@ -9,22 +9,17 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Works Published During the Modern Era"
-    included_data: 
-      - tags: [topic/art/literature/*]
-      - event[].start_date: {gte: 1214}
-      - type: article
-    sort:
+  - heading: "Works Published During the Modern Era"
+    type: list
+    include:
+      tags: "topic/art/literature/*"
+      event[].start_date: {from: [1214]}
+      type: article
+    order:
       - by: event[].start_date
-        method: standard_forward
-        subheaders: 
-          generate: true
-          method: floor_10
-          format: "{value}s AT"
+        group:
+          by: event[].start_date.decade
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: false
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Arts/Art#Literature|literary works]] which were published during the [[Encyclopedia Mysenvaria/History/Modern Era/Modern Era|Modern Era]], organized by decade of publication.

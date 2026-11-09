@@ -17,6 +17,19 @@ star:
       major_event: true
       desc: "desc"
     desc: "star_desc"
+    star_type: "legal"
+    coordinates: [0, 90, 3995.13]
+    size: 259
+    orbital:
+      center_mode: "coordinates"
+      radius: 4641.66
+      eccentricity: 0.017
+      tilt: 7.25
+      periapsis_deg: 180
+      period: 1
+      phase_start: 0
+      precession_period: 720
+      high_side_deg: 180
 ---
 %%
 "publisher": "Unknown"

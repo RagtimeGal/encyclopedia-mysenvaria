@@ -9,16 +9,14 @@ status:
   progress: complete
   future: []
 index:
-  - header_name: "Games"
-    included_data: 
-      - tags: [topic/art/game]
-      - type: article
-    sort:
+  - heading: "Games"
+    type: list
+    include:
+      tags: topic/art/game
+      type: article
+    order:
       - by: title
-        method: standard_forward
-        subheaders:
-          generate: true
-          method: first_character
+        group: first_letter
 ---
 
 The following is an index of all articles describing [[Encyclopedia Mysenvaria/Arts/Art#Games|games]], sorted alphabetically.

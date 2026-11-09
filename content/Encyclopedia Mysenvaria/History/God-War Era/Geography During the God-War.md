@@ -6,9 +6,11 @@ tags:
   - topic/geography
 type: article
 status:
-  scope: standard
+  scope: overview
   progress: complete
   future: [rewrite]
+callout_notes:
+  rewrite: "*This page needs expansion on some details of the war.*"
 ---
 
 The God-War witnessed the conception of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]] itself and formed it into the place that it is known today. Features like the Plane's [[Encyclopedia Mysenvaria/Geography/Geography|geography]], [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]], and the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heavens|heavens]] give historians a glimpse into the events of the war, and a chance to understand how the war molded these features too. Numerous strategies are used to extrapolate data regarding these features of the Plane, including [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]], strata layers, erosion and weathering, [[Encyclopedia Mysenvaria/Science/Models/Tectonics|tectonic plates]], permafrost, and more.
@@ -35,3 +37,5 @@ The major ice sheets which stretched for many kilometers onto the Plane past the
 
 > [!abstract|callout-rewrite] [[Meta/Meta|Meta]] || Rewrite Suspected in Future!
 > Some sections of this article may need to be rewritten in the future to improve legibility. If you believe that this article requires an urgent rewrite please file a [GitHub issue](https://github.com/RagtimeGal/encyclopedia-mysenvaria/issues/new/choose).
+>
+> *This page needs expansion on some details of the war.*
