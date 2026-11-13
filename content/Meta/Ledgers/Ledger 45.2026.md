@@ -36,3 +36,5 @@ There's been some minor progress towards the rewrite of the major topic pages. T
 - [Commit bd03188: "buncha changes"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/bd031885c7ef582578274d583a4f83cfe4d5b9d0)
 - [Commit e7aa09f: "Massive callouts update"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/e7aa09f1232fb04d23230baaada3ada8f2bb9c30)
 - [Commit 6e08281: "Meta rewrites"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/6e0828115f47b5da854a4ef555e736afac83d61d)
+- [Commit 50de5b7: "Stars + program stuff"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/50de5b719f2204a2acc14b87d856bcab7c9e1daf)
+- [Commit 308ff2e: "Time to push?"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/308ff2e7d452beaa1422f2c2fab331e8cc49d23e)
