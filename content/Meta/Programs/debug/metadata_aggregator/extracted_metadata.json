@@ -8,7 +8,7 @@
             "warning": 19,
             "notice": 25
         },
-        "working_directory": "C:\\Users\\Terra\\Documents\\Github Folders\\quartz--encyclopedia-mysenvaria"
+        "working_directory": "/home/runner/work/encyclopedia-mysenvaria/encyclopedia-mysenvaria"
     },
     "pages": [
         {
@@ -69102,8 +69102,10 @@
                 "type": "article",
                 "status": {
                     "scope": "brief",
-                    "progress": "empty",
-                    "future": []
+                    "progress": "complete",
+                    "future": [
+                        "review"
+                    ]
                 },
                 "needs": [
                     "infobox"
