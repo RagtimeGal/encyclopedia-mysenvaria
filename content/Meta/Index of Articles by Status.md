@@ -111,6 +111,7 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - Curium Isotopes Star
 - Darmstadtium Isotopes Star
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Day|Day]]
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Unknown Gods/Death's Star's Publisher|Death's Star's Publisher]]
 - Divided Fluid Mechanics Star
 - Divided Lightning Star
 - Divided Rain Star
@@ -530,7 +531,6 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Meta/Templates/Arts/Cuisine Template|Cuisine Template]]
 - [[Encyclopedia Mysenvaria/Science/Models/Darwinian Classification|Darwinian Classification]]
 - [[Encyclopedia Mysenvaria/Geography/Natural Features/Deadman's Sea|Deadman's Sea]]
-- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Unknown Gods/Death's Star's Publisher|Death's Star's Publisher]]
 - [[Encyclopedia Mysenvaria/History/God-War Era/Deaths During the God-War Era|Deaths During the God-War Era]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Debris Raining Star|Debri Raining Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Demi-Human|Demi-Human]]
