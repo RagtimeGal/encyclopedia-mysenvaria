@@ -449,7 +449,7 @@ subpage:
         star_type: "documentary"
         desc: "star_desc"
         coordinates: [0, 90, 5000]
-        size: 0.012
+        size: 0.0141
         publications:
           - publishers: ["publisher1"]
             date: [-178, 328]
@@ -468,7 +468,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc2"
         coordinates: [321, 29.14, 74]
-        size: 0.0023
+        size: 0.0014
         publications:
           - publishers: ["publisher2"]
             date: [-178, 328]
@@ -486,6 +486,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc3"
         coordinates: [180, -34.81, 77.6]
+        size: 0.0063
         publications:
           - publishers: ["publisher3"]
             date: [-178, 329]
@@ -502,6 +503,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc4"
         coordinates: [220.6, -39.04, 143.8]
+        size: 0.0063
         publications:
           - publishers: ["publisher4"]
             date: [-178, 329]
@@ -518,6 +520,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc5"
         coordinates: [270, 32.71, 178.1]
+        size: 0.0017
         publications:
           - publishers: ["publisher5"]
             date: [-178, 329]
@@ -534,6 +537,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc6"
         coordinates: [45.88, 40.98, 101.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher3"]
             date: [-178, 329]
@@ -550,6 +554,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc7"
         coordinates: [0, 9.58, 138.3]
+        size: 0.0063
         publications:
           - publishers: ["publisher7"]
             date: [-178, 329]
@@ -566,6 +571,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc8"
         coordinates: [90, 14.74, 146.5]
+        size: 0.0063
         publications:
           - publishers: ["publisher8"]
             date: [-178, 329]
@@ -582,6 +588,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc9"
         coordinates: [169.41, 9.75, 168]
+        size: 0.0033
         publications:
           - publishers: ["publisher9"]
             date: [-178, 329]
@@ -598,6 +605,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc10"
         coordinates: [28.72, -33.47, 84.5]
+        size: 0.01
         publications:
           - publishers: ["publisher10"]
             date: [-178, 329]
@@ -614,6 +622,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc11"
         coordinates: [115.94, -12.66, 56.9]
+        size: 0.02
         publications:
           - publishers: ["publisher7"]
             date: [-178, 329]
@@ -630,6 +639,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc12"
         coordinates: [315.68, -15.66, 104.3]
+        size: 0.001
         publications:
           - publishers: ["publisher1", "publisher2"]
             date: [-178, 329]
@@ -646,6 +656,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc13"
         coordinates: [132.89, 50.53, 91.2]
+        size: 0.0063
         publications:
           - publishers: ["publisher14"]
             date: [-178, 329]
@@ -662,6 +673,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc14"
         coordinates: [249.57, 27.33, 95.2]
+        size: 0.01
         publications:
           - publishers: ["publisher15"]
             date: [-178, 329]
@@ -678,6 +690,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc15"
         coordinates: [69.87, -13.41, 75.9]
+        size: 0.01
         publications:
           - publishers: ["publisher16"]
             date: [-178, 330]
@@ -694,6 +707,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc16"
         coordinates: [180, -67.5, 46.9]
+        size: 0.001
         publications:
           - publishers: ["God of Mechanical Energy"]
             date: [-178, 330]
@@ -710,6 +724,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc17"
         coordinates: [70.62, 42.43, 179.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher10"]
             date: [-178, 330]
@@ -726,6 +741,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc18"
         coordinates: [280.77, -16.32, 76.2]
+        size: 0.0063
         publications:
           - publishers: ["publisher18"]
             date: [-178, 330]
@@ -742,6 +758,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc19"
         coordinates: [139.07, -24.89, 175.5]
+        size: 0.01
         publications:
           - publishers: ["publisher19"]
             date: [-178, 330]
@@ -758,6 +775,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc20"
         coordinates: [254.3, -3.67, 108.3]
+        size: 0.0022
         publications:
           - publishers: ["God of Electric Energy"]
             date: [-178, 330]
@@ -774,6 +792,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc21"
         coordinates: [202.61, 31.56, 153]
+        size: 0.02
         publications:
           - publishers: ["publisher14"]
             date: [-178, 330]
@@ -790,6 +809,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc22"
         coordinates: [270, 65.1, 129.5]
+        size: 0.0022
         publications:
           - publishers: ["God of Magnetic Energy"]
             date: [-178, 330]
@@ -806,6 +826,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc23"
         coordinates: [322.93, 35.7, 144.3]
+        size: 0.0063
         publications:
           - publishers: ["publisher21"]
             date: [-178, 330]
@@ -822,6 +843,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc24"
         coordinates: [153.88, 2.66, 81.7]
+        size: 0.02
         publications:
           - publishers: ["publisher21"]
             date: [-178, 330]
@@ -838,6 +860,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc25"
         coordinates: [20.02, 5.13, 99.2]
+        size: 0.0141
         publications:
           - publishers: ["publisher23"]
             date: [-178, 330]
@@ -854,6 +877,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc26"
         coordinates: [116.89, -16.37, 122.7]
+        size: 0.0063
         publications:
           - publishers: ["publisher24"]
             date: [-178, 331]
@@ -870,6 +894,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc27"
         coordinates: [305.95, -68.02, 84.4]
+        size: 0.0017
         publications:
           - publishers: ["God of Nuclear Energy"]
             date: [-178, 331]
@@ -886,6 +911,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc28"
         coordinates: [79.73, -38.77, 134.3]
+        size: 0.02
         publications:
           - publishers: ["publisher4"]
             date: [-178, 331]
@@ -902,6 +928,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc29"
         coordinates: [38.27, 25.5, 126.3]
+        size: 0.0063
         publications:
           - publishers: ["publisher26"]
             date: [-178, 331]
@@ -918,6 +945,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc30"
         coordinates: [187.86, -5.91, 105.9]
+        size: 0.0017
         publications:
           - publishers: ["God of Chemical Energy"]
             date: [-178, 331]
@@ -934,6 +962,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc31"
         coordinates: [6.79, 73.11, 65.9]
+        size: 0.02
         publications:
           - publishers: ["publisher8"]
             date: [-178, 331]
@@ -950,6 +979,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc32"
         coordinates: [270, 17.47, 100.3]
+        size: 0.01
         publications:
           - publishers: ["publisher28"]
             date: [-178, 331]
@@ -966,6 +996,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc33"
         coordinates: [240.72, 7.91, 193.9]
+        size: 0.0224
         publications:
           - publishers: ["God of Thermal Energy"]
             date: [-178, 331]
@@ -982,6 +1013,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc34"
         coordinates: [72.04, 8.62, 308.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher19"]
             date: [-178, 332]
@@ -998,6 +1030,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc35"
         coordinates: [103.76, 49.05, 132.8]
+        size: 0.01
         publications:
           - publishers: ["publisher30"]
             date: [-178, 332]
@@ -1014,6 +1047,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc36"
         coordinates: [350.9, 69.91, 265.8]
+        size: 0.001
         publications:
           - publishers: ["Chemical Energy Gods"]
             date: [-178, 332]
@@ -1030,6 +1064,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc37"
         coordinates: [348.04, -42.3, 292]
+        size: 0.0063
         publications:
           - publishers: ["publisher31"]
             date: [-178, 332]
@@ -1046,6 +1081,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc38"
         coordinates: [225.42, 21.18, 51.6]
+        size: 0.02
         publications:
           - publishers: ["publisher26"]
             date: [-178, 332]
@@ -1062,6 +1098,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc39"
         coordinates: [20.43, 38.55, 218.9]
+        size: 0.02
         publications:
           - publishers: ["publisher18"]
             date: [-178, 332]
@@ -1078,6 +1115,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc40"
         coordinates: [235.19, 14.96, 167.5]
+        size: 0.0063
         publications:
           - publishers: ["publisher34"]
             date: [-178, 332]
@@ -1094,6 +1132,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc41"
         coordinates: [277.26, -27.02, 172.1]
+        size: 0.0022
         publications:
           - publishers: ["God of Motion", "God of Gravitational Energy"]
             date: [-178, 332]
@@ -1110,6 +1149,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc42"
         coordinates: [154.84, 21.56, 141.5]
+        size: 0.0141
         publications:
           - publishers: ["publisher3", "God of Structure"]
             date: [-178, 332]
@@ -1126,6 +1166,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc43"
         coordinates: [297, 23.37, 106.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher36"]
             date: [-178, 332]
@@ -1142,6 +1183,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc44"
         coordinates: [117.16, -6.75, 267.2]
+        size: 0.0063
         publications:
           - publishers: ["publisher37"]
             date: [-178, 332]
@@ -1158,6 +1200,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc45"
         coordinates: [193.88, -15.18, 238.8]
+        size: 0.0141
         publications:
           - publishers: ["publisher38"]
             date: [-178, 332]
@@ -1174,6 +1217,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc46"
         coordinates: [260.92, -12.75, 226.3]
+        size: 0.01
         publications:
           - publishers: ["publisher39"]
             date: [-178, 332]
@@ -1190,6 +1234,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc47"
         coordinates: [33.93, -58.7, 165.6]
+        size: 0.002
         publications:
           - publishers: ["God of Electric Energy", "God of Mechanical Energy", "God of Magnetic Energy", "God of Structure"]
             date: [-178, 333]
@@ -1206,6 +1251,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc48"
         coordinates: [135.69, -54.28, 224.7]
+        size: 0.0447
         publications:
           - publishers: ["publisher36"]
             date: [-178, 333]
@@ -1222,6 +1268,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc49"
         coordinates: [76.8, 61.97, 288.2]
+        size: 0.0447
         publications:
           - publishers: ["publisher38"]
             date: [-178, 333]
@@ -1238,6 +1285,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc50"
         coordinates: [204.52, 0, 204.9]
+        size: 0.002
         publications:
           - publishers: ["Movement Gods"]
             date: [-178, 333]
@@ -1254,6 +1302,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc51"
         coordinates: [302.78, 73.03, 110.9]
+        size: 0.002
         publications:
           - publishers: ["God of Chemical Reactions"]
             date: [-178, 333]
@@ -1270,6 +1319,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc52"
         coordinates: [217.84, 30.51, 285.5]
+        size: 0.02
         publications:
           - publishers: ["publisher34"]
             date: [-178, 333]
@@ -1286,6 +1336,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc53"
         coordinates: [166.64, 40.35, 141.5]
+        size: 0.0063
         publications:
           - publishers: ["publisher40"]
             date: [-178, 333]
@@ -1302,6 +1353,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc54"
         coordinates: [344.51, 14.71, 269.2]
+        size: 0.02
         publications:
           - publishers: ["publisher37"]
             date: [-178, 333]
@@ -1318,6 +1370,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc55"
         coordinates: [248.12, -24.93, 185]
+        size: 0.001
         publications:
           - publishers: ["God of Rotational Motion"]
             date: [-178, 333]
@@ -1334,6 +1387,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc56"
         coordinates: [166.14, 30.66, 360.9]
+        size: 0.0063
         publications:
           - publishers: ["publisher41"]
             date: [-178, 333]
@@ -1350,6 +1404,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc57"
         coordinates: [334.69, -54.75, 283.6]
+        size: 0.0316
         publications:
           - publishers: ["publisher28"]
             date: [-178, 333]
@@ -1366,6 +1421,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc58"
         coordinates: [322.91, 53.72, 239]
+        size: 0.01
         publications:
           - publishers: ["publisher42"]
             date: [-178, 333]
@@ -1382,6 +1438,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc59"
         coordinates: [43.11, 17.6, 210.5]
+        size: 0.001
         publications:
           - publishers: ["God of Gravitational Motion"]
             date: [-178, 333]
@@ -1398,6 +1455,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc60"
         coordinates: [260.01, -64.32, 145.7]
+        size: 0.0447
         publications:
           - publishers: ["publisher23"]
             date: [-178, 333]
@@ -1414,6 +1472,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc61"
         coordinates: [6.22, 61.31, 129.9]
+        size: 0.01
         publications:
           - publishers: ["publisher43"]
             date: [-178, 333]
@@ -1430,6 +1489,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc62"
         coordinates: [19.34, -12.62, 188.3]
+        size: 0.01
         publications:
           - publishers: ["publisher44"]
             date: [-178, 333]
@@ -1446,6 +1506,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc63"
         coordinates: [197.11, -39.25, 166.2]
+        size: 0.001
         publications:
           - publishers: ["God of Mechanical Energy", "God of Linear Motion"]
             date: [-178, 333]
@@ -1462,6 +1523,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc64"
         coordinates: [172.88, -18.53, 147.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher16"]
             date: [-178, 333]
@@ -1478,6 +1540,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc65"
         coordinates: [294.58, 30.72, 168.4]
+        size: 0.0063
         publications:
           - publishers: ["publisher45"]
             date: [-178, 333]
@@ -1494,6 +1557,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc66"
         coordinates: [103.58, 19.86, 266]
+        size: 0.0141
         publications:
           - publishers: ["publisher6"]
             date: [-178, 334]
@@ -1510,6 +1574,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc67"
         coordinates: [136.27, 27.72, 528.7]
+        size: 0.01
         publications:
           - publishers: ["publisher11"]
             date: [-178, 334]
@@ -1526,6 +1591,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc68"
         coordinates: [347.94, -12.39, 371.6]
+        size: 0.0063
         publications:
           - publishers: ["publisher12"]
             date: [-178, 334]
@@ -1542,6 +1608,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc69"
         coordinates: [318.51, 31.45, 308.2]
+        size: 0.0316
         publications:
           - publishers: ["publisher30"]
             date: [-178, 334]
@@ -1558,6 +1625,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc70"
         coordinates: [77.55, 35.87, 664.9]
+        size: 0.01
         publications:
           - publishers: ["publisher13"]
             date: [-178, 334]
@@ -1574,6 +1642,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc71"
         coordinates: [61.57, -15.36, 238.1]
+        size: 0.0141
         publications:
           - publishers: ["publisher17"]
             date: [-178, 334]
@@ -1590,6 +1659,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc72"
         coordinates: [274.56, 8.14, 387]
+        size: 0.0014
         publications:
           - publishers: ["publisher20", "publisher22"]
             date: [-178, 334]
@@ -1606,6 +1676,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc73"
         coordinates: [238.92, -38.64, 337.8]
+        size: 0.0141
         publications:
           - publishers: ["publisher25"]
             date: [-178, 334]
@@ -1622,6 +1693,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc74"
         coordinates: [296.66, -16.29, 216.6]
+        size: 0.02
         publications:
           - publishers: ["publisher31"]
             date: [-178, 334]
@@ -1638,6 +1710,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc75"
         coordinates: [36.69, -17.74, 360.3]
+        size: 0.0063
         publications:
           - publishers: ["God of Acids", "God of Bases"]
             date: [-178, 334]
@@ -1654,6 +1727,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc76"
         coordinates: [256.09, -18.44, 299.5]
+        size: 0.02
         publications:
           - publishers: ["publisher40"]
             date: [-178, 334]
@@ -1670,6 +1744,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc77"
         coordinates: [173.9, -20.08, 268.8]
+        size: 0.01
         publications:
           - publishers: ["publisher27"]
             date: [-178, 334]
@@ -1686,6 +1761,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc78"
         coordinates: [281.08, 0, 256.3]
+        size: 0.0141
         publications:
           - publishers: ["God of Nihonium"]
             date: [-178, 334]
@@ -1702,6 +1778,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc79"
         coordinates: [103.98, 8.15, 393.1]
+        size: 0.0141
         publications:
           - publishers: ["publisher29"]
             date: [-178, 334]
@@ -1718,6 +1795,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc80"
         coordinates: [140.8, 46.8, 318.4]
+        size: 0.0063
         publications:
           - publishers: ["publisher32"]
             date: [-178, 334]
@@ -1734,6 +1812,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc81"
         coordinates: [7.99, -14.47, 228.6]
+        size: 0.02
         publications:
           - publishers: ["publisher32"]
             date: [-178, 334]
@@ -1750,6 +1829,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc82"
         coordinates: [172.96, -41.06, 681]
+        size: 0.0141
         publications:
           - publishers: ["publisher33"]
             date: [-178, 334]
@@ -1766,6 +1846,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc83"
         coordinates: [202.24, 15.27, 355.9]
+        size: 0.0063
         publications:
           - publishers: ["publisher35"]
             date: [-178, 334]
@@ -1782,6 +1863,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc84"
         coordinates: [32.59, -36.41, 215.4]
+        size: 0.0141
         publications:
           - publishers: ["publisher46"]
             date: [-178, 335]
@@ -1798,6 +1880,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc85"
         coordinates: [245.45, -54.7, 321.4]
+        size: 0.0447
         publications:
           - publishers: ["God of Nihonium"]
             date: [-178, 335]
@@ -1814,6 +1897,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc86"
         coordinates: [220.49, 41.92, 213.2]
+        size: 0.02
         publications:
           - publishers: ["publisher24"]
             date: [-178, 335]
@@ -1830,6 +1914,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc87"
         coordinates: [305.73, -54.43, 236.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher47"]
             date: [-178, 335]
@@ -1846,6 +1931,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc88"
         coordinates: [325.19, -19.36, 353.2]
+        size: 0.0447
         publications:
           - publishers: ["publisher17"]
             date: [-178, 335]
@@ -1862,6 +1948,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc89"
         coordinates: [46.32, 41.44, 301]
+        size: 0.0141
         publications:
           - publishers: ["publisher48"]
             date: [-178, 335]
@@ -1878,6 +1965,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc90"
         coordinates: [316.81, 7.17, 296.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher27"]
             date: [-178, 335]
@@ -1894,6 +1982,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc91"
         coordinates: [64.06, 8.67, 550.9]
+        size: 0.0026
         publications:
           - publishers: ["God of Mechanical Waves"]
             date: [-178, 335]
@@ -1910,6 +1999,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc92"
         coordinates: [90, -13.16, 152.7]
+        size: 0.0026
         publications:
           - publishers: ["God of Solid Mechanics"]
             date: [-178, 335]
@@ -1926,6 +2016,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc93"
         coordinates: [270, -9.36, 322.7]
+        size: 0.0024
         publications:
           - publishers: ["God of Fluid Mechanics"]
             date: [-178, 335]
@@ -1942,6 +2033,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc94"
         coordinates: [258.03, 57.35, 299.6]
+        size: 0.0447
         publications:
           - publishers: ["publisher49"]
             date: [-178, 335]
@@ -1958,6 +2050,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc95"
         coordinates: [310.36, -7.68, 215.7]
+        size: 0.0141
         publications:
           - publishers: ["publisher50"]
             date: [-178, 335]
@@ -1974,6 +2067,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc96"
         coordinates: [228.74, -27.07, 392.6]
+        size: 0.0447
         publications:
           - publishers: ["publisher46"]
             date: [-178, 335]
@@ -1990,6 +2084,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc97"
         coordinates: [151.74, -1.15, 557.6]
+        size: 0.0316
         publications:
           - publishers: ["publisher43"]
             date: [-178, 335]
@@ -2006,6 +2101,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc98"
         coordinates: [184.48, 33.09, 294.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher51"]
             date: [-178, 335]
@@ -2022,6 +2118,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc99"
         coordinates: [227.69, -80.31, 184.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher39"]
             date: [-178, 335]
@@ -2038,6 +2135,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc100"
         coordinates: [27.96, 29.32, 385.5]
+        size: 0.0316
         publications:
           - publishers: ["publisher11"]
             date: [-178, 335]
@@ -2054,6 +2152,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc101"
         coordinates: [270, 23.16, 295]
+        size: 0.01
         publications:
           - publishers: ["publisher52"]
             date: [-178, 335]
@@ -2070,6 +2169,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc102"
         coordinates: [358.26, 42.1, 489]
+        size: 0.02
         publications:
           - publishers: ["publisher12"]
             date: [-178, 335]
@@ -2086,6 +2186,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc103"
         coordinates: [114.32, -32.87, 489.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher49"]
             date: [-178, 335]
@@ -2102,6 +2203,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc104"
         coordinates: [146.43, 19.58, 231.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher25"]
             date: [-178, 335]
@@ -2118,6 +2220,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc105"
         coordinates: [130.61, 6.92, 283.5]
+        size: 0.0014
         publications:
           - publishers: ["Fluid Mechanics Gods", "Solid Mechanics Gods"]
             date: [-178, 335]
@@ -2134,6 +2237,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc106"
         coordinates: [32.3, -44.38, 359.9]
+        size: 0.0447
         publications:
           - publishers: ["publisher33"]
             date: [-178, 335]
@@ -2150,6 +2254,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc107"
         coordinates: [257.47, 23.81, 522]
+        size: 0.02
         publications:
           - publishers: ["publisher45"]
             date: [-178, 335]
@@ -2166,6 +2271,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc108"
         coordinates: [299.15, -36.15, 150.4]
+        size: 0.0141
         publications:
           - publishers: ["publisher53"]
             date: [-178, 335]
@@ -2182,6 +2288,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc109"
         coordinates: [58.56, 28.03, 245.5]
+        size: 0.0447
         publications:
           - publishers: ["publisher6"]
             date: [-178, 335]
@@ -2198,6 +2305,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc110"
         coordinates: [79.3, -34.9, 211]
+        size: 0.02
         publications:
           - publishers: ["publisher41"]
             date: [-178, 335]
@@ -2214,6 +2322,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc111"
         coordinates: [126.53, -66.17, 455.1]
+        size: 0.1789
         publications:
           - publishers: ["publisher20"]
             date: [-178, 335]
@@ -2230,6 +2339,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc112"
         coordinates: [211.75, 54.69, 570]
+        size: 0.01
         publications:
           - publishers: ["publisher18", "God of Structure"]
             date: [-178, 335]
@@ -2246,6 +2356,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc113"
         coordinates: [223.07, -38.55, 313.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher13"]
             date: [-178, 336]
@@ -2262,6 +2373,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc114"
         coordinates: [311.29, -13.34, 457.7]
+        size: 0.01
         publications:
           - publishers: ["publisher54"]
             date: [-178, 336]
@@ -2278,6 +2390,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc115"
         coordinates: [3.74, -32.6, 251.3]
+        size: 0.001
         publications:
           - publishers: ["God of Mechanical Waves", "God of Structure"]
             date: [-178, 336]
@@ -2294,6 +2407,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc116"
         coordinates: [317.42, 68.72, 235.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher55"]
             date: [-178, 336]
@@ -2310,6 +2424,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc117"
         coordinates: [112.63, 24.29, 542.5]
+        size: 0.02
         publications:
           - publishers: ["publisher35"]
             date: [-178, 336]
@@ -2326,6 +2441,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc118"
         coordinates: [116.18, -13.85, 350.3]
+        size: 0.001
         publications:
           - publishers: ["God of Fluid Mechanics"]
             date: [-178, 336]
@@ -2342,6 +2458,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc119"
         coordinates: [121.2, -2.93, 567.2]
+        size: 0.0141
         publications:
           - publishers: ["publisher56"]
             date: [-178, 336]
@@ -2358,6 +2475,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc120"
         coordinates: [79.39, -46.86, 371.3]
+        size: 0.01
         publications:
           - publishers: ["publisher57"]
             date: [-178, 336]
@@ -2374,6 +2492,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc121"
         coordinates: [25.26, 21.71, 364.7]
+        size: 0.0447
         publications:
           - publishers: ["publisher29"]
             date: [-178, 336]
@@ -2390,6 +2509,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc122"
         coordinates: [224.27, -55.48, 450]
+        size: 0.0141
         publications:
           - publishers: ["publisher58"]
             date: [-178, 336]
@@ -2406,6 +2526,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc123"
         coordinates: [251.23, 46.9, 410.6]
+        size: 0.0447
         publications:
           - publishers: ["publisher48"]
             date: [-178, 336]
@@ -2422,6 +2543,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc124"
         coordinates: [106.96, 6.3, 795.5]
+        size: 0.001
         publications:
           - publishers: ["Fluid Mechanics Gods"]
             date: [-178, 336]
@@ -2438,6 +2560,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc125"
         coordinates: [69.71, -23.13, 348.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher53"]
             date: [-178, 336]
@@ -2454,6 +2577,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc126"
         coordinates: [106.86, -39.93, 188.3]
+        size: 0.001
         publications:
           - publishers: ["publisher59", "God of Solid Mechanics"]
             date: [-178, 336]
@@ -2470,6 +2594,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc127"
         coordinates: [317.9, 23.03, 295.1]
+        size: 0.0447
         publications:
           - publishers: ["publisher50"]
             date: [-178, 336]
@@ -2486,6 +2611,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc128"
         coordinates: [25.43, 62.39, 296.4]
+        size: 0.0316
         publications:
           - publishers: ["publisher57"]
             date: [-178, 336]
@@ -2502,6 +2628,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc129"
         coordinates: [70.24, 61.01, 475.6]
+        size: 0.01
         publications:
           - publishers: ["publisher60"]
             date: [-178, 336]
@@ -2518,6 +2645,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc130"
         coordinates: [73.42, -44.41, 221.2]
+        size: 0.01
         publications:
           - publishers: ["publisher61"]
             date: [-178, 336]
@@ -2534,6 +2662,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc131"
         coordinates: [313.13, -4.34, 319.1]
+        size: 0.0447
         publications:
           - publishers: ["publisher58"]
             date: [-178, 336]
@@ -2550,6 +2679,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc132"
         coordinates: [316.34, 46.71, 208.1]
+        size: 0.01
         publications:
           - publishers: ["publisher62", "God of Structure"]
             date: [-178, 336]
@@ -2566,6 +2696,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc133"
         coordinates: [152.04, 64.15, 180.3]
+        size: 0.01
         publications:
           - publishers: ["publisher63"]
             date: [-178, 336]
@@ -2582,6 +2713,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc134"
         coordinates: [355.75, 14.88, 478.4]
+        size: 0.0014
         publications:
           - publishers: ["God of Fluid Mechanics", "God of Solid Mechanics"]
             date: [-178, 336]
@@ -2598,6 +2730,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc135"
         coordinates: [92.3, -48.04, 289]
+        size: 0.01
         publications:
           - publishers: ["publisher64"]
             date: [-178, 337]
@@ -2614,6 +2747,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc136"
         coordinates: [0, -49.22, 151.9]
+        size: 0.0063
         publications:
           - publishers: ["publisher62"]
             date: [-178, 337]
@@ -2630,6 +2764,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc137"
         coordinates: [52.01, -53.01, 256.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher65"]
             date: [-178, 337]
@@ -2646,6 +2781,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc138"
         coordinates: [124.01, 31.1, 257.2]
+        size: 0.0017
         publications:
           - publishers: ["God of Rock"]
             date: [-178, 337]
@@ -2662,6 +2798,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc139"
         coordinates: [127.43, -28.88, 479.8]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-32"]
             date: [-178, 337]
@@ -2678,6 +2815,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc140"
         coordinates: [160.15, 46.54, 323.3]
+        size: 0.01
         publications:
           - publishers: ["publisher66"]
             date: [-178, 337]
@@ -2694,6 +2832,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc141"
         coordinates: [289.75, 32.75, 304.9]
+        size: 0.01
         publications:
           - publishers: ["publisher67"]
             date: [-178, 337]
@@ -2710,6 +2849,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc142"
         coordinates: [114.26, 66.71, 448.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher47"]
             date: [-178, 337]
@@ -2726,6 +2866,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc143"
         coordinates: [191.18, 52.38, 496.5]
+        size: 0.0014
         publications:
           - publishers: ["God of Rock"]
             date: [-178, 337]
@@ -2742,6 +2883,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc144"
         coordinates: [85.76, -13.89, 359.7]
+        size: 0.0141
         publications:
           - publishers: ["publisher68"]
             date: [-178, 337]
@@ -2758,6 +2900,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc145"
         coordinates: [110.11, 54.3, 394.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher44"]
             date: [-178, 337]
@@ -2774,6 +2917,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc146"
         coordinates: [12.55, -48.29, 479.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher52"]
             date: [-178, 337]
@@ -2790,6 +2934,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc147"
         coordinates: [51.8, 14.02, 319.2]
+        size: 0.002
         publications:
           - publishers: ["Rock Trinity"]
             date: [-178, 337]
@@ -2806,6 +2951,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc148"
         coordinates: [70.1, -26.75, 229.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher69"]
             date: [-178, 337]
@@ -2822,6 +2968,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc149"
         coordinates: [35.37, -37.53, 484.5]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-33"]
             date: [-178, 337]
@@ -2838,6 +2985,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc150"
         coordinates: [185.1, -19.19, 200.1]
+        size: 0.01
         publications:
           - publishers: ["publisher70"]
             date: [-178, 337]
@@ -2854,6 +3002,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc151"
         coordinates: [229.4, -31.07, 232.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher71"]
             date: [-178, 337]
@@ -2870,6 +3019,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc152"
         coordinates: [331.94, -32.56, 243.5]
+        size: 0.001
         publications:
           - publishers: ["Mechanic Gods", "God of Fluid Mechanics"]
             date: [-178, 337]
@@ -2886,6 +3036,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc153"
         coordinates: [336.16, 36.21, 398.8]
+        size: 0.0316
         publications:
           - publishers: ["publisher60"]
             date: [-178, 337]
@@ -2902,6 +3053,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc154"
         coordinates: [218.91, -41.21, 515.1]
+        size: 0.0141
         publications:
           - publishers: ["publisher72"]
             date: [-178, 337]
@@ -2918,6 +3070,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc155"
         coordinates: [104.17, -53.09, 295.4]
+        size: 0.01
         publications:
           - publishers: ["publisher73"]
             date: [-178, 338]
@@ -2934,6 +3087,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc156"
         coordinates: [164.7, 70.4, 639.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher15"]
             date: [-178, 338]
@@ -2950,6 +3104,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc157"
         coordinates: [61.13, 28.59, 308.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher74"]
             date: [-178, 338]
@@ -2966,6 +3121,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc158"
         coordinates: [97.71, 23.55, 353.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher75"]
             date: [-178, 338]
@@ -2982,6 +3138,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc159"
         coordinates: [249.03, 47.21, 334]
+        size: 0.01
         publications:
           - publishers: ["publisher76"]
             date: [-178, 338]
@@ -2998,6 +3155,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc160"
         coordinates: [133.64, -22.2, 222.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher42"]
             date: [-178, 338]
@@ -3014,6 +3172,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc161"
         coordinates: [331.8, -1.41, 253.2]
+        size: 0.0141
         publications:
           - publishers: ["publisher77"]
             date: [-178, 338]
@@ -3030,6 +3189,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc162"
         coordinates: [94.74, 42.92, 301.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher78"]
             date: [-178, 338]
@@ -3046,6 +3206,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc163"
         coordinates: [144.26, 34.57, 859.4]
+        size: 0.0141
         publications:
           - publishers: ["publisher79"]
             date: [-178, 338]
@@ -3062,6 +3223,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc164"
         coordinates: [356.46, -57.4, 442.2]
+        size: 0.001
         publications:
           - publishers: ["Gods of Crust & Mantle"]
             date: [-178, 338]
@@ -3078,6 +3240,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc165"
         coordinates: [124.49, -31.38, 393.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher80"]
             date: [-178, 338]
@@ -3094,6 +3257,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc166"
         coordinates: [24.89, -3.28, 459.5]
+        size: 0.01
         publications:
           - publishers: ["publisher81"]
             date: [-178, 338]
@@ -3110,6 +3274,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc167"
         coordinates: [199.08, 27.67, 623.4]
+        size: 0.01
         publications:
           - publishers: ["publisher82"]
             date: [-178, 338]
@@ -3126,6 +3291,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc168"
         coordinates: [300.61, -23.28, 283.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher83"]
             date: [-178, 338]
@@ -3142,6 +3308,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc169"
         coordinates: [20.62, -45.23, 338.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher69"]
             date: [-178, 338]
@@ -3158,6 +3325,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc170"
         coordinates: [294.02, 30.3, 622.5]
+        size: 0.0141
         publications:
           - publishers: ["publisher84"]
             date: [-178, 338]
@@ -3174,6 +3342,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc171"
         coordinates: [54.38, 23.98, 206.2]
+        size: 0.0141
         publications:
           - publishers: ["publisher85"]
             date: [-178, 338]
@@ -3190,6 +3359,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc172"
         coordinates: [206.43, -50.35, 443.2]
+        size: 0.0141
         publications:
           - publishers: ["publisher86"]
             date: [-178, 338]
@@ -3206,6 +3376,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc173"
         coordinates: [152.37, 53.24, 446]
+        size: 0.001
         publications:
           - publishers: ["God of Fluid Mechanics", "God of Rock"]
             date: [-178, 338]
@@ -3222,6 +3393,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc174"
         coordinates: [241.59, 14.16, 312.5]
+        size: 0.0141
         publications:
           - publishers: ["publisher87"]
             date: [-178, 338]
@@ -3238,6 +3410,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc175"
         coordinates: [68.11, -32.29, 1027.1]
+        size: 0.01
         publications:
           - publishers: ["publisher88"]
             date: [-178, 338]
@@ -3254,6 +3427,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc176"
         coordinates: [11.93, 14, 710.5]
+        size: 0.0141
         publications:
           - publishers: ["publisher89"]
             date: [-178, 339]
@@ -3270,6 +3444,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc177"
         coordinates: [133.77, 43.61, 1014.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher90"]
             date: [-178, 339]
@@ -3286,6 +3461,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc178"
         coordinates: [323.45, -39.57, 564.1]
+        size: 0.001
         publications:
           - publishers: ["God of Fluid Mechanics", "God of Granularity"]
             date: [-178, 339]
@@ -3302,6 +3478,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc179"
         coordinates: [3.06, -58.07, 497.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher51"]
             date: [-178, 339]
@@ -3318,6 +3495,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc180"
         coordinates: [170.05, -24.34, 675.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher91"]
             date: [-178, 339]
@@ -3334,6 +3512,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc181"
         coordinates: [307.19, -3.89, 649.1]
+        size: 0.0283
         publications:
           - publishers: ["publisher59", "God of Structure"]
             date: [-178, 339]
@@ -3350,6 +3529,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc182"
         coordinates: [175.67, -32.07, 444.2]
+        size: 0.0447
         publications:
           - publishers: ["publisher72"]
             date: [-178, 339]
@@ -3366,6 +3546,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc183"
         coordinates: [1.67, 71.21, 470.9]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-16"]
             date: [-178, 339]
@@ -3382,6 +3563,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc184"
         coordinates: [198.81, 46.06, 421.7]
+        size: 0.001
         publications:
           - publishers: ["God of Rock", "God of Fluid Mechanics"]
             date: [-178, 339]
@@ -3398,6 +3580,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc185"
         coordinates: [222.71, -55.1, 248.4]
+        size: 0.0447
         publications:
           - publishers: ["publisher84"]
             date: [-178, 339]
@@ -3414,6 +3597,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc186"
         coordinates: [299.09, -6.4, 398.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher70"]
             date: [-178, 339]
@@ -3430,6 +3614,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc187"
         coordinates: [157.38, 59.62, 412.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher67"]
             date: [-178, 339]
@@ -3446,6 +3631,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc188"
         coordinates: [48, 19.28, 746.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher92"]
             date: [-178, 339]
@@ -3462,6 +3648,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc189"
         coordinates: [322.4, -68.76, 608.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher81"]
             date: [-178, 339]
@@ -3478,6 +3665,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc190"
         coordinates: [261.24, 39.71, 428.2]
+        size: 0.0447
         publications:
           - publishers: ["publisher80"]
             date: [-178, 339]
@@ -3494,6 +3682,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc191"
         coordinates: [185.11, -51.93, 379.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher93"]
             date: [-178, 339]
@@ -3510,6 +3699,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc192"
         coordinates: [88.21, -48.8, 768.8]
+        size: 0.0017
         publications:
           - publishers: ["God of Plate Tectonics"]
             date: [-178, 339]
@@ -3526,6 +3716,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc193"
         coordinates: [140.07, -26.11, 411]
+        size: 0.0447
         publications:
           - publishers: ["publisher74"]
             date: [-178, 339]
@@ -3542,6 +3733,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc194"
         coordinates: [282.92, 49.92, 738.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher94"]
             date: [-178, 339]
@@ -3558,6 +3750,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc195"
         coordinates: [283.24, -39.33, 248.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher66"]
             date: [-178, 339]
@@ -3574,6 +3767,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc196"
         coordinates: [39.14, -50.09, 411.5]
+        size: 0.0316
         publications:
           - publishers: ["publisher63"]
             date: [-178, 339]
@@ -3590,6 +3784,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc197"
         coordinates: [57.99, 76.28, 479.1]
+        size: 0.0447
         publications:
           - publishers: ["publisher87"]
             date: [-178, 339]
@@ -3606,6 +3801,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc198"
         coordinates: [237.53, -26.3, 729.8]
+        size: 0.0141
         publications:
           - publishers: ["publisher95"]
             date: [-178, 339]
@@ -3622,6 +3818,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc199"
         coordinates: [129.63, -14.04, 609.8]
+        size: 0.0316
         publications:
           - publishers: ["publisher61"]
             date: [-178, 339]
@@ -3638,6 +3835,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc200"
         coordinates: [84.23, 59.57, 411.9]
+        size: 0.0063
         publications:
           - publishers: ["publisher96"]
             date: [-178, 339]
@@ -3654,6 +3852,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc201"
         coordinates: [227.14, 52.43, 435.6]
+        size: 0.0316
         publications:
           - publishers: ["publisher64"]
             date: [-178, 339]
@@ -3670,6 +3869,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc202"
         coordinates: [107.06, -70.17, 625.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher65"]
             date: [-178, 339]
@@ -3686,6 +3886,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc203"
         coordinates: [248.2, 12, 387.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher75"]
             date: [-178, 340]
@@ -3702,6 +3903,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc204"
         coordinates: [303.13, -21.31, 329.8]
+        size: 0.0173
         publications:
           - publishers: ["publisher59", "Rock Trinity"]
             date: [-178, 340]
@@ -3718,6 +3920,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc205"
         coordinates: [120.03, 18.14, 843]
+        size: 0.0141
         publications:
           - publishers: ["publisher97"]
             date: [-178, 340]
@@ -3734,6 +3937,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc206"
         coordinates: [290.04, -13.36, 471.3]
+        size: 0.02
         publications:
           - publishers: ["God of ???-32"]
             date: [-178, 340]
@@ -3750,6 +3954,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc207"
         coordinates: [9.39, -13.52, 341.7]
+        size: 0.001
         publications:
           - publishers: ["God of Atmosphere", "God of Nucleation", "God of Accretion"]
             date: [-178, 340]
@@ -3766,6 +3971,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc208"
         coordinates: [274.18, -49.23, 341]
+        size: 0.0017
         publications:
           - publishers: ["publisher98"]
             date: [-178, 340]
@@ -3782,6 +3988,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc209"
         coordinates: [93.59, -14.67, 580.8]
+        size: 0.0141
         publications:
           - publishers: ["publisher99"]
             date: [-178, 340]
@@ -3798,6 +4005,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc210"
         coordinates: [147.31, -13.22, 396.8]
+        size: 0.001
         publications:
           - publishers: ["First Generation Rock Gods", "God of Granularity"]
             date: [-178, 340]
@@ -3814,6 +4022,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc211"
         coordinates: [37.78, -3.43, 412]
+        size: 0.0447
         publications:
           - publishers: ["publisher56"]
             date: [-178, 340]
@@ -3830,6 +4039,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc212"
         coordinates: [332.29, 22.02, 653.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher100"]
             date: [-178, 340]
@@ -3846,6 +4056,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc213"
         coordinates: [54.67, 35.24, 544.8]
+        size: 0.0316
         publications:
           - publishers: ["publisher82"]
             date: [-178, 340]
@@ -3862,6 +4073,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc214"
         coordinates: [183.71, 18.71, 707.9]
+        size: 0.02
         publications:
           - publishers: ["God of ???-33"]
             date: [-178, 340]
@@ -3878,6 +4090,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc215"
         coordinates: [162.13, 4, 433.7]
+        size: 0.001
         publications:
           - publishers: ["God of Magma", "God of Rock"]
             date: [-178, 340]
@@ -3894,6 +4107,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc216"
         coordinates: [91.53, -11.87, 310.1]
+        size: 0.01
         publications:
           - publishers: ["publisher101"]
             date: [-178, 340]
@@ -3910,6 +4124,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc217"
         coordinates: [219.81, 53.46, 781.9]
+        size: 0.2787
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 340]
@@ -3926,6 +4141,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc218"
         coordinates: [266.75, -33.14, 968.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher103"]
             date: [-178, 340]
@@ -3942,6 +4158,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc219"
         coordinates: [43.89, 6.31, 298.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher100"]
             date: [-178, 340]
@@ -3958,6 +4175,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc220"
         coordinates: [131.32, -36.67, 409.2]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-14"]
             date: [-178, 340]
@@ -3974,6 +4192,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc221"
         coordinates: [281.28, 36.02, 1130.4]
+        size: 0.0141
         publications:
           - publishers: ["publisher104"]
             date: [-178, 341]
@@ -3990,6 +4209,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc222"
         coordinates: [165.16, -52.33, 1116]
+        size: 0.0447
         publications:
           - publishers: ["publisher91"]
             date: [-178, 341]
@@ -4006,6 +4226,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc223"
         coordinates: [140.62, -41, 595.3]
+        size: 0.3177
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 341]
@@ -4022,6 +4243,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc224"
         coordinates: [125.26, 39.17, 551.7]
+        size: 0.0141
         publications:
           - publishers: ["publisher105"]
             date: [-178, 341]
@@ -4038,6 +4260,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc225"
         coordinates: [124.69, 31.94, 1459.7]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-19"]
             date: [-178, 341]
@@ -4054,6 +4277,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc226"
         coordinates: [127.29, -21.7, 798.9]
+        size: 0.0141
         publications:
           - publishers: ["publisher106"]
             date: [-178, 341]
@@ -4070,6 +4294,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc227"
         coordinates: [31.15, 29.66, 745.9]
+        size: 0.02
         publications:
           - publishers: ["publisher96"]
             date: [-178, 341]
@@ -4086,6 +4311,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc228"
         coordinates: [175.2, -37.47, 634.5]
+        size: 0.0447
         publications:
           - publishers: ["publisher94"]
             date: [-178, 341]
@@ -4102,6 +4328,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc229"
         coordinates: [300.51, 55.24, 845.9]
+        size: 0.0447
         publications:
           - publishers: ["publisher71"]
             date: [-178, 341]
@@ -4118,6 +4345,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc230"
         coordinates: [314.85, 12.4, 770.8]
+        size: 0.0024
         publications:
           - publishers: ["God of Weather", "God of Rock"]
             date: [-178, 341]
@@ -4134,6 +4362,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc231"
         coordinates: [222.4, 68.14, 1287.5]
+        size: 0.0447
         publications:
           - publishers: ["publisher90"]
             date: [-178, 341]
@@ -4150,6 +4379,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc232"
         coordinates: [100.05, 13.92, 497.8]
+        size: 0.0141
         publications:
           - publishers: ["publisher107"]
             date: [-178, 341]
@@ -4166,6 +4396,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc233"
         coordinates: [250.69, -7.12, 960.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher77"]
             date: [-178, 341]
@@ -4182,6 +4413,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc234"
         coordinates: [86.23, -14.36, 893.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher88"]
             date: [-178, 341]
@@ -4198,6 +4430,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc235"
         coordinates: [340.25, 1.17, 469.3]
+        size: 0.0224
         publications:
           - publishers: ["publisher59", "First Generation Rock Gods"]
             date: [-178, 341]
@@ -4214,6 +4447,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc236"
         coordinates: [77.91, 67.41, 748.1]
+        size: 0.0141
         publications:
           - publishers: ["publisher108"]
             date: [-178, 341]
@@ -4230,6 +4464,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc237"
         coordinates: [60.72, -25.03, 439.4]
+        size: 0.0141
         publications:
           - publishers: ["publisher109"]
             date: [-178, 341]
@@ -4246,6 +4481,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc238"
         coordinates: [276.22, -38.33, 661.5]
+        size: 0.0447
         publications:
           - publishers: ["publisher92"]
             date: [-178, 341]
@@ -4262,6 +4498,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc239"
         coordinates: [16.93, 46.34, 629.1]
+        size: 0.0447
         publications:
           - publishers: ["publisher108"]
             date: [-178, 341]
@@ -4278,6 +4515,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc240"
         coordinates: [208.47, -44.6, 798.6]
+        size: 0.0447
         publications:
           - publishers: ["publisher97"]
             date: [-178, 341]
@@ -4294,6 +4532,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc241"
         coordinates: [84.92, -6, 478.2]
+        size: 0.01
         publications:
           - publishers: ["publisher110"]
             date: [-178, 341]
@@ -4310,6 +4549,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc242"
         coordinates: [245.56, -55.91, 934.3]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-12"]
             date: [-178, 341]
@@ -4326,6 +4566,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc243"
         coordinates: [140.26, -32.88, 811.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher93"]
             date: [-178, 341]
@@ -4342,6 +4583,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc244"
         coordinates: [189.71, 46.27, 671.6]
+        size: 0.0447
         publications:
           - publishers: ["publisher99"]
             date: [-178, 341]
@@ -4358,6 +4600,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc245"
         coordinates: [262.44, 40.12, 638.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher110"]
             date: [-178, 341]
@@ -4374,6 +4617,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc246"
         coordinates: [319.18, -32.42, 531]
+        size: 0.0141
         publications:
           - publishers: ["publisher111"]
             date: [-178, 341]
@@ -4390,6 +4634,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc247"
         coordinates: [6.14, -18.08, 884.6]
+        size: 0.0447
         publications:
           - publishers: ["publisher68"]
             date: [-178, 341]
@@ -4406,6 +4651,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc248"
         coordinates: [322.24, -10.36, 566.7]
+        size: 0.0447
         publications:
           - publishers: ["publisher89"]
             date: [-178, 342]
@@ -4422,6 +4668,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc249"
         coordinates: [39.68, -22.69, 630.1]
+        size: 0.01
         publications:
           - publishers: ["publisher112"]
             date: [-178, 342]
@@ -4438,6 +4685,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc250"
         coordinates: [47.83, 12.86, 389.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher73"]
             date: [-178, 342]
@@ -4454,6 +4702,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc251"
         coordinates: [116.94, 16.85, 473.9]
+        size: 0.0447
         publications:
           - publishers: ["publisher85"]
             date: [-178, 342]
@@ -4470,6 +4719,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc252"
         coordinates: [157.75, -55.45, 694.5]
+        size: 0.0141
         publications:
           - publishers: ["publisher113"]
             date: [-178, 342]
@@ -4486,6 +4736,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc253"
         coordinates: [21.25, -31.63, 751.8]
+        size: 0.0017
         publications:
           - publishers: ["Weather Gods", "Mechanic Gods"]
             date: [-178, 342]
@@ -4502,6 +4753,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc254"
         coordinates: [303.03, 12.83, 741.9]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-15"]
             date: [-178, 342]
@@ -4518,6 +4770,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc255"
         coordinates: [95.75, 45.13, 1013]
+        size: 0.0283
         publications:
           - publishers: ["publisher59", "Second Generation Rock Gods"]
             date: [-178, 342]
@@ -4534,6 +4787,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc256"
         coordinates: [194.93, -10.79, 419]
+        size: 0.0447
         publications:
           - publishers: ["publisher103"]
             date: [-178, 342]
@@ -4550,6 +4804,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc257"
         coordinates: [229, 47, 688.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher78"]
             date: [-178, 342]
@@ -4566,6 +4821,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc258"
         coordinates: [348.63, 37.2, 853.9]
+        size: 0.01
         publications:
           - publishers: ["publisher114"]
             date: [-178, 342]
@@ -4582,6 +4838,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc259"
         coordinates: [332.9, 9.99, 487.6]
+        size: 0.002
         publications:
           - publishers: ["Weather Gods", "Acidic Gods", "Basic Gods"]
             date: [-178, 342]
@@ -4598,6 +4855,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc260"
         coordinates: [7.94, 5.6, 433.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher111"]
             date: [-178, 342]
@@ -4614,6 +4872,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc261"
         coordinates: [297.72, 40, 669.5]
+        size: 0.0316
         publications:
           - publishers: ["publisher76"]
             date: [-178, 342]
@@ -4630,6 +4889,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc262"
         coordinates: [211.26, 6.83, 874.6]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-37"]
             date: [-178, 342]
@@ -4646,6 +4906,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc263"
         coordinates: [70.56, -46.54, 521.2]
+        size: 0.0447
         publications:
           - publishers: ["publisher79"]
             date: [-178, 342]
@@ -4662,6 +4923,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc264"
         coordinates: [77.12, -45.13, 1412]
+        size: 0.0141
         publications:
           - publishers: ["publisher115"]
             date: [-178, 342]
@@ -4678,6 +4940,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc265"
         coordinates: [94.95, 1.97, 419.9]
+        size: 0.4112
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 343]
@@ -4694,6 +4957,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc266"
         coordinates: [25.64, -8.86, 554.4]
+        size: 0.02
         publications:
           - publishers: ["publisher62"]
             date: [-178, 343]
@@ -4710,6 +4974,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc267"
         coordinates: [107.53, -55.43, 577.9]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-6"]
             date: [-178, 343]
@@ -4726,6 +4991,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc268"
         coordinates: [240.31, 2.92, 406]
+        size: 0.0141
         publications:
           - publishers: ["publisher116"]
             date: [-178, 343]
@@ -4742,6 +5008,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc269"
         coordinates: [55.7, -9.17, 520.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher86"]
             date: [-178, 343]
@@ -4758,6 +5025,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc270"
         coordinates: [50.01, 17.26, 279]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-8"]
             date: [-178, 343]
@@ -4774,6 +5042,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc271"
         coordinates: [282.72, -2.47, 418.9]
+        size: 0.5036
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 343]
@@ -4790,6 +5059,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc272"
         coordinates: [186.01, -6.38, 379.8]
+        size: 0.0141
         publications:
           - publishers: ["publisher117"]
             date: [-178, 343]
@@ -4806,6 +5076,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc273"
         coordinates: [60.4, 42.69, 453.3]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-7"]
             date: [-178, 343]
@@ -4822,6 +5093,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc274"
         coordinates: [142.51, 8.36, 306.2]
+        size: 0.0245
         publications:
           - publishers: ["publisher59", "Third Generation Rock Gods"]
             date: [-178, 343]
@@ -4838,6 +5110,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc275"
         coordinates: [72.72, 30.06, 537.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher109"]
             date: [-178, 343]
@@ -4854,6 +5127,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc276"
         coordinates: [353.33, 43.97, 433]
+        size: 0.0447
         publications:
           - publishers: ["publisher105"]
             date: [-178, 343]
@@ -4870,6 +5144,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc277"
         coordinates: [259.99, -49.56, 613.5]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-5"]
             date: [-178, 343]
@@ -4886,6 +5161,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc278"
         coordinates: [270.81, 60.79, 951.5]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-2"]
             date: [-178, 343]
@@ -4902,6 +5178,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc279"
         coordinates: [289.16, -22.84, 359.3]
+        size: 0.2651
         publications:
           - publishers: ["publisher20", "God of Sublimation"]
             date: [-178, 343]
@@ -4918,6 +5195,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc280"
         coordinates: [336.86, 8.34, 398]
+        size: 0.0447
         publications:
           - publishers: ["publisher107"]
             date: [-178, 343]
@@ -4934,6 +5212,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc281"
         coordinates: [288.62, 3.58, 630.1]
+        size: 0.0141
         publications:
           - publishers: ["publisher118"]
             date: [-178, 343]
@@ -4950,6 +5229,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc282"
         coordinates: [122.88, 59.38, 602.6]
+        size: 0.0447
         publications:
           - publishers: ["publisher83"]
             date: [-178, 344]
@@ -4966,6 +5246,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc283"
         coordinates: [253.95, -26.93, 443.6]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-3"]
             date: [-178, 344]
@@ -4982,6 +5263,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc284"
         coordinates: [88.84, -69.35, 731.1]
+        size: 0.01
         publications:
           - publishers: ["publisher119"]
             date: [-178, 344]
@@ -4998,6 +5280,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc285"
         coordinates: [101.73, 28.41, 713.4]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-18"]
             date: [-178, 344]
@@ -5014,6 +5297,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc286"
         coordinates: [179.55, -13.67, 337.6]
+        size: 0.001
         publications:
           - publishers: ["publisher98", "Lightning Gods"]
             date: [-178, 344]
@@ -5030,6 +5314,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc287"
         coordinates: [275.8, -18.17, 705.1]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-9"]
             date: [-178, 344]
@@ -5046,6 +5331,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc288"
         coordinates: [315.83, 48.38, 573.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher106"]
             date: [-178, 344]
@@ -5062,6 +5348,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc289"
         coordinates: [79.93, -4.08, 402.9]
+        size: 0.001
         publications:
           - publishers: ["God of Volcanism", "Weather Gods"]
             date: [-178, 344]
@@ -5078,6 +5365,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc290"
         coordinates: [175.5, -15.45, 723.4]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-21"]
             date: [-178, 344]
@@ -5094,6 +5382,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc291"
         coordinates: [55.31, 25.81, 411.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher120"]
             date: [-178, 344]
@@ -5110,6 +5399,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc292"
         coordinates: [72.26, -7.14, 611.5]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-17"]
             date: [-178, 344]
@@ -5126,6 +5416,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc293"
         coordinates: [222.46, -26.53, 370.7]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-25"]
             date: [-178, 344]
@@ -5142,6 +5433,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc294"
         coordinates: [2.82, 32.63, 377.6]
+        size: 0.0141
         publications:
           - publishers: ["publisher121"]
             date: [-178, 344]
@@ -5158,6 +5450,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc295"
         coordinates: [148.71, 3.33, 466.9]
+        size: 0.0447
         publications:
           - publishers: ["Rock Gods", "God of Granularity"]
             date: [-178, 344]
@@ -5174,6 +5467,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc296"
         coordinates: [156.96, 28.9, 562.2]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-29"]
             date: [-178, 345]
@@ -5190,6 +5484,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc297"
         coordinates: [136.59, -31.83, 312.2]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-1"]
             date: [-178, 345]
@@ -5206,6 +5501,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc298"
         coordinates: [96.24, -22.83, 1014.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher114"]
             date: [-178, 345]
@@ -5222,6 +5518,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc299"
         coordinates: [271.84, -11.92, 583]
+        size: 0.0245
         publications:
           - publishers: ["publisher59", "Fourth Generation Rock Gods"]
             date: [-178, 345]
@@ -5238,6 +5535,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc300"
         coordinates: [193.23, -5.08, 582.6]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-34"]
             date: [-178, 345]
@@ -5254,6 +5552,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc301"
         coordinates: [139.14, -15.09, 581.1]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-22"]
             date: [-178, 345]
@@ -5270,6 +5569,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc302"
         coordinates: [51.51, 34.8, 672.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher112"]
             date: [-178, 345]
@@ -5286,6 +5586,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc303"
         coordinates: [110.65, 12.79, 613.3]
+        size: 0.0141
         publications:
           - publishers: ["God of Protactinium"]
             date: [-178, 345]
@@ -5302,6 +5603,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc304"
         coordinates: [306.32, -18.47, 514.4]
+        size: 0.02
         publications:
           - publishers: ["God of ???-5"]
             date: [-178, 345]
@@ -5318,6 +5620,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc305"
         coordinates: [237.96, 24.9, 524.9]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-4"]
             date: [-178, 345]
@@ -5334,6 +5637,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc306"
         coordinates: [347.19, 27.79, 531.2]
+        size: 0.02
         publications:
           - publishers: ["God of ???-6"]
             date: [-178, 345]
@@ -5350,6 +5654,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc307"
         coordinates: [154.62, 6.23, 341.8]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-26"]
             date: [-178, 346]
@@ -5366,6 +5671,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc308"
         coordinates: [307.81, -14.24, 394.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher121"]
             date: [-178, 346]
@@ -5382,6 +5688,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc309"
         coordinates: [129.27, 15.69, 517]
+        size: 0.02
         publications:
           - publishers: ["God of ???-22"]
             date: [-178, 346]
@@ -5398,6 +5705,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc310"
         coordinates: [349.56, 54.67, 299.5]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-11"]
             date: [-178, 346]
@@ -5414,6 +5722,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc311"
         coordinates: [159.97, 2.48, 593.6]
+        size: 0.02
         publications:
           - publishers: ["God of ???-25"]
             date: [-178, 346]
@@ -5430,6 +5739,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc312"
         coordinates: [105.28, -17.82, 549.9]
+        size: 0.02
         publications:
           - publishers: ["God of ???-21"]
             date: [-178, 346]
@@ -5446,6 +5756,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc313"
         coordinates: [59.82, 3.41, 591.3]
+        size: 0.4169
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 346]
@@ -5462,6 +5773,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc314"
         coordinates: [1.79, -24.31, 457.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher54"]
             date: [-178, 346]
@@ -5478,6 +5790,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc315"
         coordinates: [82.9, 16.58, 659.6]
+        size: 0.02
         publications:
           - publishers: ["God of ???-17"]
             date: [-178, 346]
@@ -5494,6 +5807,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc316"
         coordinates: [205.27, 12.16, 474.1]
+        size: 0.02
         publications:
           - publishers: ["God of ???-8"]
             date: [-178, 346]
@@ -5510,6 +5824,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc317"
         coordinates: [233.75, -4.95, 418.4]
+        size: 0.0141
         publications:
           - publishers: ["publisher122"]
             date: [-178, 346]
@@ -5526,6 +5841,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc318"
         coordinates: [34.22, 27.36, 531.7]
+        size: 0.02
         publications:
           - publishers: ["God of ???-14"]
             date: [-178, 346]
@@ -5542,6 +5858,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc319"
         coordinates: [80.43, -30.23, 543.9]
+        size: 0.02
         publications:
           - publishers: ["God of ???-2"]
             date: [-178, 346]
@@ -5558,6 +5875,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc320"
         coordinates: [287.3, -12.84, 402.1]
+        size: 0.0141
         publications:
           - publishers: ["publisher123"]
             date: [-178, 346]
@@ -5574,6 +5892,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc321"
         coordinates: [170.09, -10.56, 446.3]
+        size: 0.02
         publications:
           - publishers: ["God of ???-7"]
             date: [-178, 346]
@@ -5590,6 +5909,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc322"
         coordinates: [268.47, 22.6, 423.1]
+        size: 0.0447
         publications:
           - publishers: ["publisher117"]
             date: [-178, 346]
@@ -5606,6 +5926,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc323"
         coordinates: [65.67, 40.51, 608.2]
+        size: 0.0447
         publications:
           - publishers: ["publisher120"]
             date: [-178, 347]
@@ -5622,6 +5943,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc324"
         coordinates: [15.72, 7.49, 558.9]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-13"]
             date: [-178, 347]
@@ -5638,6 +5960,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc325"
         coordinates: [181.25, 22.97, 557.5]
+        size: 0.02
         publications:
           - publishers: ["God of ???-18"]
             date: [-178, 347]
@@ -5654,6 +5977,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc326"
         coordinates: [213.01, 21.66, 508.9]
+        size: 0.0447
         publications:
           - publishers: ["publisher95"]
             date: [-178, 347]
@@ -5670,6 +5994,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc327"
         coordinates: [104.14, 9.82, 297.9]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-30"]
             date: [-178, 347]
@@ -5686,6 +6011,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc328"
         coordinates: [294.59, -6.2, 644.5]
+        size: 0.02
         publications:
           - publishers: ["God of ???-1"]
             date: [-178, 347]
@@ -5702,6 +6028,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc329"
         coordinates: [344.6, -9.19, 325]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-23"]
             date: [-178, 347]
@@ -5718,6 +6045,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc330"
         coordinates: [19.71, 42.72, 388.9]
+        size: 0.02
         publications:
           - publishers: ["God of ???-29"]
             date: [-178, 347]
@@ -5734,6 +6062,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc331"
         coordinates: [329.21, 13.21, 391.3]
+        size: 0.02
         publications:
           - publishers: ["God of ???-4"]
             date: [-178, 347]
@@ -5750,6 +6079,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc332"
         coordinates: [339.8, -23.77, 602.7]
+        size: 0.0141
         publications:
           - publishers: ["publisher104"]
             date: [-178, 348]
@@ -5766,6 +6096,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc333"
         coordinates: [88.97, 23.33, 468.5]
+        size: 0.0245
         publications:
           - publishers: ["publisher59", "Fifth Generation Rock Gods"]
             date: [-178, 348]
@@ -5782,6 +6113,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc334"
         coordinates: [112.53, 10.7, 666.6]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-27"]
             date: [-178, 348]
@@ -5798,6 +6130,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc335"
         coordinates: [134.15, 7.63, 538.8]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-12"]
             date: [-178, 348]
@@ -5814,6 +6147,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc336"
         coordinates: [165.88, -27.26, 413.3]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-19"]
             date: [-178, 348]
@@ -5830,6 +6164,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc337"
         coordinates: [256.59, -0.25, 557.2]
+        size: 0.01
         publications:
           - publishers: ["publisher12", "God of Structure"]
             date: [-178, 348]
@@ -5846,6 +6181,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc338"
         coordinates: [43.55, 27.75, 547.4]
+        size: 0.4598
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 348]
@@ -5862,6 +6198,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc339"
         coordinates: [280.45, 26.61, 359.4]
+        size: 0.0141
         publications:
           - publishers: ["publisher55"]
             date: [-178, 348]
@@ -5878,6 +6215,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc340"
         coordinates: [90.39, -27.72, 746.8]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-20"]
             date: [-178, 348]
@@ -5894,6 +6232,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc341"
         coordinates: [328.11, -54.89, 857.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher3"]
             date: [-178, 349]
@@ -5910,6 +6249,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc342"
         coordinates: [62.94, 2.54, 632.2]
+        size: 0.0447
         publications:
           - publishers: ["God of Protactinium"]
             date: [-178, 349]
@@ -5926,6 +6266,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc343"
         coordinates: [154.6, -20.28, 849.5]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-35"]
             date: [-178, 349]
@@ -5942,6 +6283,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc344"
         coordinates: [201.18, 26.47, 692.1]
+        size: 0.02
         publications:
           - publishers: ["God of ???-23"]
             date: [-178, 349]
@@ -5958,6 +6300,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc345"
         coordinates: [73.43, -56.13, 740.3]
+        size: 0.0173
         publications:
           - publishers: ["publisher59", "Sixth Generation Rock Gods"]
             date: [-178, 349]
@@ -5974,6 +6317,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc346"
         coordinates: [117.15, -37.04, 830.3]
+        size: 0.02
         publications:
           - publishers: ["God of ???-26"]
             date: [-178, 349]
@@ -5990,6 +6334,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc347"
         coordinates: [132.88, 48.41, 609.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher115"]
             date: [-178, 349]
@@ -6006,6 +6351,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc348"
         coordinates: [252.75, 0, 500.9]
+        size: 0.01
         publications:
           - publishers: ["publisher124"]
             date: [-178, 349]
@@ -6022,6 +6368,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc349"
         coordinates: [356.1, -15.43, 553.4]
+        size: 0.0071
         publications:
           - publishers: ["publisher52", "God of Structure"]
             date: [-178, 349]
@@ -6038,6 +6385,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc350"
         coordinates: [265.65, 10.21, 567.1]
+        size: 0.02
         publications:
           - publishers: ["God of ???-15"]
             date: [-178, 349]
@@ -6054,6 +6402,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc351"
         coordinates: [241.81, -44.81, 490.8]
+        size: 0.02
         publications:
           - publishers: ["God of ???-3"]
             date: [-178, 350]
@@ -6070,6 +6419,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc352"
         coordinates: [99.3, 19.95, 575.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher119"]
             date: [-178, 350]
@@ -6086,6 +6436,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc353"
         coordinates: [312.04, 35.93, 661.2]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-28"]
             date: [-178, 350]
@@ -6102,6 +6453,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc354"
         coordinates: [284.1, -21.5, 593.1]
+        size: 0.02
         publications:
           - publishers: ["God of ???-27"]
             date: [-178, 350]
@@ -6118,6 +6470,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc355"
         coordinates: [67.29, -0.34, 400.5]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-31"]
             date: [-178, 351]
@@ -6134,6 +6487,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc356"
         coordinates: [351.8, 54.7, 463.4]
+        size: 0.0447
         publications:
           - publishers: ["publisher113"]
             date: [-178, 351]
@@ -6150,6 +6504,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc357"
         coordinates: [262.36, 8.26, 265.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher7"]
             date: [-178, 351]
@@ -6166,6 +6521,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc358"
         coordinates: [226.76, -80.04, 500.6]
+        size: 0.02
         publications:
           - publishers: ["God of ???-30"]
             date: [-178, 351]
@@ -6182,6 +6538,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc359"
         coordinates: [180.11, -36.13, 546.9]
+        size: 0.02
         publications:
           - publishers: ["God of ???-34"]
             date: [-178, 351]
@@ -6198,6 +6555,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc360"
         coordinates: [268.55, 7.16, 528.6]
+        size: 0.01
         publications:
           - publishers: ["publisher8", "God of Structure"]
             date: [-178, 351]
@@ -6214,6 +6572,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc361"
         coordinates: [94.91, 30.4, 424.9]
+        size: 0.5055
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 351]
@@ -6230,6 +6589,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc362"
         coordinates: [64.04, 61.29, 362.4]
+        size: 0.02
         publications:
           - publishers: ["God of ???-11"]
             date: [-178, 351]
@@ -6246,6 +6606,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc363"
         coordinates: [90, -26.22, 518.4]
+        size: 0.0447
         publications:
           - publishers: ["publisher122"]
             date: [-178, 351]
@@ -6262,6 +6623,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc364"
         coordinates: [102.17, -6.79, 771.1]
+        size: 0.02
         publications:
           - publishers: ["God of ???-31"]
             date: [-178, 352]
@@ -6278,6 +6640,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc365"
         coordinates: [166.44, 29.43, 627.8]
+        size: 0.0447
         publications:
           - publishers: ["publisher123"]
             date: [-178, 352]
@@ -6294,6 +6657,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc366"
         coordinates: [43.09, 46.34, 520.1]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-38"]
             date: [-178, 352]
@@ -6310,6 +6674,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc367"
         coordinates: [122.51, -34.53, 622.6]
+        size: 0.5549
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 352]
@@ -6326,6 +6691,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc368"
         coordinates: [87.99, -20.26, 614.3]
+        size: 0.02
         publications:
           - publishers: ["God of ???-16"]
             date: [-178, 352]
@@ -6342,6 +6708,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc369"
         coordinates: [321.06, 25.55, 726.2]
+        size: 0.02
         publications:
           - publishers: ["God of ???-13"]
             date: [-178, 353]
@@ -6358,6 +6725,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc370"
         coordinates: [136.01, -55.13, 626.6]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-10"]
             date: [-178, 353]
@@ -6374,6 +6742,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc371"
         coordinates: [226.49, -34.71, 669]
+        size: 0.02
         publications:
           - publishers: ["God of ???-9"]
             date: [-178, 353]
@@ -6390,6 +6759,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc372"
         coordinates: [260.54, 21.18, 730.9]
+        size: 0.0447
         publications:
           - publishers: ["publisher118"]
             date: [-178, 353]
@@ -6406,6 +6776,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc373"
         coordinates: [253.01, 13.63, 347.2]
+        size: 0.0173
         publications:
           - publishers: ["publisher59", "Seventh Generation Rock Gods"]
             date: [-178, 354]
@@ -6422,6 +6793,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc374"
         coordinates: [296.08, -32.8, 418.5]
+        size: 0.02
         publications:
           - publishers: ["God of ???-37"]
             date: [-178, 354]
@@ -6438,6 +6810,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc375"
         coordinates: [73.19, 29.29, 888.5]
+        size: 0.2862
         publications:
           - publishers: ["publisher20", "God of Sublimation"]
             date: [-178, 354]
@@ -6454,6 +6827,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc376"
         coordinates: [3.09, 34.95, 607.8]
+        size: 0.0316
         publications:
           - publishers: ["publisher101"]
             date: [-178, 354]
@@ -6470,6 +6844,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc377"
         coordinates: [208.15, -51.42, 639.8]
+        size: 0.02
         publications:
           - publishers: ["God of ???-28"]
             date: [-178, 354]
@@ -6486,6 +6861,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc378"
         coordinates: [110.24, 15.91, 383.6]
+        size: 0.0316
         publications:
           - publishers: ["publisher18"]
             date: [-178, 355]
@@ -6502,6 +6878,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc379"
         coordinates: [25.46, -42.74, 544.1]
+        size: 0.02
         publications:
           - publishers: ["God of ???-20"]
             date: [-178, 355]
@@ -6518,6 +6895,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc380"
         coordinates: [265.91, -29.13, 504.1]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-36"]
             date: [-178, 355]
@@ -6534,6 +6912,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc381"
         coordinates: [192.45, -29.91, 867.1]
+        size: 0.3113
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-178, 356]
@@ -6550,6 +6929,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc382"
         coordinates: [294.13, 8.41, 783]
+        size: 0.0173
         publications:
           - publishers: ["Rock Gods", "God of Granularity"]
             date: [-178, 356]
@@ -6566,6 +6946,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc383"
         coordinates: [122.03, -30.84, 738.5]
+        size: 0.02
         publications:
           - publishers: ["God of ???-35"]
             date: [-178, 356]
@@ -6582,6 +6963,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc384"
         coordinates: [149.59, 41.86, 879]
+        size: 0.0316
         publications:
           - publishers: ["publisher26"]
             date: [-178, 356]
@@ -6598,6 +6980,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc385"
         coordinates: [216.87, 35.25, 676.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher7"]
             date: [-178, 356]
@@ -6614,6 +6997,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc386"
         coordinates: [95.82, 1.98, 629.6]
+        size: 0.0245
         publications:
           - publishers: ["publisher59", "Eighth Generation Rock Gods"]
             date: [-178, 357]
@@ -6630,6 +7014,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc387"
         coordinates: [55.93, -9.17, 630.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher8"]
             date: [-178, 357]
@@ -6646,6 +7031,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc388"
         coordinates: [348.21, 48.2, 865.2]
+        size: 0.0063
         publications:
           - publishers: ["God of ???-24"]
             date: [-178, 357]
@@ -6662,6 +7048,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc389"
         coordinates: [81.55, -40.79, 993.2]
+        size: 0.02
         publications:
           - publishers: ["God of ???-10"]
             date: [-178, 357]
@@ -6678,6 +7065,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc390"
         coordinates: [272.57, 27.75, 838.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher40"]
             date: [-178, 358]
@@ -6694,6 +7082,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc391"
         coordinates: [146.14, 47.49, 851.5]
+        size: 0.02
         publications:
           - publishers: ["God of ???-5"]
             date: [-178, 358]
@@ -6710,6 +7099,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc392"
         coordinates: [111.99, -27.22, 971.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher12"]
             date: [-178, 359]
@@ -6726,6 +7116,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc393"
         coordinates: [24.49, -27.32, 714.4]
+        size: 0.0316
         publications:
           - publishers: ["publisher52"]
             date: [-178, 359]
@@ -6742,6 +7133,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc394"
         coordinates: [90.66, 14.21, 811.2]
+        size: 0.0316
         publications:
           - publishers: ["publisher21"]
             date: [-178, 359]
@@ -6758,6 +7150,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc395"
         coordinates: [167.76, -29.74, 969.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher86"]
             date: [-178, 360]
@@ -6774,6 +7167,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc396"
         coordinates: [55.09, -2.16, 746.5]
+        size: 0.0316
         publications:
           - publishers: ["publisher101"]
             date: [-177, 1]
@@ -6790,6 +7184,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc397"
         coordinates: [355.62, -22.89, 739.6]
+        size: 0.0316
         publications:
           - publishers: ["publisher72"]
             date: [-177, 1]
@@ -6806,6 +7201,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc398"
         coordinates: [300.6, -46.1, 907.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher61"]
             date: [-177, 1]
@@ -6822,6 +7218,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc399"
         coordinates: [235.08, -13.32, 602.6]
+        size: 0.02
         publications:
           - publishers: ["God of ???-38"]
             date: [-177, 1]
@@ -6838,6 +7235,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc400"
         coordinates: [285.67, -31.36, 880.3]
+        size: 0.0447
         publications:
           - publishers: ["publisher116"]
             date: [-177, 2]
@@ -6854,6 +7252,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc401"
         coordinates: [62.31, -15.38, 801.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher56"]
             date: [-177, 3]
@@ -6870,6 +7269,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc402"
         coordinates: [103.43, -20.57, 957.7]
+        size: 0.02
         publications:
           - publishers: ["God of ???-16"]
             date: [-177, 3]
@@ -6886,6 +7286,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc403"
         coordinates: [179.76, -8.75, 629.5]
+        size: 0.02
         publications:
           - publishers: ["God of ???-37"]
             date: [-177, 4]
@@ -6902,6 +7303,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc404"
         coordinates: [221.25, -49.27, 949.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher30"]
             date: [-177, 4]
@@ -6918,6 +7320,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc405"
         coordinates: [95.44, -21.43, 530.9]
+        size: 0.3203
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-177, 4]
@@ -6934,6 +7337,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc406"
         coordinates: [336.38, -6.98, 615.5]
+        size: 0.0316
         publications:
           - publishers: ["publisher12"]
             date: [-177, 4]
@@ -6950,6 +7354,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc407"
         coordinates: [276.8, 37.59, 582.3]
+        size: 0.0316
         publications:
           - publishers: ["publisher62"]
             date: [-177, 4]
@@ -6966,6 +7371,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc408"
         coordinates: [36.47, 37.07, 767.6]
+        size: 0.02
         publications:
           - publishers: ["publisher59", "Ninth Generation Rock Gods"]
             date: [-177, 5]
@@ -6982,6 +7388,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc409"
         coordinates: [121.88, 50.06, 606.6]
+        size: 0.0316
         publications:
           - publishers: ["publisher32"]
             date: [-177, 5]
@@ -6998,6 +7405,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc410"
         coordinates: [159.44, 27.77, 351.9]
+        size: 0.02
         publications:
           - publishers: ["God of ???-24"]
             date: [-177, 6]
@@ -7014,6 +7422,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc411"
         coordinates: [83.35, 18.52, 995]
+        size: 0.1068
         publications:
           - publishers: ["publisher20", "God of Sublimation"]
             date: [-177, 6]
@@ -7030,6 +7439,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc412"
         coordinates: [109.46, 6.61, 692.1]
+        size: 0.0316
         publications:
           - publishers: ["publisher57"]
             date: [-177, 7]
@@ -7046,6 +7456,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc413"
         coordinates: [137.19, 16.04, 952.6]
+        size: 0.02
         publications:
           - publishers: ["God of ???-36"]
             date: [-177, 8]
@@ -7062,6 +7473,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc414"
         coordinates: [187.95, 11.7, 614.7]
+        size: 0.02
         publications:
           - publishers: ["God of ???-30"]
             date: [-177, 9]
@@ -7078,6 +7490,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc415"
         coordinates: [227.49, 27.24, 476.7]
+        size: 0.3296
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-177, 10]
@@ -7094,6 +7507,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc416"
         coordinates: [254.46, 15.27, 795.5]
+        size: 0.0265
         publications:
           - publishers: ["Rock Gods", "God of Granularity"]
             date: [-177, 11]
@@ -7110,6 +7524,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc417"
         coordinates: [311.74, -23.03, 739.3]
+        size: 0.0548
         publications:
           - publishers: ["publisher3"]
             date: [-177, 12]
@@ -7126,6 +7541,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc418"
         coordinates: [2.12, -24.29, 694.5]
+        size: 0.02
         publications:
           - publishers: ["God of ???-29"]
             date: [-177, 13]
@@ -7142,6 +7558,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc419"
         coordinates: [67.46, -22.19, 770.2]
+        size: 0.0316
         publications:
           - publishers: ["publisher124"]
             date: [-177, 15]
@@ -7158,6 +7575,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc420"
         coordinates: [78.09, -11.55, 342]
+        size: 0.1099
         publications:
           - publishers: ["publisher20", "God of Sublimation"]
             date: [-177, 16]
@@ -7174,6 +7592,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc421"
         coordinates: [153.26, 16.94, 456.7]
+        size: 0.339
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-177, 17]
@@ -7190,6 +7609,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc422"
         coordinates: [215.84, 42.19, 271.8]
+        size: 0.02
         publications:
           - publishers: ["God of ???-18"]
             date: [-177, 18]
@@ -7206,6 +7626,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc423"
         coordinates: [280.51, 34.53, 463]
+        size: 0.0141
         publications:
           - publishers: ["publisher59", "Tenth Generation Rock Gods"]
             date: [-177, 20]
@@ -7222,6 +7643,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc424"
         coordinates: [317.66, -16.38, 528.9]
+        size: 0.0316
         publications:
           - publishers: ["publisher18"]
             date: [-177, 21]
@@ -7238,6 +7660,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc425"
         coordinates: [352.66, 15.05, 416.8]
+        size: 0.3475
         publications:
           - publishers: ["publisher20", "publisher59", "publisher102"]
             date: [-177, 22]
@@ -7254,6 +7677,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc426"
         coordinates: [49, -3.1, 429.3]
+        size: 0.0141
         publications:
           - publishers: ["publisher59", "Eleventh Generation Rock Gods"]
             date: [-177, 24]
@@ -7270,6 +7694,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc427"
         coordinates: [106.89, -12.68, 618.8]
+        size: 0.0316
         publications:
           - publishers: ["publisher3"]
             date: [-177, 25]
@@ -7286,6 +7711,7 @@ subpage:
         parent: "First Lessers Star"
         desc: "star_desc428"
         coordinates: [245.45, -5.2, 657.7]
+        size: 0.1618
         publications:
           - publishers: ["publisher20", "God of Sublimation"]
             date: [-177, 26]
@@ -7313,10 +7739,8 @@ The quickening system is located directly above the [[Encyclopedia Mysenvaria/Ge
 # History
 The Quickening System would be created over the course of 58 days and document the creation of every known and unknown God. The host star of the system, the First Lessers Star, would be created on the 12th of Winter [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT#178 BT|178 BT]] and documented the creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Elemental Gods|Elemental Gods]] by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Matter]]. It would be followed later in the same day by the creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Energy Gods/Gods of Kinetic & Potential Energy|Energy Duo]] by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Energy]], documented in the Energy Division Star. The fifth star in the system would be the last published by one of the Creation Quadrinity, the Dynamic Time Star documenting the creation of the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Past, Present, and Future|Time Trinity]], published by the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of Matter, Energy, Time, and Space|God of Time]].
 
-The final star of the Quickening System, the Fifth Generation Vapors Star would be published on the 26th of Spring, [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT|177 BT]]. It would be followed shortly after by [[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]], ending the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] and beginning the [[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|Dying Period]].
+The final star of the Quickening System, the Fifth Generation Vapors Star would be published on the 26th of Spring, [[Encyclopedia Mysenvaria/Indexes/History/Decades/170s BT|177 BT]]. It would be followed shortly after by [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's System#Death's Star|Death's Star]], ending the [[Encyclopedia Mysenvaria/History/God-War Era/Quickening|Quickening]] and beginning the [[Encyclopedia Mysenvaria/History/God-War Era/Dying Period|Dying Period]].
 # Famous Translations
-The translation of a single star can take years of patience 
-
 It is notoriously difficult to translate an entire star system, especially one as large as the Quickening System. For that reason, many complete translations of the system are compiled using other [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|astronomer's]] translations. Translations of the Quickening System are often compiled for use in [[Encyclopedia Mysenvaria/Science/Models/Godly Lineage Models|Godly Lineage Models]]. The most commonly used model of the system is the Kaleidoscope Model, originally completely translated by [[Encyclopedia Mysenvaria/History/Biographies/Temporary Kaleidoscope|Temporary Kaleidoscope]], it was only formally published posthumously in *[[Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/The Collected Works of Kaleidoscope|The Collected Works of Kaleidoscope]]*.
 ![[Encyclopedia Mysenvaria/Science/Models/Kaleidoscope Lineage Model.canvas]]
 # Stars

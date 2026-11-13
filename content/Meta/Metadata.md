@@ -170,6 +170,7 @@ tags:
   - subject/god/phenomena_god # This article covers information regarding Gods of phenomena.
   - subject/god/silent_god # This article covers information regarding Gods who haven't published a star.
   - subject/god/outspoken_god # This article covers information regarding Gods who have published stars.
+  - subject/god/unknown # This article covers information regarding a God of which not particularly much is known.
 # These tags are used for articles which cover information regarding half-Gods.
   - subject/half-god # This article covers information regarding Half-Gods.
   - subject/half-god/demi-god # This article covers information regarding Demi-Gods.
@@ -179,6 +180,7 @@ tags:
   - subject/star/host # This article covers information regarding the host of a star system.
   - subject/star/child # This article covers information regarding a child star in a star system.
   - subject/star_system # This article covers information regarding a star system.
+  - subject/star_family # This article covers information regarding a specific kind of star.
 # These tags are used for articles which cover information specifically relating to one or more of the Plane's sophonts.
   - subject/humans # This article covers information regarding an aspect of humans.
   - subject/elves # This article covers information regarding an aspect of elves.

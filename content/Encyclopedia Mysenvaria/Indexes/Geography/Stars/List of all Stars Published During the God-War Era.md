@@ -455,7 +455,7 @@ The following is an index of all articles describing [[Encyclopedia Mysenvaria/S
 - Fourteenth Elemental States Star
 - Twelfth Generation Rocks Star
 - Fourth Carbon Molecules Star
-- [[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]]
+- Death's Star
 - Fifth Generation Vapors Star
 - [[Encyclopedia Mysenvaria/Geography/Stars/Convening Star|Convening Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Afterlife System/Afterlife Star|Afterlife Star]]

@@ -50,6 +50,7 @@ The following is an index of all articles across the Encyclopedia which describe
 - [[Encyclopedia Mysenvaria/Science/Models/Relationships (model)|Relationships (model)]]
 ## S
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Sophonts|Sophonts]]
+- [[Encyclopedia Mysenvaria/Science/Models/Star Families|Star Families]]
 ## T
 - [[Encyclopedia Mysenvaria/Science/Models/Tectonics|Tectonics]]
 - [[Encyclopedia Mysenvaria/Science/Models/Tri-Criterial Niches|Tri-Criterial Niches]]

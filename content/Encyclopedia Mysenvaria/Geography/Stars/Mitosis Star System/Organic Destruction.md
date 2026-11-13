@@ -22,7 +22,7 @@ star:
 "publisher1": "[[Encyclopedia Mysenvaria/History/Biographies/Gods/Compound Gods/God of Tetrahydropyridine|Tetrahydropyridine]]"
 "star_desc": "Published "
 
-"The host star of [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's Star System]]. Originally published by an unknown God following the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]. Later republished by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|What Is and Is Not]] following the passing of the original publisher. Describes the First Death in vivid detail."
+"The host star of [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's System|Death's System]]. Originally published by an unknown God following the [[Encyclopedia Mysenvaria/History/God-War Era/First Death|First Death]]. Later republished by [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|What Is and Is Not]] following the passing of the original publisher. Describes the First Death in vivid detail."
 %%
 
 > [!note|callout-stub] [[Meta/Meta|Meta]] || This Article's a Stub!

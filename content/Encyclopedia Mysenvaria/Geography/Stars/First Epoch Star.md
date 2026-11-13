@@ -19,6 +19,7 @@ star:
     desc: "star_desc"
     coordinates: [0,90,3844]
     star_type: "legal"
+    size: 32
 featured_data:
   fun_facts: ["ff1"]
 ---

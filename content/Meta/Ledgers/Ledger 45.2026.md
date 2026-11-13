@@ -21,7 +21,9 @@ Welcome back to another episode of, "What changed in the formatting of the Lore 
 
 The GitHub repository has undergone a rename, from `quartz--encyclopedia-mysenvaria` to simply `encyclopedia-mysenvaria`. This was done to simplify the name, but also broke the website in between this Ledger and the previous—this website breaking happens often.
 
-Besides that the entire meta section of the Encyclopedia has undergone a massive rewrite, the GitHub issues have been reworked, the callouts have been given a new coat of paint and their generation is now operated by a new program, and a ton of metadata changes have been made (particularly around tracking article's progress)!
+Besides that the entire meta section of the Encyclopedia has undergone a massive rewrite, the GitHub issues have been reworked, the callouts have been given a new coat of paint and their generation is now operated by a new program, and a ton of metadata changes and program changes have been made (particularly around tracking article's progress)!
+
+There's been some minor progress towards the rewrite of the major topic pages. There's also been some minor work in early God-War history.
 # Changes
 - [Commit 01a6c8f: "Geograph work + date fixes"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/01a6c8f148d1e4b2297cd37a0d41dbcc92a71ff6)
 - [Commit 6079472: "Fixed titles + decade pages"](https://github.com/RagtimeGal/encyclopedia-mysenvaria/commit/60794728ee8c26c324dbc99df5562bc8e01d7a17)

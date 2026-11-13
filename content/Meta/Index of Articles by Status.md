@@ -530,6 +530,7 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Meta/Templates/Arts/Cuisine Template|Cuisine Template]]
 - [[Encyclopedia Mysenvaria/Science/Models/Darwinian Classification|Darwinian Classification]]
 - [[Encyclopedia Mysenvaria/Geography/Natural Features/Deadman's Sea|Deadman's Sea]]
+- [[Encyclopedia Mysenvaria/History/Biographies/Gods/Unknown Gods/Death's Star's Publisher|Death's Star's Publisher]]
 - [[Encyclopedia Mysenvaria/History/God-War Era/Deaths During the God-War Era|Deaths During the God-War Era]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Debris Raining Star|Debri Raining Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Demi-Human|Demi-Human]]
@@ -872,8 +873,6 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Encyclopedia Mysenvaria/Geography/Stars/Convening Star|Convening Star]]
 - [[Encyclopedia Mysenvaria/Geography/Stars/Creations Act|Creations Act]]
 - [[Encyclopedia Mysenvaria/Science/Models/Criterial Classification|Criterial Classification]]
-- [[Encyclopedia Mysenvaria/Geography/Stars/Death's Star System/Death's Star|Death's Star]]
-- [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's Star System|Death's Star System]]
 - [[Encyclopedia Mysenvaria/Culture/Beliefs/Deities|Deities]]
 - [[Encyclopedia Mysenvaria/Culture/Events & Holidays/Dragon Hunt Celebration|Dragon Hunt Celebration]]
 - [[Encyclopedia Mysenvaria/Arts/Useful Arts/Cuisine/Dragon Waste Stew|Dragon Waste Stew]]
@@ -960,8 +959,11 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 ## wip
 - [[Encyclopedia Mysenvaria/Arts/Art|Art]]
 - [[Encyclopedia Mysenvaria/Biology/Biology|Biology]]
+- [[Encyclopedia Mysenvaria/Geography/Stars/Star Families/Census Stars|Census Stars]]
 - [[Encyclopedia Mysenvaria/Culture/Culture|Culture]]
 - [[Encyclopedia Mysenvaria/Science/Phenomena/Day & Night|Day & Night]]
+- Death's Star
+- [[Encyclopedia Mysenvaria/Geography/Stars/Star Systems/Death's System|Death's System]]
 - [[Encyclopedia Mysenvaria/Science/Models/Evolutionary Classification|Evolutionary Classification]]
 - [[Encyclopedia Mysenvaria/History/God-War Era/First Convening|First Convening]]
 - [[Encyclopedia Mysenvaria/Geography/Geography|Geography]]
@@ -980,6 +982,7 @@ The following is a list of all articles from across the *Encyclopedia Mysenvaria
 - [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]
 - [[Encyclopedia Mysenvaria/History/God-War Era/Religion During the God-War|Religion During the God-War]]
 - [[Encyclopedia Mysenvaria/Science/Science|Science]]
+- [[Encyclopedia Mysenvaria/Science/Models/Star Families|Star Families]]
 - [[Encyclopedia Mysenvaria/Science/Models/Tectonics|Tectonics]]
 
 > [!abstract|callout-generated] [[Meta/Meta|Meta]] || Beep Boop!
