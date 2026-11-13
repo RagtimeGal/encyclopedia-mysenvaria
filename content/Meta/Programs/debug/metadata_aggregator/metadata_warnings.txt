@@ -1,10 +1,6 @@
 # Metadata Aggregator Report
 
-**1 errors, 19 warnings, 25 notices.**
-
-## Errors (1)
-### Meta/Ledgers/Ledger 45.2026.md
-- `ledger-mismatch`: These disagree: file name says week 45, 2026; title says week 38, 2026; ledger_data says week 45, 2026.
+**0 errors, 19 warnings, 25 notices.**
 
 ## Warnings (19)
 ### Encyclopedia Mysenvaria/Arts/Useful Arts/Literature/Non-fiction/Capturing the Natural Essence of Chair.md
@@ -91,5 +87,4 @@ Change a check's level in SEVERITY_OVERRIDES at the top of metadata_aggregator.p
 - `duplicate-alias` (warning): An alias is used by two pages, or matches another page's title.
 - `empty-date` (notice): A date is empty ([]); fine if it is not known yet.
 - `generated-mismatch` (warning): `scope: generated` doesn't match whether a program actually writes the page.
-- `ledger-mismatch` (error): A Lore Ledger's file name, title and ledger_data disagree.
 - `missing-field` (warning): An event, star or person block is missing a field it needs.
