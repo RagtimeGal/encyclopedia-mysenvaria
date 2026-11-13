@@ -15,7 +15,7 @@ ledger_data:
 > [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #16!
 > This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
 >
-> ... [[Meta/Ledgers/Ledger 12.2026|Lore Ledger 12.26]], **Lore Ledger 36.26**, [[Meta/Ledgers/Ledger 45.2026|Lore Ledger 38.26]] ...
+> ... [[Meta/Ledgers/Ledger 12.2026|Lore Ledger 12.26]], **Lore Ledger 36.26**, [[Meta/Ledgers/Ledger 46.2026|Lore Ledger 46.26]] ...
 
 Yet another change to how ledgers are written! I've realized recently that perhaps attempting to make a changelog of all articles and how they were edited is not the most efficient way to do things. So, instead, I'm just going to list/link the git pushes associated with a specific ledger and let GitHub do all the heavy lifting!
 

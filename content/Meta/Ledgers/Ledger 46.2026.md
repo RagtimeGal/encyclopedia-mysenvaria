@@ -1,11 +1,11 @@
 ---
-title: "Lore Ledger 38.26"
+title: "Lore Ledger 46.26"
 enableToc: true
 tags:
   - topic/meta/ledger
 type: ledger
 ledger_data:
-  week: 45
+  week: 46
   year: 2026
 ---
 
@@ -15,7 +15,7 @@ ledger_data:
 > [!example|callout-ledger] [[Meta/Meta|Meta]] || Lore Ledger #17!
 > This article serves as a brief changelog and project update announcement for the *Mysenvaria*.
 >
-> ... [[Meta/Ledgers/Ledger 36.2026|Lore Ledger 36.26]], **Lore Ledger 38.26**, Upcoming ...
+> ... [[Meta/Ledgers/Ledger 36.2026|Lore Ledger 36.26]], **Lore Ledger 46.26**, Upcoming ...
 
 Welcome back to another episode of, "What changed in the formatting of the Lore Ledgers this time!" If you guessed, "Surprisingly, nothing!", then you win! Actually, that's kind of a lie... Lore Ledgers will no longer link to pages that are not other Lore Ledgers! This change has been retroactively applied to all previous lore ledgers. Why did I do this? There is one simple and magical answer: I like how it looks in the obsidian graph. It concentrates all of the Ledgers into one cute little area and stops unnecessary links and broken links, which Ledgers are extremely receptive to.
 
