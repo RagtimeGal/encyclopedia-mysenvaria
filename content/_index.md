@@ -19,14 +19,14 @@ Besides their primary topics articles may also be categorized according to their
 > [!tip] Featured Article & Fun Facts
 > > [!note] Featured Article
 > > 
-> > **[[Encyclopedia Mysenvaria/Geography/Abstract Features/Harmony Line|The Harmony Line]]** is a simplified two-dimensional projection of the [[Encyclopedia Mysenvaria/Geography/Stars/Harmonic Treaty|Harmonic Treaties]] orbital path onto the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane]]. The harmony line is a tool used by [[Encyclopedia Mysenvaria/Science/Branches/Astronomy|astronomers]] and [[Encyclopedia Mysenvaria/Science/Branches/Meteorology|meteorologists]] for education and prediction regarding the impact of the Harmonic Treaty on the Plane.
+> > **[[Encyclopedia Mysenvaria/Science/Phenomena/Half-Gods|Half-Gods]]** are the strange products of unions, sexual or otherwise, between [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] and [[Encyclopedia Mysenvaria/Science/Phenomena/Organisms|organisms]]. The mechanics behind the creation and operations of Half-Gods are not well understood and are the focus of [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|hemitheogenesis]]. Because of Gods' sexless natures there is no particular arrangement that the union must consist of to create a Half-God, either member is capable of fertilization of the other member. Half-Gods come in two varieties depending on the carrier of the child, Demi-Gods if the organism carries, Womb-Gods if the god carries.
 >
 > > [!info] Did you know...
-> > - ... that the [[Encyclopedia Mysenvaria/Geography/Abstract Features/Heavens|Heavens]] exist above the [[Encyclopedia Mysenvaria/Geography/Natural Features/Atmosphere|atmosphere]] and is devoid of air and where [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] reside?
-> > - ... that the [[Encyclopedia Mysenvaria/Science/Models/Universal Strata Model|Universal Strata Model]] is a scientific model of the universe which attempts to explain its organization composition?
+> > - ... that the [[Encyclopedia Mysenvaria/Geography/Natural Features/Great Fog|Great Fog]] is believed to be the [[Encyclopedia Mysenvaria/History/Biographies/Gods/Gods of What Is and Is Not|Gods of What Is and Is Not]]?
+> > - ... that the [[Encyclopedia Mysenvaria/History/God-War Era/God-War Era|God-War Era]] is broken into 3 major epochs—the Early-War, Mid-War, and Late-War?
+> > - ... that [[Encyclopedia Mysenvaria/Geography/Geography|geography]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of the [[Encyclopedia Mysenvaria/Geography/Natural Features/Plane|Plane's]] physical and abstract features, practiced by geographers?
+> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Natural Personification#Natural Diffusion|Natural Diffusion]] occurs as a result of Nature naturally seeping into the interaction between the Real and Unreal, generating [[Encyclopedia Mysenvaria/Science/Phenomena/Limn|limn]]?
 > > - ... that only true [[Encyclopedia Mysenvaria/Science/Phenomena/Stars|stars]] are written in [[Encyclopedia Mysenvaria/Culture/Languages/Starscript|Starscript]]? Artificial stars can only be written in [[Encyclopedia Mysenvaria/Culture/Languages/God Tongue|God Tongue]].
-> > - ... that [[Encyclopedia Mysenvaria/Science/Branches/Theogenesis|theogenesis]] is the [[Encyclopedia Mysenvaria/Science/Science#Branches|scientific study]] of [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]], practiced by theogenists?
-> > - ... that [[Encyclopedia Mysenvaria/Science/Phenomena/Gods|Gods]] can be killed by piercing their heart with a foreign object?
 
 > [!abstract] [[Meta/Meta|Meta]]
 > This is a meta callout. These are non-canon fourth wall-breaking blocks of text which mention ideas or notes. For more information on meta callouts see the [[Meta/Meta|meta article]].
